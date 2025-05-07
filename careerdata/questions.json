@@ -1,0 +1,40 @@
+{
+    "questions": [
+      {
+        "question_id": 1,
+        "question_text": "Do you like coding?",
+        "options_answer": "Yes, I like coding,No, I don’t like coding",
+        "career_category": "general"
+      },
+      {
+        "question_id": 2,
+        "question_text": "Do you enjoy problem-solving?",
+        "options_answer": "Yes, I enjoy problem-solving,No, I don’t enjoy problem-solving",
+        "career_category": "general"
+      },
+      {
+        "question_id": 3,
+        "question_text": "Do you prefer technology?",
+        "options_answer": "Yes, I prefer technology,No, I don’t prefer technology",
+        "career_category": "general"
+      },
+      {
+        "question_id": 4,
+        "question_text": "Do you like analyzing data?",
+        "options_answer": "Yes, I like analyzing data,No, I don’t like analyzing data",
+        "career_category": "general"
+      },
+      {
+        "question_id": 5,
+        "question_text": "Do you enjoy working with numbers?",
+        "options_answer": "Yes, I enjoy working with numbers,No, I don’t enjoy working with numbers",
+        "career_category": "general"
+      },
+      {
+        "question_id": 6,
+        "question_text": "Do you prefer designing?",
+        "options_answer": "Yes, I prefer designing,No, I don’t prefer designing",
+        "career_category": "general"
+      }
+    ]
+  }

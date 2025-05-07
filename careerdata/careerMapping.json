@@ -1,0 +1,31 @@
+{
+    "careers": [
+      {
+        "career_name": "Software Engineer",
+        "answer_pattern": {
+          "1": "Yes, I like coding",
+          "2": "Yes, I enjoy problem-solving",
+          "3": "Yes, I prefer technology"
+        },
+        "threshold": 2
+      },
+      {
+        "career_name": "Data Scientist",
+        "answer_pattern": {
+          "1": "Yes, I like analyzing data",
+          "2": "Yes, I enjoy working with numbers",
+          "3": "Yes, I prefer statistics"
+        },
+        "threshold": 2
+      },
+      {
+        "career_name": "Graphic Designer",
+        "answer_pattern": {
+          "1": "Yes, I like designing",
+          "2": "Yes, I enjoy creativity",
+          "3": "Yes, I prefer visual arts"
+        },
+        "threshold": 2
+      }
+    ]
+  }
