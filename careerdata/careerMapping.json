@@ -1,31 +1,76 @@
 {
-    "careers": [
-      {
-        "career_name": "Software Engineer",
-        "answer_pattern": {
-          "1": "Yes, I like coding",
-          "2": "Yes, I enjoy problem-solving",
-          "3": "Yes, I prefer technology"
-        },
-        "threshold": 2
+  "careers": [
+    {
+      "career_name": "Software Engineer",
+      "initial_answer": "Coding",
+      "answer_pattern": {
+        "2": "Yes, I like programming",
+        "3": "Yes, I enjoy problem-solving",
+        "4": "Yes, I prefer working with technology",
+        "5": "Yes, I’m interested in learning new languages",
+        "6": "Yes, I’m comfortable with debugging"
       },
-      {
-        "career_name": "Data Scientist",
-        "answer_pattern": {
-          "1": "Yes, I like analyzing data",
-          "2": "Yes, I enjoy working with numbers",
-          "3": "Yes, I prefer statistics"
-        },
-        "threshold": 2
-      },
-      {
-        "career_name": "Graphic Designer",
-        "answer_pattern": {
-          "1": "Yes, I like designing",
-          "2": "Yes, I enjoy creativity",
-          "3": "Yes, I prefer visual arts"
-        },
-        "threshold": 2
+      "confidence_increments": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
       }
-    ]
-  }
+    },
+    {
+      "career_name": "Data Scientist",
+      "initial_answer": "Data Analysis",
+      "answer_pattern": {
+        "2": "Yes, I like data manipulation",
+        "3": "Yes, I enjoy working with numbers",
+        "4": "Yes, I prefer statistics",
+        "5": "Yes, I’m familiar with machine learning",
+        "6": "Yes, I enjoy creating visualizations"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "career_name": "Graphic Designer",
+      "initial_answer": "Designing",
+      "answer_pattern": {
+        "2": "Yes, I like designing websites",
+        "3": "Yes, I enjoy creativity",
+        "4": "Yes, I prefer visual arts",
+        "5": "Yes, I’m comfortable with design software",
+        "6": "Yes, I enjoy working with clients"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "career_name": "Software Tester/Quality Assurance",
+      "initial_answer": "Testing",
+      "answer_pattern": {
+        "2": "Yes, I like testing websites",
+        "3": "Yes, I enjoy finding bugs",
+        "4": "Yes, I prefer ensuring quality",
+        "5": "Yes, I’m detail-oriented",
+        "6": "Yes, I enjoy working on quality assurance"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    }
+  ]
+}

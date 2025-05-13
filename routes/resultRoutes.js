@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const authMiddleware = require('../middleware/auth');
-const { submitAssessment } = require('../controllers/resultController');
+const { submitAnswer } = require('../controllers/resultController');
 
-// Submit user answers and get career suggestion
-router.post('/submit', authMiddleware, submitAssessment);
+// Submit an answer and get the next question or final result
+router.post('/submit-answer', authMiddleware, submitAnswer);
 
 module.exports = router;

@@ -1,40 +1,65 @@
 {
-    "questions": [
-      {
-        "question_id": 1,
-        "question_text": "Do you like coding?",
-        "options_answer": "Yes, I like coding,No, I don’t like coding",
-        "career_category": "general"
-      },
-      {
-        "question_id": 2,
-        "question_text": "Do you enjoy problem-solving?",
-        "options_answer": "Yes, I enjoy problem-solving,No, I don’t enjoy problem-solving",
-        "career_category": "general"
-      },
-      {
-        "question_id": 3,
-        "question_text": "Do you prefer technology?",
-        "options_answer": "Yes, I prefer technology,No, I don’t prefer technology",
-        "career_category": "general"
-      },
-      {
-        "question_id": 4,
-        "question_text": "Do you like analyzing data?",
-        "options_answer": "Yes, I like analyzing data,No, I don’t like analyzing data",
-        "career_category": "general"
-      },
-      {
-        "question_id": 5,
-        "question_text": "Do you enjoy working with numbers?",
-        "options_answer": "Yes, I enjoy working with numbers,No, I don’t enjoy working with numbers",
-        "career_category": "general"
-      },
-      {
-        "question_id": 6,
-        "question_text": "Do you prefer designing?",
-        "options_answer": "Yes, I prefer designing,No, I don’t prefer designing",
-        "career_category": "general"
+  "default_question": {
+    "question_id": 1,
+    "question_text": "What do you enjoy doing most?",
+    "options_answer": "Coding,Designing,Data Analysis,Testing",
+    "career_category": "default"
+  },
+  "progressive_questions": [
+    {
+      "question_id": 2,
+      "question_text": "What do you enjoy doing next?",
+      "options_answer": "Yes, I like programming,Yes, I like designing websites,Yes, I like data manipulation,Yes, I like testing websites",
+      "career_mapping": {
+        "Yes, I like programming": "Software Engineer",
+        "Yes, I like designing websites": "Graphic Designer",
+        "Yes, I like data manipulation": "Data Scientist",
+        "Yes, I like testing websites": "Software Tester/Quality Assurance"
       }
-    ]
-  }
+    },
+    {
+      "question_id": 3,
+      "question_text": "Which activity do you prefer?",
+      "options_answer": "Yes, I enjoy problem-solving,Yes, I enjoy creativity,Yes, I enjoy working with numbers,Yes, I enjoy finding bugs",
+      "career_mapping": {
+        "Yes, I enjoy problem-solving": "Software Engineer",
+        "Yes, I enjoy creativity": "Graphic Designer",
+        "Yes, I enjoy working with numbers": "Data Scientist",
+        "Yes, I enjoy finding bugs": "Software Tester/Quality Assurance"
+      }
+    },
+    {
+      "question_id": 4,
+      "question_text": "What type of work environment do you prefer?",
+      "options_answer": "Yes, I prefer working with technology,Yes, I prefer visual arts,Yes, I prefer statistics,Yes, I prefer ensuring quality",
+      "career_mapping": {
+        "Yes, I prefer working with technology": "Software Engineer",
+        "Yes, I prefer visual arts": "Graphic Designer",
+        "Yes, I prefer statistics": "Data Scientist",
+        "Yes, I prefer ensuring quality": "Software Tester/Quality Assurance"
+      }
+    },
+    {
+      "question_id": 5,
+      "question_text": "Which skill are you most interested in developing?",
+      "options_answer": "Yes, I’m interested in learning new languages,Yes, I’m comfortable with design software,Yes, I’m familiar with machine learning,Yes, I’m detail-oriented",
+      "career_mapping": {
+        "Yes, I’m interested in learning new languages": "Software Engineer",
+        "Yes, I’m comfortable with design software": "Graphic Designer",
+        "Yes, I’m familiar with machine learning": "Data Scientist",
+        "Yes, I’m detail-oriented": "Software Tester/Quality Assurance"
+      }
+    },
+    {
+      "question_id": 6,
+      "question_text": "What do you find most rewarding?",
+      "options_answer": "Yes, I’m comfortable with debugging,Yes, I enjoy working with clients,Yes, I enjoy creating visualizations,Yes, I enjoy working on quality assurance",
+      "career_mapping": {
+        "Yes, I’m comfortable with debugging": "Software Engineer",
+        "Yes, I enjoy working with clients": "Graphic Designer",
+        "Yes, I enjoy creating visualizations": "Data Scientist",
+        "Yes, I enjoy working on quality assurance": "Software Tester/Quality Assurance"
+      }
+    }
+  ]
+}
