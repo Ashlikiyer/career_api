@@ -1,0 +1,220 @@
+{
+  "careers": {
+    "Software Engineer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Learn Programming Fundamentals",
+          "description": "Start with a language like Python or JavaScript. Focus on variables, loops, functions, and object-oriented programming.",
+          "duration": "2-3 months",
+          "resources": [
+            "FreeCodeCamp (https://www.freecodecamp.org)",
+            "CS50: Introduction to Computer Science (https://cs50.harvard.edu)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Build Small Projects",
+          "description": "Create projects like a calculator, to-do list app, or simple website to apply your skills.",
+          "duration": "1-2 months",
+          "resources": [
+            "GitHub for project hosting (https://github.com)",
+            "YouTube tutorials for project ideas"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Learn Data Structures and Algorithms",
+          "description": "Understand arrays, linked lists, stacks, queues, and basic algorithms (sorting, searching). Practice on platforms like LeetCode.",
+          "duration": "3-4 months",
+          "resources": [
+            "LeetCode (https://leetcode.com)",
+            "Book: 'Introduction to Algorithms' by Cormen"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Explore a Specialization",
+          "description": "Choose a focus area (e.g., web development, mobile apps, backend). Learn frameworks like React (for web) or Spring (for backend).",
+          "duration": "3-6 months",
+          "resources": [
+            "React documentation (https://react.dev)",
+            "Spring Boot tutorials (https://spring.io)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Build a Portfolio and Apply for Jobs",
+          "description": "Create a portfolio website showcasing your projects. Apply for entry-level software engineering roles or internships.",
+          "duration": "1-2 months",
+          "resources": [
+            "Portfolio templates on GitHub",
+            "LinkedIn for job applications (https://www.linkedin.com)"
+          ]
+        }
+      ]
+    },
+    "Graphic Designer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Learn Design Fundamentals",
+          "description": "Understand color theory, typography, and layout principles. Study basic design concepts.",
+          "duration": "1-2 months",
+          "resources": [
+            "Canva Design School (https://www.canva.com/learn)",
+            "Book: 'The Non-Designer’s Design Book' by Robin Williams"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Master Design Software",
+          "description": "Learn tools like Adobe Photoshop, Illustrator, or Figma for creating digital designs.",
+          "duration": "2-3 months",
+          "resources": [
+            "Adobe tutorials (https://helpx.adobe.com)",
+            "Figma crash course (https://www.figma.com/resources)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Create Sample Designs",
+          "description": "Design logos, posters, or social media graphics to build your skills.",
+          "duration": "1-2 months",
+          "resources": [
+            "Dribbble for inspiration (https://dribbble.com)",
+            "Behance for project ideas (https://www.behance.net)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Build a Portfolio",
+          "description": "Compile your best work into a portfolio on Behance or a personal website.",
+          "duration": "1 month",
+          "resources": [
+            "Behance portfolio setup (https://www.behance.net)",
+            "Wix for free websites (https://www.wix.com)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Freelance or Apply for Jobs",
+          "description": "Start freelancing on platforms like Upwork or apply for junior graphic designer positions.",
+          "duration": "1-2 months",
+          "resources": [
+            "Upwork for freelancing (https://www.upwork.com)",
+            "LinkedIn for job applications (https://www.linkedin.com)"
+          ]
+        }
+      ]
+    },
+    "Data Scientist": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Learn Python and Statistics",
+          "description": "Master Python (NumPy, Pandas) and basic statistics (mean, median, probability).",
+          "duration": "2-3 months",
+          "resources": [
+            "DataCamp Python track (https://www.datacamp.com)",
+            "Khan Academy Statistics (https://www.khanacademy.org)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Understand Machine Learning Basics",
+          "description": "Learn about regression, classification, and clustering using scikit-learn.",
+          "duration": "3-4 months",
+          "resources": [
+            "Coursera Machine Learning by Andrew Ng (https://www.coursera.org)",
+            "scikit-learn documentation (https://scikit-learn.org)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Work on Data Projects",
+          "description": "Analyze datasets (e.g., Titanic dataset) and build predictive models.",
+          "duration": "2-3 months",
+          "resources": [
+            "Kaggle for datasets (https://www.kaggle.com)",
+            "Towards Data Science articles (https://towardsdatascience.com)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Learn Big Data Tools",
+          "description": "Explore tools like SQL, Spark, or Tableau for handling large datasets.",
+          "duration": "2-3 months",
+          "resources": [
+            "Mode SQL tutorials (https://mode.com/sql-tutorial)",
+            "Tableau Public (https://public.tableau.com)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Build a Portfolio and Apply",
+          "description": "Showcase your projects on GitHub and apply for data scientist roles.",
+          "duration": "1-2 months",
+          "resources": [
+            "GitHub for project hosting (https://github.com)",
+            "LinkedIn for job applications (https://www.linkedin.com)"
+          ]
+        }
+      ]
+    },
+    "Software Tester/Quality Assurance": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Learn Software Testing Basics",
+          "description": "Understand types of testing (manual, automated, unit, integration).",
+          "duration": "1-2 months",
+          "resources": [
+            "ISTQB Foundation Level Syllabus (https://www.istqb.org)",
+            "Software Testing Help (https://www.softwaretestinghelp.com)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Master Testing Tools",
+          "description": "Learn tools like Selenium, JUnit, or Postman for automated and API testing.",
+          "duration": "2-3 months",
+          "resources": [
+            "Selenium documentation (https://www.selenium.dev)",
+            "Postman tutorials (https://learning.postman.com)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Practice Writing Test Cases",
+          "description": "Create test cases for sample applications (e.g., a login page).",
+          "duration": "1-2 months",
+          "resources": [
+            "TestRail for test case management (https://www.testrail.com)",
+            "Ministry of Testing (https://www.ministryoftesting.com)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Get Certified",
+          "description": "Obtain a certification like ISTQB Foundation Level to boost credibility.",
+          "duration": "1-2 months",
+          "resources": [
+            "ISTQB certification prep (https://www.istqb.org)",
+            "Udemy ISTQB courses"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Apply for QA Roles",
+          "description": "Build a resume highlighting your testing skills and apply for QA jobs.",
+          "duration": "1-2 months",
+          "resources": [
+            "LinkedIn for job applications (https://www.linkedin.com)",
+            "Indeed for QA jobs (https://www.indeed.com)"
+          ]
+        }
+      ]
+    }
+  }
+}
