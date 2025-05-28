@@ -9,100 +9,100 @@
     {
       "question_id": 2,
       "question_text": "What do you enjoy doing next?",
-      "options_answer": "Yes, I like programming,Yes, I like designing websites,Yes, I like data manipulation,Yes, I like testing websites",
+      "options_answer": "like programming,like designing websites,like data manipulation,like testing websites",
       "career_mapping": {
-        "Yes, I like programming": "Software Engineer",
-        "Yes, I like designing websites": "Graphic Designer",
-        "Yes, I like data manipulation": "Data Scientist",
-        "Yes, I like testing websites": "Software Tester/Quality Assurance"
+        "like programming": "Software Engineer",
+        "like designing websites": "Graphic Designer",
+        "like data manipulation": "Data Scientist",
+        "like testing websites": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 3,
       "question_text": "Which activity do you prefer?",
-      "options_answer": "Yes, I enjoy problem-solving,Yes, I enjoy creativity,Yes, I enjoy working with numbers,Yes, I enjoy finding bugs",
+      "options_answer": "enjoy problem-solving,enjoy creativity,enjoy working with numbers,enjoy finding bugs",
       "career_mapping": {
-        "Yes, I enjoy problem-solving": "Software Engineer",
-        "Yes, I enjoy creativity": "Graphic Designer",
-        "Yes, I enjoy working with numbers": "Data Scientist",
-        "Yes, I enjoy finding bugs": "Software Tester/Quality Assurance"
+        "enjoy problem-solving": "Software Engineer",
+        "enjoy creativity": "Graphic Designer",
+        "enjoy working with numbers": "Data Scientist",
+        "enjoy finding bugs": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 4,
       "question_text": "What type of work environment do you prefer?",
-      "options_answer": "Yes, I prefer working with technology,Yes, I prefer visual arts,Yes, I prefer statistics,Yes, I prefer ensuring quality",
+      "options_answer": "prefer working with technology,prefer visual arts,prefer statistics,prefer ensuring quality",
       "career_mapping": {
-        "Yes, I prefer working with technology": "Software Engineer",
-        "Yes, I prefer visual arts": "Graphic Designer",
-        "Yes, I prefer statistics": "Data Scientist",
-        "Yes, I prefer ensuring quality": "Software Tester/Quality Assurance"
+        "prefer working with technology": "Software Engineer",
+        "prefer visual arts": "Graphic Designer",
+        "prefer statistics": "Data Scientist",
+        "prefer ensuring quality": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 5,
       "question_text": "Which skill are you most interested in developing?",
-      "options_answer": "Yes, I’m interested in learning new languages,Yes, I’m comfortable with design software,Yes, I’m familiar with machine learning,Yes, I’m detail-oriented",
+      "options_answer": "interested in learning new languages,comfortable with design software,familiar with machine learning,detail-oriented",
       "career_mapping": {
-        "Yes, I’m interested in learning new languages": "Software Engineer",
-        "Yes, I’m comfortable with design software": "Graphic Designer",
-        "Yes, I’m familiar with machine learning": "Data Scientist",  
-        "Yes, I’m detail-oriented": "Software Tester/Quality Assurance"
+        "interested in learning new languages": "Software Engineer",
+        "comfortable with design software": "Graphic Designer",
+        "familiar with machine learning": "Data Scientist",
+        "detail-oriented": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 6,
       "question_text": "What do you find most rewarding?",
-      "options_answer": "Yes, I’m comfortable with debugging,Yes, I enjoy working with clients,Yes, I enjoy creating visualizations,Yes, I enjoy working on quality assurance",
+      "options_answer": "comfortable with debugging,enjoy working with clients,enjoy creating visualizations,enjoy working on quality assurance",
       "career_mapping": {
-        "Yes, I’m comfortable with debugging": "Software Engineer",
-        "Yes, I enjoy working with clients": "Graphic Designer",
-        "Yes, I enjoy creating visualizations": "Data Scientist",
-        "Yes, I enjoy working on quality assurance": "Software Tester/Quality Assurance"
+        "comfortable with debugging": "Software Engineer",
+        "enjoy working with clients": "Graphic Designer",
+        "enjoy creating visualizations": "Data Scientist",
+        "enjoy working on quality assurance": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 7,
       "question_text": "How do you prefer to collaborate?",
-      "options_answer": "Yes, I enjoy coding with a team,Yes, I enjoy designing with feedback,Yes, I enjoy analyzing data with others,Yes, I enjoy testing with peers",
+      "options_answer": "enjoy coding with a team,enjoy designing with feedback,enjoy analyzing data with others,enjoy testing with peers",
       "career_mapping": {
-        "Yes, I enjoy coding with a team": "Software Engineer",
-        "Yes, I enjoy designing with feedback": "Graphic Designer",
-        "Yes, I enjoy analyzing data with others": "Data Scientist",
-        "Yes, I enjoy testing with peers": "Software Tester/Quality Assurance"
+        "enjoy coding with a team": "Software Engineer",
+        "enjoy designing with feedback": "Graphic Designer",
+        "enjoy analyzing data with others": "Data Scientist",
+        "enjoy testing with peers": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 8,
       "question_text": "What motivates you most in your work?",
-      "options_answer": "Yes, solving complex problems,Yes, creating beautiful designs,Yes, discovering insights from data,Yes, ensuring perfect results",
+      "options_answer": "solving complex problems,creating beautiful designs,discovering insights from data,ensuring perfect results",
       "career_mapping": {
-        "Yes, solving complex problems": "Software Engineer",
-        "Yes, creating beautiful designs": "Graphic Designer",
-        "Yes, discovering insights from data": "Data Scientist",
-        "Yes, ensuring perfect results": "Software Tester/Quality Assurance"
+        "solving complex problems": "Software Engineer",
+        "creating beautiful designs": "Graphic Designer",
+        "discovering insights from data": "Data Scientist",
+        "ensuring perfect results": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 9,
       "question_text": "What long-term goal excites you?",
-      "options_answer": "Yes, building innovative software,Yes, mastering design trends,Yes, advancing data science,Yes, perfecting testing processes",
+      "options_answer": "building innovative software,mastering design trends,advancing data science,perfecting testing processes",
       "career_mapping": {
-        "Yes, building innovative software": "Software Engineer",
-        "Yes, mastering design trends": "Graphic Designer",
-        "Yes, advancing data science": "Data Scientist",
-        "Yes, perfecting testing processes": "Software Tester/Quality Assurance"
+        "building innovative software": "Software Engineer",
+        "mastering design trends": "Graphic Designer",
+        "advancing data science": "Data Scientist",
+        "perfecting testing processes": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 10,
       "question_text": "What learning style do you prefer?",
-      "options_answer": "Yes, I prefer hands-on coding,Yes, I prefer visual design tutorials,Yes, I prefer data-driven courses,Yes, I prefer structured testing guides",
+      "options_answer": "prefer hands-on coding,prefer visual design tutorials,prefer data-driven courses,prefer structured testing guides",
       "career_mapping": {
-        "Yes, I prefer hands-on coding": "Software Engineer",
-        "Yes, I prefer visual design tutorials": "Graphic Designer",
-        "Yes, I prefer data-driven courses": "Data Scientist",
-        "Yes, I prefer structured testing guides": "Software Tester/Quality Assurance"
+        "prefer hands-on coding": "Software Engineer",
+        "prefer visual design tutorials": "Graphic Designer",
+        "prefer data-driven courses": "Data Scientist",
+        "prefer structured testing guides": "Software Tester/Quality Assurance"
       }
     }
   ]

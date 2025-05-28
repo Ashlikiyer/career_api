@@ -4,15 +4,15 @@
       "career_name": "Software Engineer",
       "initial_answer": "Coding",
       "answer_pattern": {
-        "2": "Yes, I like programming",
-        "3": "Yes, I enjoy problem-solving",
-        "4": "Yes, I prefer working with technology",
-        "5": "Yes, I’m interested in learning new languages",
-        "6": "Yes, I’m comfortable with debugging",
-        "7": "Yes, I enjoy coding with a team",
-        "8": "Yes, solving complex problems",
-        "9": "Yes, building innovative software",
-        "10": "Yes, I prefer hands-on coding"
+        "2": "like programming",
+        "3": "enjoy problem-solving",
+        "4": "prefer working with technology",
+        "5": "interested in learning new languages",
+        "6": "comfortable with debugging",
+        "7": "enjoy coding with a team",
+        "8": "solving complex problems",
+        "9": "building innovative software",
+        "10": "prefer hands-on coding"
       },
       "confidence_increments": {
         "2": 20,
@@ -30,15 +30,15 @@
       "career_name": "Data Scientist",
       "initial_answer": "Data Analysis",
       "answer_pattern": {
-        "2": "Yes, I like data manipulation",
-        "3": "Yes, I enjoy working with numbers",
-        "4": "Yes, I prefer statistics",
-        "5": "Yes, I’m familiar with machine learning",
-        "6": "Yes, I enjoy creating visualizations",
-        "7": "Yes, I enjoy analyzing data with others",
-        "8": "Yes, discovering insights from data",
-        "9": "Yes, advancing data science",
-        "10": "Yes, I prefer data-driven courses"
+        "2": "like data manipulation",
+        "3": "enjoy working with numbers",
+        "4": "prefer statistics",
+        "5": "familiar with machine learning",
+        "6": "enjoy creating visualizations",
+        "7": "enjoy analyzing data with others",
+        "8": "discovering insights from data",
+        "9": "advancing data science",
+        "10": "prefer data-driven courses"
       },
       "confidence_increments": {
         "2": 20,
@@ -56,15 +56,15 @@
       "career_name": "Graphic Designer",
       "initial_answer": "Designing",
       "answer_pattern": {
-        "2": "Yes, I like designing websites",
-        "3": "Yes, I enjoy creativity",
-        "4": "Yes, I prefer visual arts",
-        "5": "Yes, I’m comfortable with design software",
-        "6": "Yes, I enjoy working with clients",
-        "7": "Yes, I enjoy designing with feedback",
-        "8": "Yes, creating beautiful designs",
-        "9": "Yes, mastering design trends",
-        "10": "Yes, I prefer visual design tutorials"
+        "2": "like designing websites",
+        "3": "enjoy creativity",
+        "4": "prefer visual arts",
+        "5": "comfortable with design software",
+        "6": "enjoy working with clients",
+        "7": "enjoy designing with feedback",
+        "8": "creating beautiful designs",
+        "9": "mastering design trends",
+        "10": "prefer visual design tutorials"
       },
       "confidence_increments": {
         "2": 20,
@@ -82,15 +82,15 @@
       "career_name": "Software Tester/Quality Assurance",
       "initial_answer": "Testing",
       "answer_pattern": {
-        "2": "Yes, I like testing websites",
-        "3": "Yes, I enjoy finding bugs",
-        "4": "Yes, I prefer ensuring quality",
-        "5": "Yes, I’m detail-oriented",
-        "6": "Yes, I enjoy working on quality assurance",
-        "7": "Yes, I enjoy testing with peers",
-        "8": "Yes, ensuring perfect results",
-        "9": "Yes, perfecting testing processes",
-        "10": "Yes, I prefer structured testing guides"
+        "2": "like testing websites",
+        "3": "enjoy finding bugs",
+        "4": "prefer ensuring quality",
+        "5": "detail-oriented",
+        "6": "enjoy working on quality assurance",
+        "7": "enjoy testing with peers",
+        "8": "ensuring perfect results",
+        "9": "perfecting testing processes",
+        "10": "prefer structured testing guides"
       },
       "confidence_increments": {
         "2": 20,
