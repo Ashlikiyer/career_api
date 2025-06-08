@@ -1,19 +1,36 @@
-const questionsData = require('../careerData/questions.json');
+const { Assessment } = require('../models');
+const questionsData = require('../careerdata/questions.json');
 
-const getDefaultQuestion = (req, res) => {
+const getDefaultQuestion = async (req, res) => {
   try {
-    // Reset session state when starting a new quiz
+    console.log('Request session:', req.session);
+    if (!req.session) {
+      console.log('Session is undefined!');
+      throw new Error('Session not initialized');
+    }
     req.session.currentCareer = null;
     req.session.currentConfidence = null;
     req.session.assessment_id = null;
-    res.json(questionsData.default_question);
+    console.log('Session reset, new state:', req.session);
+
+    console.log('Attempting to create assessment...');
+    const assessment = await Assessment.create({ name: `Assessment_${Date.now()}` });
+    req.session.assessment_id = assessment.assessmentId;
+    console.log('Assessment created, ID:', assessment.assessmentId);
+
+    console.log('Questions data:', questionsData);
+    res.json({ 
+      ...questionsData.default_question, 
+      assessment_id: assessment.assessmentId 
+    });
   } catch (error) {
-    res.status(500).json({ error: 'Failed to fetch default question' });
+    console.error('Error in getDefaultQuestion:', error.message, error.stack);
+    res.status(500).json({ error: 'Failed to fetch default question', details: error.message });
   }
 };
 
 const getNextQuestion = (req, res) => {
-  const { currentQuestionId } = req.query; // Current question ID to determine the next one
+  const { currentQuestionId } = req.query;
   try {
     const nextQuestionId = parseInt(currentQuestionId) + 1;
     const nextQuestion = questionsData.progressive_questions.find(q => q.question_id === nextQuestionId);
@@ -27,13 +44,20 @@ const getNextQuestion = (req, res) => {
   }
 };
 
-const restartQuiz = (req, res) => {
+const restartQuiz = async (req, res) => {
   try {
-    // Reset session state
     req.session.currentCareer = null;
     req.session.currentConfidence = null;
     req.session.assessment_id = null;
-    res.json({ message: 'Quiz restarted', nextQuestionId: 1 });
+
+    const assessment = await Assessment.create({ name: `Assessment_${Date.now()}` });
+    req.session.assessment_id = assessment.assessmentId;
+
+    res.json({ 
+      message: 'Quiz restarted', 
+      nextQuestionId: 1, 
+      assessment_id: assessment.assessmentId 
+    });
   } catch (error) {
     res.status(500).json({ error: 'Failed to restart quiz' });
   }

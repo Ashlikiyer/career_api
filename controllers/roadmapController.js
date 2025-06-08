@@ -1,5 +1,5 @@
 const { SavedCareer } = require('../models');
-const roadmapData = require('../careerData/roadmapData.json'); // Roadmap data (currently placeholder)
+const roadmapData = require('../careerdata/roadmapData.json'); // Roadmap data (currently placeholder)
 
 const getRoadmap = async (req, res) => {
   try {

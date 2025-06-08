@@ -4,52 +4,102 @@
       "roadmap": [
         {
           "step": 1,
-          "title": "Learn Programming Fundamentals",
-          "description": "Start with a language like Python or JavaScript. Focus on variables, loops, functions, and object-oriented programming.",
+          "title": "Master Programming Fundamentals",
+          "description": "Learn a language like Python or Java, focusing on variables, loops, functions, and object-oriented programming to build a foundation for solving computing problems.",
           "duration": "2-3 months",
           "resources": [
-            "FreeCodeCamp (https://www.freecodecamp.org)",
+            "FreeCodeCamp Python Course (https://www.freecodecamp.org/learn/scientific-computing-with-python)",
             "CS50: Introduction to Computer Science (https://cs50.harvard.edu)"
           ]
         },
         {
           "step": 2,
-          "title": "Build Small Projects",
-          "description": "Create projects like a calculator, to-do list app, or simple website to apply your skills.",
-          "duration": "1-2 months",
+          "title": "Understand Computer Science Basics",
+          "description": "Study discrete mathematics, computer architecture, and operating systems to grasp the theoretical foundations of computing.",
+          "duration": "2-3 months",
           "resources": [
-            "GitHub for project hosting (https://github.com)",
-            "YouTube tutorials for project ideas"
+            "Khan Academy Discrete Math (https://www.khanacademy.org/math/discrete-math)",
+            "roadmap.sh Computer Science Roadmap (https://roadmap.sh/computer-science)"
           ]
         },
         {
           "step": 3,
           "title": "Learn Data Structures and Algorithms",
-          "description": "Understand arrays, linked lists, stacks, queues, and basic algorithms (sorting, searching). Practice on platforms like LeetCode.",
+          "description": "Master arrays, linked lists, stacks, queues, trees, and algorithms like sorting and searching to solve complex problems efficiently.",
           "duration": "3-4 months",
           "resources": [
-            "LeetCode (https://leetcode.com)",
+            "LeetCode Data Structures (https://leetcode.com/explore/learn)",
             "Book: 'Introduction to Algorithms' by Cormen"
           ]
         },
         {
           "step": 4,
-          "title": "Explore a Specialization",
-          "description": "Choose a focus area (e.g., web development, mobile apps, backend). Learn frameworks like React (for web) or Spring (for backend).",
-          "duration": "3-6 months",
+          "title": "Build Small Projects",
+          "description": "Apply your skills by creating projects like a to-do list app or a simple website to practice problem analysis and solution design.",
+          "duration": "1-2 months",
           "resources": [
-            "React documentation (https://react.dev)",
-            "Spring Boot tutorials (https://spring.io)"
+            "GitHub for project hosting (https://github.com)",
+            "roadmap.sh Project Ideas (https://roadmap.sh/projects)"
           ]
         },
         {
           "step": 5,
-          "title": "Build a Portfolio and Apply for Jobs",
-          "description": "Create a portfolio website showcasing your projects. Apply for entry-level software engineering roles or internships.",
+          "title": "Learn Version Control with Git",
+          "description": "Understand Git and GitHub for version control, collaboration, and managing codebases effectively in team settings.",
+          "duration": "1 month",
+          "resources": [
+            "GitHub Learning Lab (https://lab.github.com)",
+            "roadmap.sh Git and GitHub Guide (https://roadmap.sh/git-github)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Explore a Specialization",
+          "description": "Choose a focus area like web development or backend systems, and learn frameworks such as React or Spring Boot to design solutions.",
+          "duration": "3-4 months",
+          "resources": [
+            "React Documentation (https://react.dev)",
+            "Spring Boot Tutorials (https://spring.io/projects/spring-boot)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Understand Information Security",
+          "description": "Learn about software security, including secure coding practices and information security issues, to ensure ethical and safe software design.",
           "duration": "1-2 months",
           "resources": [
-            "Portfolio templates on GitHub",
-            "LinkedIn for job applications (https://www.linkedin.com)"
+            "OWASP Top 10 (https://owasp.org/www-project-top-ten)",
+            "roadmap.sh Cyber Security Basics (https://roadmap.sh/cyber-security)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Work on Team Projects",
+          "description": "Collaborate on open-source projects or group assignments to enhance teamwork and communication skills in multidisciplinary settings.",
+          "duration": "2-3 months",
+          "resources": [
+            "Contribute on GitHub (https://github.com/open-source)",
+            "First Contributions Project (https://firstcontributions.github.io)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Build a Professional Portfolio",
+          "description": "Create a portfolio showcasing your projects, highlighting your ability to design and develop computing solutions.",
+          "duration": "1 month",
+          "resources": [
+            "Portfolio Templates on GitHub (https://github.com/topics/portfolio-template)",
+            "LinkedIn for Networking (https://www.linkedin.com)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Prepare for Jobs and Continuous Learning",
+          "description": "Apply for entry-level roles or internships, and commit to life-long learning by staying updated with new tools and technologies.",
+          "duration": "1-2 months",
+          "resources": [
+            "roadmap.sh Software Engineer Roadmap (https://roadmap.sh/software-engineer)",
+            "HackerRank for Interview Prep (https://www.hackerrank.com)"
           ]
         }
       ]
@@ -59,7 +109,7 @@
         {
           "step": 1,
           "title": "Learn Design Fundamentals",
-          "description": "Understand color theory, typography, and layout principles. Study basic design concepts.",
+          "description": "Understand color theory, typography, and layout principles to build a foundation for creating visual solutions.",
           "duration": "1-2 months",
           "resources": [
             "Canva Design School (https://www.canva.com/learn)",
@@ -69,41 +119,91 @@
         {
           "step": 2,
           "title": "Master Design Software",
-          "description": "Learn tools like Adobe Photoshop, Illustrator, or Figma for creating digital designs.",
+          "description": "Learn modern tools like Adobe Photoshop, Illustrator, and Figma to create digital designs effectively.",
           "duration": "2-3 months",
           "resources": [
-            "Adobe tutorials (https://helpx.adobe.com)",
-            "Figma crash course (https://www.figma.com/resources)"
+            "Adobe Tutorials (https://helpx.adobe.com)",
+            "Figma Crash Course (https://www.figma.com/resources/learn-design)"
           ]
         },
         {
           "step": 3,
-          "title": "Create Sample Designs",
-          "description": "Design logos, posters, or social media graphics to build your skills.",
+          "title": "Study User Experience (UX) Basics",
+          "description": "Learn UX principles to design user-centered visuals, aligning with IT skills for integrating solutions into user environments.",
           "duration": "1-2 months",
           "resources": [
-            "Dribbble for inspiration (https://dribbble.com)",
-            "Behance for project ideas (https://www.behance.net)"
+            "GeeksforGeeks UX Design Roadmap (https://www.geeksforgeeks.org/complete-ux-design-roadmap)",
+            "Coursera UX Design Course (https://www.coursera.org/learn/ux-design-fundamentals)"
           ]
         },
         {
           "step": 4,
-          "title": "Build a Portfolio",
-          "description": "Compile your best work into a portfolio on Behance or a personal website.",
-          "duration": "1 month",
+          "title": "Create Sample Designs",
+          "description": "Design logos, posters, or UI mockups to practice applying design principles and tools.",
+          "duration": "1-2 months",
           "resources": [
-            "Behance portfolio setup (https://www.behance.net)",
-            "Wix for free websites (https://www.wix.com)"
+            "Dribbble for Inspiration (https://dribbble.com)",
+            "Behance for Project Ideas (https://www.behance.net)"
           ]
         },
         {
           "step": 5,
-          "title": "Freelance or Apply for Jobs",
-          "description": "Start freelancing on platforms like Upwork or apply for junior graphic designer positions.",
+          "title": "Learn Web Design Basics",
+          "description": "Understand HTML, CSS, and responsive design to create web-based visual solutions, aligning with BSIT web development skills.",
+          "duration": "2 months",
+          "resources": [
+            "FreeCodeCamp Responsive Web Design (https://www.freecodecamp.org/learn/responsive-web-design)",
+            "W3Schools CSS Tutorials (https://www.w3schools.com/css)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Explore Design Ethics",
+          "description": "Learn about ethical design practices, such as accessibility and inclusivity, to align with BSIT social responsibility outcomes.",
+          "duration": "1 month",
+          "resources": [
+            "A11y Project on Accessibility (https://www.a11yproject.com)",
+            "Smashing Magazine Ethics Articles (https://www.smashingmagazine.com/category/ethics)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Collaborate on Design Projects",
+          "description": "Work with others to receive feedback and improve your designs, enhancing teamwork and communication skills.",
           "duration": "1-2 months",
           "resources": [
-            "Upwork for freelancing (https://www.upwork.com)",
-            "LinkedIn for job applications (https://www.linkedin.com)"
+            "Behance Collaborative Projects (https://www.behance.net/collaborate)",
+            "Dribbble Teams (https://dribbble.com/teams)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Build a Portfolio",
+          "description": "Compile your best work into a portfolio to showcase your ability to design visual solutions.",
+          "duration": "1 month",
+          "resources": [
+            "Behance Portfolio Setup (https://www.behance.net)",
+            "Wix for Free Websites (https://www.wix.com)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Freelance or Intern",
+          "description": "Start freelancing or apply for internships to gain practical experience and apply IT-based design solutions.",
+          "duration": "1-2 months",
+          "resources": [
+            "Upwork for Freelancing (https://www.upwork.com)",
+            "LinkedIn for Internships (https://www.linkedin.com)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Engage in Continuous Learning",
+          "description": "Stay updated with design trends and tools, committing to life-long learning to remain competitive.",
+          "duration": "Ongoing",
+          "resources": [
+            "Design Milk for Trends (https://design-milk.com)",
+            "AIGA Design Resources (https://www.aiga.org/resources)"
           ]
         }
       ]
@@ -112,52 +212,102 @@
       "roadmap": [
         {
           "step": 1,
-          "title": "Learn Python and Statistics",
-          "description": "Master Python (NumPy, Pandas) and basic statistics (mean, median, probability).",
+          "title": "Learn Programming and Statistics",
+          "description": "Master Python (NumPy, Pandas) and statistics (probability, hypothesis testing) to analyze data and solve problems.",
           "duration": "2-3 months",
           "resources": [
-            "DataCamp Python track (https://www.datacamp.com)",
-            "Khan Academy Statistics (https://www.khanacademy.org)"
+            "DataCamp Python for Data Science (https://www.datacamp.com/tracks/data-scientist-with-python)",
+            "Khan Academy Statistics (https://www.khanacademy.org/math/statistics-probability)"
           ]
         },
         {
           "step": 2,
-          "title": "Understand Machine Learning Basics",
-          "description": "Learn about regression, classification, and clustering using scikit-learn.",
-          "duration": "3-4 months",
+          "title": "Understand Data Manipulation",
+          "description": "Learn SQL and data wrangling with Pandas to clean and prepare data for analysis.",
+          "duration": "1-2 months",
           "resources": [
-            "Coursera Machine Learning by Andrew Ng (https://www.coursera.org)",
-            "scikit-learn documentation (https://scikit-learn.org)"
+            "Mode SQL Tutorials (https://mode.com/sql-tutorial)",
+            "roadmap.sh SQL Guide (https://roadmap.sh/sql)"
           ]
         },
         {
           "step": 3,
-          "title": "Work on Data Projects",
-          "description": "Analyze datasets (e.g., Titanic dataset) and build predictive models.",
-          "duration": "2-3 months",
+          "title": "Master Machine Learning Basics",
+          "description": "Study regression, classification, and clustering using scikit-learn to build predictive models.",
+          "duration": "3-4 months",
           "resources": [
-            "Kaggle for datasets (https://www.kaggle.com)",
-            "Towards Data Science articles (https://towardsdatascience.com)"
+            "Coursera Machine Learning by Andrew Ng (https://www.coursera.org/learn/machine-learning)",
+            "scikit-learn Documentation (https://scikit-learn.org)"
           ]
         },
         {
           "step": 4,
-          "title": "Learn Big Data Tools",
-          "description": "Explore tools like SQL, Spark, or Tableau for handling large datasets.",
-          "duration": "2-3 months",
+          "title": "Learn Data Visualization",
+          "description": "Use tools like Matplotlib, Seaborn, and Tableau to create visualizations and communicate insights effectively.",
+          "duration": "1-2 months",
           "resources": [
-            "Mode SQL tutorials (https://mode.com/sql-tutorial)",
-            "Tableau Public (https://public.tableau.com)"
+            "Tableau Public (https://public.tableau.com)",
+            "roadmap.sh Data Visualization Tips (https://roadmap.sh/ai-data-scientist)"
           ]
         },
         {
           "step": 5,
-          "title": "Build a Portfolio and Apply",
-          "description": "Showcase your projects on GitHub and apply for data scientist roles.",
+          "title": "Work on Data Projects",
+          "description": "Analyze datasets like the Titanic dataset on Kaggle to practice problem analysis and solution design.",
+          "duration": "2-3 months",
+          "resources": [
+            "Kaggle Datasets (https://www.kaggle.com/datasets)",
+            "Towards Data Science Articles (https://towardsdatascience.com)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Explore Big Data Tools",
+          "description": "Learn tools like Apache Spark and Hadoop for handling large datasets, aligning with modern tool usage.",
+          "duration": "2-3 months",
+          "resources": [
+            "Databricks Spark Tutorials (https://databricks.com/spark/getting-started)",
+            "roadmap.sh Big Data Guide (https://roadmap.sh/ai-data-scientist)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Understand Data Privacy and Ethics",
+          "description": "Learn about data privacy laws and ethical data usage to ensure responsible data science practices.",
+          "duration": "1 month",
+          "resources": [
+            "GDPR Overview (https://gdpr.eu/what-is-gdpr)",
+            "DataCamp Ethics Course (https://www.datacamp.com/courses/data-ethics)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Collaborate on Data Projects",
+          "description": "Work with peers on Kaggle competitions or open-source projects to enhance teamwork and communication skills.",
+          "duration": "2 months",
+          "resources": [
+            "Kaggle Competitions (https://www.kaggle.com/competitions)",
+            "GitHub Data Science Projects (https://github.com/topics/data-science)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Build a Data Science Portfolio",
+          "description": "Showcase your projects on GitHub, highlighting your ability to analyze and model data for real-world problems.",
+          "duration": "1 month",
+          "resources": [
+            "GitHub for Project Hosting (https://github.com)",
+            "Medium for Blogging Projects (https://medium.com)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Apply for Roles and Continue Learning",
+          "description": "Apply for data scientist roles and commit to life-long learning by staying updated with AI and data science trends.",
           "duration": "1-2 months",
           "resources": [
-            "GitHub for project hosting (https://github.com)",
-            "LinkedIn for job applications (https://www.linkedin.com)"
+            "roadmap.sh AI and Data Scientist Roadmap (https://roadmap.sh/ai-data-scientist)",
+            "LinkedIn for Job Applications (https://www.linkedin.com)"
           ]
         }
       ]
@@ -166,52 +316,102 @@
       "roadmap": [
         {
           "step": 1,
-          "title": "Learn Software Testing Basics",
-          "description": "Understand types of testing (manual, automated, unit, integration).",
+          "title": "Learn Software Testing Fundamentals",
+          "description": "Understand testing types (manual, automated, unit, integration) and quality assurance principles.",
           "duration": "1-2 months",
           "resources": [
-            "ISTQB Foundation Level Syllabus (https://www.istqb.org)",
-            "Software Testing Help (https://www.softwaretestinghelp.com)"
+            "ISTQB Foundation Level Syllabus (https://www.istqb.org/certifications/foundation-level)",
+            "roadmap.sh QA Roadmap (https://roadmap.sh/qa)"
           ]
         },
         {
           "step": 2,
           "title": "Master Testing Tools",
-          "description": "Learn tools like Selenium, JUnit, or Postman for automated and API testing.",
+          "description": "Learn tools like Selenium, JUnit, and Postman for automated, unit, and API testing to utilize modern tools effectively.",
           "duration": "2-3 months",
           "resources": [
-            "Selenium documentation (https://www.selenium.dev)",
-            "Postman tutorials (https://learning.postman.com)"
+            "Selenium Documentation (https://www.selenium.dev/documentation)",
+            "Postman Learning Center (https://learning.postman.com)"
           ]
         },
         {
           "step": 3,
           "title": "Practice Writing Test Cases",
-          "description": "Create test cases for sample applications (e.g., a login page).",
+          "description": "Create test cases for sample applications, focusing on edge cases and risk-based testing.",
           "duration": "1-2 months",
           "resources": [
-            "TestRail for test case management (https://www.testrail.com)",
-            "Ministry of Testing (https://www.ministryoftesting.com)"
+            "TestRail for Test Case Management (https://www.testrail.com)",
+            "Ministry of Testing Resources (https://www.ministryoftesting.com)"
           ]
         },
         {
           "step": 4,
-          "title": "Get Certified",
-          "description": "Obtain a certification like ISTQB Foundation Level to boost credibility.",
-          "duration": "1-2 months",
+          "title": "Learn Version Control",
+          "description": "Understand Git for version control to collaborate on testing projects and manage test scripts.",
+          "duration": "1 month",
           "resources": [
-            "ISTQB certification prep (https://www.istqb.org)",
-            "Udemy ISTQB courses"
+            "GitHub Learning Lab (https://lab.github.com)",
+            "roadmap.sh Git Guide (https://roadmap.sh/git-github)"
           ]
         },
         {
           "step": 5,
-          "title": "Apply for QA Roles",
-          "description": "Build a resume highlighting your testing skills and apply for QA jobs.",
+          "title": "Understand Software Security Basics",
+          "description": "Learn security testing basics, such as OWASP Top 10, to ensure software reliability and ethical practices.",
+          "duration": "1 month",
+          "resources": [
+            "OWASP Top 10 (https://owasp.org/www-project-top-ten)",
+            "roadmap.sh Cyber Security Basics (https://roadmap.sh/cyber-security)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Explore Advanced Testing Techniques",
+          "description": "Study performance testing, load testing, and regression testing to ensure comprehensive quality assurance.",
+          "duration": "2 months",
+          "resources": [
+            "JMeter for Performance Testing (https://jmeter.apache.org)",
+            "roadmap.sh QA Advanced Topics (https://roadmap.sh/qa)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Collaborate on Testing Projects",
+          "description": "Work with developers and testers on projects to improve teamwork and communication skills.",
           "duration": "1-2 months",
           "resources": [
-            "LinkedIn for job applications (https://www.linkedin.com)",
-            "Indeed for QA jobs (https://www.indeed.com)"
+            "GitHub for Collaborative Projects (https://github.com/topics/software-testing)",
+            "Ministry of Testing Community (https://www.ministryoftesting.com/community)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Get Certified",
+          "description": "Obtain a certification like ISTQB Foundation Level to validate your testing skills and boost credibility.",
+          "duration": "1-2 months",
+          "resources": [
+            "ISTQB Certification Prep (https://www.istqb.org/certifications/foundation-level)",
+            "Udemy ISTQB Courses (https://www.udemy.com/topic/istqb)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Build a QA Portfolio",
+          "description": "Document your test cases, automation scripts, and projects in a portfolio to showcase your skills.",
+          "duration": "1 month",
+          "resources": [
+            "GitHub for Test Scripts (https://github.com)",
+            "LinkedIn for Professional Profile (https://www.linkedin.com)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Apply for QA Roles and Continue Learning",
+          "description": "Apply for QA roles and engage in life-long learning to stay updated with testing trends and tools.",
+          "duration": "1-2 months",
+          "resources": [
+            "roadmap.sh QA Roadmap (https://roadmap.sh/qa)",
+            "Indeed for QA Jobs (https://www.indeed.com)"
           ]
         }
       ]

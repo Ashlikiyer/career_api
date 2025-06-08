@@ -1,4 +1,4 @@
-const roadmapData = require('../careerData/roadmapData.json');
+const roadmapData = require('../careerdata/roadmapData.json');
 
 const getRoadmapForCareer = (careerName) => {
   const careerRoadmap = roadmapData.careers[careerName];

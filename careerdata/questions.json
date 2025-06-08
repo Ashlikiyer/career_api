@@ -1,108 +1,108 @@
 {
   "default_question": {
     "question_id": 1,
-    "question_text": "What do you enjoy doing most?",
-    "options_answer": "Coding,Designing,Data Analysis,Testing",
+    "question_text": "What activity are you most passionate about?",
+    "options_answer": "Solving computing problems,Creating visual designs,Analyzing data patterns,Ensuring software quality",
     "career_category": "default"
   },
   "progressive_questions": [
     {
       "question_id": 2,
-      "question_text": "What do you enjoy doing next?",
-      "options_answer": "like programming,like designing websites,like data manipulation,like testing websites",
+      "question_text": "Which task do you enjoy the most?",
+      "options_answer": "Designing algorithms,Working on creative layouts,Manipulating datasets,Testing software functionality",
       "career_mapping": {
-        "like programming": "Software Engineer",
-        "like designing websites": "Graphic Designer",
-        "like data manipulation": "Data Scientist",
-        "like testing websites": "Software Tester/Quality Assurance"
+        "Designing algorithms": "Software Engineer",
+        "Working on creative layouts": "Graphic Designer",
+        "Manipulating datasets": "Data Scientist",
+        "Testing software functionality": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 3,
-      "question_text": "Which activity do you prefer?",
-      "options_answer": "enjoy problem-solving,enjoy creativity,enjoy working with numbers,enjoy finding bugs",
+      "question_text": "What type of problem-solving excites you?",
+      "options_answer": "Algorithmic challenges,Visual design challenges,Statistical analysis challenges,Debugging challenges",
       "career_mapping": {
-        "enjoy problem-solving": "Software Engineer",
-        "enjoy creativity": "Graphic Designer",
-        "enjoy working with numbers": "Data Scientist",
-        "enjoy finding bugs": "Software Tester/Quality Assurance"
+        "Algorithmic challenges": "Software Engineer",
+        "Visual design challenges": "Graphic Designer",
+        "Statistical analysis challenges": "Data Scientist",
+        "Debugging challenges": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 4,
-      "question_text": "What type of work environment do you prefer?",
-      "options_answer": "prefer working with technology,prefer visual arts,prefer statistics,prefer ensuring quality",
+      "question_text": "Which work environment suits you best?",
+      "options_answer": "Technology-driven projects,Artistic and creative spaces,Data-focused research,Quality assurance processes",
       "career_mapping": {
-        "prefer working with technology": "Software Engineer",
-        "prefer visual arts": "Graphic Designer",
-        "prefer statistics": "Data Scientist",
-        "prefer ensuring quality": "Software Tester/Quality Assurance"
+        "Technology-driven projects": "Software Engineer",
+        "Artistic and creative spaces": "Graphic Designer",
+        "Data-focused research": "Data Scientist",
+        "Quality assurance processes": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 5,
-      "question_text": "Which skill are you most interested in developing?",
-      "options_answer": "interested in learning new languages,comfortable with design software,familiar with machine learning,detail-oriented",
+      "question_text": "Which skill do you want to develop most?",
+      "options_answer": "Programming and algorithm design,Design software proficiency,Data modeling and machine learning,Testing and quality assurance techniques",
       "career_mapping": {
-        "interested in learning new languages": "Software Engineer",
-        "comfortable with design software": "Graphic Designer",
-        "familiar with machine learning": "Data Scientist",
-        "detail-oriented": "Software Tester/Quality Assurance"
+        "Programming and algorithm design": "Software Engineer",
+        "Design software proficiency": "Graphic Designer",
+        "Data modeling and machine learning": "Data Scientist",
+        "Testing and quality assurance techniques": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 6,
-      "question_text": "What do you find most rewarding?",
-      "options_answer": "comfortable with debugging,enjoy working with clients,enjoy creating visualizations,enjoy working on quality assurance",
+      "question_text": "What do you find most rewarding in your work?",
+      "options_answer": "Building efficient software,Designing impactful visuals,Uncovering data insights,Ensuring flawless software performance",
       "career_mapping": {
-        "comfortable with debugging": "Software Engineer",
-        "enjoy working with clients": "Graphic Designer",
-        "enjoy creating visualizations": "Data Scientist",
-        "enjoy working on quality assurance": "Software Tester/Quality Assurance"
+        "Building efficient software": "Software Engineer",
+        "Designing impactful visuals": "Graphic Designer",
+        "Uncovering data insights": "Data Scientist",
+        "Ensuring flawless software performance": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 7,
-      "question_text": "How do you prefer to collaborate?",
-      "options_answer": "enjoy coding with a team,enjoy designing with feedback,enjoy analyzing data with others,enjoy testing with peers",
+      "question_text": "How do you prefer to work with others?",
+      "options_answer": "Collaborating on code development,Collaborating on design feedback,Collaborating on data analysis,Collaborating on testing strategies",
       "career_mapping": {
-        "enjoy coding with a team": "Software Engineer",
-        "enjoy designing with feedback": "Graphic Designer",
-        "enjoy analyzing data with others": "Data Scientist",
-        "enjoy testing with peers": "Software Tester/Quality Assurance"
+        "Collaborating on code development": "Software Engineer",
+        "Collaborating on design feedback": "Graphic Designer",
+        "Collaborating on data analysis": "Data Scientist",
+        "Collaborating on testing strategies": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 8,
-      "question_text": "What motivates you most in your work?",
-      "options_answer": "solving complex problems,creating beautiful designs,discovering insights from data,ensuring perfect results",
+      "question_text": "What motivates you in your career?",
+      "options_answer": "Innovating with technology,Expressing creativity through design,Driving decisions with data,Maintaining high-quality standards",
       "career_mapping": {
-        "solving complex problems": "Software Engineer",
-        "creating beautiful designs": "Graphic Designer",
-        "discovering insights from data": "Data Scientist",
-        "ensuring perfect results": "Software Tester/Quality Assurance"
+        "Innovating with technology": "Software Engineer",
+        "Expressing creativity through design": "Graphic Designer",
+        "Driving decisions with data": "Data Scientist",
+        "Maintaining high-quality standards": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 9,
-      "question_text": "What long-term goal excites you?",
-      "options_answer": "building innovative software,mastering design trends,advancing data science,perfecting testing processes",
+      "question_text": "What ethical aspect do you value most?",
+      "options_answer": "Ensuring software security,Respecting design ethics,Maintaining data privacy,Promoting software reliability",
       "career_mapping": {
-        "building innovative software": "Software Engineer",
-        "mastering design trends": "Graphic Designer",
-        "advancing data science": "Data Scientist",
-        "perfecting testing processes": "Software Tester/Quality Assurance"
+        "Ensuring software security": "Software Engineer",
+        "Respecting design ethics": "Graphic Designer",
+        "Maintaining data privacy": "Data Scientist",
+        "Promoting software reliability": "Software Tester/Quality Assurance"
       }
     },
     {
       "question_id": 10,
-      "question_text": "What learning style do you prefer?",
-      "options_answer": "prefer hands-on coding,prefer visual design tutorials,prefer data-driven courses,prefer structured testing guides",
+      "question_text": "What long-term learning goal excites you?",
+      "options_answer": "Mastering advanced computing techniques,Becoming a design expert,Leading data science innovations,Excelling in quality assurance practices",
       "career_mapping": {
-        "prefer hands-on coding": "Software Engineer",
-        "prefer visual design tutorials": "Graphic Designer",
-        "prefer data-driven courses": "Data Scientist",
-        "prefer structured testing guides": "Software Tester/Quality Assurance"
+        "Mastering advanced computing techniques": "Software Engineer",
+        "Becoming a design expert": "Graphic Designer",
+        "Leading data science innovations": "Data Scientist",
+        "Excelling in quality assurance practices": "Software Tester/Quality Assurance"
       }
     }
   ]

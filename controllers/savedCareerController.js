@@ -1,5 +1,5 @@
 const { SavedCareer } = require('../models');
-const careerData = require('../careerData/careerMapping.json');
+const careerData = require('../careerdata/careerMapping.json');
 
 // List of valid career names from careerMapping.json
 const validCareers = careerData.careers.map(career => career.career_name);

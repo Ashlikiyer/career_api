@@ -1,4 +1,4 @@
-const { InitialResult, FinalResult, SavedCareer } = require('../models');
+const { InitialResult, FinalResult, SavedCareer, Assessment } = require('../models');
 const { getCareerFromInitialAnswer, evaluateAnswer, finalizeCareer } = require('../services/careerService');
 
 const submitAnswer = async (req, res) => {
@@ -16,6 +16,12 @@ const submitAnswer = async (req, res) => {
     if (!assessment_id || !question_id || !selected_option) {
       console.log('Missing required fields in body:', req.body);
       return res.status(400).json({ error: 'Missing required fields: assessment_id, question_id, and selected_option are required' });
+    }
+
+    // Validate assessment exists
+    const assessment = await Assessment.findByPk(assessment_id);
+    if (!assessment) {
+      return res.status(400).json({ error: 'Invalid assessment ID' });
     }
 
     const user_id = req.user.id;
@@ -63,17 +69,17 @@ const submitAnswer = async (req, res) => {
       let feedbackMessage = '';
       if (career !== currentCareer) {
         req.session.currentCareer = career;
-        req.session.careerHistory[career] = (req.session.careerHistory[career] || 0) + confidence; // Accumulate confidence
-        req.session.currentConfidence = req.session.careerHistory[career]; // Set to cumulative confidence
-        feedbackMessage = careerHistory[career] > 10 ? `Returning to ${career} at ${req.session.careerHistory[career]}% confidence!` : `You've pivoted to ${career} at ${confidence}% confidence!`;
+        req.session.careerHistory[career] = (req.session.careerHistory[career] || 0) + confidence;
+        req.session.currentConfidence = req.session.careerHistory[career];
+        feedbackMessage = req.session.careerHistory[career] > 10 ? `Returning to ${career} at ${req.session.careerHistory[career]}% confidence!` : `You've pivoted to ${career} at ${confidence}% confidence!`;
       } else {
-        req.session.careerHistory[currentCareer] = (req.session.careerHistory[currentCareer] || 0) + confidence; // Accumulate confidence
+        req.session.careerHistory[currentCareer] = (req.session.careerHistory[currentCareer] || 0) + confidence;
         req.session.currentConfidence = req.session.careerHistory[currentCareer];
         feedbackMessage = `You're now at ${req.session.currentConfidence}% confidence for ${currentCareer}!`;
       }
 
       currentCareer = req.session.currentCareer;
-      currentConfidence = req.session.currentConfidence; // Use cumulative confidence
+      currentConfidence = req.session.currentConfidence;
       console.log('Updated state - Career:', currentCareer, 'Confidence:', currentConfidence, 'History:', req.session.careerHistory);
 
       if (currentConfidence >= 90 || question_id >= 10) {
@@ -106,7 +112,7 @@ const submitAnswer = async (req, res) => {
 
       res.json({
         career: currentCareer,
-        confidence: currentConfidence, // Use cumulative confidence in response
+        confidence: currentConfidence,
         feedbackMessage,
         nextQuestionId: parseInt(question_id) + 1,
       });

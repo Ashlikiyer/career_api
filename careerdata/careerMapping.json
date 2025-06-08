@@ -2,17 +2,17 @@
   "careers": [
     {
       "career_name": "Software Engineer",
-      "initial_answer": "Coding",
+      "initial_answer": "Solving computing problems",
       "answer_pattern": {
-        "2": "like programming",
-        "3": "enjoy problem-solving",
-        "4": "prefer working with technology",
-        "5": "interested in learning new languages",
-        "6": "comfortable with debugging",
-        "7": "enjoy coding with a team",
-        "8": "solving complex problems",
-        "9": "building innovative software",
-        "10": "prefer hands-on coding"
+        "2": "Designing algorithms",
+        "3": "Algorithmic challenges",
+        "4": "Technology-driven projects",
+        "5": "Programming and algorithm design",
+        "6": "Building efficient software",
+        "7": "Collaborating on code development",
+        "8": "Innovating with technology",
+        "9": "Ensuring software security",
+        "10": "Mastering advanced computing techniques"
       },
       "confidence_increments": {
         "2": 20,
@@ -28,17 +28,17 @@
     },
     {
       "career_name": "Data Scientist",
-      "initial_answer": "Data Analysis",
+      "initial_answer": "Analyzing data patterns",
       "answer_pattern": {
-        "2": "like data manipulation",
-        "3": "enjoy working with numbers",
-        "4": "prefer statistics",
-        "5": "familiar with machine learning",
-        "6": "enjoy creating visualizations",
-        "7": "enjoy analyzing data with others",
-        "8": "discovering insights from data",
-        "9": "advancing data science",
-        "10": "prefer data-driven courses"
+        "2": "Manipulating datasets",
+        "3": "Statistical analysis challenges",
+        "4": "Data-focused research",
+        "5": "Data modeling and machine learning",
+        "6": "Uncovering data insights",
+        "7": "Collaborating on data analysis",
+        "8": "Driving decisions with data",
+        "9": "Maintaining data privacy",
+        "10": "Leading data science innovations"
       },
       "confidence_increments": {
         "2": 20,
@@ -54,17 +54,17 @@
     },
     {
       "career_name": "Graphic Designer",
-      "initial_answer": "Designing",
+      "initial_answer": "Creating visual designs",
       "answer_pattern": {
-        "2": "like designing websites",
-        "3": "enjoy creativity",
-        "4": "prefer visual arts",
-        "5": "comfortable with design software",
-        "6": "enjoy working with clients",
-        "7": "enjoy designing with feedback",
-        "8": "creating beautiful designs",
-        "9": "mastering design trends",
-        "10": "prefer visual design tutorials"
+        "2": "Working on creative layouts",
+        "3": "Visual design challenges",
+        "4": "Artistic and creative spaces",
+        "5": "Design software proficiency",
+        "6": "Designing impactful visuals",
+        "7": "Collaborating on design feedback",
+        "8": "Expressing creativity through design",
+        "9": "Respecting design ethics",
+        "10": "Becoming a design expert"
       },
       "confidence_increments": {
         "2": 20,
@@ -80,17 +80,17 @@
     },
     {
       "career_name": "Software Tester/Quality Assurance",
-      "initial_answer": "Testing",
+      "initial_answer": "Ensuring software quality",
       "answer_pattern": {
-        "2": "like testing websites",
-        "3": "enjoy finding bugs",
-        "4": "prefer ensuring quality",
-        "5": "detail-oriented",
-        "6": "enjoy working on quality assurance",
-        "7": "enjoy testing with peers",
-        "8": "ensuring perfect results",
-        "9": "perfecting testing processes",
-        "10": "prefer structured testing guides"
+        "2": "Testing software functionality",
+        "3": "Debugging challenges",
+        "4": "Quality assurance processes",
+        "5": "Testing and quality assurance techniques",
+        "6": "Ensuring flawless software performance",
+        "7": "Collaborating on testing strategies",
+        "8": "Maintaining high-quality standards",
+        "9": "Promoting software reliability",
+        "10": "Excelling in quality assurance practices"
       },
       "confidence_increments": {
         "2": 20,

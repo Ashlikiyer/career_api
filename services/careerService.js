@@ -1,5 +1,5 @@
-const careerData = require('../careerData/careerMapping.json');
-const questionsData = require('../careerData/questions.json');
+const careerData = require('../careerdata/careerMapping.json');
+const questionsData = require('../careerdata/questions.json');
 const groq = require('../utils/groqClient');
 
 const getCareerFromInitialAnswer = (answer) => {
