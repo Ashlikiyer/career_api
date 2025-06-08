@@ -1,125 +1,101 @@
-const { InitialResult, FinalResult, SavedCareer, Assessment } = require('../models');
+'use strict';
+
+const { InitialResult, FinalResult, Assessment } = require('../models');
 const { getCareerFromInitialAnswer, evaluateAnswer, finalizeCareer } = require('../services/careerService');
 
 const submitAnswer = async (req, res) => {
   try {
-    console.log('Request headers:', req.headers);
-    console.log('Raw request body:', req.body);
-
-    if (!req.body) {
-      console.log('Request body is undefined');
-      return res.status(400).json({ error: 'Request body is missing or invalid' });
-    }
-
     const { assessment_id, question_id, selected_option } = req.body;
 
     if (!assessment_id || !question_id || !selected_option) {
-      console.log('Missing required fields in body:', req.body);
       return res.status(400).json({ error: 'Missing required fields: assessment_id, question_id, and selected_option are required' });
     }
 
-    // Validate assessment exists
     const assessment = await Assessment.findByPk(assessment_id);
     if (!assessment) {
       return res.status(400).json({ error: 'Invalid assessment ID' });
     }
 
-    const user_id = req.user.id;
-    console.log('User ID:', user_id);
-
-    if (!req.session) {
-      console.log('Session not available');
-      return res.status(500).json({ error: 'Session not available' });
+    if (!req.session || req.session.assessment_id !== assessment_id) {
+      return res.status(400).json({ error: 'Invalid assessment ID. Please start a new assessment.' });
     }
-    console.log('Session data:', req.session);
+
+    const user_id = req.user.id;
 
     await InitialResult.create({
       assessment_id,
       question_id,
       selected_option,
     });
-    console.log('InitialResult created successfully');
 
     const answers = await InitialResult.findAll({ where: { assessment_id } });
-    console.log('Fetched answers:', answers);
-
     let currentCareer = req.session.currentCareer || 'Undecided';
     let currentConfidence = req.session.currentConfidence || 0;
     let careerHistory = req.session.careerHistory || {};
-    console.log('Current state - Career:', currentCareer, 'Confidence:', currentConfidence, 'History:', careerHistory);
 
     if (question_id === 1) {
-      console.log('Processing default question with option:', selected_option);
       const { career, confidence } = getCareerFromInitialAnswer(selected_option);
       req.session.currentCareer = career;
       req.session.currentConfidence = confidence;
       req.session.careerHistory = { [career]: confidence };
       req.session.assessment_id = assessment_id;
-      const feedbackMessage = `Starting quiz! You're at ${confidence}% confidence for ${career}.`;
+
+      const feedbackMessage = `Starting assessment! You're at ${confidence}% confidence for ${career}.`;
       return res.json({ career, confidence, feedbackMessage, nextQuestionId: 2 });
+    }
+
+    const { career, confidence } = await evaluateAnswer(currentCareer, selected_option, question_id, careerHistory);
+
+    let feedbackMessage = '';
+    if (career !== currentCareer) {
+      req.session.currentCareer = career;
+      req.session.careerHistory[career] = (req.session.careerHistory[career] || 0) + confidence;
+      req.session.currentConfidence = req.session.careerHistory[career];
+      feedbackMessage = req.session.careerHistory[career] > 10 ? `Returning to ${career} at ${req.session.careerHistory[career]}% confidence!` : `You've pivoted to ${career} at ${confidence}% confidence!`;
     } else {
-      console.log('Processing subsequent question:', question_id);
-      if (req.session.assessment_id !== assessment_id) {
-        return res.status(400).json({ error: 'Invalid assessment ID. Please start a new quiz.' });
-      }
+      req.session.careerHistory[currentCareer] = (req.session.careerHistory[currentCareer] || 0) + confidence;
+      req.session.currentConfidence = req.session.careerHistory[currentCareer];
+      feedbackMessage = `You're now at ${req.session.currentConfidence}% confidence for ${currentCareer}!`;
+    }
 
-      const { career, confidence } = await evaluateAnswer(currentCareer, selected_option, question_id, careerHistory);
-      console.log('evaluateAnswer result - Career:', career, 'Confidence:', confidence);
+    currentCareer = req.session.currentCareer;
+    currentConfidence = req.session.currentConfidence;
 
-      let feedbackMessage = '';
-      if (career !== currentCareer) {
-        req.session.currentCareer = career;
-        req.session.careerHistory[career] = (req.session.careerHistory[career] || 0) + confidence;
-        req.session.currentConfidence = req.session.careerHistory[career];
-        feedbackMessage = req.session.careerHistory[career] > 10 ? `Returning to ${career} at ${req.session.careerHistory[career]}% confidence!` : `You've pivoted to ${career} at ${confidence}% confidence!`;
-      } else {
-        req.session.careerHistory[currentCareer] = (req.session.careerHistory[currentCareer] || 0) + confidence;
-        req.session.currentConfidence = req.session.careerHistory[currentCareer];
-        feedbackMessage = `You're now at ${req.session.currentConfidence}% confidence for ${currentCareer}!`;
-      }
+    if (currentConfidence >= 90 || question_id >= 10) {
+      const { suggestedCareer, score } = await finalizeCareer(answers);
 
-      currentCareer = req.session.currentCareer;
-      currentConfidence = req.session.currentConfidence;
-      console.log('Updated state - Career:', currentCareer, 'Confidence:', currentConfidence, 'History:', req.session.careerHistory);
+      await FinalResult.create({
+        assessment_id,
+        user_id,
+        career_suggestion: suggestedCareer,
+        score,
+      });
 
-      if (currentConfidence >= 90 || question_id >= 10) {
-        console.log('Finalizing career with answers:', answers);
-        const { suggestedCareer, score } = await finalizeCareer(answers);
-        console.log('finalizeCareer result - Suggested Career:', suggestedCareer, 'Score:', score);
+      feedbackMessage = `Assessment completed! We suggest ${suggestedCareer} with ${score}% confidence.`;
+      req.session.currentCareer = null;
+      req.session.currentConfidence = null;
+      req.session.careerHistory = null;
+      req.session.assessment_id = null;
 
-        await FinalResult.create({
-          assessment_id,
-          user_id,
-          career_suggestion: suggestedCareer,
-          score,
-        });
-
-        feedbackMessage = `Quiz completed! We suggest ${suggestedCareer} with ${score}% confidence.`;
-        req.session.currentCareer = null;
-        req.session.currentConfidence = null;
-        req.session.careerHistory = null;
-        req.session.assessment_id = null;
-
-        return res.status(201).json({
-          message: 'Assessment completed',
-          career_suggestion: suggestedCareer,
-          score,
-          feedbackMessage,
-          saveOption: true,
-          restartOption: true,
-        });
-      }
-
-      res.json({
-        career: currentCareer,
-        confidence: currentConfidence,
+      return res.status(201).json({
+        message: 'Assessment completed',
+        career_suggestion: suggestedCareer,
+        score,
         feedbackMessage,
-        nextQuestionId: parseInt(question_id) + 1,
+        saveOption: true,
+        restartOption: true,
       });
     }
+
+    res.json({
+      career: currentCareer,
+      confidence: currentConfidence,
+      feedbackMessage,
+      nextQuestionId: parseInt(question_id) + 1,
+    });
   } catch (error) {
     console.error('Error submitting answer:', error);
-    res.status(500).json({ error: 'Failed to submit answer' });
+    res.status(500).json({ error: 'Failed to submit answer', details: error.message });
   }
 };
 

@@ -1,5 +1,16 @@
+'use strict';
+
+const { Model } = require('sequelize');
+
 module.exports = (sequelize, DataTypes) => {
-  const FinalResult = sequelize.define('FinalResult', {
+  class FinalResult extends Model {
+    static associate(models) {
+      FinalResult.belongsTo(models.Assessment, { foreignKey: 'assessment_id' });
+      FinalResult.belongsTo(models.User, { foreignKey: 'user_id' });
+    }
+  }
+
+  FinalResult.init({
     result_id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
@@ -22,14 +33,13 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
     },
   }, {
+    sequelize,
+    modelName: 'FinalResult',
     tableName: 'final_results',
-    timestamps: false,
+    timestamps: true,
+    createdAt: 'created_at',
+    updatedAt: 'updated_at',
   });
-
-  FinalResult.associate = (models) => {
-    FinalResult.belongsTo(models.User, { foreignKey: 'user_id' });
-    FinalResult.belongsTo(models.Assessment, { foreignKey: 'assessment_id' });
-  };
 
   return FinalResult;
 };

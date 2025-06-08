@@ -1,24 +1,34 @@
+'use strict';
+
+const { Model } = require('sequelize');
+
 module.exports = (sequelize, DataTypes) => {
-  const Assessment = sequelize.define('Assessment', {
-    assessmentId: {
+  class Assessment extends Model {
+    static associate(models) {
+      Assessment.hasMany(models.Question, { foreignKey: 'assessment_id' });
+      Assessment.hasMany(models.InitialResult, { foreignKey: 'assessment_id' });
+      Assessment.hasMany(models.FinalResult, { foreignKey: 'assessment_id' });
+    }
+  }
+
+  Assessment.init({
+    assessment_id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
-      field: 'assessmentid' // Match the lowercase column name in the database
     },
     name: {
       type: DataTypes.STRING(255),
-      allowNull: false
-    }
+      allowNull: false,
+    },
   }, {
-    tableName: 'assessment',
-    timestamps: false
+    sequelize,
+    modelName: 'Assessment',
+    tableName: 'assessments',
+    timestamps: true,
+    createdAt: 'created_at',
+    updatedAt: 'updated_at',
   });
-
-  Assessment.associate = (models) => {
-    Assessment.hasMany(models.FinalResult, { foreignKey: 'assessment_id' });
-    Assessment.hasMany(models.InitialResult, { foreignKey: 'assessment_id' });
-  };
 
   return Assessment;
 };

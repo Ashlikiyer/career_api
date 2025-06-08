@@ -11,6 +11,11 @@ module.exports = {
       assessment_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: 'assessments',
+          key: 'assessment_id',
+        },
+        onDelete: 'CASCADE',
       },
       question_id: {
         type: Sequelize.INTEGER,
@@ -24,6 +29,16 @@ module.exports = {
       selected_option: {
         type: Sequelize.STRING,
         allowNull: false,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        allowNull: false,
+        defaultValue: Sequelize.fn('NOW'),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        allowNull: false,
+        defaultValue: Sequelize.fn('NOW'),
       },
     });
   },

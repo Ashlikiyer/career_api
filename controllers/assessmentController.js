@@ -1,87 +1,86 @@
-const db = require('../models');
+'use strict';
 
-const createAssessment = async (req, res) => {
+const { Assessment, Question } = require('../models');
+const questionsData = require('../careerdata/questions.json');
+
+const startAssessment = async (req, res) => {
   try {
-    const { name } = req.body;
-    if (!name) {
-      return res.status(400).json({ error: 'Assessment name is required' });
+    if (!req.session) {
+      throw new Error('Session not initialized');
     }
-    const assessment = await db.Assessment.create({ name });
-    req.session.assessment_id = assessment.assessmentId;
-    console.log('Assessment created, ID:', assessment.assessmentId);
-    res.status(201).json({ 
-      assessment_id: assessment.assessmentId, 
-      name: assessment.name 
+
+    req.session.currentCareer = null;
+    req.session.currentConfidence = null;
+    req.session.assessment_id = null;
+
+    const assessment = await Assessment.create({
+      name: `Assessment_${Date.now()}`,
+    });
+    req.session.assessment_id = assessment.assessment_id;
+
+    res.json({
+      ...questionsData.default_question,
+      assessment_id: assessment.assessment_id,
+      question_id: 1,
     });
   } catch (error) {
-    console.error('Error creating assessment:', error);
-    res.status(500).json({ error: 'Failed to create assessment' });
+    console.error('Error in startAssessment:', error);
+    res.status(500).json({ error: 'Failed to start assessment', details: error.message });
   }
 };
 
-const getAssessment = async (req, res) => {
+const getNextQuestion = async (req, res) => {
+  const { currentQuestionId, assessment_id } = req.query;
   try {
-    const { assessmentId } = req.params;
-    const assessment = await db.Assessment.findByPk(assessmentId, {
-      include: [{ model: db.InitialResult, as: 'InitialResults' }],
+    if (!req.session || req.session.assessment_id !== parseInt(assessment_id)) {
+      return res.status(400).json({ error: 'Invalid or missing assessment ID' });
+    }
+
+    const nextQuestionId = parseInt(currentQuestionId) + 1;
+    const nextQuestion = await Question.findOne({
+      where: {
+        question_id: nextQuestionId,
+      },
     });
-    if (!assessment) {
-      return res.status(404).json({ error: 'Assessment not found' });
+
+    if (nextQuestion) {
+      res.json({
+        ...nextQuestion.toJSON(),
+        assessment_id,
+      });
+    } else {
+      res.status(404).json({ message: 'No more questions available' });
     }
-    res.json(assessment);
   } catch (error) {
-    console.error('Error fetching assessment:', error);
-    res.status(500).json({ error: 'Failed to fetch assessment' });
+    console.error('Error in getNextQuestion:', error);
+    res.status(500).json({ error: 'Failed to fetch next question' });
   }
 };
 
-const updateAssessment = async (req, res) => {
+const restartAssessment = async (req, res) => {
   try {
-    const { assessmentId } = req.params;
-    const { name } = req.body;
-    const assessment = await db.Assessment.findByPk(assessmentId);
-    if (!assessment) {
-      return res.status(404).json({ error: 'Assessment not found' });
+    if (!req.session) {
+      throw new Error('Session not initialized');
     }
-    await assessment.update({ name });
-    res.json({ assessment_id: assessment.assessmentId, name: assessment.name });
-  } catch (error) {
-    console.error('Error updating assessment:', error);
-    res.status(500).json({ error: 'Failed to update assessment' });
-  }
-};
 
-const deleteAssessment = async (req, res) => {
-  try {
-    const { assessmentId } = req.params;
-    const assessment = await db.Assessment.findByPk(assessmentId);
-    if (!assessment) {
-      return res.status(404).json({ error: 'Assessment not found' });
-    }
-    await assessment.destroy();
-    res.json({ message: 'Assessment deleted successfully' });
-  } catch (error) {
-    console.error('Error deleting assessment:', error);
-    res.status(500).json({ error: 'Failed to delete assessment' });
-  }
-};
+    req.session.currentCareer = null;
+    req.session.currentConfidence = null;
+    req.session.assessment_id = null;
 
-const getAllAssessments = async (req, res) => {
-  try {
-    const assessments = await db.Assessment.findAll({
-      include: [{ model: db.InitialResult, as: 'InitialResults' }],
+    const assessment = await Assessment.create({
+      name: `Assessment_${Date.now()}`,
     });
-    res.json(assessments);
+    req.session.assessment_id = assessment.assessment_id;
+
+    res.json({
+      message: 'Assessment restarted',
+      nextQuestionId: 1,
+      assessment_id: assessment.assessment_id,
+    });
   } catch (error) {
-    console.error('Error fetching all assessments:', error);
-    res.status(500).json({ error: 'Failed to fetch assessments' });
+    console.error('Error in restartAssessment:', error);
+    res.status(500).json({ error: 'Failed to restart assessment' });
   }
 };
 
-module.exports = {
-  createAssessment,
-  getAssessment,
-  updateAssessment,
-  deleteAssessment,
-  getAllAssessments,
-};
+module.exports = { startAssessment, getNextQuestion, restartAssessment };

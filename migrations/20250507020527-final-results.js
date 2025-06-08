@@ -11,6 +11,11 @@ module.exports = {
       assessment_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: 'assessments',
+          key: 'assessment_id',
+        },
+        onDelete: 'CASCADE',
       },
       user_id: {
         type: Sequelize.INTEGER,
@@ -28,6 +33,16 @@ module.exports = {
       score: {
         type: Sequelize.INTEGER,
         allowNull: false,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        allowNull: false,
+        defaultValue: Sequelize.fn('NOW'),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        allowNull: false,
+        defaultValue: Sequelize.fn('NOW'),
       },
     });
   },

@@ -1,12 +1,19 @@
 const express = require('express');
 const router = express.Router();
-const { createAssessment, getAssessment, updateAssessment, deleteAssessment, getAllAssessments } = require('../controllers/assessmentController');
+const { startAssessment, getNextQuestion, restartAssessment } = require('../controllers/assessmentController');
+const { submitAnswer } = require('../controllers/resultController');
 const authMiddleware = require('../middleware/auth');
 
-router.post('/', authMiddleware, createAssessment);
-router.get('/:assessmentId', authMiddleware, getAssessment);
-router.put('/:assessmentId', authMiddleware, updateAssessment);
-router.delete('/:assessmentId', authMiddleware, deleteAssessment);
-router.get('/', authMiddleware, getAllAssessments);
+// Start a new assessment (creates assessment and returns first question)
+router.get('/start', authMiddleware, startAssessment);
+
+// Get the next question for an assessment
+router.get('/next', authMiddleware, getNextQuestion);
+
+// Submit an answer for a question
+router.post('/answer', authMiddleware, submitAnswer);
+
+// Restart an assessment
+router.post('/restart', authMiddleware, restartAssessment);
 
 module.exports = router;
