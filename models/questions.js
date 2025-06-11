@@ -6,6 +6,7 @@ module.exports = (sequelize, DataTypes) => {
   class Question extends Model {
     static associate(models) {
       Question.hasMany(models.InitialResult, { foreignKey: 'question_id' });
+      Question.belongsTo(models.Assessment, { foreignKey: 'assessment_id' }); // Add this
     }
   }
 
@@ -26,6 +27,14 @@ module.exports = (sequelize, DataTypes) => {
     career_category: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    assessment_id: { // Add this
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      references: {
+        model: 'assessments',
+        key: 'assessment_id',
+      },
     },
   }, {
     sequelize,

@@ -6,8 +6,6 @@ const session = require('express-session');
 const { sequelize } = require("./models");
 const userRoutes = require("./routes/userRoutes");
 const profileRoutes = require("./routes/profileRoutes");
-const questionRoutes = require("./routes/questionRoutes");
-const resultRoutes = require("./routes/resultRoutes");
 const savedCareerRoutes = require("./routes/savedCareerRoutes");
 const roadmapRoutes = require("./routes/roadmapRoutes");
 const assessmentRoutes = require("./routes/assessmentRoutes");
@@ -45,8 +43,6 @@ app.get("/", (req, res) => {
 // Define API routes
 app.use("/api/users", userRoutes);
 app.use("/api/profiles", profileRoutes);
-app.use("/api/questions", questionRoutes);
-app.use("/api/results", resultRoutes);
 app.use("/api/saved-careers", savedCareerRoutes);
 app.use("/api/roadmaps", roadmapRoutes);
 app.use("/api/assessment", assessmentRoutes);
