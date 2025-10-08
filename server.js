@@ -1,14 +1,16 @@
 require("dotenv").config();
 
+const userRoutes = require('./routes/userRoutes');
+const profileRoutes = require('./routes/profileRoutes');
+const savedCareerRoutes = require('./routes/savedCareerRoutes');
+const roadmapRoutes = require('./routes/roadmapRoutes');
+const assessmentRoutes = require('./routes/assessmentRoutes');
+const careerSuggestionRoutes = require('./routes/careerSuggestionRoutes');
+
 const express = require("express");
 const cors = require("cors");
 const session = require('express-session');
 const { sequelize } = require("./models");
-const userRoutes = require("./routes/userRoutes");
-const profileRoutes = require("./routes/profileRoutes");
-const savedCareerRoutes = require("./routes/savedCareerRoutes");
-const roadmapRoutes = require("./routes/roadmapRoutes");
-const assessmentRoutes = require("./routes/assessmentRoutes");
 
 const app = express();
 
@@ -132,6 +134,7 @@ app.use("/api/profiles", profileRoutes);
 app.use("/api/saved-careers", savedCareerRoutes);
 app.use("/api/roadmaps", roadmapRoutes);
 app.use("/api/assessment", assessmentRoutes);
+app.use("/api/career-suggestions", careerSuggestionRoutes);
 
 // Sync database and start server
 const PORT = process.env.PORT || 5000;

@@ -415,6 +415,1462 @@
           ]
         }
       ]
+    },
+    "Web Developer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Learn HTML & CSS Fundamentals",
+          "description": "Master HTML structure, semantic elements, CSS styling, layouts, and responsive design principles.",
+          "duration": "1-2 months",
+          "resources": [
+            "FreeCodeCamp Responsive Web Design (https://www.freecodecamp.org/learn/responsive-web-design)",
+            "MDN Web Docs HTML/CSS (https://developer.mozilla.org/en-US/docs/Web)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Master JavaScript Fundamentals",
+          "description": "Learn JavaScript syntax, DOM manipulation, event handling, and ES6+ features for interactive web development.",
+          "duration": "2-3 months", 
+          "resources": [
+            "JavaScript.info Tutorial (https://javascript.info)",
+            "FreeCodeCamp JavaScript Algorithms (https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Learn Version Control with Git",
+          "description": "Understand Git workflows, GitHub collaboration, and version control best practices for web projects.",
+          "duration": "1 month",
+          "resources": [
+            "GitHub Learning Lab (https://lab.github.com)",
+            "roadmap.sh Git Guide (https://roadmap.sh/git-github)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Build Static Web Projects",
+          "description": "Create responsive websites, landing pages, and portfolios using HTML, CSS, and vanilla JavaScript.",
+          "duration": "1-2 months",
+          "resources": [
+            "Frontend Mentor Challenges (https://www.frontendmentor.io)",
+            "Codepen for Inspiration (https://codepen.io)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Learn a Frontend Framework",
+          "description": "Master React, Vue, or Angular to build dynamic single-page applications and component-based UIs.",
+          "duration": "3-4 months",
+          "resources": [
+            "React Official Tutorial (https://react.dev/learn)",
+            "roadmap.sh Frontend Roadmap (https://roadmap.sh/frontend)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Understand Backend Basics",
+          "description": "Learn Node.js, Express, and RESTful APIs to build full-stack web applications.",
+          "duration": "2-3 months",
+          "resources": [
+            "Node.js Official Docs (https://nodejs.org/en/docs)",
+            "Express.js Tutorial (https://expressjs.com/en/starter/installing.html)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Learn Database Integration",
+          "description": "Work with databases like MongoDB or PostgreSQL to store and manage application data.",
+          "duration": "1-2 months",
+          "resources": [
+            "MongoDB University (https://university.mongodb.com)",
+            "PostgreSQL Tutorial (https://www.postgresqltutorial.com)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Master Web Development Tools",
+          "description": "Learn build tools, bundlers, testing frameworks, and deployment strategies for professional development.",
+          "duration": "1-2 months",
+          "resources": [
+            "Webpack Documentation (https://webpack.js.org)",
+            "Vercel Deployment Guide (https://vercel.com/docs)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Build Full-Stack Projects",
+          "description": "Create complete web applications with authentication, databases, and modern deployment practices.",
+          "duration": "2-3 months",
+          "resources": [
+            "Full Stack Open Course (https://fullstackopen.com)",
+            "roadmap.sh Full Stack Projects (https://roadmap.sh/projects)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Apply for Web Developer Roles",
+          "description": "Build a professional portfolio, practice technical interviews, and apply for web development positions.",
+          "duration": "1-2 months",
+          "resources": [
+            "roadmap.sh Frontend/Backend Roadmaps (https://roadmap.sh)",
+            "LeetCode for Interview Prep (https://leetcode.com)"
+          ]
+        }
+      ]
+    },
+    "Frontend Developer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Master HTML & CSS Advanced Concepts",
+          "description": "Learn semantic HTML, CSS Grid, Flexbox, animations, and modern CSS features for professional layouts.",
+          "duration": "1-2 months",
+          "resources": [
+            "CSS Grid Garden (https://cssgridgarden.com)",
+            "Flexbox Froggy (https://flexboxfroggy.com)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Advanced JavaScript & ES6+",
+          "description": "Master modern JavaScript features, async/await, modules, and advanced programming concepts.",
+          "duration": "2-3 months",
+          "resources": [
+            "You Don't Know JS Book Series (https://github.com/getify/You-Dont-Know-JS)",
+            "JavaScript30 Course (https://javascript30.com)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Learn React or Vue.js",
+          "description": "Master component-based development, state management, and modern frontend framework patterns.",
+          "duration": "3-4 months",
+          "resources": [
+            "React Official Documentation (https://react.dev)",
+            "Vue.js Official Guide (https://vuejs.org/guide)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "State Management & Advanced Patterns",
+          "description": "Learn Redux, Context API, or Vuex for complex state management and application architecture.",
+          "duration": "1-2 months",
+          "resources": [
+            "Redux Toolkit Documentation (https://redux-toolkit.js.org)",
+            "React Patterns (https://reactpatterns.com)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Build Tools & Module Bundlers",
+          "description": "Master Webpack, Vite, or Parcel for optimizing and bundling frontend applications.",
+          "duration": "1 month",
+          "resources": [
+            "Vite Documentation (https://vitejs.dev)",
+            "Webpack Academy (https://webpack.academy)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Testing Frontend Applications",
+          "description": "Learn Jest, React Testing Library, and end-to-end testing with Cypress or Playwright.",
+          "duration": "1-2 months",
+          "resources": [
+            "Testing Library Docs (https://testing-library.com)",
+            "Cypress Documentation (https://docs.cypress.io)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Performance Optimization",
+          "description": "Learn code splitting, lazy loading, performance monitoring, and web vitals optimization.",
+          "duration": "1-2 months",
+          "resources": [
+            "Web.dev Performance (https://web.dev/performance)",
+            "Google PageSpeed Insights (https://pagespeed.web.dev)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Mobile-First & Accessibility",
+          "description": "Master responsive design, progressive web apps, and web accessibility standards (WCAG).",
+          "duration": "1-2 months",
+          "resources": [
+            "A11y Project (https://www.a11yproject.com)",
+            "PWA Documentation (https://web.dev/progressive-web-apps)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Advanced Frontend Projects",
+          "description": "Build complex SPAs, component libraries, and contribute to open-source frontend projects.",
+          "duration": "2-3 months",
+          "resources": [
+            "Frontend Mentor Advanced (https://www.frontendmentor.io)",
+            "Open Source Frontend Projects (https://github.com/topics/frontend)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Career Development & Specialization",
+          "description": "Build a standout portfolio, contribute to tech communities, and specialize in areas like design systems.",
+          "duration": "Ongoing",
+          "resources": [
+            "Design Systems Repo (https://designsystemsrepo.com)",
+            "Frontend Developer Handbook (https://frontendmasters.com/guides/front-end-handbook)"
+          ]
+        }
+      ]
+    },
+    "Backend Developer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Learn Programming Language Fundamentals",
+          "description": "Master Python, Node.js, Java, or C# for server-side development with focus on backend patterns.",
+          "duration": "2-3 months",
+          "resources": [
+            "Python for Backend (https://fastapi.tiangolo.com)",
+            "Node.js Backend Guide (https://nodejs.dev/learn)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Understand Databases & SQL",
+          "description": "Learn relational databases (PostgreSQL, MySQL) and SQL for data modeling and querying.",
+          "duration": "1-2 months",
+          "resources": [
+            "PostgreSQL Tutorial (https://www.postgresqltutorial.com)",
+            "SQL Bolt Interactive Tutorial (https://sqlbolt.com)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Master Web Frameworks",
+          "description": "Learn backend frameworks like Express.js, FastAPI, Spring Boot, or ASP.NET for building APIs.",
+          "duration": "2-3 months",
+          "resources": [
+            "Express.js Documentation (https://expressjs.com)",
+            "FastAPI Tutorial (https://fastapi.tiangolo.com/tutorial)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "API Design & RESTful Services",
+          "description": "Master REST API design, HTTP methods, status codes, and API documentation with OpenAPI/Swagger.",
+          "duration": "1-2 months",
+          "resources": [
+            "REST API Tutorial (https://restfulapi.net)",
+            "Swagger Documentation (https://swagger.io/docs)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Authentication & Security",
+          "description": "Implement JWT authentication, OAuth, password hashing, and security best practices.",
+          "duration": "1-2 months",
+          "resources": [
+            "OWASP Top 10 (https://owasp.org/www-project-top-ten)",
+            "JWT Introduction (https://jwt.io/introduction)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Database Design & ORM",
+          "description": "Learn database normalization, indexing, and Object-Relational Mapping tools like Sequelize or SQLAlchemy.",
+          "duration": "1-2 months",
+          "resources": [
+            "Database Design Course (https://www.coursera.org/learn/database-design)",
+            "Sequelize Documentation (https://sequelize.org)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Caching & Performance",
+          "description": "Implement caching strategies with Redis, database optimization, and application performance monitoring.",
+          "duration": "1-2 months",
+          "resources": [
+            "Redis Documentation (https://redis.io/docs)",
+            "Database Performance Tuning (https://use-the-index-luke.com)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Testing & Quality Assurance",
+          "description": "Learn unit testing, integration testing, and test-driven development for backend applications.",
+          "duration": "1-2 months",
+          "resources": [
+            "Jest Testing Framework (https://jestjs.io)",
+            "Test-Driven Development Guide (https://testdriven.io)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Deployment & DevOps Basics",
+          "description": "Learn containerization with Docker, cloud deployment (AWS/GCP), and CI/CD pipelines.",
+          "duration": "2-3 months",
+          "resources": [
+            "Docker Documentation (https://docs.docker.com)",
+            "AWS Getting Started (https://aws.amazon.com/getting-started)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Advanced Backend Concepts",
+          "description": "Learn microservices, message queues, GraphQL, and system design for scalable applications.",
+          "duration": "2-3 months",
+          "resources": [
+            "System Design Primer (https://github.com/donnemartin/system-design-primer)",
+            "GraphQL Documentation (https://graphql.org/learn)"
+          ]
+        }
+      ]
+    },
+    "Mobile App Developer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Choose Development Platform",
+          "description": "Decide between native (iOS/Android) or cross-platform (React Native, Flutter) development approach.",
+          "duration": "1 week",
+          "resources": [
+            "React Native Documentation (https://reactnative.dev)",
+            "Flutter Documentation (https://docs.flutter.dev)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Learn Programming Language",
+          "description": "Master Swift/Objective-C for iOS, Kotlin/Java for Android, or JavaScript/Dart for cross-platform.",
+          "duration": "2-3 months",
+          "resources": [
+            "Swift Programming Guide (https://docs.swift.org/swift-book)",
+            "Kotlin Documentation (https://kotlinlang.org/docs)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Mobile UI/UX Fundamentals",
+          "description": "Learn mobile design patterns, navigation, touch interactions, and platform-specific guidelines.",
+          "duration": "1-2 months",
+          "resources": [
+            "Apple Human Interface Guidelines (https://developer.apple.com/design/human-interface-guidelines)",
+            "Material Design Guidelines (https://material.io/design)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Development Environment Setup",
+          "description": "Set up IDEs (Xcode, Android Studio, VS Code), emulators, and development tools for mobile apps.",
+          "duration": "1 week",
+          "resources": [
+            "Xcode Documentation (https://developer.apple.com/xcode)",
+            "Android Studio Guide (https://developer.android.com/studio)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Build Basic Mobile Apps",
+          "description": "Create simple apps with navigation, forms, lists, and basic functionality to practice fundamentals.",
+          "duration": "1-2 months",
+          "resources": [
+            "React Native Tutorial (https://reactnative.dev/docs/tutorial)",
+            "Flutter Codelabs (https://docs.flutter.dev/codelabs)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "State Management & Data Storage",
+          "description": "Learn state management patterns and local data storage (SQLite, Core Data, Realm).",
+          "duration": "1-2 months",
+          "resources": [
+            "Redux for React Native (https://redux.js.org)",
+            "SQLite Tutorial (https://www.sqlite.org/docs.html)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "API Integration & Networking",
+          "description": "Connect apps to web services, handle HTTP requests, and implement real-time features.",
+          "duration": "1-2 months",
+          "resources": [
+            "Axios for HTTP Requests (https://axios-http.com)",
+            "RESTful API Integration Guide (https://restfulapi.net)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Device Features & Native APIs",
+          "description": "Access camera, GPS, push notifications, sensors, and other device-specific features.",
+          "duration": "1-2 months",
+          "resources": [
+            "React Native Community Packages (https://github.com/react-native-community)",
+            "Flutter Packages (https://pub.dev)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Testing & Debugging",
+          "description": "Learn unit testing, integration testing, and debugging techniques for mobile applications.",
+          "duration": "1-2 months",
+          "resources": [
+            "Detox E2E Testing (https://github.com/wix/Detox)",
+            "Flutter Testing Guide (https://docs.flutter.dev/testing)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "App Store Deployment",
+          "description": "Learn app store guidelines, build processes, and deployment to iOS App Store and Google Play.",
+          "duration": "1 month",
+          "resources": [
+            "App Store Connect Guide (https://developer.apple.com/app-store-connect)",
+            "Google Play Console (https://developer.android.com/distribute/console)"
+          ]
+        }
+      ]
+    },
+    "UX/UI Designer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Design Fundamentals",
+          "description": "Learn color theory, typography, layout principles, visual hierarchy, and basic design concepts.",
+          "duration": "1-2 months",
+          "resources": [
+            "Design Better Course (https://www.designbetter.co)",
+            "Canva Design School (https://www.canva.com/learn)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "User Experience Principles",
+          "description": "Understand user-centered design, usability principles, and human-computer interaction concepts.",
+          "duration": "1-2 months",
+          "resources": [
+            "Don't Make Me Think by Steve Krug",
+            "UX Design Course by Google (https://www.coursera.org/learn/ux-design-fundamentals)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Design Tools Mastery",
+          "description": "Master Figma, Sketch, or Adobe XD for creating wireframes, mockups, and interactive prototypes.",
+          "duration": "1-2 months",
+          "resources": [
+            "Figma Academy (https://www.figma.com/academy)",
+            "Adobe XD Tutorials (https://helpx.adobe.com/xd)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "User Research Methods",
+          "description": "Learn user interviews, surveys, usability testing, and other research methods for understanding users.",
+          "duration": "1-2 months",
+          "resources": [
+            "User Research Methods (https://www.nngroup.com/articles/which-ux-research-methods)",
+            "UserTesting Platform (https://www.usertesting.com)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Information Architecture",
+          "description": "Learn to organize content, create user flows, site maps, and navigation structures.",
+          "duration": "1 month",
+          "resources": [
+            "Information Architecture Basics (https://www.usability.gov/what-and-why/information-architecture.html)",
+            "Optimal Workshop Tools (https://www.optimalworkshop.com)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Wireframing & Prototyping",
+          "description": "Create low-fidelity wireframes and high-fidelity interactive prototypes for user testing.",
+          "duration": "1-2 months",
+          "resources": [
+            "Wireframing Best Practices (https://balsamiq.com/learn)",
+            "InVision Prototyping (https://www.invisionapp.com/inside-design/guide-to-prototyping)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Responsive & Mobile Design",
+          "description": "Design for multiple screen sizes, mobile-first approach, and touch interfaces.",
+          "duration": "1-2 months",
+          "resources": [
+            "Responsive Design Principles (https://web.dev/responsive-web-design-basics)",
+            "Mobile Design Patterns (https://pttrns.com)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Accessibility & Inclusive Design",
+          "description": "Learn WCAG guidelines, inclusive design principles, and designing for users with disabilities.",
+          "duration": "1 month",
+          "resources": [
+            "Web Accessibility Guidelines (https://www.w3.org/WAI/WCAG21/quickref)",
+            "Inclusive Design Toolkit (https://www.microsoft.com/design/inclusive)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Design Systems & Style Guides",
+          "description": "Create consistent design systems, component libraries, and maintain design documentation.",
+          "duration": "1-2 months",
+          "resources": [
+            "Design Systems Handbook (https://www.designbetter.co/design-systems-handbook)",
+            "Storybook for Design Systems (https://storybook.js.org/tutorials/design-systems-for-developers)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Portfolio & Career Development",
+          "description": "Build a strong UX/UI portfolio, case studies, and prepare for design interviews.",
+          "duration": "1-2 months",
+          "resources": [
+            "UX Portfolio Examples (https://uxdesign.cc/ux-portfolio-guide)",
+            "Dribbble for Inspiration (https://dribbble.com)"
+          ]
+        }
+      ]
+    },
+    "Machine Learning Engineer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Mathematics & Statistics Foundation",
+          "description": "Master linear algebra, calculus, probability, and statistics essential for machine learning algorithms.",
+          "duration": "2-3 months",
+          "resources": [
+            "Khan Academy Linear Algebra (https://www.khanacademy.org/math/linear-algebra)",
+            "Statistics Course by MIT (https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Python Programming for ML",
+          "description": "Learn Python with focus on NumPy, Pandas, Matplotlib for data manipulation and analysis.",
+          "duration": "1-2 months",
+          "resources": [
+            "Python for Data Science (https://www.datacamp.com/tracks/data-scientist-with-python)",
+            "NumPy Documentation (https://numpy.org/doc/stable)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Machine Learning Fundamentals",
+          "description": "Understand supervised/unsupervised learning, regression, classification, and clustering algorithms.",
+          "duration": "2-3 months",
+          "resources": [
+            "Machine Learning Course by Andrew Ng (https://www.coursera.org/learn/machine-learning)",
+            "Scikit-learn Documentation (https://scikit-learn.org/stable)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Deep Learning & Neural Networks",
+          "description": "Learn neural networks, backpropagation, and deep learning frameworks like TensorFlow or PyTorch.",
+          "duration": "2-3 months",
+          "resources": [
+            "Deep Learning Specialization (https://www.coursera.org/specializations/deep-learning)",
+            "PyTorch Tutorials (https://pytorch.org/tutorials)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Data Engineering & MLOps",
+          "description": "Learn data pipelines, model deployment, version control for ML, and production systems.",
+          "duration": "2-3 months",
+          "resources": [
+            "MLflow for ML Lifecycle (https://mlflow.org/docs/latest/index.html)",
+            "Apache Airflow Tutorial (https://airflow.apache.org/docs/apache-airflow/stable/tutorial.html)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Specialized ML Domains",
+          "description": "Choose specialization: Computer Vision, NLP, Reinforcement Learning, or Time Series Analysis.",
+          "duration": "2-3 months",
+          "resources": [
+            "Computer Vision Course (https://www.coursera.org/learn/convolutional-neural-networks)",
+            "NLP with Deep Learning (https://web.stanford.edu/class/cs224n)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Cloud ML Platforms",
+          "description": "Learn cloud ML services like AWS SageMaker, Google AI Platform, or Azure ML Studio.",
+          "duration": "1-2 months",
+          "resources": [
+            "AWS SageMaker Documentation (https://docs.aws.amazon.com/sagemaker)",
+            "Google Cloud AI Platform (https://cloud.google.com/ai-platform/docs)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Model Optimization & Scaling",
+          "description": "Learn model compression, quantization, distributed training, and performance optimization.",
+          "duration": "1-2 months",
+          "resources": [
+            "TensorFlow Model Optimization (https://www.tensorflow.org/model_optimization)",
+            "Distributed Training Guide (https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "ML System Design",
+          "description": "Design end-to-end ML systems, handle data at scale, and understand system architecture patterns.",
+          "duration": "1-2 months",
+          "resources": [
+            "Designing ML Systems Book by Chip Huyen",
+            "System Design for ML (https://github.com/chiphuyen/machine-learning-systems-design)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Industry Projects & Deployment",
+          "description": "Build complete ML projects, contribute to open source, and deploy models in production environments.",
+          "duration": "2-3 months",
+          "resources": [
+            "Kaggle Competitions (https://www.kaggle.com/competitions)",
+            "Papers with Code (https://paperswithcode.com)"
+          ]
+        }
+      ]
+    },
+    "Database Administrator": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Database Fundamentals",
+          "description": "Learn relational database concepts, ACID properties, normalization, and database design principles.",
+          "duration": "1-2 months",
+          "resources": [
+            "Database Systems Concepts (https://www.db-book.com)",
+            "SQL Tutorial (https://www.w3schools.com/sql)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Master SQL",
+          "description": "Learn advanced SQL queries, joins, subqueries, stored procedures, and database programming.",
+          "duration": "2-3 months",
+          "resources": [
+            "PostgreSQL Documentation (https://www.postgresql.org/docs)",
+            "SQL Performance Tuning (https://use-the-index-luke.com)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Database Administration",
+          "description": "Learn user management, security, backup/recovery, and database maintenance procedures.",
+          "duration": "2-3 months",
+          "resources": [
+            "MySQL Administrator Guide (https://dev.mysql.com/doc/mysql-administrator/en)",
+            "Oracle DBA Certification (https://education.oracle.com/database-administration)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Performance Tuning",
+          "description": "Master query optimization, indexing strategies, and database performance monitoring.",
+          "duration": "1-2 months",
+          "resources": [
+            "Database Performance Tuning (https://www.percona.com/resources)",
+            "Index Tuning Wizard (https://docs.microsoft.com/sql/relational-databases/indexes)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Backup & Recovery",
+          "description": "Implement backup strategies, disaster recovery plans, and high availability solutions.",
+          "duration": "1-2 months",
+          "resources": [
+            "PostgreSQL Backup Guide (https://www.postgresql.org/docs/current/backup.html)",
+            "MySQL Replication (https://dev.mysql.com/doc/refman/8.0/en/replication.html)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Database Security",
+          "description": "Learn authentication, authorization, encryption, and security best practices for databases.",
+          "duration": "1 month",
+          "resources": [
+            "Database Security Guide (https://owasp.org/www-community/attacks/SQL_Injection)",
+            "Encryption at Rest (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Cloud Database Services",
+          "description": "Work with cloud databases like AWS RDS, Google Cloud SQL, and Azure Database services.",
+          "duration": "1-2 months",
+          "resources": [
+            "AWS RDS Documentation (https://docs.aws.amazon.com/rds)",
+            "Google Cloud SQL (https://cloud.google.com/sql/docs)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "NoSQL Databases",
+          "description": "Learn MongoDB, Cassandra, or Redis for non-relational data management needs.",
+          "duration": "1-2 months",
+          "resources": [
+            "MongoDB Administration (https://docs.mongodb.com/manual/administration)",
+            "Redis Documentation (https://redis.io/documentation)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Automation & Scripting",
+          "description": "Automate database tasks using scripting languages and database automation tools.",
+          "duration": "1-2 months",
+          "resources": [
+            "PowerShell for SQL Server (https://docs.microsoft.com/powershell/scripting/overview)",
+            "Database DevOps (https://www.redgate.com/solutions/database-devops)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Professional Certification",
+          "description": "Obtain database certifications and build expertise in specific database platforms.",
+          "duration": "2-3 months",
+          "resources": [
+            "Oracle Database Certification (https://education.oracle.com/database)",
+            "Microsoft SQL Server Certification (https://docs.microsoft.com/learn/certifications)"
+          ]
+        }
+      ]
+    },
+    "Systems Administrator": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Operating Systems Fundamentals",
+          "description": "Master Linux/Unix and Windows Server administration, command line interfaces, and system architecture.",
+          "duration": "2-3 months",
+          "resources": [
+            "Linux Academy (https://linuxacademy.com)",
+            "Windows Server Documentation (https://docs.microsoft.com/windows-server)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Networking & Security",
+          "description": "Learn TCP/IP, DNS, DHCP, firewalls, VPNs, and network security fundamentals.",
+          "duration": "2-3 months",
+          "resources": [
+            "CompTIA Network+ Study Guide",
+            "Cisco Networking Academy (https://www.netacad.com)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Virtualization & Containers",
+          "description": "Master VMware, Hyper-V, Docker, and container orchestration with Kubernetes.",
+          "duration": "1-2 months",
+          "resources": [
+            "Docker Documentation (https://docs.docker.com)",
+            "Kubernetes Official Tutorial (https://kubernetes.io/docs/tutorials)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Cloud Platforms",
+          "description": "Learn AWS, Azure, or Google Cloud Platform for cloud infrastructure management.",
+          "duration": "2-3 months",
+          "resources": [
+            "AWS Solutions Architect (https://aws.amazon.com/certification)",
+            "Azure Fundamentals (https://docs.microsoft.com/learn/paths/azure-fundamentals)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Scripting & Automation",
+          "description": "Master PowerShell, Bash, Python for automating system administration tasks.",
+          "duration": "1-2 months",
+          "resources": [
+            "PowerShell Documentation (https://docs.microsoft.com/powershell)",
+            "Bash Scripting Tutorial (https://www.shellscript.sh)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Monitoring & Performance",
+          "description": "Implement system monitoring, log analysis, and performance optimization strategies.",
+          "duration": "1-2 months",
+          "resources": [
+            "Nagios Documentation (https://www.nagios.org/documentation)",
+            "ELK Stack Tutorial (https://www.elastic.co/guide/index.html)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Backup & Disaster Recovery",
+          "description": "Design and implement backup strategies, disaster recovery plans, and business continuity.",
+          "duration": "1-2 months",
+          "resources": [
+            "Disaster Recovery Planning (https://www.ready.gov/business/implementation/IT)",
+            "Veeam Backup Solutions (https://www.veeam.com/documentation-guides-datasheets.html)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Configuration Management",
+          "description": "Learn Ansible, Puppet, or Chef for infrastructure as code and configuration management.",
+          "duration": "1-2 months",
+          "resources": [
+            "Ansible Documentation (https://docs.ansible.com)",
+            "Terraform Tutorial (https://learn.hashicorp.com/terraform)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Security & Compliance",
+          "description": "Implement security policies, compliance frameworks, and incident response procedures.",
+          "duration": "1-2 months",
+          "resources": [
+            "NIST Cybersecurity Framework (https://www.nist.gov/cyberframework)",
+            "Security+ Certification Guide"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Advanced Specializations",
+          "description": "Specialize in areas like DevOps, cloud architecture, or security administration.",
+          "duration": "Ongoing",
+          "resources": [
+            "DevOps Roadmap (https://roadmap.sh/devops)",
+            "Cloud Security Alliance (https://cloudsecurityalliance.org)"
+          ]
+        }
+      ]
+    },
+    "Computer Systems Analyst": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Business Analysis Fundamentals",
+          "description": "Learn business process analysis, requirements gathering, and stakeholder management techniques.",
+          "duration": "1-2 months",
+          "resources": [
+            "BABOK Guide (https://www.iiba.org/standards-and-resources/babok)",
+            "Business Analysis Certification (https://www.iiba.org/certification-recognition/certifications)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Systems Analysis & Design",
+          "description": "Master system development lifecycle, UML modeling, and system architecture principles.",
+          "duration": "2-3 months",
+          "resources": [
+            "Systems Analysis and Design Book by Kendall & Kendall",
+            "UML Tutorial (https://www.uml-diagrams.org)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Database & Data Analysis",
+          "description": "Learn SQL, data modeling, and data analysis techniques for business intelligence.",
+          "duration": "1-2 months",
+          "resources": [
+            "SQL for Data Analysis (https://mode.com/sql-tutorial)",
+            "Data Modeling Best Practices (https://www.dataversity.net/data-modeling)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Project Management",
+          "description": "Understand project management methodologies, Agile, Scrum, and project planning tools.",
+          "duration": "1-2 months",
+          "resources": [
+            "Project Management Body of Knowledge (PMBOK)",
+            "Scrum Guide (https://scrumguides.org/scrum-guide.html)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Technology Stack Understanding",
+          "description": "Gain technical knowledge of programming languages, frameworks, and enterprise systems.",
+          "duration": "2-3 months",
+          "resources": [
+            "Enterprise Architecture Fundamentals",
+            "Programming Language Overview (https://www.pluralsight.com)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Process Improvement",
+          "description": "Learn Lean, Six Sigma, and process optimization methodologies for business efficiency.",
+          "duration": "1-2 months",
+          "resources": [
+            "Lean Six Sigma Certification",
+            "Process Improvement Guide (https://www.processexcellencenetwork.com)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Documentation & Communication",
+          "description": "Master technical writing, documentation standards, and presentation skills.",
+          "duration": "1 month",
+          "resources": [
+            "Technical Writing Course (https://developers.google.com/tech-writing)",
+            "Confluence Documentation (https://www.atlassian.com/software/confluence)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Cloud & Digital Transformation",
+          "description": "Understand cloud computing, digital transformation strategies, and modern IT architecture.",
+          "duration": "1-2 months",
+          "resources": [
+            "Cloud Computing Fundamentals (https://aws.amazon.com/getting-started)",
+            "Digital Transformation Guide (https://www.mckinsey.com/business-functions/mckinsey-digital)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Industry Specialization",
+          "description": "Develop expertise in specific industries like healthcare, finance, or manufacturing.",
+          "duration": "2-3 months",
+          "resources": [
+            "Industry-specific certifications",
+            "Domain knowledge courses (https://www.coursera.org)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Leadership & Strategy",
+          "description": "Develop leadership skills and strategic thinking for senior analyst roles.",
+          "duration": "Ongoing",
+          "resources": [
+            "IT Strategy & Leadership (https://www.cio.com)",
+            "Executive Education Programs"
+          ]
+        }
+      ]
+    },
+    "Game Developer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Game Development Fundamentals",
+          "description": "Learn game design principles, game loops, player psychology, and basic game mechanics.",
+          "duration": "1-2 months",
+          "resources": [
+            "Game Design Workshop by Tracy Fullerton",
+            "Gamasutra Game Design Articles (https://www.gamasutra.com)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Programming Language for Games",
+          "description": "Master C# (Unity), C++ (Unreal), or JavaScript for game development fundamentals.",
+          "duration": "2-3 months",
+          "resources": [
+            "C# Programming Guide (https://docs.microsoft.com/dotnet/csharp)",
+            "C++ Game Development Tutorial (https://www.learncpp.com)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Game Engine Mastery",
+          "description": "Learn Unity, Unreal Engine, or Godot for creating 2D and 3D games efficiently.",
+          "duration": "3-4 months",
+          "resources": [
+            "Unity Learn Platform (https://learn.unity.com)",
+            "Unreal Engine Documentation (https://docs.unrealengine.com)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Mathematics for Games",
+          "description": "Master vectors, matrices, trigonometry, and physics concepts essential for game programming.",
+          "duration": "1-2 months",
+          "resources": [
+            "Mathematics for 3D Game Programming (https://gamemath.com)",
+            "Khan Academy Linear Algebra (https://www.khanacademy.org/math/linear-algebra)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Graphics & Animation",
+          "description": "Learn 2D/3D graphics programming, shaders, animation systems, and visual effects.",
+          "duration": "2-3 months",
+          "resources": [
+            "Real-Time Rendering Book",
+            "Blender for Game Assets (https://www.blender.org/support/tutorials)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Game Physics & AI",
+          "description": "Implement physics systems, collision detection, pathfinding, and AI behavior systems.",
+          "duration": "2-3 months",
+          "resources": [
+            "Game Physics Engine Development by Ian Millington",
+            "AI for Games Programming (https://www.red3d.com/cwr/boids)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Audio & Sound Design",
+          "description": "Integrate audio systems, sound effects, music, and spatial audio in games.",
+          "duration": "1 month",
+          "resources": [
+            "FMOD Audio Engine (https://www.fmod.com/resources)",
+            "Wwise Audio Engine (https://www.audiokinetic.com/library)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Multiplayer & Networking",
+          "description": "Learn networking concepts, client-server architecture, and multiplayer game development.",
+          "duration": "2-3 months",
+          "resources": [
+            "Multiplayer Game Programming by Joshua Glazer",
+            "Photon Networking (https://www.photonengine.com/pun)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Game Optimization & Performance",
+          "description": "Optimize games for different platforms, profile performance, and manage memory efficiently.",
+          "duration": "1-2 months",
+          "resources": [
+            "Unity Performance Optimization (https://learn.unity.com/tutorial/fixing-performance-problems)",
+            "Unreal Engine Optimization (https://docs.unrealengine.com/4.27/en-US/TestingAndOptimization/PerformanceAndProfiling)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Publishing & Portfolio",
+          "description": "Learn game publishing, marketing, platform requirements, and build a strong portfolio.",
+          "duration": "1-2 months",
+          "resources": [
+            "Steam Developer Documentation (https://partner.steamgames.com/doc)",
+            "Game Developer Portfolio Guide (https://www.gamasutra.com/blogs/JasonBakker/20131209/207529/A_Guide_to_Getting_Your_First_Job_as_a_Game_Programmer.php)"
+          ]
+        }
+      ]
+    },
+    "DevOps Engineer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Linux & Command Line Mastery",
+          "description": "Master Linux administration, shell scripting, and command-line tools for system management.",
+          "duration": "1-2 months",
+          "resources": [
+            "Linux Command Line Tutorial (https://linuxcommand.org)",
+            "Bash Scripting Guide (https://www.shellscript.sh)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Version Control & Git",
+          "description": "Learn advanced Git workflows, branching strategies, and collaborative development practices.",
+          "duration": "1 month",
+          "resources": [
+            "Pro Git Book (https://git-scm.com/book)",
+            "Git Workflows (https://www.atlassian.com/git/tutorials/comparing-workflows)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Containerization & Docker",
+          "description": "Master Docker containers, image creation, multi-stage builds, and container orchestration basics.",
+          "duration": "1-2 months",
+          "resources": [
+            "Docker Official Documentation (https://docs.docker.com)",
+            "Docker Deep Dive by Nigel Poulton"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Kubernetes & Orchestration",
+          "description": "Learn Kubernetes clusters, deployments, services, and container orchestration at scale.",
+          "duration": "2-3 months",
+          "resources": [
+            "Kubernetes Documentation (https://kubernetes.io/docs)",
+            "Certified Kubernetes Administrator (CKA) Prep"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Infrastructure as Code",
+          "description": "Master Terraform, CloudFormation, or Pulumi for automated infrastructure provisioning.",
+          "duration": "1-2 months",
+          "resources": [
+            "Terraform Documentation (https://www.terraform.io/docs)",
+            "Infrastructure as Code Patterns and Practices by Rosemary Wang"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "CI/CD Pipelines",
+          "description": "Build automated deployment pipelines with Jenkins, GitLab CI, GitHub Actions, or Azure DevOps.",
+          "duration": "1-2 months",
+          "resources": [
+            "Jenkins Documentation (https://www.jenkins.io/doc)",
+            "GitHub Actions Guide (https://docs.github.com/actions)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Cloud Platforms",
+          "description": "Master AWS, Azure, or Google Cloud Platform services and cloud-native architectures.",
+          "duration": "2-3 months",
+          "resources": [
+            "AWS Solutions Architect Certification",
+            "Azure DevOps Engineer Certification"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Monitoring & Observability",
+          "description": "Implement monitoring, logging, and alerting with Prometheus, Grafana, ELK stack, or similar tools.",
+          "duration": "1-2 months",
+          "resources": [
+            "Prometheus Documentation (https://prometheus.io/docs)",
+            "Observability Engineering by Charity Majors"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Security & Compliance",
+          "description": "Learn DevSecOps practices, security scanning, compliance automation, and security best practices.",
+          "duration": "1-2 months",
+          "resources": [
+            "DevSecOps Practices (https://www.devsecops.org)",
+            "OWASP DevSecOps Guide"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Advanced DevOps Practices",
+          "description": "Master GitOps, service mesh, chaos engineering, and site reliability engineering (SRE).",
+          "duration": "2-3 months",
+          "resources": [
+            "Site Reliability Engineering Book by Google",
+            "GitOps Principles (https://www.gitops.tech)"
+          ]
+        }
+      ]
+    },
+    "Business Intelligence Analyst": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Business Intelligence Fundamentals",
+          "description": "Learn BI concepts, data warehousing, ETL processes, and business analytics principles.",
+          "duration": "1-2 months",
+          "resources": [
+            "The Data Warehouse Toolkit by Ralph Kimball",
+            "Business Intelligence Course (https://www.coursera.org/learn/business-intelligence-analysis)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "SQL & Database Skills",
+          "description": "Master advanced SQL queries, window functions, and database optimization for analytics.",
+          "duration": "1-2 months",
+          "resources": [
+            "Advanced SQL Tutorial (https://mode.com/sql-tutorial/advanced)",
+            "SQL for Business Intelligence"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Data Visualization Tools",
+          "description": "Learn Tableau, Power BI, or Qlik Sense for creating interactive dashboards and reports.",
+          "duration": "2-3 months",
+          "resources": [
+            "Tableau Learning Path (https://www.tableau.com/learn)",
+            "Power BI Documentation (https://docs.microsoft.com/power-bi)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Statistical Analysis",
+          "description": "Understand descriptive statistics, hypothesis testing, and statistical methods for business insights.",
+          "duration": "1-2 months",
+          "resources": [
+            "Statistics for Business and Economics",
+            "Khan Academy Statistics (https://www.khanacademy.org/math/statistics-probability)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Data Modeling & Warehousing",
+          "description": "Learn dimensional modeling, star schemas, and data warehouse design patterns.",
+          "duration": "1-2 months",
+          "resources": [
+            "Data Modeling Essentials by Graeme Simsion",
+            "Kimball Dimensional Modeling Techniques"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "ETL & Data Integration",
+          "description": "Master ETL tools like SSIS, Talend, or Informatica for data extraction and transformation.",
+          "duration": "1-2 months",
+          "resources": [
+            "SSIS Tutorial (https://docs.microsoft.com/sql/integration-services)",
+            "Talend Documentation (https://help.talend.com)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Business Requirements Analysis",
+          "description": "Learn to gather business requirements, define KPIs, and translate business needs into technical solutions.",
+          "duration": "1 month",
+          "resources": [
+            "Business Analysis Body of Knowledge (BABOK)",
+            "Requirements Engineering Course"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Advanced Analytics & Machine Learning",
+          "description": "Explore predictive analytics, data mining, and basic machine learning for business insights.",
+          "duration": "2-3 months",
+          "resources": [
+            "Data Mining Concepts and Techniques",
+            "Machine Learning for Business Analytics"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Cloud BI Platforms",
+          "description": "Learn cloud-based BI solutions like AWS QuickSight, Google Data Studio, or Azure Analytics.",
+          "duration": "1-2 months",
+          "resources": [
+            "AWS QuickSight User Guide",
+            "Google Data Studio Tutorial (https://analytics.google.com/analytics/academy)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Industry Specialization & Leadership",
+          "description": "Develop domain expertise in specific industries and leadership skills for senior BI roles.",
+          "duration": "Ongoing",
+          "resources": [
+            "Industry-specific BI best practices",
+            "Data-Driven Decision Making Course"
+          ]
+        }
+      ]
+    },
+    "QA Tester": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Software Testing Fundamentals",
+          "description": "Learn testing principles, types of testing, test levels, and quality assurance concepts.",
+          "duration": "1-2 months",
+          "resources": [
+            "ISTQB Foundation Level Syllabus (https://www.istqb.org)",
+            "Software Testing by Ron Patton"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Manual Testing Techniques",
+          "description": "Master test case design, boundary value analysis, equivalence partitioning, and exploratory testing.",
+          "duration": "1-2 months",
+          "resources": [
+            "Test Case Design Techniques",
+            "Exploratory Testing by James Bach"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Test Management Tools",
+          "description": "Learn test management tools like Jira, TestRail, or Azure DevOps for test planning and execution.",
+          "duration": "1 month",
+          "resources": [
+            "Jira Test Management (https://www.atlassian.com/software/jira)",
+            "TestRail Documentation (https://www.gurock.com/testrail/docs)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "API Testing",
+          "description": "Learn REST API testing using Postman, REST Assured, or similar tools for backend testing.",
+          "duration": "1-2 months",
+          "resources": [
+            "Postman Learning Center (https://learning.postman.com)",
+            "API Testing Best Practices"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Automation Testing Basics",
+          "description": "Learn programming fundamentals and basic automation concepts with Python or Java.",
+          "duration": "2-3 months",
+          "resources": [
+            "Python for Test Automation",
+            "Java Programming for Testers"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Web Automation Testing",
+          "description": "Master Selenium WebDriver for automated web application testing across browsers.",
+          "duration": "2-3 months",
+          "resources": [
+            "Selenium Documentation (https://selenium-python.readthedocs.io)",
+            "Selenium WebDriver with Java/Python Course"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Mobile Testing",
+          "description": "Learn mobile testing techniques and tools like Appium for iOS and Android applications.",
+          "duration": "1-2 months",
+          "resources": [
+            "Appium Documentation (http://appium.io/docs/en/about-appium/intro)",
+            "Mobile Testing Strategy Guide"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Performance Testing",
+          "description": "Learn performance testing concepts and tools like JMeter or LoadRunner for load testing.",
+          "duration": "1-2 months",
+          "resources": [
+            "Apache JMeter Tutorial (https://jmeter.apache.org/usermanual/index.html)",
+            "Performance Testing Best Practices"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "CI/CD & DevOps Integration",
+          "description": "Integrate testing into CI/CD pipelines and learn DevOps practices for continuous testing.",
+          "duration": "1-2 months",
+          "resources": [
+            "Jenkins for Test Automation",
+            "Continuous Testing in DevOps"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Specialized Testing & Career Growth",
+          "description": "Specialize in security testing, accessibility testing, or test leadership roles.",
+          "duration": "Ongoing",
+          "resources": [
+            "OWASP Testing Guide (https://owasp.org/www-project-web-security-testing-guide)",
+            "Accessibility Testing Guide (https://www.w3.org/WAI/test-evaluate)"
+          ]
+        }
+      ]
+    },
+    "Cybersecurity Engineer": {
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Cybersecurity Fundamentals",
+          "description": "Learn the core principles of cybersecurity including CIA triad (Confidentiality, Integrity, Availability), threat modeling, and basic security concepts.",
+          "duration": "2-3 months",
+          "resources": [
+            "CompTIA Security+ Training (https://www.comptia.org/certifications/security)",
+            "Cybrary Introduction to IT & Cybersecurity (https://www.cybrary.it/course/introduction-to-it-and-cybersecurity)"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Network Security Basics",
+          "description": "Understand network protocols, firewalls, intrusion detection systems, and VPNs to secure network infrastructure.",
+          "duration": "2-3 months",
+          "resources": [
+            "Cisco Network Security Fundamentals (https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-security.html)",
+            "SANS Network Security Essentials (https://www.sans.org/cyber-security-courses/network-security-essentials)"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Operating System Security",
+          "description": "Master Windows and Linux security, including access controls, user management, and system hardening techniques.",
+          "duration": "2-3 months",
+          "resources": [
+            "Linux Security and Hardening (https://www.udemy.com/course/linux-security)",
+            "Windows Security Fundamentals (https://docs.microsoft.com/en-us/learn/paths/windows-security-fundamentals)"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Ethical Hacking & Penetration Testing",
+          "description": "Learn ethical hacking techniques, vulnerability assessment, and penetration testing methodologies to identify security weaknesses.",
+          "duration": "3-4 months",
+          "resources": [
+            "Ethical Hacker (CEH) Certification (https://www.eccouncil.org/programs/certified-ethical-hacker-ceh)",
+            "Offensive Security Certified Professional (OSCP) (https://www.offensive-security.com/pwk-oscp)"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Incident Response & Forensics",
+          "description": "Develop skills in digital forensics, incident response procedures, and malware analysis to handle security breaches effectively.",
+          "duration": "2-3 months",
+          "resources": [
+            "SANS Digital Forensics and Incident Response (https://www.sans.org/cyber-security-courses/digital-forensics-incident-response)",
+            "Volatility Foundation Memory Analysis (https://www.volatilityfoundation.org/training)"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Security Risk Assessment",
+          "description": "Learn risk management frameworks, compliance standards (ISO 27001, NIST), and how to conduct security audits.",
+          "duration": "2-3 months",
+          "resources": [
+            "NIST Cybersecurity Framework (https://www.nist.gov/cyberframework)",
+            "ISO 27001 Information Security Management (https://www.iso.org/isoiec-27001-information-security.html)"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Cloud Security",
+          "description": "Master cloud security concepts, AWS/Azure security services, and secure cloud architecture design patterns.",
+          "duration": "2-3 months",
+          "resources": [
+            "AWS Certified Security - Specialty (https://aws.amazon.com/certification/certified-security-specialty)",
+            "Microsoft Azure Security Technologies (https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer)"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Application Security",
+          "description": "Learn secure coding practices, web application security testing, and how to identify common vulnerabilities like OWASP Top 10.",
+          "duration": "2-3 months",
+          "resources": [
+            "OWASP Web Security Testing Guide (https://owasp.org/www-project-web-security-testing-guide)",
+            "Secure Code Warrior Training (https://www.securecodewarrior.com)"
+          ]
+        },
+        {
+          "step": 9,
+          "title": "Security Operations Center (SOC)",
+          "description": "Gain experience with SIEM tools, log analysis, threat hunting, and security monitoring to operate in a SOC environment.",
+          "duration": "3-4 months",
+          "resources": [
+            "Splunk Security Training (https://www.splunk.com/en_us/training.html)",
+            "SANS Security Operations Center Training (https://www.sans.org/cyber-security-courses/security-operations-center-soc)"
+          ]
+        },
+        {
+          "step": 10,
+          "title": "Advanced Certifications & Specialization",
+          "description": "Pursue advanced certifications like CISSP, CISM, or specialize in areas like IoT security, AI security, or security architecture.",
+          "duration": "Ongoing",
+          "resources": [
+            "Certified Information Systems Security Professional (CISSP) (https://www.isc2.org/Certifications/CISSP)",
+            "Certified Information Security Manager (CISM) (https://www.isaca.org/credentialing/cism)"
+          ]
+        }
+      ]
     }
   }
 }

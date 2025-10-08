@@ -1,0 +1,436 @@
+{
+  "careers": [
+    {
+      "career_name": "Web Developer",
+      "category": "Frontend Development",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Working on creative layouts",
+        "3": "Web development challenges",
+        "4": "User-focused projects",
+        "5": "Web technologies and frameworks",
+        "6": "Creating interactive websites",
+        "7": "Collaborating on web projects",
+        "8": "Improving user experiences",
+        "9": "Ensuring web security",
+        "10": "Mastering modern web technologies"
+      },
+      "confidence_increments": {
+        "2": 25,
+        "3": 20,
+        "4": 20,
+        "5": 25,
+        "6": 20,
+        "7": 15,
+        "8": 20,
+        "9": 15,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Data Scientist",
+      "category": "Data & Analytics",
+      "initial_answer": "Analyzing data patterns",
+      "answer_pattern": {
+        "2": "Manipulating datasets",
+        "3": "Statistical analysis challenges",
+        "4": "Data-focused research",
+        "5": "Data modeling and machine learning",
+        "6": "Uncovering data insights",
+        "7": "Collaborating on data analysis",
+        "8": "Driving decisions with data",
+        "9": "Maintaining data privacy",
+        "10": "Leading data science innovations"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 25,
+        "4": 20,
+        "5": 25,
+        "6": 20,
+        "7": 15,
+        "8": 20,
+        "9": 15,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Mobile App Developer",
+      "category": "Mobile Development",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Designing algorithms",
+        "3": "Mobile app challenges",
+        "4": "User-focused projects",
+        "5": "Mobile development frameworks",
+        "6": "Creating mobile experiences",
+        "7": "Collaborating on app development",
+        "8": "Innovating mobile solutions",
+        "9": "Ensuring app security",
+        "10": "Mastering mobile platforms"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 25,
+        "4": 20,
+        "5": 25,
+        "6": 20,
+        "7": 15,
+        "8": 20,
+        "9": 15,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "UX/UI Designer",
+      "category": "Design & User Experience",
+      "initial_answer": "Creating visual designs",
+      "answer_pattern": {
+        "2": "Working on creative layouts",
+        "3": "Design thinking challenges",
+        "4": "User-focused projects",
+        "5": "User experience research",
+        "6": "Designing intuitive interfaces",
+        "7": "Collaborating with design teams",
+        "8": "Improving user experiences",
+        "9": "Ensuring accessibility",
+        "10": "Leading design innovations"
+      },
+      "confidence_increments": {
+        "2": 25,
+        "3": 20,
+        "4": 25,
+        "5": 20,
+        "6": 25,
+        "7": 15,
+        "8": 20,
+        "9": 15,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Backend Developer",
+      "category": "Backend Development",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Designing algorithms",
+        "3": "System architecture challenges",
+        "4": "Technology-driven projects",
+        "5": "Server-side programming",
+        "6": "Building robust backend systems",
+        "7": "Collaborating on system design",
+        "8": "Optimizing system performance",
+        "9": "Ensuring system security",
+        "10": "Mastering backend technologies"
+      },
+      "confidence_increments": {
+        "2": 25,
+        "3": 20,
+        "4": 20,
+        "5": 25,
+        "6": 20,
+        "7": 15,
+        "8": 20,
+        "9": 20,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Frontend Developer",
+      "category": "Frontend Development",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Working on creative layouts",
+        "3": "User interface challenges",
+        "4": "User-focused projects",
+        "5": "Frontend frameworks and libraries",
+        "6": "Creating interactive interfaces",
+        "7": "Collaborating with designers",
+        "8": "Improving user experiences",
+        "9": "Ensuring web accessibility",
+        "10": "Mastering frontend technologies"
+      },
+      "confidence_increments": {
+        "2": 25,
+        "3": 20,
+        "4": 20,
+        "5": 25,
+        "6": 25,
+        "7": 15,
+        "8": 20,
+        "9": 15,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Cybersecurity Engineer",
+      "category": "Security & Infrastructure",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Testing software functionality",
+        "3": "Security and protection challenges",
+        "4": "Security-focused projects",
+        "5": "Cybersecurity frameworks",
+        "6": "Protecting digital assets",
+        "7": "Collaborating on security measures",
+        "8": "Preventing cyber threats",
+        "9": "Ensuring software security",
+        "10": "Leading cybersecurity initiatives"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 25,
+        "4": 20,
+        "5": 25,
+        "6": 20,
+        "7": 15,
+        "8": 20,
+        "9": 25,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Machine Learning Engineer",
+      "category": "AI & Machine Learning",
+      "initial_answer": "Analyzing data patterns",
+      "answer_pattern": {
+        "2": "Designing algorithms",
+        "3": "AI and machine learning challenges",
+        "4": "Data-focused research",
+        "5": "Machine learning algorithms",
+        "6": "Building intelligent systems",
+        "7": "Collaborating on ML projects",
+        "8": "Innovating with AI",
+        "9": "Ensuring AI ethics",
+        "10": "Leading ML innovations"
+      },
+      "confidence_increments": {
+        "2": 25,
+        "3": 25,
+        "4": 20,
+        "5": 25,
+        "6": 20,
+        "7": 15,
+        "8": 20,
+        "9": 15,
+        "10": 20
+      }
+    },
+    {
+      "career_name": "Database Administrator",
+      "category": "Data Management",
+      "initial_answer": "Analyzing data patterns",
+      "answer_pattern": {
+        "2": "Manipulating datasets",
+        "3": "Database optimization challenges",
+        "4": "Data management projects",
+        "5": "Database design and administration",
+        "6": "Optimizing data storage",
+        "7": "Collaborating on data architecture",
+        "8": "Ensuring data integrity",
+        "9": "Maintaining data security",
+        "10": "Managing enterprise databases"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 25,
+        "4": 20,
+        "5": 25,
+        "6": 20,
+        "7": 15,
+        "8": 20,
+        "9": 20,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Systems Administrator",
+      "category": "System Administration",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Testing software functionality",
+        "3": "System maintenance challenges",
+        "4": "Infrastructure projects",
+        "5": "System administration tools",
+        "6": "Maintaining system reliability",
+        "7": "Collaborating on infrastructure",
+        "8": "Optimizing system performance",
+        "9": "Ensuring system security",
+        "10": "Managing enterprise systems"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 25,
+        "4": 20,
+        "5": 20,
+        "6": 25,
+        "7": 15,
+        "8": 20,
+        "9": 20,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Computer Systems Analyst",
+      "category": "Systems Analysis",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Testing software functionality",
+        "3": "Business process challenges",
+        "4": "Business improvement projects",
+        "5": "System analysis methodologies",
+        "6": "Analyzing business requirements",
+        "7": "Collaborating with stakeholders",
+        "8": "Improving business processes",
+        "9": "Ensuring system efficiency",
+        "10": "Leading digital transformation"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 20,
+        "4": 25,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 25,
+        "9": 15,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Game Developer",
+      "category": "Game Development",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Designing algorithms",
+        "3": "Creative problem-solving challenges",
+        "4": "Entertainment projects",
+        "5": "Game development frameworks",
+        "6": "Creating engaging experiences",
+        "7": "Collaborating on game design",
+        "8": "Innovating in gaming",
+        "9": "Optimizing game performance",
+        "10": "Leading game development"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 25,
+        "4": 25,
+        "5": 25,
+        "6": 25,
+        "7": 15,
+        "8": 20,
+        "9": 15,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "DevOps Engineer",
+      "category": "DevOps & Infrastructure",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Testing software functionality",
+        "3": "Automation challenges",
+        "4": "Infrastructure projects",
+        "5": "DevOps tools and practices",
+        "6": "Streamlining development processes",
+        "7": "Collaborating across teams",
+        "8": "Automating deployments",
+        "9": "Ensuring system reliability",
+        "10": "Leading DevOps transformation"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 25,
+        "4": 20,
+        "5": 25,
+        "6": 20,
+        "7": 20,
+        "8": 25,
+        "9": 20,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Business Intelligence Analyst",
+      "category": "Business Analytics",
+      "initial_answer": "Analyzing data patterns",
+      "answer_pattern": {
+        "2": "Manipulating datasets",
+        "3": "Business intelligence challenges",
+        "4": "Business improvement projects",
+        "5": "BI tools and analytics",
+        "6": "Transforming data into insights",
+        "7": "Collaborating with business teams",
+        "8": "Driving data-driven decisions",
+        "9": "Ensuring data accuracy",
+        "10": "Leading BI initiatives"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 20,
+        "4": 25,
+        "5": 25,
+        "6": 20,
+        "7": 20,
+        "8": 25,
+        "9": 15,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "Software Engineer",
+      "category": "Software Development",
+      "initial_answer": "Solving computing problems",
+      "answer_pattern": {
+        "2": "Designing algorithms",
+        "3": "Algorithmic challenges",
+        "4": "Technology-driven projects",
+        "5": "Programming and algorithm design",
+        "6": "Building efficient software",
+        "7": "Collaborating on code development",
+        "8": "Innovating with technology",
+        "9": "Ensuring software security",
+        "10": "Mastering advanced computing techniques"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15
+      }
+    },
+    {
+      "career_name": "QA Tester",
+      "category": "Quality Assurance",
+      "initial_answer": "Ensuring software quality",
+      "answer_pattern": {
+        "2": "Testing software functionality",
+        "3": "Debugging challenges",
+        "4": "Quality assurance processes",
+        "5": "Testing and quality assurance techniques",
+        "6": "Ensuring flawless software performance",
+        "7": "Collaborating on testing strategies",
+        "8": "Maintaining high-quality standards",
+        "9": "Promoting software reliability",
+        "10": "Excelling in quality assurance practices"
+      },
+      "confidence_increments": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 const { SavedCareer } = require('../models');
-const careerData = require('../careerdata/careerMapping.json');
+const expandedCareerData = require('../careerdata/expandedCareerMapping.json');
 
-// List of valid career names from careerMapping.json
-const validCareers = careerData.careers.map(career => career.career_name);
+// List of valid career names from expandedCareerMapping.json
+const validCareers = expandedCareerData.careers.map(career => career.career_name);
 
 const saveCareer = async (req, res) => {
   try {
@@ -63,4 +63,17 @@ const deleteSavedCareer = async (req, res) => {
   }
 };
 
-module.exports = { saveCareer, getSavedCareers, deleteSavedCareer };
+const getValidCareers = async (req, res) => {
+  try {
+    res.json({ 
+      message: 'List of valid career names',
+      valid_careers: validCareers,
+      total_count: validCareers.length 
+    });
+  } catch (error) {
+    console.error('Error getting valid careers:', error);
+    res.status(500).json({ error: 'Failed to get valid careers' });
+  }
+};
+
+module.exports = { saveCareer, getSavedCareers, deleteSavedCareer, getValidCareers };

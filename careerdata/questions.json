@@ -12,9 +12,9 @@
       "options_answer": "Designing algorithms,Working on creative layouts,Manipulating datasets,Testing software functionality",
       "career_mapping": {
         "Designing algorithms": "Software Engineer",
-        "Working on creative layouts": "Graphic Designer",
+        "Working on creative layouts": "UX/UI Designer",
         "Manipulating datasets": "Data Scientist",
-        "Testing software functionality": "Software Tester/Quality Assurance"
+        "Testing software functionality": "QA Tester"
       }
     },
     {
@@ -23,9 +23,9 @@
       "options_answer": "Algorithmic challenges,Visual design challenges,Statistical analysis challenges,Debugging challenges",
       "career_mapping": {
         "Algorithmic challenges": "Software Engineer",
-        "Visual design challenges": "Graphic Designer",
+        "Visual design challenges": "UX/UI Designer",
         "Statistical analysis challenges": "Data Scientist",
-        "Debugging challenges": "Software Tester/Quality Assurance"
+        "Debugging challenges": "QA Tester"
       }
     },
     {
@@ -34,9 +34,9 @@
       "options_answer": "Technology-driven projects,Artistic and creative spaces,Data-focused research,Quality assurance processes",
       "career_mapping": {
         "Technology-driven projects": "Software Engineer",
-        "Artistic and creative spaces": "Graphic Designer",
+        "Artistic and creative spaces": "UX/UI Designer",
         "Data-focused research": "Data Scientist",
-        "Quality assurance processes": "Software Tester/Quality Assurance"
+        "Quality assurance processes": "QA Tester"
       }
     },
     {
@@ -45,9 +45,9 @@
       "options_answer": "Programming and algorithm design,Design software proficiency,Data modeling and machine learning,Testing and quality assurance techniques",
       "career_mapping": {
         "Programming and algorithm design": "Software Engineer",
-        "Design software proficiency": "Graphic Designer",
+        "Design software proficiency": "UX/UI Designer",
         "Data modeling and machine learning": "Data Scientist",
-        "Testing and quality assurance techniques": "Software Tester/Quality Assurance"
+        "Testing and quality assurance techniques": "QA Tester"
       }
     },
     {
@@ -56,9 +56,9 @@
       "options_answer": "Building efficient software,Designing impactful visuals,Uncovering data insights,Ensuring flawless software performance",
       "career_mapping": {
         "Building efficient software": "Software Engineer",
-        "Designing impactful visuals": "Graphic Designer",
+        "Designing impactful visuals": "UX/UI Designer",
         "Uncovering data insights": "Data Scientist",
-        "Ensuring flawless software performance": "Software Tester/Quality Assurance"
+        "Ensuring flawless software performance": "QA Tester"
       }
     },
     {
@@ -67,9 +67,9 @@
       "options_answer": "Collaborating on code development,Collaborating on design feedback,Collaborating on data analysis,Collaborating on testing strategies",
       "career_mapping": {
         "Collaborating on code development": "Software Engineer",
-        "Collaborating on design feedback": "Graphic Designer",
+        "Collaborating on design feedback": "UX/UI Designer",
         "Collaborating on data analysis": "Data Scientist",
-        "Collaborating on testing strategies": "Software Tester/Quality Assurance"
+        "Collaborating on testing strategies": "QA Tester"
       }
     },
     {
@@ -78,9 +78,9 @@
       "options_answer": "Innovating with technology,Expressing creativity through design,Driving decisions with data,Maintaining high-quality standards",
       "career_mapping": {
         "Innovating with technology": "Software Engineer",
-        "Expressing creativity through design": "Graphic Designer",
+        "Expressing creativity through design": "UX/UI Designer",
         "Driving decisions with data": "Data Scientist",
-        "Maintaining high-quality standards": "Software Tester/Quality Assurance"
+        "Maintaining high-quality standards": "QA Tester"
       }
     },
     {
@@ -89,9 +89,9 @@
       "options_answer": "Ensuring software security,Respecting design ethics,Maintaining data privacy,Promoting software reliability",
       "career_mapping": {
         "Ensuring software security": "Software Engineer",
-        "Respecting design ethics": "Graphic Designer",
+        "Respecting design ethics": "UX/UI Designer",
         "Maintaining data privacy": "Data Scientist",
-        "Promoting software reliability": "Software Tester/Quality Assurance"
+        "Promoting software reliability": "QA Tester"
       }
     },
     {
@@ -100,9 +100,9 @@
       "options_answer": "Mastering advanced computing techniques,Becoming a design expert,Leading data science innovations,Excelling in quality assurance practices",
       "career_mapping": {
         "Mastering advanced computing techniques": "Software Engineer",
-        "Becoming a design expert": "Graphic Designer",
+        "Becoming a design expert": "UX/UI Designer",
         "Leading data science innovations": "Data Scientist",
-        "Excelling in quality assurance practices": "Software Tester/Quality Assurance"
+        "Excelling in quality assurance practices": "QA Tester"
       }
     }
   ]

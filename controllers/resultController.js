@@ -1,7 +1,7 @@
 'use strict';
 
 const { InitialResult, FinalResult, Assessment } = require('../models');
-const { getCareerFromInitialAnswer, evaluateAnswer, finalizeCareer } = require('../services/careerService');
+const { getCareerFromInitialAnswer, evaluateAnswer, finalizeCareer, getMultipleCareerSuggestions } = require('../services/careerService');
 
 const submitAnswer = async (req, res) => {
   try {
@@ -50,6 +50,17 @@ const submitAnswer = async (req, res) => {
       careerHistory = {};
     }
 
+    console.log('Assessment state debug:', {
+      assessment_id,
+      question_id,
+      selected_option,
+      currentCareer,
+      currentConfidence,
+      careerHistory,
+      totalAnswers: answers.length,
+      isFirstQuestion: question_id === 1
+    });
+
     if (question_id === 1) {
       const { career, confidence } = getCareerFromInitialAnswer(selected_option);
       
@@ -86,28 +97,33 @@ const submitAnswer = async (req, res) => {
     });
 
     if (currentConfidence >= 90 || question_id >= 10) {
+      // Get multiple career suggestions instead of just one
+      const careerSuggestions = await getMultipleCareerSuggestions(answers);
+      
+      // Still get the top career for backward compatibility
+      const topCareer = careerSuggestions[0];
       const { suggestedCareer, score } = await finalizeCareer(answers);
 
       await FinalResult.create({
         assessment_id,
         user_id,
-        career_suggestion: suggestedCareer,
-        score,
+        career_suggestion: topCareer.career,
+        score: topCareer.compatibility,
       });
 
-      feedbackMessage = `Assessment completed! We suggest ${suggestedCareer} with ${score}% confidence.`;
-      req.session.currentCareer = null;
-      req.session.currentConfidence = null;
-      req.session.careerHistory = null;
-      req.session.assessment_id = null;
+      feedbackMessage = `Assessment completed! Here are your career matches:`;
 
       return res.status(201).json({
         message: 'Assessment completed',
-        career_suggestion: suggestedCareer,
-        score,
+        career_suggestions: careerSuggestions, // Multiple suggestions
+        primary_career: topCareer.career, // Top suggestion
+        primary_score: topCareer.compatibility,
         feedbackMessage,
         saveOption: true,
         restartOption: true,
+        // Legacy fields for backward compatibility
+        career_suggestion: topCareer.career,
+        score: topCareer.compatibility,
       });
     }
 

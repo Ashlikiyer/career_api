@@ -19,32 +19,26 @@ const startAssessment = async (req, res) => {
       throw new Error('Session not initialized');
     }
 
-    // Check if there's already an active assessment
+    // Always start fresh assessment - clear any existing data
     if (req.session.assessment_id) {
-      const existingAssessment = await Assessment.findByPk(req.session.assessment_id);
-      if (existingAssessment) {
-        console.log('Returning existing assessment:', {
-          existing_assessment_id: existingAssessment.assessment_id,
-          session_id: req.sessionID
-        });
-        
-        return res.json({
-          ...questionsData.default_question,
-          assessment_id: existingAssessment.assessment_id,
-          question_id: 1,
-          message: 'Resumed existing assessment'
-        });
-      }
+      console.log('Found existing assessment, cleaning up old data:', {
+        old_assessment_id: req.session.assessment_id,
+        session_id: req.sessionID
+      });
     }
 
-    // Clear previous assessment data
+    // Clear previous assessment data from session
     req.session.currentCareer = null;
     req.session.currentConfidence = null;
     req.session.assessment_id = null;
     req.session.careerHistory = null;
 
+    // Create a completely fresh assessment with clean state
     const assessment = await Assessment.create({
       name: `Assessment_${Date.now()}_User_${req.user?.id}`,
+      current_career: null,
+      current_confidence: 0,
+      career_history: JSON.stringify({})
     });
     
     req.session.assessment_id = assessment.assessment_id;
