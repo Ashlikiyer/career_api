@@ -6,19 +6,28 @@ const { getCareerFromInitialAnswer, evaluateAnswer, finalizeCareer } = require('
 const submitAnswer = async (req, res) => {
   try {
     const { assessment_id, question_id, selected_option } = req.body;
+    
+    console.log('Submitting answer:', {
+      assessment_id,
+      question_id,
+      selected_option,
+      user_id: req.user?.id,
+      session_id: req.sessionID
+    });
 
     if (!assessment_id || !question_id || !selected_option) {
+      console.error('Missing required fields:', { assessment_id, question_id, selected_option });
       return res.status(400).json({ error: 'Missing required fields: assessment_id, question_id, and selected_option are required' });
     }
 
+    // Validate assessment exists in database
     const assessment = await Assessment.findByPk(assessment_id);
     if (!assessment) {
-      return res.status(400).json({ error: 'Invalid assessment ID' });
+      console.error('Assessment not found in database:', assessment_id);
+      return res.status(400).json({ error: 'Invalid assessment ID - assessment not found' });
     }
 
-    if (!req.session || req.session.assessment_id !== assessment_id) {
-      return res.status(400).json({ error: 'Invalid assessment ID. Please start a new assessment.' });
-    }
+    // Session validation is now handled by middleware
 
     const user_id = req.user.id;
 
@@ -29,16 +38,27 @@ const submitAnswer = async (req, res) => {
     });
 
     const answers = await InitialResult.findAll({ where: { assessment_id } });
-    let currentCareer = req.session.currentCareer || 'Undecided';
-    let currentConfidence = req.session.currentConfidence || 0;
-    let careerHistory = req.session.careerHistory || {};
+    
+    // Get assessment state from database (reuse existing assessment object)
+    let currentCareer = assessment.current_career || 'Undecided';
+    let currentConfidence = assessment.current_confidence || 0;
+    let careerHistory = {};
+    
+    try {
+      careerHistory = assessment.career_history ? JSON.parse(assessment.career_history) : {};
+    } catch (e) {
+      careerHistory = {};
+    }
 
     if (question_id === 1) {
       const { career, confidence } = getCareerFromInitialAnswer(selected_option);
-      req.session.currentCareer = career;
-      req.session.currentConfidence = confidence;
-      req.session.careerHistory = { [career]: confidence };
-      req.session.assessment_id = assessment_id;
+      
+      // Update assessment in database
+      await assessment.update({
+        current_career: career,
+        current_confidence: confidence,
+        career_history: JSON.stringify({ [career]: confidence })
+      });
 
       const feedbackMessage = `Starting assessment! You're at ${confidence}% confidence for ${career}.`;
       return res.json({ career, confidence, feedbackMessage, nextQuestionId: 2 });
@@ -48,18 +68,22 @@ const submitAnswer = async (req, res) => {
 
     let feedbackMessage = '';
     if (career !== currentCareer) {
-      req.session.currentCareer = career;
-      req.session.careerHistory[career] = (req.session.careerHistory[career] || 0) + confidence;
-      req.session.currentConfidence = req.session.careerHistory[career];
-      feedbackMessage = req.session.careerHistory[career] > 10 ? `Returning to ${career} at ${req.session.careerHistory[career]}% confidence!` : `You've pivoted to ${career} at ${confidence}% confidence!`;
+      careerHistory[career] = (careerHistory[career] || 0) + confidence;
+      currentCareer = career;
+      currentConfidence = careerHistory[career];
+      feedbackMessage = careerHistory[career] > 10 ? `Returning to ${career} at ${careerHistory[career]}% confidence!` : `You've pivoted to ${career} at ${confidence}% confidence!`;
     } else {
-      req.session.careerHistory[currentCareer] = (req.session.careerHistory[currentCareer] || 0) + confidence;
-      req.session.currentConfidence = req.session.careerHistory[currentCareer];
-      feedbackMessage = `You're now at ${req.session.currentConfidence}% confidence for ${currentCareer}!`;
+      careerHistory[currentCareer] = (careerHistory[currentCareer] || 0) + confidence;
+      currentConfidence = careerHistory[currentCareer];
+      feedbackMessage = `You're now at ${currentConfidence}% confidence for ${currentCareer}!`;
     }
 
-    currentCareer = req.session.currentCareer;
-    currentConfidence = req.session.currentConfidence;
+    // Update assessment in database
+    await assessment.update({
+      current_career: currentCareer,
+      current_confidence: currentConfidence,
+      career_history: JSON.stringify(careerHistory)
+    });
 
     if (currentConfidence >= 90 || question_id >= 10) {
       const { suggestedCareer, score } = await finalizeCareer(answers);
