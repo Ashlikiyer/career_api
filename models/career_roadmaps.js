@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    step_description: { // Fixed typo from step_descriptions to step_description
+    step_descriptions: { // Database column name is plural
       type: DataTypes.STRING,
       allowNull: false,
     },

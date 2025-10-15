@@ -104,6 +104,116 @@
         "Leading data science innovations": "Data Scientist",
         "Excelling in quality assurance practices": "QA Tester"
       }
+    },
+    {
+      "question_id": 11,
+      "question_text": "Which type of project would you be most excited to work on?",
+      "options_answer": "Building scalable web applications,Creating user-friendly mobile interfaces,Analyzing customer behavior patterns,Ensuring software meets quality standards",
+      "career_mapping": {
+        "Building scalable web applications": "Software Engineer",
+        "Creating user-friendly mobile interfaces": "UX/UI Designer",
+        "Analyzing customer behavior patterns": "Data Scientist",
+        "Ensuring software meets quality standards": "QA Tester"
+      }
+    },
+    {
+      "question_id": 12,
+      "question_text": "What type of technical challenge energizes you most?",
+      "options_answer": "Optimizing code performance,Improving user experience design,Building predictive models,Finding and fixing software bugs",
+      "career_mapping": {
+        "Optimizing code performance": "Software Engineer",
+        "Improving user experience design": "UX/UI Designer",
+        "Building predictive models": "Data Scientist",
+        "Finding and fixing software bugs": "QA Tester"
+      }
+    },
+    {
+      "question_id": 13,
+      "question_text": "Which skill development area interests you most?",
+      "options_answer": "Learning new programming languages,Mastering design tools and principles,Exploring machine learning algorithms,Developing testing methodologies",
+      "career_mapping": {
+        "Learning new programming languages": "Software Engineer",
+        "Mastering design tools and principles": "UX/UI Designer",
+        "Exploring machine learning algorithms": "Data Scientist",
+        "Developing testing methodologies": "QA Tester"
+      }
+    },
+    {
+      "question_id": 14,
+      "question_text": "What type of problem-solving approach do you prefer?",
+      "options_answer": "Systematic coding and debugging,Creative brainstorming for design solutions,Data-driven hypothesis testing,Methodical testing and validation",
+      "career_mapping": {
+        "Systematic coding and debugging": "Software Engineer",
+        "Creative brainstorming for design solutions": "UX/UI Designer",
+        "Data-driven hypothesis testing": "Data Scientist",
+        "Methodical testing and validation": "QA Tester"
+      }
+    },
+    {
+      "question_id": 15,
+      "question_text": "Which aspect of technology excites you most?",
+      "options_answer": "Building robust software architecture,Crafting intuitive user interfaces,Discovering insights from data,Ensuring software reliability",
+      "career_mapping": {
+        "Building robust software architecture": "Software Engineer",
+        "Crafting intuitive user interfaces": "UX/UI Designer",
+        "Discovering insights from data": "Data Scientist",
+        "Ensuring software reliability": "QA Tester"
+      }
+    },
+    {
+      "question_id": 16,
+      "question_text": "What motivates you to learn new technologies?",
+      "options_answer": "Implementing efficient solutions,Creating better user experiences,Leveraging data for insights,Improving software quality",
+      "career_mapping": {
+        "Implementing efficient solutions": "Software Engineer",
+        "Creating better user experiences": "UX/UI Designer",
+        "Leveraging data for insights": "Data Scientist",
+        "Improving software quality": "QA Tester"
+      }
+    },
+    {
+      "question_id": 17,
+      "question_text": "Which type of feedback do you find most valuable?",
+      "options_answer": "Code review and technical suggestions,User feedback on design prototypes,Statistical validation of analysis results,Bug reports and testing outcomes",
+      "career_mapping": {
+        "Code review and technical suggestions": "Software Engineer",
+        "User feedback on design prototypes": "UX/UI Designer",
+        "Statistical validation of analysis results": "Data Scientist",
+        "Bug reports and testing outcomes": "QA Tester"
+      }
+    },
+    {
+      "question_id": 18,
+      "question_text": "What type of documentation do you prefer creating?",
+      "options_answer": "Technical specifications and API docs,Design guidelines and user personas,Data analysis reports and visualizations,Test cases and quality reports",
+      "career_mapping": {
+        "Technical specifications and API docs": "Software Engineer",
+        "Design guidelines and user personas": "UX/UI Designer",
+        "Data analysis reports and visualizations": "Data Scientist",
+        "Test cases and quality reports": "QA Tester"
+      }
+    },
+    {
+      "question_id": 19,
+      "question_text": "Which success metric would you be most proud of?",
+      "options_answer": "High-performance application with minimal downtime,Increased user engagement and satisfaction,Actionable insights leading to business growth,Zero critical bugs in production",
+      "career_mapping": {
+        "High-performance application with minimal downtime": "Software Engineer",
+        "Increased user engagement and satisfaction": "UX/UI Designer",
+        "Actionable insights leading to business growth": "Data Scientist",
+        "Zero critical bugs in production": "QA Tester"
+      }
+    },
+    {
+      "question_id": 20,
+      "question_text": "What type of continuous learning appeals to you most?",
+      "options_answer": "Staying updated with programming frameworks,Following design trends and user research,Exploring new data science techniques,Learning about quality assurance best practices",
+      "career_mapping": {
+        "Staying updated with programming frameworks": "Software Engineer",
+        "Following design trends and user research": "UX/UI Designer",
+        "Exploring new data science techniques": "Data Scientist",
+        "Learning about quality assurance best practices": "QA Tester"
+      }
     }
   ]
 }

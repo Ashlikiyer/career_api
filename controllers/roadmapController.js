@@ -1,5 +1,5 @@
-const { SavedCareer } = require('../models');
-const roadmapData = require('../careerdata/roadmapData.json'); // Roadmap data (currently placeholder)
+const { SavedCareer, CareerRoadmap } = require('../models');
+const roadmapData = require('../careerdata/roadmapData.json'); // Roadmap data (fallback)
 
 const getRoadmap = async (req, res) => {
   try {
@@ -12,26 +12,64 @@ const getRoadmap = async (req, res) => {
       return res.status(404).json({ message: 'Saved career not found or unauthorized' });
     }
 
-    // Fetch the roadmap from roadmapData.json
+    // First, check if roadmap exists in database (auto-generated)
+    const existingRoadmap = await CareerRoadmap.findAll({ 
+      where: { saved_career_id },
+      order: [['roadmap_id', 'ASC']]
+    });
+
+    if (existingRoadmap.length > 0) {
+      // Return database roadmap with enhanced format
+      const roadmapFromJSON = roadmapData.careers[savedCareer.career_name]?.roadmap || [];
+      
+      const formattedRoadmap = existingRoadmap.map((dbStep, index) => {
+        const jsonData = roadmapFromJSON[index] || {};
+        return {
+          roadmap_id: dbStep.roadmap_id,
+          saved_career_id: dbStep.saved_career_id,
+          step_order: dbStep.step_order,
+          step_description: dbStep.step_descriptions, // Map plural DB field to singular API field
+          duration: jsonData.duration || 'Variable', // Include duration from JSON
+          resources: jsonData.resources || [], // Include resources from JSON
+          is_completed: false // Default for now
+        };
+      });
+
+      return res.json({
+        career_name: savedCareer.career_name,
+        roadmap: formattedRoadmap,
+        auto_generated: true,
+        total_steps: formattedRoadmap.length
+      });
+    }
+
+    // Fallback: Generate from JSON data (for older saved careers)
     const roadmap = roadmapData.careers[savedCareer.career_name]?.roadmap || [];
+    
     if (roadmap.length === 0) {
       return res.status(404).json({ message: 'No roadmap available for this career' });
     }
 
-    // Format roadmap to include more details
+    // Format roadmap from JSON data
     const formattedRoadmap = roadmap.map((step, index) => ({
       roadmap_id: index + 1, // Temporary ID for response (not saved)
       saved_career_id,
       step_order: `Step ${step.step}`,
       step_description: `${step.title}: ${step.description}`,
       duration: step.duration, // Include duration from JSON
-      resources: step.resources // Include resources from JSON
+      resources: step.resources, // Include resources from JSON
+      is_completed: false
     }));
 
-    res.json(formattedRoadmap);
+    res.json({
+      career_name: savedCareer.career_name,
+      roadmap: formattedRoadmap,
+      auto_generated: false,
+      total_steps: formattedRoadmap.length
+    });
   } catch (error) {
     console.error('Error fetching roadmap:', error);
-    res.status(500).json({ error: 'Failed to fetch roadmap' });
+    res.status(500).json({ error: 'Failed to fetch roadmap', details: error.message });
   }
 };
 

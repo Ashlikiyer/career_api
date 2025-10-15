@@ -13,7 +13,17 @@
         "7": "Collaborating on web projects",
         "8": "Improving user experiences",
         "9": "Ensuring web security",
-        "10": "Mastering modern web technologies"
+        "10": "Mastering modern web technologies",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 25,
@@ -24,7 +34,17 @@
         "7": 15,
         "8": 20,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -40,7 +60,17 @@
         "7": "Collaborating on data analysis",
         "8": "Driving decisions with data",
         "9": "Maintaining data privacy",
-        "10": "Leading data science innovations"
+        "10": "Leading data science innovations",
+        "11": "Analyzing customer behavior patterns",
+        "12": "Building predictive models",
+        "13": "Exploring machine learning algorithms",
+        "14": "Data-driven hypothesis testing",
+        "15": "Discovering insights from data",
+        "16": "Leveraging data for insights",
+        "17": "Statistical validation of analysis results",
+        "18": "Data analysis reports and visualizations",
+        "19": "Actionable insights leading to business growth",
+        "20": "Exploring new data science techniques"
       },
       "confidence_increments": {
         "2": 20,
@@ -51,7 +81,17 @@
         "7": 15,
         "8": 20,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15,
+        "19": 15,
+        "20": 15
       }
     },
     {
@@ -67,7 +107,17 @@
         "7": "Collaborating on app development",
         "8": "Innovating mobile solutions",
         "9": "Ensuring app security",
-        "10": "Mastering mobile platforms"
+        "10": "Mastering mobile platforms",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 20,
@@ -78,7 +128,17 @@
         "7": 15,
         "8": 20,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -94,7 +154,17 @@
         "7": "Collaborating with design teams",
         "8": "Improving user experiences",
         "9": "Ensuring accessibility",
-        "10": "Leading design innovations"
+        "10": "Leading design innovations",
+        "11": "Creating user-friendly mobile interfaces",
+        "12": "Improving user experience design",
+        "13": "Mastering design tools and principles",
+        "14": "Creative brainstorming for design solutions",
+        "15": "Crafting intuitive user interfaces",
+        "16": "Creating better user experiences",
+        "17": "User feedback on design prototypes",
+        "18": "Design guidelines and user personas",
+        "19": "Increased user engagement and satisfaction",
+        "20": "Following design trends and user research"
       },
       "confidence_increments": {
         "2": 25,
@@ -105,7 +175,17 @@
         "7": 15,
         "8": 20,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15,
+        "19": 15,
+        "20": 15
       }
     },
     {
@@ -121,7 +201,17 @@
         "7": "Collaborating on system design",
         "8": "Optimizing system performance",
         "9": "Ensuring system security",
-        "10": "Mastering backend technologies"
+        "10": "Mastering backend technologies",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 25,
@@ -132,7 +222,17 @@
         "7": 15,
         "8": 20,
         "9": 20,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -148,7 +248,17 @@
         "7": "Collaborating with designers",
         "8": "Improving user experiences",
         "9": "Ensuring web accessibility",
-        "10": "Mastering frontend technologies"
+        "10": "Mastering frontend technologies",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 25,
@@ -159,7 +269,17 @@
         "7": 15,
         "8": 20,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -175,7 +295,17 @@
         "7": "Collaborating on security measures",
         "8": "Preventing cyber threats",
         "9": "Ensuring software security",
-        "10": "Leading cybersecurity initiatives"
+        "10": "Leading cybersecurity initiatives",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 20,
@@ -186,7 +316,17 @@
         "7": 15,
         "8": 20,
         "9": 25,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -202,7 +342,17 @@
         "7": "Collaborating on ML projects",
         "8": "Innovating with AI",
         "9": "Ensuring AI ethics",
-        "10": "Leading ML innovations"
+        "10": "Leading ML innovations",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 25,
@@ -213,7 +363,17 @@
         "7": 15,
         "8": 20,
         "9": 15,
-        "10": 20
+        "10": 20,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -229,7 +389,17 @@
         "7": "Collaborating on data architecture",
         "8": "Ensuring data integrity",
         "9": "Maintaining data security",
-        "10": "Managing enterprise databases"
+        "10": "Managing enterprise databases",
+        "11": "Analyzing customer behavior patterns",
+        "12": "Building predictive models",
+        "13": "Exploring machine learning algorithms",
+        "14": "Data-driven hypothesis testing",
+        "15": "Discovering insights from data",
+        "16": "Leveraging data for insights",
+        "17": "Statistical validation of analysis results",
+        "18": "Data analysis reports and visualizations",
+        "19": "Actionable insights leading to business growth",
+        "20": "Exploring new data science techniques"
       },
       "confidence_increments": {
         "2": 20,
@@ -240,7 +410,17 @@
         "7": 15,
         "8": 20,
         "9": 20,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -256,7 +436,17 @@
         "7": "Collaborating on infrastructure",
         "8": "Optimizing system performance",
         "9": "Ensuring system security",
-        "10": "Managing enterprise systems"
+        "10": "Managing enterprise systems",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 20,
@@ -267,7 +457,17 @@
         "7": 15,
         "8": 20,
         "9": 20,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -283,7 +483,17 @@
         "7": "Collaborating with stakeholders",
         "8": "Improving business processes",
         "9": "Ensuring system efficiency",
-        "10": "Leading digital transformation"
+        "10": "Leading digital transformation",
+        "11": "Analyzing customer behavior patterns",
+        "12": "Building predictive models",
+        "13": "Exploring machine learning algorithms",
+        "14": "Data-driven hypothesis testing",
+        "15": "Discovering insights from data",
+        "16": "Leveraging data for insights",
+        "17": "Statistical validation of analysis results",
+        "18": "Data analysis reports and visualizations",
+        "19": "Actionable insights leading to business growth",
+        "20": "Exploring new data science techniques"
       },
       "confidence_increments": {
         "2": 20,
@@ -294,7 +504,17 @@
         "7": 20,
         "8": 25,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -310,7 +530,17 @@
         "7": "Collaborating on game design",
         "8": "Innovating in gaming",
         "9": "Optimizing game performance",
-        "10": "Leading game development"
+        "10": "Leading game development",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 20,
@@ -321,7 +551,17 @@
         "7": 15,
         "8": 20,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -337,7 +577,17 @@
         "7": "Collaborating across teams",
         "8": "Automating deployments",
         "9": "Ensuring system reliability",
-        "10": "Leading DevOps transformation"
+        "10": "Leading DevOps transformation",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 20,
@@ -348,7 +598,17 @@
         "7": 20,
         "8": 25,
         "9": 20,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -364,7 +624,17 @@
         "7": "Collaborating with business teams",
         "8": "Driving data-driven decisions",
         "9": "Ensuring data accuracy",
-        "10": "Leading BI initiatives"
+        "10": "Leading BI initiatives",
+        "11": "Analyzing customer behavior patterns",
+        "12": "Building predictive models",
+        "13": "Exploring machine learning algorithms",
+        "14": "Data-driven hypothesis testing",
+        "15": "Discovering insights from data",
+        "16": "Leveraging data for insights",
+        "17": "Statistical validation of analysis results",
+        "18": "Data analysis reports and visualizations",
+        "19": "Actionable insights leading to business growth",
+        "20": "Exploring new data science techniques"
       },
       "confidence_increments": {
         "2": 20,
@@ -375,7 +645,17 @@
         "7": 20,
         "8": 25,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8
       }
     },
     {
@@ -391,7 +671,17 @@
         "7": "Collaborating on code development",
         "8": "Innovating with technology",
         "9": "Ensuring software security",
-        "10": "Mastering advanced computing techniques"
+        "10": "Mastering advanced computing techniques",
+        "11": "Building scalable web applications",
+        "12": "Optimizing code performance",
+        "13": "Learning new programming languages",
+        "14": "Systematic coding and debugging",
+        "15": "Building robust software architecture",
+        "16": "Implementing efficient solutions",
+        "17": "Code review and technical suggestions",
+        "18": "Technical specifications and API docs",
+        "19": "High-performance application with minimal downtime",
+        "20": "Staying updated with programming frameworks"
       },
       "confidence_increments": {
         "2": 20,
@@ -402,7 +692,17 @@
         "7": 15,
         "8": 15,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15,
+        "19": 15,
+        "20": 15
       }
     },
     {
@@ -418,7 +718,17 @@
         "7": "Collaborating on testing strategies",
         "8": "Maintaining high-quality standards",
         "9": "Promoting software reliability",
-        "10": "Excelling in quality assurance practices"
+        "10": "Excelling in quality assurance practices",
+        "11": "Ensuring software meets quality standards",
+        "12": "Finding and fixing software bugs",
+        "13": "Developing testing methodologies",
+        "14": "Methodical testing and validation",
+        "15": "Ensuring software reliability",
+        "16": "Improving software quality",
+        "17": "Bug reports and testing outcomes",
+        "18": "Test cases and quality reports",
+        "19": "Zero critical bugs in production",
+        "20": "Learning about quality assurance best practices"
       },
       "confidence_increments": {
         "2": 20,
@@ -429,7 +739,17 @@
         "7": 15,
         "8": 15,
         "9": 15,
-        "10": 15
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15,
+        "19": 15,
+        "20": 15
       }
     }
   ]

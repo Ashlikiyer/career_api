@@ -1,5 +1,6 @@
-const { SavedCareer } = require('../models');
+const { SavedCareer, CareerRoadmap } = require('../models');
 const expandedCareerData = require('../careerdata/expandedCareerMapping.json');
+const roadmapData = require('../careerdata/roadmapData.json');
 
 // List of valid career names from expandedCareerMapping.json
 const validCareers = expandedCareerData.careers.map(career => career.career_name);
@@ -26,7 +27,43 @@ const saveCareer = async (req, res) => {
       saved_at: new Date().toISOString(), // Store as ISO string since saved_at is a STRING
     });
 
-    res.status(201).json({ message: 'Career saved', savedCareer });
+    // AUTO-GENERATE ROADMAP: Automatically create roadmap when career is saved
+    try {
+      const careerRoadmapData = roadmapData.careers[career_name]?.roadmap || [];
+      
+      if (careerRoadmapData.length > 0) {
+        // Create roadmap entries in the database
+        const roadmapEntries = careerRoadmapData.map((step, index) => ({
+          saved_career_id: savedCareer.saved_career_id,
+          step_order: `Step ${step.step}`,
+          step_descriptions: `${step.title}: ${step.description}`
+        }));
+
+        await CareerRoadmap.bulkCreate(roadmapEntries);
+        
+        res.status(201).json({ 
+          message: 'Career saved and roadmap generated automatically', 
+          savedCareer,
+          roadmapGenerated: true,
+          roadmapSteps: careerRoadmapData.length
+        });
+      } else {
+        res.status(201).json({ 
+          message: 'Career saved (no roadmap data available)', 
+          savedCareer,
+          roadmapGenerated: false 
+        });
+      }
+    } catch (roadmapError) {
+      console.error('Error auto-generating roadmap:', roadmapError);
+      // Career was saved successfully, but roadmap generation failed
+      res.status(201).json({ 
+        message: 'Career saved, but roadmap generation failed', 
+        savedCareer,
+        roadmapGenerated: false,
+        roadmapError: roadmapError.message
+      });
+    }
   } catch (error) {
     console.error('Error saving career:', error);
     res.status(500).json({ error: 'Failed to save career' });
@@ -55,8 +92,18 @@ const deleteSavedCareer = async (req, res) => {
       return res.status(404).json({ message: 'Saved career not found' });
     }
 
+    // Delete associated roadmap entries first (if any)
+    const deletedRoadmapCount = await CareerRoadmap.destroy({ 
+      where: { saved_career_id } 
+    });
+
+    // Delete the saved career
     await savedCareer.destroy();
-    res.json({ message: 'Saved career deleted' });
+    
+    res.json({ 
+      message: 'Saved career and associated roadmap deleted',
+      roadmapStepsDeleted: deletedRoadmapCount
+    });
   } catch (error) {
     console.error('Error deleting saved career:', error);
     res.status(500).json({ error: 'Failed to delete saved career' });

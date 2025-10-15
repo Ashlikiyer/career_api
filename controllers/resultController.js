@@ -96,7 +96,8 @@ const submitAnswer = async (req, res) => {
       career_history: JSON.stringify(careerHistory)
     });
 
-    if (currentConfidence >= 90 || question_id >= 10) {
+    // Only complete assessment when confidence reaches 90% (removed question limit)
+    if (currentConfidence >= 90) {
       // Get multiple career suggestions instead of just one
       const careerSuggestions = await getMultipleCareerSuggestions(answers);
       
@@ -111,7 +112,7 @@ const submitAnswer = async (req, res) => {
         score: topCareer.compatibility,
       });
 
-      feedbackMessage = `Assessment completed! Here are your career matches:`;
+      feedbackMessage = `Assessment completed! You've reached 90% confidence. Here are your career matches:`;
 
       return res.status(201).json({
         message: 'Assessment completed',
