@@ -8,6 +8,20 @@ module.exports = (sequelize, DataTypes) => {
       Question.hasMany(models.InitialResult, { foreignKey: 'question_id' });
       Question.belongsTo(models.Assessment, { foreignKey: 'assessment_id' }); // Add this
     }
+    
+    toJSON() {
+      const values = Object.assign({}, this.get());
+      // Ensure options_descriptions is properly parsed
+      if (values.options_descriptions && typeof values.options_descriptions === 'string') {
+        try {
+          values.options_descriptions = JSON.parse(values.options_descriptions);
+        } catch (e) {
+          console.error('Error parsing options_descriptions in toJSON:', e);
+          values.options_descriptions = null;
+        }
+      }
+      return values;
+    }
   }
 
   Question.init({
@@ -23,6 +37,23 @@ module.exports = (sequelize, DataTypes) => {
     options_answer: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    options_descriptions: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      get() {
+        const value = this.getDataValue('options_descriptions');
+        if (!value) return null;
+        try {
+          return JSON.parse(value);
+        } catch (e) {
+          console.error('Error parsing options_descriptions JSON:', e);
+          return null;
+        }
+      },
+      set(value) {
+        this.setDataValue('options_descriptions', value ? JSON.stringify(value) : null);
+      }
     },
     career_category: {
       type: DataTypes.STRING,

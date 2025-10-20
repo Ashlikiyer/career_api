@@ -63,8 +63,17 @@ const startAssessment = async (req, res) => {
       session_assessment_id: req.session.assessment_id
     });
 
+    // Get the first question from database to include descriptions
+    const firstQuestion = await Question.findOne({
+      where: { question_id: 1 }
+    });
+
+    if (!firstQuestion) {
+      throw new Error('First question not found in database');
+    }
+
     res.json({
-      ...questionsData.default_question,
+      ...firstQuestion.toJSON(),
       assessment_id: assessment.assessment_id,
       question_id: 1,
     });
@@ -164,8 +173,13 @@ const getCurrentOrCreateAssessment = async (req, res) => {
           session_id: req.sessionID
         });
         
+        // Get the first question from database to include descriptions
+        const firstQuestion = await Question.findOne({
+          where: { question_id: 1 }
+        });
+
         return res.json({
-          ...questionsData.default_question,
+          ...firstQuestion.toJSON(),
           assessment_id: existingAssessment.assessment_id,
           question_id: 1,
           isExisting: true,
@@ -189,8 +203,13 @@ const getCurrentOrCreateAssessment = async (req, res) => {
       session_id: req.sessionID
     });
 
+    // Get the first question from database to include descriptions
+    const firstQuestion = await Question.findOne({
+      where: { question_id: 1 }
+    });
+
     res.json({
-      ...questionsData.default_question,
+      ...firstQuestion.toJSON(),
       assessment_id: assessment.assessment_id,
       question_id: 1,
       isExisting: false

@@ -3,6 +3,12 @@
     "question_id": 1,
     "question_text": "What activity are you most passionate about?",
     "options_answer": "Solving computing problems,Creating visual designs,Analyzing data patterns,Ensuring software quality",
+    "options_descriptions": {
+      "Solving computing problems": "Writing code, developing algorithms, and building software solutions to solve technical challenges",
+      "Creating visual designs": "Designing user interfaces, graphics, and visual elements to create appealing and functional experiences",
+      "Analyzing data patterns": "Working with datasets, statistics, and analytics to discover insights and trends from information",
+      "Ensuring software quality": "Testing applications, finding bugs, and making sure software works reliably and meets requirements"
+    },
     "career_category": "default"
   },
   "progressive_questions": [
@@ -10,6 +16,12 @@
       "question_id": 2,
       "question_text": "Which task do you enjoy the most?",
       "options_answer": "Designing algorithms,Working on creative layouts,Manipulating datasets,Testing software functionality",
+      "options_descriptions": {
+        "Designing algorithms": "Creating step-by-step instructions and logic for computers to solve complex problems efficiently",
+        "Working on creative layouts": "Arranging visual elements, colors, and typography to create user-friendly and attractive interfaces",
+        "Manipulating datasets": "Cleaning, organizing, and transforming raw data into formats suitable for analysis and insights",
+        "Testing software functionality": "Systematically checking if software features work correctly and identifying potential issues"
+      },
       "career_mapping": {
         "Designing algorithms": "Software Engineer",
         "Working on creative layouts": "UX/UI Designer",
@@ -21,6 +33,12 @@
       "question_id": 3,
       "question_text": "What type of problem-solving excites you?",
       "options_answer": "Algorithmic challenges,Visual design challenges,Statistical analysis challenges,Debugging challenges",
+      "options_descriptions": {
+        "Algorithmic challenges": "Solving complex computational problems by creating efficient, logical solutions and optimizing performance",
+        "Visual design challenges": "Finding creative ways to make information clear, accessible, and visually appealing to users",
+        "Statistical analysis challenges": "Using mathematical methods to find patterns, correlations, and meaningful insights in data",
+        "Debugging challenges": "Detective work to find what's causing software problems and figuring out how to fix them"
+      },
       "career_mapping": {
         "Algorithmic challenges": "Software Engineer",
         "Visual design challenges": "UX/UI Designer",
@@ -32,6 +50,12 @@
       "question_id": 4,
       "question_text": "Which work environment suits you best?",
       "options_answer": "Technology-driven projects,Artistic and creative spaces,Data-focused research,Quality assurance processes",
+      "options_descriptions": {
+        "Technology-driven projects": "Working with cutting-edge software tools, programming languages, and technical innovation",
+        "Artistic and creative spaces": "Collaborating in environments that value creativity, design thinking, and user-centered approaches",
+        "Data-focused research": "Working in analytical environments with databases, statistical tools, and research methodologies",
+        "Quality assurance processes": "Structured environments focused on testing, documentation, and ensuring high standards"
+      },
       "career_mapping": {
         "Technology-driven projects": "Software Engineer",
         "Artistic and creative spaces": "UX/UI Designer",
@@ -43,6 +67,12 @@
       "question_id": 5,
       "question_text": "Which skill do you want to develop most?",
       "options_answer": "Programming and algorithm design,Design software proficiency,Data modeling and machine learning,Testing and quality assurance techniques",
+      "options_descriptions": {
+        "Programming and algorithm design": "Learning coding languages (Python, Java, JavaScript) and creating efficient software solutions",
+        "Design software proficiency": "Mastering tools like Figma, Adobe Creative Suite, and user experience design principles",
+        "Data modeling and machine learning": "Building predictive models, working with AI algorithms, and advanced statistical analysis",
+        "Testing and quality assurance techniques": "Learning systematic testing methods, automation tools, and quality control processes"
+      },
       "career_mapping": {
         "Programming and algorithm design": "Software Engineer",
         "Design software proficiency": "UX/UI Designer",
@@ -54,6 +84,12 @@
       "question_id": 6,
       "question_text": "What do you find most rewarding in your work?",
       "options_answer": "Building efficient software,Designing impactful visuals,Uncovering data insights,Ensuring flawless software performance",
+      "options_descriptions": {
+        "Building efficient software": "Creating applications and systems that work fast, reliably, and solve real-world problems",
+        "Designing impactful visuals": "Creating designs that improve user experience and make technology more accessible and enjoyable",
+        "Uncovering data insights": "Discovering hidden patterns and trends that help businesses make better decisions",
+        "Ensuring flawless software performance": "Making sure applications work perfectly without bugs or performance issues"
+      },
       "career_mapping": {
         "Building efficient software": "Software Engineer",
         "Designing impactful visuals": "UX/UI Designer",
@@ -65,6 +101,12 @@
       "question_id": 7,
       "question_text": "How do you prefer to work with others?",
       "options_answer": "Collaborating on code development,Collaborating on design feedback,Collaborating on data analysis,Collaborating on testing strategies",
+      "options_descriptions": {
+        "Collaborating on code development": "Working with other programmers to review code, share solutions, and build software together",
+        "Collaborating on design feedback": "Working with teams to refine user interfaces and improve user experience through iteration",
+        "Collaborating on data analysis": "Working with stakeholders to understand data needs and present findings to decision-makers",
+        "Collaborating on testing strategies": "Working with development teams to plan testing approaches and ensure quality standards"
+      },
       "career_mapping": {
         "Collaborating on code development": "Software Engineer",
         "Collaborating on design feedback": "UX/UI Designer",
@@ -76,6 +118,12 @@
       "question_id": 8,
       "question_text": "What motivates you in your career?",
       "options_answer": "Innovating with technology,Expressing creativity through design,Driving decisions with data,Maintaining high-quality standards",
+      "options_descriptions": {
+        "Innovating with technology": "Being at the forefront of new technologies and creating solutions that push technological boundaries",
+        "Expressing creativity through design": "Using artistic skills and creative thinking to solve user problems and create beautiful experiences",
+        "Driving decisions with data": "Using analytical insights to influence business strategy and help organizations make informed choices",
+        "Maintaining high-quality standards": "Ensuring excellence in software products and being the guardian of quality and reliability"
+      },
       "career_mapping": {
         "Innovating with technology": "Software Engineer",
         "Expressing creativity through design": "UX/UI Designer",
@@ -87,6 +135,12 @@
       "question_id": 9,
       "question_text": "What ethical aspect do you value most?",
       "options_answer": "Ensuring software security,Respecting design ethics,Maintaining data privacy,Promoting software reliability",
+      "options_descriptions": {
+        "Ensuring software security": "Protecting users and systems from cyber threats by building secure, robust applications",
+        "Respecting design ethics": "Creating inclusive, accessible designs that consider user wellbeing and avoid manipulative patterns",
+        "Maintaining data privacy": "Protecting user information and ensuring responsible use of personal and sensitive data",
+        "Promoting software reliability": "Ensuring software works consistently and safely, preventing failures that could harm users"
+      },
       "career_mapping": {
         "Ensuring software security": "Software Engineer",
         "Respecting design ethics": "UX/UI Designer",
@@ -98,6 +152,12 @@
       "question_id": 10,
       "question_text": "What long-term learning goal excites you?",
       "options_answer": "Mastering advanced computing techniques,Becoming a design expert,Leading data science innovations,Excelling in quality assurance practices",
+      "options_descriptions": {
+        "Mastering advanced computing techniques": "Learning cutting-edge programming concepts, system architecture, and emerging technologies",
+        "Becoming a design expert": "Developing deep expertise in user research, design psychology, and advanced design methodologies",
+        "Leading data science innovations": "Becoming proficient in AI, machine learning, and advanced analytical techniques",
+        "Excelling in quality assurance practices": "Mastering testing frameworks, automation tools, and comprehensive quality control methods"
+      },
       "career_mapping": {
         "Mastering advanced computing techniques": "Software Engineer",
         "Becoming a design expert": "UX/UI Designer",
@@ -109,6 +169,12 @@
       "question_id": 11,
       "question_text": "Which type of project would you be most excited to work on?",
       "options_answer": "Building scalable web applications,Creating user-friendly mobile interfaces,Analyzing customer behavior patterns,Ensuring software meets quality standards",
+      "options_descriptions": {
+        "Building scalable web applications": "Creating websites and web apps that can handle many users and grow with business needs",
+        "Creating user-friendly mobile interfaces": "Designing mobile app screens and interactions that are intuitive and enjoyable to use",
+        "Analyzing customer behavior patterns": "Studying how users interact with products to improve business strategies and user experience",
+        "Ensuring software meets quality standards": "Testing applications thoroughly to make sure they work correctly and meet user expectations"
+      },
       "career_mapping": {
         "Building scalable web applications": "Software Engineer",
         "Creating user-friendly mobile interfaces": "UX/UI Designer",
@@ -120,6 +186,12 @@
       "question_id": 12,
       "question_text": "What type of technical challenge energizes you most?",
       "options_answer": "Optimizing code performance,Improving user experience design,Building predictive models,Finding and fixing software bugs",
+      "options_descriptions": {
+        "Optimizing code performance": "Making software run faster, use less memory, and work more efficiently through better programming",
+        "Improving user experience design": "Making applications easier to use, more accessible, and more enjoyable for different types of users",
+        "Building predictive models": "Creating algorithms that can forecast trends, classify data, or make intelligent predictions",
+        "Finding and fixing software bugs": "Investigating what's causing problems in software and implementing solutions to resolve them"
+      },
       "career_mapping": {
         "Optimizing code performance": "Software Engineer",
         "Improving user experience design": "UX/UI Designer",
@@ -131,6 +203,12 @@
       "question_id": 13,
       "question_text": "Which skill development area interests you most?",
       "options_answer": "Learning new programming languages,Mastering design tools and principles,Exploring machine learning algorithms,Developing testing methodologies",
+      "options_descriptions": {
+        "Learning new programming languages": "Expanding coding skills with languages like Python, JavaScript, Java, or emerging technologies",
+        "Mastering design tools and principles": "Becoming expert in tools like Figma, Adobe Creative Suite, and user-centered design methods",
+        "Exploring machine learning algorithms": "Understanding AI concepts, neural networks, and advanced data analysis techniques",
+        "Developing testing methodologies": "Learning systematic approaches to ensure software quality and reliability"
+      },
       "career_mapping": {
         "Learning new programming languages": "Software Engineer",
         "Mastering design tools and principles": "UX/UI Designer",
@@ -142,6 +220,12 @@
       "question_id": 14,
       "question_text": "What type of problem-solving approach do you prefer?",
       "options_answer": "Systematic coding and debugging,Creative brainstorming for design solutions,Data-driven hypothesis testing,Methodical testing and validation",
+      "options_descriptions": {
+        "Systematic coding and debugging": "Following logical steps to write code, identify issues, and solve technical problems methodically",
+        "Creative brainstorming for design solutions": "Using creative thinking and ideation to solve user problems and design challenges",
+        "Data-driven hypothesis testing": "Using statistical methods and experiments to test theories and validate findings",
+        "Methodical testing and validation": "Following structured processes to verify that software works correctly in all scenarios"
+      },
       "career_mapping": {
         "Systematic coding and debugging": "Software Engineer",
         "Creative brainstorming for design solutions": "UX/UI Designer",
@@ -153,6 +237,12 @@
       "question_id": 15,
       "question_text": "Which aspect of technology excites you most?",
       "options_answer": "Building robust software architecture,Crafting intuitive user interfaces,Discovering insights from data,Ensuring software reliability",
+      "options_descriptions": {
+        "Building robust software architecture": "Designing the overall structure and technical foundation that makes complex software systems work",
+        "Crafting intuitive user interfaces": "Creating interfaces that feel natural and easy to use, making technology accessible to everyone",
+        "Discovering insights from data": "Finding meaningful patterns and information hidden in large datasets to solve business problems",
+        "Ensuring software reliability": "Making sure applications work consistently and don't fail when users depend on them"
+      },
       "career_mapping": {
         "Building robust software architecture": "Software Engineer",
         "Crafting intuitive user interfaces": "UX/UI Designer",
@@ -164,6 +254,12 @@
       "question_id": 16,
       "question_text": "What motivates you to learn new technologies?",
       "options_answer": "Implementing efficient solutions,Creating better user experiences,Leveraging data for insights,Improving software quality",
+      "options_descriptions": {
+        "Implementing efficient solutions": "Building software that solves problems quickly and effectively using the best available technology",
+        "Creating better user experiences": "Using new tools and techniques to make applications more user-friendly and engaging",
+        "Leveraging data for insights": "Using advanced analytics and AI technologies to extract more value from information",
+        "Improving software quality": "Adopting new testing tools and practices to build more reliable and robust applications"
+      },
       "career_mapping": {
         "Implementing efficient solutions": "Software Engineer",
         "Creating better user experiences": "UX/UI Designer",
@@ -175,6 +271,12 @@
       "question_id": 17,
       "question_text": "Which type of feedback do you find most valuable?",
       "options_answer": "Code review and technical suggestions,User feedback on design prototypes,Statistical validation of analysis results,Bug reports and testing outcomes",
+      "options_descriptions": {
+        "Code review and technical suggestions": "Getting input from other developers on code quality, efficiency, and best practices",
+        "User feedback on design prototypes": "Learning how real users interact with designs and what improvements they suggest",
+        "Statistical validation of analysis results": "Confirming that data analysis methods are sound and conclusions are statistically valid",
+        "Bug reports and testing outcomes": "Understanding what issues exist in software and how well testing strategies are working"
+      },
       "career_mapping": {
         "Code review and technical suggestions": "Software Engineer",
         "User feedback on design prototypes": "UX/UI Designer",
@@ -186,6 +288,12 @@
       "question_id": 18,
       "question_text": "What type of documentation do you prefer creating?",
       "options_answer": "Technical specifications and API docs,Design guidelines and user personas,Data analysis reports and visualizations,Test cases and quality reports",
+      "options_descriptions": {
+        "Technical specifications and API docs": "Writing detailed documentation about how software works and how other developers can use it",
+        "Design guidelines and user personas": "Creating guides that help teams understand users and maintain consistent design standards",
+        "Data analysis reports and visualizations": "Creating clear presentations of data findings with charts, graphs, and insights",
+        "Test cases and quality reports": "Documenting testing procedures and creating reports on software quality and reliability"
+      },
       "career_mapping": {
         "Technical specifications and API docs": "Software Engineer",
         "Design guidelines and user personas": "UX/UI Designer",
@@ -197,6 +305,12 @@
       "question_id": 19,
       "question_text": "Which success metric would you be most proud of?",
       "options_answer": "High-performance application with minimal downtime,Increased user engagement and satisfaction,Actionable insights leading to business growth,Zero critical bugs in production",
+      "options_descriptions": {
+        "High-performance application with minimal downtime": "Building software that runs fast, efficiently, and rarely has technical problems or outages",
+        "Increased user engagement and satisfaction": "Creating designs that make users more active, happy, and successful with the application",
+        "Actionable insights leading to business growth": "Providing data analysis that directly helps a company make better decisions and grow",
+        "Zero critical bugs in production": "Ensuring that live software has no serious problems that could harm users or business operations"
+      },
       "career_mapping": {
         "High-performance application with minimal downtime": "Software Engineer",
         "Increased user engagement and satisfaction": "UX/UI Designer",
@@ -208,6 +322,12 @@
       "question_id": 20,
       "question_text": "What type of continuous learning appeals to you most?",
       "options_answer": "Staying updated with programming frameworks,Following design trends and user research,Exploring new data science techniques,Learning about quality assurance best practices",
+      "options_descriptions": {
+        "Staying updated with programming frameworks": "Learning about new programming tools, libraries, and development methodologies as they emerge",
+        "Following design trends and user research": "Keeping up with evolving design patterns, user behavior studies, and interface innovations",
+        "Exploring new data science techniques": "Learning about cutting-edge AI algorithms, machine learning models, and analytical methods",
+        "Learning about quality assurance best practices": "Staying current with new testing tools, automation techniques, and quality control methods"
+      },
       "career_mapping": {
         "Staying updated with programming frameworks": "Software Engineer",
         "Following design trends and user research": "UX/UI Designer",
