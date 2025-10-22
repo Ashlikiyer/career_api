@@ -1,9 +1,9 @@
-const { user_feedback, User, Assessment } = require('../models');
+const { user_feedback, User, Assessment, Roadmap } = require('../models');
 
-// Submit user feedback/rating for assessment experience
+// Submit user feedback/rating for assessment or roadmap experience
 const submitFeedback = async (req, res) => {
   try {
-    const { rating, feedback_text, assessment_id } = req.body;
+    const { rating, feedback_text, assessment_id, roadmap_id, feedback_type } = req.body;
 
     // Validate required fields
     if (!rating) {
@@ -21,6 +21,32 @@ const submitFeedback = async (req, res) => {
       });
     }
 
+    // Validate feedback type
+    const validTypes = ['assessment', 'roadmap'];
+    const finalFeedbackType = feedback_type || 'assessment';
+
+    if (!validTypes.includes(finalFeedbackType)) {
+      return res.status(400).json({
+        success: false,
+        message: 'Invalid feedback type. Must be "assessment" or "roadmap"'
+      });
+    }
+
+    // Validate that appropriate ID is provided based on feedback type
+    if (finalFeedbackType === 'assessment' && !assessment_id) {
+      return res.status(400).json({
+        success: false,
+        message: 'assessment_id is required for assessment feedback'
+      });
+    }
+
+    if (finalFeedbackType === 'roadmap' && !roadmap_id) {
+      return res.status(400).json({
+        success: false,
+        message: 'roadmap_id is required for roadmap feedback'
+      });
+    }
+
     // Get user_id from session/token (if authenticated)
     const user_id = req.user?.user_id || null;
 
@@ -28,6 +54,8 @@ const submitFeedback = async (req, res) => {
     const feedbackData = {
       user_id,
       assessment_id: assessment_id || null,
+      roadmap_id: roadmap_id || null,
+      feedback_type: finalFeedbackType,
       rating,
       feedback_text: feedback_text?.trim() || null
     };
@@ -39,6 +67,7 @@ const submitFeedback = async (req, res) => {
       message: 'Feedback submitted successfully',
       data: {
         id: feedback.id,
+        feedback_type: feedback.feedback_type,
         rating: feedback.rating,
         feedback_text: feedback.feedback_text,
         created_at: feedback.created_at
@@ -58,35 +87,71 @@ const submitFeedback = async (req, res) => {
 // Get feedback analytics for admin dashboard
 const getFeedbackAnalytics = async (req, res) => {
   try {
-    // Simple analytics - just get basic stats for now
+    // Get feedback counts by type
     const totalFeedback = await user_feedback.count();
+    const assessmentFeedback = await user_feedback.count({
+      where: { feedback_type: 'assessment' }
+    });
+    const roadmapFeedback = await user_feedback.count({
+      where: { feedback_type: 'roadmap' }
+    });
 
-    // Get all feedback to calculate simple stats
+    // Get all feedback to calculate stats
     const allFeedback = await user_feedback.findAll({
-      attributes: ['rating', 'created_at'],
+      attributes: ['rating', 'feedback_type', 'created_at'],
       order: [['created_at', 'DESC']]
     });
 
-    // Calculate rating distribution
-    const ratingStats = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+    // Calculate rating distribution by type
+    const ratingStats = {
+      overall: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 },
+      assessment: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 },
+      roadmap: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 }
+    };
+
     let totalRating = 0;
+    let assessmentRating = 0;
+    let roadmapRating = 0;
 
     allFeedback.forEach(feedback => {
-      ratingStats[feedback.rating] = (ratingStats[feedback.rating] || 0) + 1;
+      ratingStats.overall[feedback.rating] = (ratingStats.overall[feedback.rating] || 0) + 1;
+      ratingStats[feedback.feedback_type][feedback.rating] = (ratingStats[feedback.feedback_type][feedback.rating] || 0) + 1;
+
       totalRating += feedback.rating;
+      if (feedback.feedback_type === 'assessment') {
+        assessmentRating += feedback.rating;
+      } else if (feedback.feedback_type === 'roadmap') {
+        roadmapRating += feedback.rating;
+      }
     });
 
     const averageRating = totalFeedback > 0 ? (totalRating / totalFeedback).toFixed(2) : '0.00';
+    const assessmentAverage = assessmentFeedback > 0 ? (assessmentRating / assessmentFeedback).toFixed(2) : '0.00';
+    const roadmapAverage = roadmapFeedback > 0 ? (roadmapRating / roadmapFeedback).toFixed(2) : '0.00';
 
-    // Get recent feedback
+    // Get recent feedback with type information
     const recentFeedback = await user_feedback.findAll({
       where: {
         feedback_text: {
           [require('sequelize').Op.not]: null
         }
       },
+      include: [
+        {
+          model: Assessment,
+          as: 'assessment',
+          attributes: ['name'],
+          required: false
+        },
+        {
+          model: Roadmap,
+          as: 'roadmap',
+          attributes: ['career_name'],
+          required: false
+        }
+      ],
       order: [['created_at', 'DESC']],
-      limit: 5
+      limit: 10
     });
 
     res.json({
@@ -94,17 +159,24 @@ const getFeedbackAnalytics = async (req, res) => {
       data: {
         summary: {
           totalFeedback,
+          assessmentFeedback,
+          roadmapFeedback,
           averageRating,
+          assessmentAverage,
+          roadmapAverage,
           timeRange: req.query.timeRange || '30d'
         },
         ratingDistribution: ratingStats,
         recentFeedback: recentFeedback.map(item => ({
           id: item.id,
+          feedback_type: item.feedback_type,
           rating: item.rating,
           feedback_text: item.feedback_text,
           created_at: item.created_at,
           user_email: 'Anonymous', // Simplified for now
-          assessment_name: 'General Feedback'
+          reference_name: item.feedback_type === 'assessment'
+            ? (item.assessment?.name || 'General Assessment')
+            : (item.roadmap?.career_name || 'General Roadmap')
         }))
       }
     });
@@ -140,6 +212,12 @@ const getUserFeedback = async (req, res) => {
           as: 'assessment',
           attributes: ['name'],
           required: false
+        },
+        {
+          model: Roadmap,
+          as: 'roadmap',
+          attributes: ['career_name'],
+          required: false
         }
       ],
       order: [['created_at', 'DESC']]
@@ -149,10 +227,13 @@ const getUserFeedback = async (req, res) => {
       success: true,
       data: userFeedback.map(item => ({
         id: item.id,
+        feedback_type: item.feedback_type,
         rating: item.rating,
         feedback_text: item.feedback_text,
         created_at: item.created_at,
-        assessment_name: item.assessment?.name || 'General Feedback'
+        reference_name: item.feedback_type === 'assessment'
+          ? (item.assessment?.name || 'General Assessment')
+          : (item.roadmap?.career_name || 'General Roadmap')
       }))
     });
 

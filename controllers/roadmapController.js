@@ -1,4 +1,4 @@
-const { SavedCareer, Roadmap, RoadmapStep } = require('../models');
+const { SavedCareer, Roadmap, RoadmapStep, user_feedback } = require('../models');
 const roadmapData = require('../careerdata/roadmapData.json'); // Roadmap data (fallback)
 
 const getRoadmap = async (req, res) => {
@@ -50,6 +50,22 @@ const getRoadmap = async (req, res) => {
       userSteps = await RoadmapStep.bulkCreate(stepsToCreate);
     }
 
+    // Check if roadmap is completed (all steps done)
+    const isCompleted = userSteps.length > 0 && userSteps.every(step => step.is_done);
+
+    // Check if user has already submitted feedback for this roadmap
+    let hasSubmittedFeedback = false;
+    if (isCompleted) {
+      const existingFeedback = await user_feedback.findOne({
+        where: {
+          user_id,
+          roadmap_id: roadmap.roadmap_id,
+          feedback_type: 'roadmap'
+        }
+      });
+      hasSubmittedFeedback = !!existingFeedback;
+    }
+
     // Format response
     const formattedRoadmap = userSteps.map(step => ({
       step_id: step.step_id,
@@ -69,6 +85,9 @@ const getRoadmap = async (req, res) => {
       roadmap: formattedRoadmap,
       total_steps: formattedRoadmap.length,
       completed_steps: formattedRoadmap.filter(step => step.is_done).length,
+      is_completed: isCompleted,
+      feedback_submitted: hasSubmittedFeedback,
+      can_submit_feedback: isCompleted && !hasSubmittedFeedback
     });
   } catch (error) {
     console.error('Error fetching roadmap:', error);
@@ -160,6 +179,20 @@ const getRoadmapProgress = async (req, res) => {
     const totalSteps = userSteps.length;
     const completedSteps = userSteps.filter(step => step.is_done).length;
     const progressPercentage = totalSteps > 0 ? Math.round((completedSteps / totalSteps) * 100) : 0;
+    const isCompleted = totalSteps > 0 && completedSteps === totalSteps;
+
+    // Check if user has already submitted feedback for this roadmap
+    let hasSubmittedFeedback = false;
+    if (isCompleted) {
+      const existingFeedback = await user_feedback.findOne({
+        where: {
+          user_id,
+          roadmap_id: roadmap.roadmap_id,
+          feedback_type: 'roadmap'
+        }
+      });
+      hasSubmittedFeedback = !!existingFeedback;
+    }
 
     res.json({
       career_name: savedCareer.career_name,
@@ -167,6 +200,9 @@ const getRoadmapProgress = async (req, res) => {
       total_steps: totalSteps,
       completed_steps: completedSteps,
       progress_percentage: progressPercentage,
+      is_completed: isCompleted,
+      feedback_submitted: hasSubmittedFeedback,
+      can_submit_feedback: isCompleted && !hasSubmittedFeedback,
       steps: userSteps.map(step => ({
         step_id: step.step_id,
         step_number: step.step_number,

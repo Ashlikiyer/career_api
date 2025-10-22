@@ -24,6 +24,19 @@ module.exports = (sequelize, DataTypes) => {
         key: 'assessment_id'
       }
     },
+    roadmap_id: {
+      type: DataTypes.INTEGER,
+      allowNull: true, // Allow feedback without specific roadmap reference
+      references: {
+        model: 'roadmaps',
+        key: 'roadmap_id'
+      }
+    },
+    feedback_type: {
+      type: DataTypes.ENUM('assessment', 'roadmap'),
+      allowNull: false,
+      defaultValue: 'assessment'
+    },
     rating: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -60,6 +73,12 @@ module.exports = (sequelize, DataTypes) => {
         fields: ['assessment_id']
       },
       {
+        fields: ['roadmap_id']
+      },
+      {
+        fields: ['feedback_type']
+      },
+      {
         fields: ['rating']
       },
       {
@@ -80,6 +99,12 @@ module.exports = (sequelize, DataTypes) => {
     UserFeedback.belongsTo(models.Assessment, {
       foreignKey: 'assessment_id',
       as: 'assessment'
+    });
+
+    // A feedback belongs to a roadmap (optional)
+    UserFeedback.belongsTo(models.Roadmap, {
+      foreignKey: 'roadmap_id',
+      as: 'roadmap'
     });
   };
 
