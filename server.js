@@ -7,6 +7,7 @@ const roadmapRoutes = require('./routes/roadmapRoutes');
 const assessmentRoutes = require('./routes/assessmentRoutes');
 const careerSuggestionRoutes = require('./routes/careerSuggestionRoutes');
 const chatbotRoutes = require('./routes/chatbotRoutes');
+const feedbackRoutes = require('./routes/feedbackRoutes');
 
 const express = require("express");
 const cors = require("cors");
@@ -137,6 +138,7 @@ app.use("/api/roadmaps", roadmapRoutes);
 app.use("/api/assessment", assessmentRoutes);
 app.use("/api/career-suggestions", careerSuggestionRoutes);
 app.use("/api/chatbot", chatbotRoutes);
+app.use("/api/feedback", feedbackRoutes);
 
 // Sync database and start server
 const PORT = process.env.PORT || 5000;

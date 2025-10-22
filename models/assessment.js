@@ -8,6 +8,7 @@ module.exports = (sequelize, DataTypes) => {
       Assessment.hasMany(models.Question, { foreignKey: 'assessment_id' });
       Assessment.hasMany(models.InitialResult, { foreignKey: 'assessment_id' });
       Assessment.hasMany(models.FinalResult, { foreignKey: 'assessment_id' });
+      Assessment.hasMany(models.user_feedback, { foreignKey: 'assessment_id' });
     }
   }
 
