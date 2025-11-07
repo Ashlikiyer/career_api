@@ -8,6 +8,7 @@ const assessmentRoutes = require('./routes/assessmentRoutes');
 const careerSuggestionRoutes = require('./routes/careerSuggestionRoutes');
 const chatbotRoutes = require('./routes/chatbotRoutes');
 const feedbackRoutes = require('./routes/feedbackRoutes');
+const { debugFeedback } = require('./controllers/debugController');
 
 const express = require("express");
 const cors = require("cors");
@@ -129,6 +130,9 @@ app.post("/debug/session-test", (req, res) => {
     isNewSession: req.session.isNew
   });
 });
+
+// Debug feedback endpoint
+app.get("/debug/feedback", debugFeedback);
 
 // Define API routes
 app.use("/api/users", userRoutes);

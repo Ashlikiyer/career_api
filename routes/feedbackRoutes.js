@@ -8,8 +8,8 @@ const authMiddleware = require('../middleware/auth');
 
 const router = express.Router();
 
-// Public route - Submit feedback (allows anonymous feedback)
-router.post('/', submitFeedback);
+// Protected route - Submit feedback (requires authentication for roadmap feedback tracking)
+router.post('/', authMiddleware, submitFeedback);
 
 // Protected routes - Require authentication
 router.get('/user', authMiddleware, getUserFeedback);

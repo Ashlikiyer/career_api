@@ -1,26 +1,26 @@
 {
   "default_question": {
     "question_id": 1,
-    "question_text": "What activity are you most passionate about?",
+    "question_text": "What type of work makes you feel most alive and engaged?",
     "options_answer": "Solving computing problems,Creating visual designs,Analyzing data patterns,Ensuring software quality",
     "options_descriptions": {
-      "Solving computing problems": "Writing code, developing algorithms, and building software solutions to solve technical challenges",
-      "Creating visual designs": "Designing user interfaces, graphics, and visual elements to create appealing and functional experiences",
-      "Analyzing data patterns": "Working with datasets, statistics, and analytics to discover insights and trends from information",
-      "Ensuring software quality": "Testing applications, finding bugs, and making sure software works reliably and meets requirements"
+      "Solving computing problems": "You feel energized when unraveling complex puzzles and bringing ideas to life through technology, finding deep satisfaction in the moment a solution finally clicks into place",
+      "Creating visual designs": "You feel inspired when shaping how people experience technology, taking pride in creating beautiful, intuitive designs that make others' lives easier and more enjoyable",
+      "Analyzing data patterns": "You feel fascinated by uncovering hidden stories within numbers, experiencing that 'aha!' moment when data reveals insights that can genuinely help people make better decisions",
+      "Ensuring software quality": "You feel fulfilled knowing you're the guardian of excellence, taking pride in protecting users from frustration and ensuring they can rely on technology that truly works"
     },
     "career_category": "default"
   },
   "progressive_questions": [
     {
       "question_id": 2,
-      "question_text": "Which task do you enjoy the most?",
+      "question_text": "When you imagine yourself in your element, completely absorbed in your work, what are you doing?",
       "options_answer": "Designing algorithms,Working on creative layouts,Manipulating datasets,Testing software functionality",
       "options_descriptions": {
-        "Designing algorithms": "Creating step-by-step instructions and logic for computers to solve complex problems efficiently",
-        "Working on creative layouts": "Arranging visual elements, colors, and typography to create user-friendly and attractive interfaces",
-        "Manipulating datasets": "Cleaning, organizing, and transforming raw data into formats suitable for analysis and insights",
-        "Testing software functionality": "Systematically checking if software features work correctly and identifying potential issues"
+        "Designing algorithms": "You see yourself lost in thought, excitedly mapping out elegant solutions to challenging problems, feeling that rush when everything comes together in a beautifully logical way",
+        "Working on creative layouts": "You picture yourself experimenting with colors, shapes, and flows, feeling a sense of creative joy as you craft experiences that will delight and help real people",
+        "Manipulating datasets": "You envision yourself exploring data like a detective, experiencing genuine excitement as patterns emerge and transform into meaningful stories that matter",
+        "Testing software functionality": "You imagine yourself meticulously ensuring everything works perfectly, feeling deeply satisfied knowing your attention to detail protects users from frustration"
       },
       "career_mapping": {
         "Designing algorithms": "Software Engineer",
@@ -31,13 +31,13 @@
     },
     {
       "question_id": 3,
-      "question_text": "What type of problem-solving excites you?",
+      "question_text": "What type of challenge makes you feel most proud when you overcome it?",
       "options_answer": "Algorithmic challenges,Visual design challenges,Statistical analysis challenges,Debugging challenges",
       "options_descriptions": {
-        "Algorithmic challenges": "Solving complex computational problems by creating efficient, logical solutions and optimizing performance",
-        "Visual design challenges": "Finding creative ways to make information clear, accessible, and visually appealing to users",
-        "Statistical analysis challenges": "Using mathematical methods to find patterns, correlations, and meaningful insights in data",
-        "Debugging challenges": "Detective work to find what's causing software problems and figuring out how to fix them"
+        "Algorithmic challenges": "You feel a deep sense of accomplishment when you crack a complex logical puzzle, experiencing that incredible satisfaction when your solution is both elegant and effective",
+        "Visual design challenges": "You feel genuinely proud when you've transformed a confusing experience into something intuitive and beautiful, knowing you've made technology more human and accessible",
+        "Statistical analysis challenges": "You feel thrilled when you've wrestled meaningful insights from complicated data, experiencing pride in knowing your discoveries can genuinely improve people's lives or businesses",
+        "Debugging challenges": "You feel like a hero when you track down elusive problems and fix them, taking pride in your persistence and the reliability you bring to products people depend on"
       },
       "career_mapping": {
         "Algorithmic challenges": "Software Engineer",
@@ -48,13 +48,13 @@
     },
     {
       "question_id": 4,
-      "question_text": "Which work environment suits you best?",
+      "question_text": "What kind of work environment makes you feel energized and inspired?",
       "options_answer": "Technology-driven projects,Artistic and creative spaces,Data-focused research,Quality assurance processes",
       "options_descriptions": {
-        "Technology-driven projects": "Working with cutting-edge software tools, programming languages, and technical innovation",
-        "Artistic and creative spaces": "Collaborating in environments that value creativity, design thinking, and user-centered approaches",
-        "Data-focused research": "Working in analytical environments with databases, statistical tools, and research methodologies",
-        "Quality assurance processes": "Structured environments focused on testing, documentation, and ensuring high standards"
+        "Technology-driven projects": "You thrive in dynamic environments where innovation happens, feeling energized by cutting-edge tools and the excitement of building the future",
+        "Artistic and creative spaces": "You feel most inspired in collaborative, creative atmospheres where imagination and empathy are valued, and where you can blend beauty with purpose",
+        "Data-focused research": "You feel at home in thoughtful, analytical environments where curiosity is encouraged and where careful investigation leads to meaningful discoveries",
+        "Quality assurance processes": "You feel secure and purposeful in structured, detail-oriented settings where precision matters and where your commitment to excellence makes a real difference"
       },
       "career_mapping": {
         "Technology-driven projects": "Software Engineer",
@@ -65,13 +65,13 @@
     },
     {
       "question_id": 5,
-      "question_text": "Which skill do you want to develop most?",
+      "question_text": "What skill would you be most excited to master as you grow in your career?",
       "options_answer": "Programming and algorithm design,Design software proficiency,Data modeling and machine learning,Testing and quality assurance techniques",
       "options_descriptions": {
-        "Programming and algorithm design": "Learning coding languages (Python, Java, JavaScript) and creating efficient software solutions",
-        "Design software proficiency": "Mastering tools like Figma, Adobe Creative Suite, and user experience design principles",
-        "Data modeling and machine learning": "Building predictive models, working with AI algorithms, and advanced statistical analysis",
-        "Testing and quality assurance techniques": "Learning systematic testing methods, automation tools, and quality control processes"
+        "Programming and algorithm design": "You feel drawn to the idea of becoming fluent in the language of computers, excited by the power to create anything you can imagine through code",
+        "Design software proficiency": "You're inspired by the prospect of mastering creative tools that let you transform ideas into beautiful, user-friendly experiences that truly help people",
+        "Data modeling and machine learning": "You're fascinated by the possibility of teaching computers to learn and predict, excited to unlock insights that could genuinely change how we understand the world",
+        "Testing and quality assurance techniques": "You feel motivated by becoming an expert in ensuring excellence, knowing that your skills will protect users and uphold the highest standards of quality"
       },
       "career_mapping": {
         "Programming and algorithm design": "Software Engineer",
@@ -82,13 +82,13 @@
     },
     {
       "question_id": 6,
-      "question_text": "What do you find most rewarding in your work?",
+      "question_text": "What type of accomplishment would make you feel most fulfilled in your work?",
       "options_answer": "Building efficient software,Designing impactful visuals,Uncovering data insights,Ensuring flawless software performance",
       "options_descriptions": {
-        "Building efficient software": "Creating applications and systems that work fast, reliably, and solve real-world problems",
-        "Designing impactful visuals": "Creating designs that improve user experience and make technology more accessible and enjoyable",
-        "Uncovering data insights": "Discovering hidden patterns and trends that help businesses make better decisions",
-        "Ensuring flawless software performance": "Making sure applications work perfectly without bugs or performance issues"
+        "Building efficient software": "You'd feel deeply satisfied knowing you've created something that truly works, solving real problems and making people's lives easier through technology",
+        "Designing impactful visuals": "You'd feel fulfilled seeing people connect with and enjoy your designs, knowing you've made technology more accessible, beautiful, and human-centered",
+        "Uncovering data insights": "You'd feel proud knowing your discoveries have led to better decisions and positive change, transforming raw information into wisdom that actually helps people",
+        "Ensuring flawless software performance": "You'd feel accomplished knowing users can completely trust the software you've validated, feeling proud that your diligence prevents problems and protects their experience"
       },
       "career_mapping": {
         "Building efficient software": "Software Engineer",
@@ -99,13 +99,13 @@
     },
     {
       "question_id": 7,
-      "question_text": "How do you prefer to work with others?",
+      "question_text": "How do you envision yourself contributing to a team in a way that feels meaningful?",
       "options_answer": "Collaborating on code development,Collaborating on design feedback,Collaborating on data analysis,Collaborating on testing strategies",
       "options_descriptions": {
-        "Collaborating on code development": "Working with other programmers to review code, share solutions, and build software together",
-        "Collaborating on design feedback": "Working with teams to refine user interfaces and improve user experience through iteration",
-        "Collaborating on data analysis": "Working with stakeholders to understand data needs and present findings to decision-makers",
-        "Collaborating on testing strategies": "Working with development teams to plan testing approaches and ensure quality standards"
+        "Collaborating on code development": "You see yourself as part of a creative team of builders, feeling energized by sharing ideas and working together to bring innovative solutions to life",
+        "Collaborating on design feedback": "You imagine yourself in thoughtful discussions about user needs, feeling fulfilled as you and your team refine designs to truly serve people better",
+        "Collaborating on data analysis": "You envision yourself translating complex findings into clear stories, feeling purposeful as you help others understand and act on important insights",
+        "Collaborating on testing strategies": "You see yourself as a trusted partner ensuring quality, feeling valued for your careful attention and the peace of mind you bring to the team"
       },
       "career_mapping": {
         "Collaborating on code development": "Software Engineer",
@@ -116,13 +116,13 @@
     },
     {
       "question_id": 8,
-      "question_text": "What motivates you in your career?",
+      "question_text": "What deeper purpose or impact drives you to show up and do your best work?",
       "options_answer": "Innovating with technology,Expressing creativity through design,Driving decisions with data,Maintaining high-quality standards",
       "options_descriptions": {
-        "Innovating with technology": "Being at the forefront of new technologies and creating solutions that push technological boundaries",
-        "Expressing creativity through design": "Using artistic skills and creative thinking to solve user problems and create beautiful experiences",
-        "Driving decisions with data": "Using analytical insights to influence business strategy and help organizations make informed choices",
-        "Maintaining high-quality standards": "Ensuring excellence in software products and being the guardian of quality and reliability"
+        "Innovating with technology": "You feel called to push boundaries and create the future, finding deep meaning in being part of technological advancement that shapes how we live",
+        "Expressing creativity through design": "You feel driven to make the digital world more beautiful and human, finding purpose in using your creativity to genuinely improve people's daily experiences",
+        "Driving decisions with data": "You feel motivated by the power of truth and evidence, knowing your insights help organizations and people make wiser, more informed choices",
+        "Maintaining high-quality standards": "You feel a strong sense of responsibility to protect users and uphold excellence, finding meaning in being the person others can count on for reliability"
       },
       "career_mapping": {
         "Innovating with technology": "Software Engineer",
@@ -133,13 +133,13 @@
     },
     {
       "question_id": 9,
-      "question_text": "What ethical aspect do you value most?",
+      "question_text": "What ethical value feels most important to you as you think about your future career?",
       "options_answer": "Ensuring software security,Respecting design ethics,Maintaining data privacy,Promoting software reliability",
       "options_descriptions": {
-        "Ensuring software security": "Protecting users and systems from cyber threats by building secure, robust applications",
-        "Respecting design ethics": "Creating inclusive, accessible designs that consider user wellbeing and avoid manipulative patterns",
-        "Maintaining data privacy": "Protecting user information and ensuring responsible use of personal and sensitive data",
-        "Promoting software reliability": "Ensuring software works consistently and safely, preventing failures that could harm users"
+        "Ensuring software security": "You feel a strong responsibility to protect people in the digital world, finding purpose in building safe systems that keep users and their information secure",
+        "Respecting design ethics": "You care deeply about treating users with dignity and respect, feeling committed to creating inclusive, honest designs that empower rather than manipulate",
+        "Maintaining data privacy": "You believe in honoring people's trust and autonomy, feeling driven to ensure personal information is handled with the care and respect everyone deserves",
+        "Promoting software reliability": "You take pride in being dependable, feeling responsible for ensuring that the technology people rely on won't let them down when it matters most"
       },
       "career_mapping": {
         "Ensuring software security": "Software Engineer",
@@ -150,13 +150,13 @@
     },
     {
       "question_id": 10,
-      "question_text": "What long-term learning goal excites you?",
+      "question_text": "When you imagine yourself years from now, what kind of expertise would make you feel most proud?",
       "options_answer": "Mastering advanced computing techniques,Becoming a design expert,Leading data science innovations,Excelling in quality assurance practices",
       "options_descriptions": {
-        "Mastering advanced computing techniques": "Learning cutting-edge programming concepts, system architecture, and emerging technologies",
-        "Becoming a design expert": "Developing deep expertise in user research, design psychology, and advanced design methodologies",
-        "Leading data science innovations": "Becoming proficient in AI, machine learning, and advanced analytical techniques",
-        "Excelling in quality assurance practices": "Mastering testing frameworks, automation tools, and comprehensive quality control methods"
+        "Mastering advanced computing techniques": "You envision yourself as a skilled architect of technology, feeling proud to be someone who can tackle any technical challenge with confidence and creativity",
+        "Becoming a design expert": "You see yourself as a trusted voice in creating meaningful experiences, feeling fulfilled knowing you've helped shape how people interact with and feel about technology",
+        "Leading data science innovations": "You imagine yourself at the forefront of discovery, feeling excited to be someone who unlocks insights that genuinely advance understanding and create positive change",
+        "Excelling in quality assurance practices": "You picture yourself as a master of excellence and reliability, feeling proud to be the professional others trust to ensure the highest standards are met"
       },
       "career_mapping": {
         "Mastering advanced computing techniques": "Software Engineer",
@@ -167,13 +167,13 @@
     },
     {
       "question_id": 11,
-      "question_text": "Which type of project would you be most excited to work on?",
+      "question_text": "What type of project would genuinely excite you to wake up and work on each day?",
       "options_answer": "Building scalable web applications,Creating user-friendly mobile interfaces,Analyzing customer behavior patterns,Ensuring software meets quality standards",
       "options_descriptions": {
-        "Building scalable web applications": "Creating websites and web apps that can handle many users and grow with business needs",
-        "Creating user-friendly mobile interfaces": "Designing mobile app screens and interactions that are intuitive and enjoyable to use",
-        "Analyzing customer behavior patterns": "Studying how users interact with products to improve business strategies and user experience",
-        "Ensuring software meets quality standards": "Testing applications thoroughly to make sure they work correctly and meet user expectations"
+        "Building scalable web applications": "You'd feel energized creating powerful platforms that can grow and serve thousands of people, finding joy in knowing your work makes a real impact at scale",
+        "Creating user-friendly mobile interfaces": "You'd feel inspired designing experiences that fit in people's pockets, taking pride in making everyday moments easier and more delightful through thoughtful design",
+        "Analyzing customer behavior patterns": "You'd feel fascinated discovering what makes people tick, finding meaning in translating human behavior into insights that help create better products and experiences",
+        "Ensuring software meets quality standards": "You'd feel purposeful knowing you're the final safeguard, finding satisfaction in your role protecting users from frustration and ensuring excellence in every release"
       },
       "career_mapping": {
         "Building scalable web applications": "Software Engineer",
@@ -184,13 +184,13 @@
     },
     {
       "question_id": 12,
-      "question_text": "What type of technical challenge energizes you most?",
+      "question_text": "What kind of challenge would make you feel most in your element and fully engaged?",
       "options_answer": "Optimizing code performance,Improving user experience design,Building predictive models,Finding and fixing software bugs",
       "options_descriptions": {
-        "Optimizing code performance": "Making software run faster, use less memory, and work more efficiently through better programming",
-        "Improving user experience design": "Making applications easier to use, more accessible, and more enjoyable for different types of users",
-        "Building predictive models": "Creating algorithms that can forecast trends, classify data, or make intelligent predictions",
-        "Finding and fixing software bugs": "Investigating what's causing problems in software and implementing solutions to resolve them"
+        "Optimizing code performance": "You'd feel in the zone perfecting systems to run faster and smarter, experiencing that satisfying feeling when everything clicks into place and performs beautifully",
+        "Improving user experience design": "You'd feel genuinely engaged making technology more intuitive and accessible, finding deep satisfaction in transforming confusion into clarity for all types of users",
+        "Building predictive models": "You'd feel captivated teaching systems to learn and anticipate, experiencing excitement as your models begin to predict and understand patterns in meaningful ways",
+        "Finding and fixing software bugs": "You'd feel energized by the investigative process, experiencing genuine pride in being the one who can track down problems and restore everything to working order"
       },
       "career_mapping": {
         "Optimizing code performance": "Software Engineer",
@@ -201,13 +201,13 @@
     },
     {
       "question_id": 13,
-      "question_text": "Which skill development area interests you most?",
+      "question_text": "What area of growth feels most personally meaningful to you for your future?",
       "options_answer": "Learning new programming languages,Mastering design tools and principles,Exploring machine learning algorithms,Developing testing methodologies",
       "options_descriptions": {
-        "Learning new programming languages": "Expanding coding skills with languages like Python, JavaScript, Java, or emerging technologies",
-        "Mastering design tools and principles": "Becoming expert in tools like Figma, Adobe Creative Suite, and user-centered design methods",
-        "Exploring machine learning algorithms": "Understanding AI concepts, neural networks, and advanced data analysis techniques",
-        "Developing testing methodologies": "Learning systematic approaches to ensure software quality and reliability"
+        "Learning new programming languages": "You feel drawn to expanding your ability to communicate with computers in new ways, excited by the creative freedom that comes with mastering new languages and tools",
+        "Mastering design tools and principles": "You feel passionate about honing your craft in design, eager to develop the skills that will let you create experiences that truly resonate with and help people",
+        "Exploring machine learning algorithms": "You feel curious about the frontier of artificial intelligence, excited by the possibility of understanding how to create systems that can learn and adapt",
+        "Developing testing methodologies": "You feel committed to becoming excellent at ensuring quality, valuing the expertise that comes with knowing how to systematically protect users and maintain standards"
       },
       "career_mapping": {
         "Learning new programming languages": "Software Engineer",
@@ -218,13 +218,13 @@
     },
     {
       "question_id": 14,
-      "question_text": "What type of problem-solving approach do you prefer?",
+      "question_text": "What approach to solving problems feels most natural and satisfying to you?",
       "options_answer": "Systematic coding and debugging,Creative brainstorming for design solutions,Data-driven hypothesis testing,Methodical testing and validation",
       "options_descriptions": {
-        "Systematic coding and debugging": "Following logical steps to write code, identify issues, and solve technical problems methodically",
-        "Creative brainstorming for design solutions": "Using creative thinking and ideation to solve user problems and design challenges",
-        "Data-driven hypothesis testing": "Using statistical methods and experiments to test theories and validate findings",
-        "Methodical testing and validation": "Following structured processes to verify that software works correctly in all scenarios"
+        "Systematic coding and debugging": "You feel most comfortable thinking through problems logically and methodically, finding satisfaction in the structured process of building and refining solutions step by step",
+        "Creative brainstorming for design solutions": "You feel energized by imaginative exploration, finding joy in the freedom to think creatively and develop innovative solutions that put people first",
+        "Data-driven hypothesis testing": "You feel grounded by evidence and experimentation, appreciating the clarity that comes from testing ideas against real data and discovering what's actually true",
+        "Methodical testing and validation": "You feel most confident with systematic approaches, finding peace of mind in thorough processes that ensure nothing is overlooked and everything works as intended"
       },
       "career_mapping": {
         "Systematic coding and debugging": "Software Engineer",
@@ -235,13 +235,13 @@
     },
     {
       "question_id": 15,
-      "question_text": "Which aspect of technology excites you most?",
+      "question_text": "What aspect of creating technology feels most meaningful and exciting to you?",
       "options_answer": "Building robust software architecture,Crafting intuitive user interfaces,Discovering insights from data,Ensuring software reliability",
       "options_descriptions": {
-        "Building robust software architecture": "Designing the overall structure and technical foundation that makes complex software systems work",
-        "Crafting intuitive user interfaces": "Creating interfaces that feel natural and easy to use, making technology accessible to everyone",
-        "Discovering insights from data": "Finding meaningful patterns and information hidden in large datasets to solve business problems",
-        "Ensuring software reliability": "Making sure applications work consistently and don't fail when users depend on them"
+        "Building robust software architecture": "You feel fulfilled creating the strong foundations that make complex systems work, taking pride in building something solid and enduring that others can depend on",
+        "Crafting intuitive user interfaces": "You feel passionate about bridging the gap between humans and technology, finding joy in creating interfaces that feel effortless and welcoming to everyone",
+        "Discovering insights from data": "You feel captivated by uncovering hidden truths, experiencing genuine excitement when data reveals insights that can guide better decisions and create positive outcomes",
+        "Ensuring software reliability": "You feel a deep sense of responsibility and purpose in being the guardian of quality, knowing people can trust what you've validated to work when they need it"
       },
       "career_mapping": {
         "Building robust software architecture": "Software Engineer",
@@ -252,13 +252,13 @@
     },
     {
       "question_id": 16,
-      "question_text": "What motivates you to learn new technologies?",
+      "question_text": "What inspires you to keep learning and growing in the technology field?",
       "options_answer": "Implementing efficient solutions,Creating better user experiences,Leveraging data for insights,Improving software quality",
       "options_descriptions": {
-        "Implementing efficient solutions": "Building software that solves problems quickly and effectively using the best available technology",
-        "Creating better user experiences": "Using new tools and techniques to make applications more user-friendly and engaging",
-        "Leveraging data for insights": "Using advanced analytics and AI technologies to extract more value from information",
-        "Improving software quality": "Adopting new testing tools and practices to build more reliable and robust applications"
+        "Implementing efficient solutions": "You feel motivated by the constant opportunity to build better, smarter solutions, finding inspiration in how new technologies let you create things that truly work well",
+        "Creating better user experiences": "You feel driven by the desire to make technology more human and helpful, inspired by the thought of continually improving how people interact with digital tools",
+        "Leveraging data for insights": "You feel excited by new ways to unlock understanding, inspired by advanced technologies that reveal deeper truths and help solve increasingly complex problems",
+        "Improving software quality": "You feel committed to excellence and continuous improvement, inspired by learning better ways to ensure reliability and protect the users who depend on technology"
       },
       "career_mapping": {
         "Implementing efficient solutions": "Software Engineer",
@@ -269,13 +269,13 @@
     },
     {
       "question_id": 17,
-      "question_text": "Which type of feedback do you find most valuable?",
+      "question_text": "What kind of feedback or recognition would feel most meaningful to you in your work?",
       "options_answer": "Code review and technical suggestions,User feedback on design prototypes,Statistical validation of analysis results,Bug reports and testing outcomes",
       "options_descriptions": {
-        "Code review and technical suggestions": "Getting input from other developers on code quality, efficiency, and best practices",
-        "User feedback on design prototypes": "Learning how real users interact with designs and what improvements they suggest",
-        "Statistical validation of analysis results": "Confirming that data analysis methods are sound and conclusions are statistically valid",
-        "Bug reports and testing outcomes": "Understanding what issues exist in software and how well testing strategies are working"
+        "Code review and technical suggestions": "You'd feel valued when peers recognize your technical thinking and offer insights, appreciating collaborative growth and the respect of fellow builders",
+        "User feedback on design prototypes": "You'd feel fulfilled hearing how your designs helped real people, finding meaning in understanding the human impact of your creative work",
+        "Statistical validation of analysis results": "You'd feel confident and proud when your methods and findings are validated by data, appreciating recognition of your analytical rigor and insight",
+        "Bug reports and testing outcomes": "You'd feel accomplished seeing the tangible results of your thoroughness, taking pride in metrics that show how your diligence prevented problems and ensured quality"
       },
       "career_mapping": {
         "Code review and technical suggestions": "Software Engineer",
@@ -286,13 +286,13 @@
     },
     {
       "question_id": 18,
-      "question_text": "What type of documentation do you prefer creating?",
+      "question_text": "What type of contribution would make you feel like you're truly adding value?",
       "options_answer": "Technical specifications and API docs,Design guidelines and user personas,Data analysis reports and visualizations,Test cases and quality reports",
       "options_descriptions": {
-        "Technical specifications and API docs": "Writing detailed documentation about how software works and how other developers can use it",
-        "Design guidelines and user personas": "Creating guides that help teams understand users and maintain consistent design standards",
-        "Data analysis reports and visualizations": "Creating clear presentations of data findings with charts, graphs, and insights",
-        "Test cases and quality reports": "Documenting testing procedures and creating reports on software quality and reliability"
+        "Technical specifications and API docs": "You'd feel proud creating clear technical documentation that empowers other developers, knowing your work helps the broader community build better solutions",
+        "Design guidelines and user personas": "You'd feel purposeful crafting resources that help teams stay centered on real users, knowing your insights guide others to create more human-centered experiences",
+        "Data analysis reports and visualizations": "You'd feel impactful translating complex data into clear, compelling stories that help people understand and act on important insights",
+        "Test cases and quality reports": "You'd feel valuable documenting your systematic approach to quality, knowing your thoroughness provides a roadmap for maintaining excellence and preventing issues"
       },
       "career_mapping": {
         "Technical specifications and API docs": "Software Engineer",
@@ -303,13 +303,13 @@
     },
     {
       "question_id": 19,
-      "question_text": "Which success metric would you be most proud of?",
+      "question_text": "Looking ahead, what accomplishment would make you feel most successful in your career?",
       "options_answer": "High-performance application with minimal downtime,Increased user engagement and satisfaction,Actionable insights leading to business growth,Zero critical bugs in production",
       "options_descriptions": {
-        "High-performance application with minimal downtime": "Building software that runs fast, efficiently, and rarely has technical problems or outages",
-        "Increased user engagement and satisfaction": "Creating designs that make users more active, happy, and successful with the application",
-        "Actionable insights leading to business growth": "Providing data analysis that directly helps a company make better decisions and grow",
-        "Zero critical bugs in production": "Ensuring that live software has no serious problems that could harm users or business operations"
+        "High-performance application with minimal downtime": "You'd feel deeply successful knowing you built something reliable and powerful that people and businesses can truly depend on every single day",
+        "Increased user engagement and satisfaction": "You'd feel incredibly fulfilled seeing real evidence that your designs made people's lives better, easier, or more enjoyable, knowing you genuinely helped them",
+        "Actionable insights leading to business growth": "You'd feel proud knowing your analytical work translated directly into positive change and growth, seeing the real-world impact of your insights on people and organizations",
+        "Zero critical bugs in production": "You'd feel accomplished and validated knowing that thanks to your diligence, users experienced a flawless, trustworthy product they could completely rely on"
       },
       "career_mapping": {
         "High-performance application with minimal downtime": "Software Engineer",
@@ -320,13 +320,13 @@
     },
     {
       "question_id": 20,
-      "question_text": "What type of continuous learning appeals to you most?",
+      "question_text": "What aspect of staying current in your field would feel most personally rewarding?",
       "options_answer": "Staying updated with programming frameworks,Following design trends and user research,Exploring new data science techniques,Learning about quality assurance best practices",
       "options_descriptions": {
-        "Staying updated with programming frameworks": "Learning about new programming tools, libraries, and development methodologies as they emerge",
-        "Following design trends and user research": "Keeping up with evolving design patterns, user behavior studies, and interface innovations",
-        "Exploring new data science techniques": "Learning about cutting-edge AI algorithms, machine learning models, and analytical methods",
-        "Learning about quality assurance best practices": "Staying current with new testing tools, automation techniques, and quality control methods"
+        "Staying updated with programming frameworks": "You'd feel energized continuously learning new ways to build, excited by the ever-evolving landscape of tools that expand what you can create and accomplish",
+        "Following design trends and user research": "You'd feel inspired staying connected to how human needs and behaviors evolve, finding fulfillment in continuously learning better ways to serve and understand people",
+        "Exploring new data science techniques": "You'd feel intellectually stimulated by cutting-edge developments in AI and analytics, excited by the expanding frontier of what's possible to discover and understand",
+        "Learning about quality assurance best practices": "You'd feel committed to continuous excellence, finding purpose in always improving your craft and staying at the forefront of ensuring the highest possible standards"
       },
       "career_mapping": {
         "Staying updated with programming frameworks": "Software Engineer",

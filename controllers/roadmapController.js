@@ -54,16 +54,27 @@ const getRoadmap = async (req, res) => {
     const isCompleted = userSteps.length > 0 && userSteps.every(step => step.is_done);
 
     // Check if user has already submitted feedback for this roadmap
-    let hasSubmittedFeedback = false;
-    if (isCompleted) {
-      const existingFeedback = await user_feedback.findOne({
-        where: {
-          user_id,
-          roadmap_id: roadmap.roadmap_id,
-          feedback_type: 'roadmap'
-        }
-      });
-      hasSubmittedFeedback = !!existingFeedback;
+    // NOTE: Check feedback regardless of completion status to properly track submission history
+    console.log(`[Roadmap Feedback Check] Searching for feedback with:`, {
+      user_id,
+      roadmap_id: roadmap.roadmap_id,
+      feedback_type: 'roadmap'
+    });
+
+    const existingFeedback = await user_feedback.findOne({
+      where: {
+        user_id,
+        roadmap_id: roadmap.roadmap_id,
+        feedback_type: 'roadmap'
+      },
+      raw: true // Get plain object for better logging
+    });
+    const hasSubmittedFeedback = !!existingFeedback;
+
+    console.log(`[Roadmap Feedback Check] User: ${user_id}, Roadmap: ${roadmap.roadmap_id}, Feedback Found: ${hasSubmittedFeedback}`, existingFeedback ? `(Feedback ID: ${existingFeedback.id})` : '(No feedback found)');
+    
+    if (existingFeedback) {
+      console.log(`[Roadmap Feedback Check] Existing feedback details:`, existingFeedback);
     }
 
     // Format response
@@ -182,16 +193,27 @@ const getRoadmapProgress = async (req, res) => {
     const isCompleted = totalSteps > 0 && completedSteps === totalSteps;
 
     // Check if user has already submitted feedback for this roadmap
-    let hasSubmittedFeedback = false;
-    if (isCompleted) {
-      const existingFeedback = await user_feedback.findOne({
-        where: {
-          user_id,
-          roadmap_id: roadmap.roadmap_id,
-          feedback_type: 'roadmap'
-        }
-      });
-      hasSubmittedFeedback = !!existingFeedback;
+    // NOTE: Check feedback regardless of completion status to properly track submission history
+    console.log(`[Roadmap Progress Feedback Check] Searching for feedback with:`, {
+      user_id,
+      roadmap_id: roadmap.roadmap_id,
+      feedback_type: 'roadmap'
+    });
+
+    const existingFeedback = await user_feedback.findOne({
+      where: {
+        user_id,
+        roadmap_id: roadmap.roadmap_id,
+        feedback_type: 'roadmap'
+      },
+      raw: true
+    });
+    const hasSubmittedFeedback = !!existingFeedback;
+
+    console.log(`[Roadmap Progress Feedback Check] User: ${user_id}, Roadmap: ${roadmap.roadmap_id}, Feedback Found: ${hasSubmittedFeedback}`, existingFeedback ? `(Feedback ID: ${existingFeedback.id})` : '(No feedback found)');
+    
+    if (existingFeedback) {
+      console.log(`[Roadmap Progress Feedback Check] Existing feedback details:`, existingFeedback);
     }
 
     res.json({

@@ -47,8 +47,10 @@ const submitFeedback = async (req, res) => {
       });
     }
 
-    // Get user_id from session/token (if authenticated)
-    const user_id = req.user?.user_id || null;
+    // Get user_id from authenticated session (req.user.id from JWT token)
+    const user_id = req.user?.id || null;
+
+    console.log(`[Feedback Submission] User: ${user_id}, Type: ${finalFeedbackType}, Roadmap ID: ${roadmap_id || 'N/A'}, Assessment ID: ${assessment_id || 'N/A'}`);
 
     // Create feedback record
     const feedbackData = {
@@ -60,13 +62,39 @@ const submitFeedback = async (req, res) => {
       feedback_text: feedback_text?.trim() || null
     };
 
+    console.log(`[Feedback Submission] Saving feedback data:`, feedbackData);
+
     const feedback = await user_feedback.create(feedbackData);
+
+    console.log(`[Feedback Submission] Feedback saved successfully with ID: ${feedback.id}`);
+    console.log(`[Feedback Submission] Full feedback record:`, {
+      id: feedback.id,
+      user_id: feedback.user_id,
+      roadmap_id: feedback.roadmap_id,
+      assessment_id: feedback.assessment_id,
+      feedback_type: feedback.feedback_type,
+      rating: feedback.rating
+    });
+
+    // Verify the feedback was saved correctly by querying it back
+    const verifyFeedback = await user_feedback.findOne({
+      where: {
+        user_id: feedback.user_id,
+        roadmap_id: feedback.roadmap_id,
+        feedback_type: 'roadmap'
+      },
+      raw: true
+    });
+    console.log(`[Feedback Submission] Verification query result:`, verifyFeedback);
 
     res.status(201).json({
       success: true,
       message: 'Feedback submitted successfully',
       data: {
         id: feedback.id,
+        user_id: feedback.user_id,
+        assessment_id: feedback.assessment_id,
+        roadmap_id: feedback.roadmap_id,
         feedback_type: feedback.feedback_type,
         rating: feedback.rating,
         feedback_text: feedback.feedback_text,
@@ -195,7 +223,7 @@ const getFeedbackAnalytics = async (req, res) => {
 // Get user's own feedback history
 const getUserFeedback = async (req, res) => {
   try {
-    const user_id = req.user?.user_id;
+    const user_id = req.user?.id;
 
     if (!user_id) {
       return res.status(401).json({
