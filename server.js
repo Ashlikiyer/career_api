@@ -56,8 +56,8 @@ app.use((req, res, next) => {
 const allowedOrigins = [
   "http://localhost:5173", // Local development
   "http://localhost:3000", // Alternative local port
-  process.env.FRONTEND_URL, // Production frontend URL
-].filter(Boolean); // Remove undefined values
+  "https://careerai-eight.vercel.app", // Vercel production frontend
+];
 
 app.use(
   cors({
