@@ -20,8 +20,13 @@ const login = async (req, res) => {
     if (!user || !(await bcrypt.compare(password, user.password))) {
       return res.status(401).json({ error: 'Invalid credentials' });
     }
-    const token = jwt.sign({ id: user.user_id, email: user.email }, process.env.JWT_SECRET, { expiresIn: '1h' });
-    res.json({ message: 'Login successful', token });
+    // Include role in JWT token for admin access control
+    const token = jwt.sign(
+      { id: user.user_id, email: user.email, role: user.role || 'user' }, 
+      process.env.JWT_SECRET, 
+      { expiresIn: '1h' }
+    );
+    res.json({ message: 'Login successful', token, role: user.role || 'user' });
   } catch (error) {
     res.status(500).json({ error: 'Login failed' });
   }

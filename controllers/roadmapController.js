@@ -1,4 +1,4 @@
-const { SavedCareer, Roadmap, RoadmapStep, user_feedback } = require('../models');
+const { SavedCareer, Roadmap, RoadmapStep, user_feedback, RoadmapAssessment, UserRoadmapAssessmentResult } = require('../models');
 const roadmapData = require('../careerdata/roadmapData.json'); // Roadmap data (fallback)
 
 const getRoadmap = async (req, res) => {
@@ -44,6 +44,9 @@ const getRoadmap = async (req, res) => {
         description: step.description,
         duration: step.duration,
         resources: step.resources || [],
+        weeks: step.weeks || null,
+        milestone_project: step.milestoneProject || null,
+        difficulty_level: step.difficulty_level || (step.step <= 3 ? 'beginner' : step.step <= 7 ? 'intermediate' : 'advanced'),
         is_done: false,
       }));
 
@@ -77,7 +80,20 @@ const getRoadmap = async (req, res) => {
       console.log(`[Roadmap Feedback Check] Existing feedback details:`, existingFeedback);
     }
 
-    // Format response
+    // Helper function to format minutes
+    const formatMinutes = (totalMinutes) => {
+      if (!totalMinutes || totalMinutes === 0) return '0m';
+      const hours = Math.floor(totalMinutes / 60);
+      const minutes = totalMinutes % 60;
+      if (hours === 0) return `${minutes}m`;
+      if (minutes === 0) return `${hours}h`;
+      return `${hours}h ${minutes}m`;
+    };
+
+    // Calculate total time spent
+    const totalTimeMinutes = userSteps.reduce((sum, step) => sum + (step.time_spent_minutes || 0), 0);
+
+    // Format response with time tracking data
     const formattedRoadmap = userSteps.map(step => ({
       step_id: step.step_id,
       roadmap_id: step.roadmap_id,
@@ -86,8 +102,14 @@ const getRoadmap = async (req, res) => {
       description: step.description,
       duration: step.duration,
       resources: step.resources,
+      weeks: step.weeks,
+      milestone_project: step.milestone_project,
+      difficulty_level: step.difficulty_level || (step.step_number <= 3 ? 'beginner' : step.step_number <= 7 ? 'intermediate' : 'advanced'),
       is_done: step.is_done,
+      started_at: step.started_at,
       completed_at: step.completed_at,
+      time_spent_minutes: step.time_spent_minutes || 0,
+      time_spent_formatted: formatMinutes(step.time_spent_minutes || 0),
     }));
 
     res.json({
@@ -96,6 +118,9 @@ const getRoadmap = async (req, res) => {
       roadmap: formattedRoadmap,
       total_steps: formattedRoadmap.length,
       completed_steps: formattedRoadmap.filter(step => step.is_done).length,
+      steps_in_progress: formattedRoadmap.filter(step => step.started_at && !step.is_done).length,
+      total_time_minutes: totalTimeMinutes,
+      total_time_formatted: formatMinutes(totalTimeMinutes),
       is_completed: isCompleted,
       feedback_submitted: hasSubmittedFeedback,
       can_submit_feedback: isCompleted && !hasSubmittedFeedback
@@ -127,6 +152,38 @@ const updateStepProgress = async (req, res) => {
 
     if (!step) {
       return res.status(404).json({ message: 'Roadmap step not found or unauthorized' });
+    }
+
+    // ✅ NEW VALIDATION: If user is trying to mark as done (is_done = true),
+    // check if they have passed the assessment for this step
+    if (is_done === true && !step.is_done) {
+      // Find the assessment for this step
+      const assessment = await RoadmapAssessment.findOne({
+        where: {
+          roadmap_id: step.roadmap_id,
+          step_number: step.step_number
+        }
+      });
+
+      if (assessment) {
+        // Check if user has passed this assessment
+        const passingResult = await UserRoadmapAssessmentResult.findOne({
+          where: {
+            user_id,
+            roadmap_assessment_id: assessment.assessment_id,
+            pass_fail_status: 'pass'
+          }
+        });
+
+        if (!passingResult) {
+          return res.status(403).json({
+            message: 'You must pass the assessment before marking this step as done',
+            assessment_required: true,
+            step_number: step.step_number,
+            hint: 'Complete the assessment for this step with a passing score (≥70%) to unlock manual marking'
+          });
+        }
+      }
     }
 
     // Update the step progress

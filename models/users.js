@@ -14,6 +14,11 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
+      role: {
+        type: DataTypes.ENUM('user', 'admin'),
+        allowNull: false,
+        defaultValue: 'user',
+      },
     }, {
       tableName: 'users',
       timestamps: false,
@@ -24,6 +29,11 @@ module.exports = (sequelize, DataTypes) => {
       User.hasMany(models.FinalResult, { foreignKey: 'user_id' });
       User.hasMany(models.SavedCareer, { foreignKey: 'user_id' });
       User.hasMany(models.user_feedback, { foreignKey: 'user_id' });
+    };
+
+    // Instance method to check if user is admin
+    User.prototype.isAdmin = function() {
+      return this.role === 'admin';
     };
   
     return User;

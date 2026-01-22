@@ -34,10 +34,36 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: true,
       defaultValue: [],
     },
+    weeks: {
+      type: DataTypes.JSON,
+      allowNull: true,
+      defaultValue: null,
+    },
+    milestone_project: {
+      type: DataTypes.JSON,
+      allowNull: true,
+      defaultValue: null,
+    },
+    difficulty_level: {
+      type: DataTypes.ENUM('beginner', 'intermediate', 'advanced'),
+      allowNull: false,
+      defaultValue: 'beginner',
+      comment: 'Difficulty classification: beginner (easy), intermediate (medium), advanced (hard)'
+    },
     is_done: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultValue: false,
+    },
+    started_at: {
+      type: DataTypes.DATE,
+      allowNull: true,
+      defaultValue: null,
+    },
+    time_spent_minutes: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 0,
     },
     completed_at: {
       type: DataTypes.DATE,

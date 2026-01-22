@@ -5,9 +5,12 @@ const profileRoutes = require('./routes/profileRoutes');
 const savedCareerRoutes = require('./routes/savedCareerRoutes');
 const roadmapRoutes = require('./routes/roadmapRoutes');
 const assessmentRoutes = require('./routes/assessmentRoutes');
+const roadmapAssessmentRoutes = require('./routes/roadmapAssessmentRoutes');
 const careerSuggestionRoutes = require('./routes/careerSuggestionRoutes');
 const chatbotRoutes = require('./routes/chatbotRoutes');
 const feedbackRoutes = require('./routes/feedbackRoutes');
+const adminRoutes = require('./routes/adminRoutes');
+const studentProgressRoutes = require('./routes/studentProgressRoutes');
 const { debugFeedback } = require('./controllers/debugController');
 
 const express = require("express");
@@ -140,9 +143,12 @@ app.use("/api/profiles", profileRoutes);
 app.use("/api/saved-careers", savedCareerRoutes);
 app.use("/api/roadmaps", roadmapRoutes);
 app.use("/api/assessment", assessmentRoutes);
+app.use("/api/roadmap-assessment", roadmapAssessmentRoutes);
 app.use("/api/career-suggestions", careerSuggestionRoutes);
 app.use("/api/chatbot", chatbotRoutes);
 app.use("/api/feedback", feedbackRoutes);
+app.use("/api/admin", adminRoutes);
+app.use("/api/student", studentProgressRoutes);
 
 // Sync database and start server
 const PORT = process.env.PORT || 5000;
