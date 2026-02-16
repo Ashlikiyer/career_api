@@ -1,7 +1,7 @@
 {
   "default_question": {
     "question_id": 1,
-    "question_text": "What type of work makes you feel most alive and engaged?",
+    "question_text": "What type of activity makes you feel most alive and engaged?",
     "options_answer": "Solving computing problems,Creating visual designs,Analyzing data patterns,Ensuring software quality",
     "options_descriptions": {
       "Solving computing problems": "You feel energized when unraveling complex puzzles and bringing ideas to life through technology, finding deep satisfaction in the moment a solution finally clicks into place",
@@ -14,17 +14,17 @@
   "progressive_questions": [
     {
       "question_id": 2,
-      "question_text": "When you imagine yourself in your element, completely absorbed in your work, what are you doing?",
-      "options_answer": "Designing algorithms,Working on creative layouts,Manipulating datasets,Testing software functionality",
+      "question_text": "When you imagine yourself in your element, completely focused on a task, what are you doing?",
+      "options_answer": "Designing algorithms,Creating visual layouts,Manipulating datasets,Testing software functionality",
       "options_descriptions": {
         "Designing algorithms": "You see yourself lost in thought, excitedly mapping out elegant solutions to challenging problems, feeling that rush when everything comes together in a beautifully logical way",
-        "Working on creative layouts": "You picture yourself experimenting with colors, shapes, and flows, feeling a sense of creative joy as you craft experiences that will delight and help real people",
+        "Creating visual layouts": "You picture yourself experimenting with colors, shapes, and flows, feeling a sense of creative joy as you craft experiences that will delight and help real people",
         "Manipulating datasets": "You envision yourself exploring data like a detective, experiencing genuine excitement as patterns emerge and transform into meaningful stories that matter",
         "Testing software functionality": "You imagine yourself meticulously ensuring everything works perfectly, feeling deeply satisfied knowing your attention to detail protects users from frustration"
       },
       "career_mapping": {
         "Designing algorithms": "Software Engineer",
-        "Working on creative layouts": "UX/UI Designer",
+        "Creating visual layouts": "UX/UI Designer",
         "Manipulating datasets": "Data Scientist",
         "Testing software functionality": "QA Tester"
       }
@@ -48,7 +48,7 @@
     },
     {
       "question_id": 4,
-      "question_text": "What kind of work environment makes you feel energized and inspired?",
+      "question_text": "What kind of environment makes you feel energized and inspired?",
       "options_answer": "Technology-driven projects,Artistic and creative spaces,Data-focused research,Quality assurance processes",
       "options_descriptions": {
         "Technology-driven projects": "You thrive in dynamic environments where innovation happens, feeling energized by cutting-edge tools and the excitement of building the future",
@@ -82,7 +82,7 @@
     },
     {
       "question_id": 6,
-      "question_text": "What type of accomplishment would make you feel most fulfilled in your work?",
+      "question_text": "What type of accomplishment would make you feel most fulfilled?",
       "options_answer": "Building efficient software,Designing impactful visuals,Uncovering data insights,Ensuring flawless software performance",
       "options_descriptions": {
         "Building efficient software": "You'd feel deeply satisfied knowing you've created something that truly works, solving real problems and making people's lives easier through technology",
@@ -102,7 +102,7 @@
       "question_text": "How do you envision yourself contributing to a team in a way that feels meaningful?",
       "options_answer": "Collaborating on code development,Collaborating on design feedback,Collaborating on data analysis,Collaborating on testing strategies",
       "options_descriptions": {
-        "Collaborating on code development": "You see yourself as part of a creative team of builders, feeling energized by sharing ideas and working together to bring innovative solutions to life",
+        "Collaborating on code development": "You see yourself as part of a creative team of builders, feeling energized by sharing ideas and collaborating to bring innovative solutions to life",
         "Collaborating on design feedback": "You imagine yourself in thoughtful discussions about user needs, feeling fulfilled as you and your team refine designs to truly serve people better",
         "Collaborating on data analysis": "You envision yourself translating complex findings into clear stories, feeling purposeful as you help others understand and act on important insights",
         "Collaborating on testing strategies": "You see yourself as a trusted partner ensuring quality, feeling valued for your careful attention and the peace of mind you bring to the team"
@@ -116,7 +116,7 @@
     },
     {
       "question_id": 8,
-      "question_text": "What deeper purpose or impact drives you to show up and do your best work?",
+      "question_text": "What deeper purpose or impact motivates you to do your best?",
       "options_answer": "Innovating with technology,Expressing creativity through design,Driving decisions with data,Maintaining high-quality standards",
       "options_descriptions": {
         "Innovating with technology": "You feel called to push boundaries and create the future, finding deep meaning in being part of technological advancement that shapes how we live",
@@ -269,7 +269,7 @@
     },
     {
       "question_id": 17,
-      "question_text": "What kind of feedback or recognition would feel most meaningful to you in your work?",
+      "question_text": "What kind of feedback or recognition would feel most meaningful to you?",
       "options_answer": "Code review and technical suggestions,User feedback on design prototypes,Statistical validation of analysis results,Bug reports and testing outcomes",
       "options_descriptions": {
         "Code review and technical suggestions": "You'd feel valued when peers recognize your technical thinking and offer insights, appreciating collaborative growth and the respect of fellow builders",

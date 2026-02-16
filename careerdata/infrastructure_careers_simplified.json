@@ -1,0 +1,1714 @@
+{
+  "DevOps Engineer": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Linux Fundamentals",
+        "weeks": 2,
+        "subtopics": [
+          "Command Line Basics",
+          "File System Navigation",
+          "Permissions & Users",
+          "Package Management",
+          "Shell Scripting Intro"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Linux Basics - Full Course",
+                "url": "https://www.youtube.com/watch?v=sWbUDq4S6Y8",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "Linux Command Line for Beginners",
+                "url": "https://www.codecademy.com/learn/learn-the-command-line",
+                "type": "course",
+                "duration": "4 hours",
+                "platform": "Codecademy"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Linux in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=rrB13utjYV4",
+                "type": "video",
+                "duration": "2 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "Bash Scripting Tutorial",
+                "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Navigate file system and manage directories",
+          "Create users and set file permissions",
+          "Write a backup script in Bash"
+        ],
+        "milestoneProject": {
+          "title": "Automated System Setup Script",
+          "description": "Create a Bash script that sets up a new Linux server with required packages, users, and configurations"
+        }
+      },
+      {
+        "step": 2,
+        "title": "Git & Version Control",
+        "weeks": 1,
+        "subtopics": [
+          "Git Basics",
+          "Branching & Merging",
+          "Pull Requests",
+          "Git Workflows",
+          "GitHub Actions Intro"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Git Explained in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=hwP7WQkmECE",
+                "type": "video",
+                "duration": "2 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "Git & GitHub Crash Course",
+                "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+                "type": "video",
+                "duration": "15 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "Learn Git Branching",
+                "url": "https://learngitbranching.js.org/",
+                "type": "interactive",
+                "duration": "2 hours",
+                "platform": "Learn Git Branching"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Initialize repo and make commits",
+          "Create feature branches and merge",
+          "Resolve merge conflicts"
+        ],
+        "milestoneProject": {
+          "title": "Collaborative Git Workflow",
+          "description": "Set up a repository with branch protection, create PRs, and practice code review workflow"
+        }
+      },
+      {
+        "step": 3,
+        "title": "Docker & Containers",
+        "weeks": 2,
+        "subtopics": [
+          "Container Concepts",
+          "Docker Images & Containers",
+          "Dockerfile Writing",
+          "Docker Compose",
+          "Container Networking"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Docker in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=Gjnup-PuquQ",
+                "type": "video",
+                "duration": "2 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "Docker Tutorial for Beginners",
+                "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "TechWorld with Nana"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Docker Official Getting Started",
+                "url": "https://docs.docker.com/get-started/",
+                "type": "documentation",
+                "duration": "2 hours",
+                "platform": "Docker Docs"
+              },
+              {
+                "title": "Docker Compose Tutorial",
+                "url": "https://www.youtube.com/watch?v=HG6yIjZapSA",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "TechWorld with Nana"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Build a custom Docker image",
+          "Create multi-container app with Docker Compose",
+          "Optimize Dockerfile for production"
+        ],
+        "milestoneProject": {
+          "title": "Containerized Web Application",
+          "description": "Containerize a full-stack application with frontend, backend, and database using Docker Compose"
+        }
+      },
+      {
+        "step": 4,
+        "title": "CI/CD Pipelines",
+        "weeks": 2,
+        "subtopics": [
+          "CI/CD Concepts",
+          "GitHub Actions",
+          "Automated Testing",
+          "Build & Deploy Automation",
+          "Pipeline Best Practices"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "CI/CD In 5 Minutes",
+                "url": "https://www.youtube.com/watch?v=scEDHsr3APg",
+                "type": "video",
+                "duration": "5 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "GitHub Actions Tutorial",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "TechWorld with Nana"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "GitHub Actions Documentation",
+                "url": "https://docs.github.com/en/actions",
+                "type": "documentation",
+                "duration": "2 hours",
+                "platform": "GitHub Docs"
+              },
+              {
+                "title": "Build CI/CD Pipeline from Scratch",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "TechWorld with Nana"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Create a basic GitHub Actions workflow",
+          "Add automated testing to pipeline",
+          "Set up deployment automation"
+        ],
+        "milestoneProject": {
+          "title": "Complete CI/CD Pipeline",
+          "description": "Build a pipeline that tests, builds Docker image, and deploys to a staging environment"
+        }
+      },
+      {
+        "step": 5,
+        "title": "Cloud Fundamentals",
+        "weeks": 2,
+        "subtopics": [
+          "Cloud Computing Concepts",
+          "AWS Core Services",
+          "EC2 & S3",
+          "IAM & Security",
+          "Cloud Networking Basics"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "AWS in 10 Minutes",
+                "url": "https://www.youtube.com/watch?v=r4YIdn2eTm4",
+                "type": "video",
+                "duration": "10 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "AWS Cloud Practitioner Essentials",
+                "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials",
+                "type": "course",
+                "duration": "6 hours",
+                "platform": "AWS Skill Builder"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "AWS Free Tier Hands-On",
+                "url": "https://aws.amazon.com/free/",
+                "type": "interactive",
+                "duration": "3 hours",
+                "platform": "AWS"
+              },
+              {
+                "title": "Cloud Resume Challenge",
+                "url": "https://cloudresumechallenge.dev/",
+                "type": "project",
+                "duration": "4 hours",
+                "platform": "Cloud Resume Challenge"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Launch an EC2 instance",
+          "Configure S3 bucket with proper permissions",
+          "Set up IAM roles and policies"
+        ],
+        "milestoneProject": {
+          "title": "Cloud-Hosted Application",
+          "description": "Deploy a containerized application to AWS with proper networking and security configurations"
+        }
+      },
+      {
+        "step": 6,
+        "title": "Kubernetes Fundamentals",
+        "weeks": 2,
+        "subtopics": [
+          "Kubernetes Architecture",
+          "Pods & Deployments",
+          "Services & Networking",
+          "ConfigMaps & Secrets",
+          "Helm Basics"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Kubernetes in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=PziYflu8cB8",
+                "type": "video",
+                "duration": "2 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "Kubernetes Tutorial for Beginners",
+                "url": "https://www.youtube.com/watch?v=X48VuDVv0do",
+                "type": "video",
+                "duration": "30 min",
+                "platform": "TechWorld with Nana"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Kubernetes Official Tutorial",
+                "url": "https://kubernetes.io/docs/tutorials/",
+                "type": "documentation",
+                "duration": "3 hours",
+                "platform": "Kubernetes Docs"
+              },
+              {
+                "title": "Play with Kubernetes",
+                "url": "https://labs.play-with-k8s.com/",
+                "type": "interactive",
+                "duration": "2 hours",
+                "platform": "Play with Kubernetes"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Deploy application using kubectl",
+          "Create services and expose applications",
+          "Manage configurations with ConfigMaps"
+        ],
+        "milestoneProject": {
+          "title": "Kubernetes Deployment",
+          "description": "Deploy a multi-service application to Kubernetes with proper resource management and scaling"
+        }
+      },
+      {
+        "step": 7,
+        "title": "Monitoring & Observability",
+        "weeks": 2,
+        "subtopics": [
+          "Monitoring Concepts",
+          "Prometheus & Grafana",
+          "Log Aggregation",
+          "Alerting",
+          "Application Performance Monitoring"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Prometheus in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=h4Sl21AKiDg",
+                "type": "video",
+                "duration": "2 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "Prometheus & Grafana Tutorial",
+                "url": "https://www.youtube.com/watch?v=9TJx7QTrTyo",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "TechWorld with Nana"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Grafana Official Getting Started",
+                "url": "https://grafana.com/docs/grafana/latest/getting-started/",
+                "type": "documentation",
+                "duration": "2 hours",
+                "platform": "Grafana Docs"
+              },
+              {
+                "title": "Logging Best Practices",
+                "url": "https://www.youtube.com/watch?v=aQikNWEaJUQ",
+                "type": "video",
+                "duration": "15 min",
+                "platform": "TechWorld with Nana"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Set up Prometheus monitoring",
+          "Create Grafana dashboards",
+          "Configure alerting rules"
+        ],
+        "milestoneProject": {
+          "title": "Complete Observability Stack",
+          "description": "Implement monitoring, logging, and alerting for a containerized application using Prometheus, Grafana, and Loki"
+        }
+      }
+    ]
+  },
+  "Database Administrator": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "SQL Fundamentals",
+        "weeks": 2,
+        "subtopics": [
+          "SELECT Queries",
+          "Joins & Relationships",
+          "Aggregations",
+          "Subqueries",
+          "Data Manipulation (INSERT, UPDATE, DELETE)"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "SQL in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=zsjvFFKOm3c",
+                "type": "video",
+                "duration": "2 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "Learn SQL - Codecademy",
+                "url": "https://www.codecademy.com/learn/learn-sql",
+                "type": "course",
+                "duration": "5 hours",
+                "platform": "Codecademy"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "SQL Full Course - freeCodeCamp",
+                "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+                "type": "video",
+                "duration": "30 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "SQL Practice - SQLZoo",
+                "url": "https://sqlzoo.net/",
+                "type": "interactive",
+                "duration": "3 hours",
+                "platform": "SQLZoo"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Write complex JOIN queries",
+          "Create aggregation reports",
+          "Practice subqueries and CTEs"
+        ],
+        "milestoneProject": {
+          "title": "Data Analysis Reports",
+          "description": "Create a set of SQL queries that analyze sample business data and produce meaningful reports"
+        }
+      },
+      {
+        "step": 2,
+        "title": "PostgreSQL Administration",
+        "weeks": 2,
+        "subtopics": [
+          "PostgreSQL Installation & Setup",
+          "User & Role Management",
+          "Database Configuration",
+          "psql Command Line",
+          "PostgreSQL Extensions"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "PostgreSQL in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=n2Fluyr3lbc",
+                "type": "video",
+                "duration": "2 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "PostgreSQL Tutorial",
+                "url": "https://www.postgresqltutorial.com/",
+                "type": "documentation",
+                "duration": "4 hours",
+                "platform": "PostgreSQL Tutorial"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "PostgreSQL Administration Essentials",
+                "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "PostgreSQL Official Documentation",
+                "url": "https://www.postgresql.org/docs/current/",
+                "type": "documentation",
+                "duration": "2 hours",
+                "platform": "PostgreSQL Docs"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Install and configure PostgreSQL",
+          "Create users with specific permissions",
+          "Explore psql commands"
+        ],
+        "milestoneProject": {
+          "title": "PostgreSQL Server Setup",
+          "description": "Set up a production-ready PostgreSQL server with proper user management and security configurations"
+        }
+      },
+      {
+        "step": 3,
+        "title": "Database Design & Modeling",
+        "weeks": 2,
+        "subtopics": [
+          "Entity-Relationship Diagrams",
+          "Normalization (1NF, 2NF, 3NF)",
+          "Denormalization Strategies",
+          "Indexing Strategies",
+          "Schema Design Best Practices"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Database Design Course",
+                "url": "https://www.youtube.com/watch?v=ztHopE5Wnpc",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "Database Normalization",
+                "url": "https://www.codecademy.com/article/normalization",
+                "type": "article",
+                "duration": "30 min",
+                "platform": "Codecademy"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Indexing Explained",
+                "url": "https://www.youtube.com/watch?v=HubezKbFL7E",
+                "type": "video",
+                "duration": "15 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "dbdiagram.io - Database Design Tool",
+                "url": "https://dbdiagram.io/",
+                "type": "interactive",
+                "duration": "2 hours",
+                "platform": "dbdiagram"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Design ER diagram for e-commerce system",
+          "Normalize a denormalized dataset",
+          "Create optimal indexes for queries"
+        ],
+        "milestoneProject": {
+          "title": "Complete Database Schema",
+          "description": "Design and implement a fully normalized database schema for a real-world application with proper indexing"
+        }
+      },
+      {
+        "step": 4,
+        "title": "Performance Tuning",
+        "weeks": 2,
+        "subtopics": [
+          "Query Optimization",
+          "EXPLAIN ANALYZE",
+          "Index Optimization",
+          "Query Caching",
+          "Connection Pooling"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "PostgreSQL Performance Tuning",
+                "url": "https://www.youtube.com/watch?v=XMBLPn-wxT8",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "EXPLAIN ANALYZE Deep Dive",
+                "url": "https://www.postgresql.org/docs/current/using-explain.html",
+                "type": "documentation",
+                "duration": "1 hour",
+                "platform": "PostgreSQL Docs"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Database Indexing Strategies",
+                "url": "https://www.youtube.com/watch?v=-qNSXK7s7_w",
+                "type": "video",
+                "duration": "18 min",
+                "platform": "Hussein Nasser"
+              },
+              {
+                "title": "PgBouncer Connection Pooling",
+                "url": "https://www.pgbouncer.org/",
+                "type": "documentation",
+                "duration": "1 hour",
+                "platform": "PgBouncer"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Analyze slow queries with EXPLAIN",
+          "Optimize queries and measure improvement",
+          "Set up connection pooling"
+        ],
+        "milestoneProject": {
+          "title": "Query Optimization Report",
+          "description": "Identify and optimize the top 10 slow queries in a database, documenting before/after performance metrics"
+        }
+      },
+      {
+        "step": 5,
+        "title": "Backup & Recovery",
+        "weeks": 2,
+        "subtopics": [
+          "Backup Strategies",
+          "pg_dump & pg_restore",
+          "Point-in-Time Recovery",
+          "Replication Setup",
+          "Disaster Recovery Planning"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "PostgreSQL Backup Strategies",
+                "url": "https://www.youtube.com/watch?v=8qpqxLbGS7k",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "pg_dump Official Documentation",
+                "url": "https://www.postgresql.org/docs/current/app-pgdump.html",
+                "type": "documentation",
+                "duration": "1 hour",
+                "platform": "PostgreSQL Docs"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "PostgreSQL Replication Tutorial",
+                "url": "https://www.youtube.com/watch?v=8nhL2kgjzxE",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "Hussein Nasser"
+              },
+              {
+                "title": "Point-in-Time Recovery Guide",
+                "url": "https://www.postgresql.org/docs/current/continuous-archiving.html",
+                "type": "documentation",
+                "duration": "2 hours",
+                "platform": "PostgreSQL Docs"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Create and restore database backups",
+          "Set up streaming replication",
+          "Practice point-in-time recovery"
+        ],
+        "milestoneProject": {
+          "title": "Disaster Recovery Plan",
+          "description": "Implement a complete backup and recovery solution with automated backups and tested recovery procedures"
+        }
+      },
+      {
+        "step": 6,
+        "title": "Database Security",
+        "weeks": 2,
+        "subtopics": [
+          "Authentication Methods",
+          "Role-Based Access Control",
+          "Row-Level Security",
+          "Encryption (at rest & in transit)",
+          "Audit Logging"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "PostgreSQL Security Best Practices",
+                "url": "https://www.youtube.com/watch?v=1IHN1DVBM6M",
+                "type": "video",
+                "duration": "18 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "PostgreSQL Authentication",
+                "url": "https://www.postgresql.org/docs/current/auth-methods.html",
+                "type": "documentation",
+                "duration": "1 hour",
+                "platform": "PostgreSQL Docs"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Row Level Security in PostgreSQL",
+                "url": "https://www.youtube.com/watch?v=Dy5ey7bVbyg",
+                "type": "video",
+                "duration": "15 min",
+                "platform": "Hussein Nasser"
+              },
+              {
+                "title": "Database Encryption Guide",
+                "url": "https://www.postgresql.org/docs/current/encryption-options.html",
+                "type": "documentation",
+                "duration": "1 hour",
+                "platform": "PostgreSQL Docs"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Configure SSL connections",
+          "Implement row-level security policies",
+          "Set up audit logging"
+        ],
+        "milestoneProject": {
+          "title": "Secure Database Configuration",
+          "description": "Harden a PostgreSQL installation with proper authentication, encryption, and access controls"
+        }
+      },
+      {
+        "step": 7,
+        "title": "Cloud Databases",
+        "weeks": 2,
+        "subtopics": [
+          "AWS RDS",
+          "Google Cloud SQL",
+          "Azure Database",
+          "Database Migration",
+          "Cloud Database Monitoring"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "AWS RDS Tutorial",
+                "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/59/amazon-rds-primer",
+                "type": "course",
+                "duration": "2 hours",
+                "platform": "AWS Skill Builder"
+              },
+              {
+                "title": "RDS vs Aurora Explained",
+                "url": "https://www.youtube.com/watch?v=dMC4K9SMoD4",
+                "type": "video",
+                "duration": "12 min",
+                "platform": "Fireship"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Google Cloud SQL Overview",
+                "url": "https://www.cloudskillsboost.google/paths/36",
+                "type": "course",
+                "duration": "3 hours",
+                "platform": "Google Cloud Skills Boost"
+              },
+              {
+                "title": "Database Migration Service",
+                "url": "https://www.youtube.com/watch?v=hPBQTc0zS9w",
+                "type": "video",
+                "duration": "18 min",
+                "platform": "AWS"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Deploy a database on AWS RDS",
+          "Configure automated backups in cloud",
+          "Migrate on-premise database to cloud"
+        ],
+        "milestoneProject": {
+          "title": "Cloud Database Deployment",
+          "description": "Deploy and configure a production-ready cloud database with proper security, backups, and monitoring"
+        }
+      }
+    ]
+  },
+  "Systems Administrator": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Linux Administration",
+        "weeks": 2,
+        "subtopics": [
+          "System Installation & Boot Process",
+          "Package Management (apt, yum, dnf)",
+          "Service Management (systemd)",
+          "Process Management",
+          "System Logs & Troubleshooting"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Linux Administration Full Course",
+                "url": "https://www.youtube.com/watch?v=wBp0Rb-ZJak",
+                "type": "video",
+                "duration": "30 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "Linux System Administration Basics",
+                "url": "https://www.codecademy.com/learn/learn-the-command-line",
+                "type": "course",
+                "duration": "4 hours",
+                "platform": "Codecademy"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Systemd Explained",
+                "url": "https://www.youtube.com/watch?v=5JVBpXiYMKo",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "Linux Log Files Guide",
+                "url": "https://www.youtube.com/watch?v=zv_vFvZjL1Q",
+                "type": "video",
+                "duration": "15 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Install and configure a Linux server",
+          "Manage services with systemctl",
+          "Analyze system logs for issues"
+        ],
+        "milestoneProject": {
+          "title": "Linux Server Configuration",
+          "description": "Set up a complete Linux server with web server, database, and proper service management"
+        }
+      },
+      {
+        "step": 2,
+        "title": "Networking Fundamentals",
+        "weeks": 2,
+        "subtopics": [
+          "TCP/IP & OSI Model",
+          "IP Addressing & Subnetting",
+          "DNS Configuration",
+          "Firewalls (iptables, ufw)",
+          "Network Troubleshooting"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Networking Fundamentals",
+                "url": "https://www.youtube.com/watch?v=qiQR5rTSshw",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "Subnetting Made Easy",
+                "url": "https://www.youtube.com/watch?v=5WfiTHiU4x8",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Linux Firewall Tutorial",
+                "url": "https://www.youtube.com/watch?v=XtRXm4FFK7Q",
+                "type": "video",
+                "duration": "18 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "DNS Explained",
+                "url": "https://www.youtube.com/watch?v=72snZctFFtA",
+                "type": "video",
+                "duration": "12 min",
+                "platform": "Fireship"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Configure static IP addresses",
+          "Set up DNS server",
+          "Create firewall rules"
+        ],
+        "milestoneProject": {
+          "title": "Network Infrastructure Setup",
+          "description": "Design and implement a small network with proper subnetting, DNS, and firewall configurations"
+        }
+      },
+      {
+        "step": 3,
+        "title": "Windows Server Basics",
+        "weeks": 2,
+        "subtopics": [
+          "Windows Server Installation",
+          "Active Directory Basics",
+          "Group Policy",
+          "Windows PowerShell",
+          "Remote Management"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Windows Server Tutorial",
+                "url": "https://www.youtube.com/watch?v=1DcfJYVwcNs",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "Active Directory Explained",
+                "url": "https://www.youtube.com/watch?v=85-bp7XxWDQ",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "PowerShell for Beginners",
+                "url": "https://www.youtube.com/watch?v=UVUd9_k9C6A",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "Group Policy Tutorial",
+                "url": "https://www.youtube.com/watch?v=rEhTzP-ScBo",
+                "type": "video",
+                "duration": "18 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Set up Windows Server with AD",
+          "Create users and groups in AD",
+          "Implement Group Policy settings"
+        ],
+        "milestoneProject": {
+          "title": "Windows Domain Setup",
+          "description": "Configure a Windows domain with Active Directory, group policies, and user management"
+        }
+      },
+      {
+        "step": 4,
+        "title": "User Management & Security",
+        "weeks": 2,
+        "subtopics": [
+          "User & Group Administration",
+          "Permission Models",
+          "SSH Key Management",
+          "PAM Configuration",
+          "Security Hardening"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Linux User Management",
+                "url": "https://www.youtube.com/watch?v=19WOD84JFxA",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "SSH Keys Explained",
+                "url": "https://www.youtube.com/watch?v=dPAw4opzN9g",
+                "type": "video",
+                "duration": "15 min",
+                "platform": "Fireship"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Linux Security Hardening",
+                "url": "https://www.youtube.com/watch?v=Sa0KqbpLye4",
+                "type": "video",
+                "duration": "22 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "CIS Benchmarks Introduction",
+                "url": "https://www.cisecurity.org/cis-benchmarks/",
+                "type": "documentation",
+                "duration": "2 hours",
+                "platform": "CIS"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Create and manage user accounts",
+          "Set up SSH key authentication",
+          "Apply security hardening checklist"
+        ],
+        "milestoneProject": {
+          "title": "Secure Server Configuration",
+          "description": "Implement a security-hardened server following CIS benchmarks with proper user management"
+        }
+      },
+      {
+        "step": 5,
+        "title": "Automation & Scripting",
+        "weeks": 2,
+        "subtopics": [
+          "Bash Scripting Advanced",
+          "PowerShell Scripting",
+          "Cron Jobs & Scheduled Tasks",
+          "Ansible Basics",
+          "Configuration Management"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Bash Scripting Full Course",
+                "url": "https://www.youtube.com/watch?v=e7BufAVwDiM",
+                "type": "video",
+                "duration": "30 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "Cron Jobs Explained",
+                "url": "https://www.youtube.com/watch?v=7cbP7fzn0D8",
+                "type": "video",
+                "duration": "12 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Ansible in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=xRMPKQweySE",
+                "type": "video",
+                "duration": "2 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "Ansible Tutorial for Beginners",
+                "url": "https://www.youtube.com/watch?v=1id6ERvfozo",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "TechWorld with Nana"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Write automation scripts for common tasks",
+          "Set up scheduled maintenance jobs",
+          "Create Ansible playbooks"
+        ],
+        "milestoneProject": {
+          "title": "Automated Server Management",
+          "description": "Build an automation suite using Ansible to configure and manage multiple servers"
+        }
+      },
+      {
+        "step": 6,
+        "title": "Virtualization",
+        "weeks": 2,
+        "subtopics": [
+          "Virtualization Concepts",
+          "VMware/VirtualBox",
+          "KVM & QEMU",
+          "Proxmox",
+          "Container vs VM"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Virtualization Explained",
+                "url": "https://www.youtube.com/watch?v=FZR0rG3HKIk",
+                "type": "video",
+                "duration": "15 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "Proxmox VE Tutorial",
+                "url": "https://www.youtube.com/watch?v=LCjuiIswXGs",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "KVM Virtualization Guide",
+                "url": "https://www.youtube.com/watch?v=HfNKpT2jo7U",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "Learn Linux TV"
+              },
+              {
+                "title": "Containers vs VMs",
+                "url": "https://www.youtube.com/watch?v=cjXI-yxqGTI",
+                "type": "video",
+                "duration": "10 min",
+                "platform": "Fireship"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Set up a hypervisor environment",
+          "Create and manage virtual machines",
+          "Configure VM networking"
+        ],
+        "milestoneProject": {
+          "title": "Virtual Lab Environment",
+          "description": "Build a complete virtual lab with multiple VMs for testing and development"
+        }
+      },
+      {
+        "step": 7,
+        "title": "Troubleshooting & Monitoring",
+        "weeks": 2,
+        "subtopics": [
+          "System Monitoring Tools",
+          "Performance Analysis",
+          "Log Analysis",
+          "Network Troubleshooting",
+          "Incident Response"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Linux Troubleshooting Commands",
+                "url": "https://www.youtube.com/watch?v=gd7BXuUQ91w",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "htop & System Monitoring",
+                "url": "https://www.youtube.com/watch?v=gPQTLzuP4Uk",
+                "type": "video",
+                "duration": "15 min",
+                "platform": "Learn Linux TV"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Network Troubleshooting Guide",
+                "url": "https://www.youtube.com/watch?v=RoZeVbbZ0o0",
+                "type": "video",
+                "duration": "22 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "Nagios Monitoring Basics",
+                "url": "https://www.youtube.com/watch?v=zdrYpKEZy2E",
+                "type": "video",
+                "duration": "18 min",
+                "platform": "Learn Linux TV"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Diagnose system performance issues",
+          "Set up monitoring dashboards",
+          "Practice incident response procedures"
+        ],
+        "milestoneProject": {
+          "title": "Monitoring & Alerting System",
+          "description": "Implement a complete monitoring solution with dashboards, alerts, and incident response documentation"
+        }
+      }
+    ]
+  },
+  "Cybersecurity Engineer": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Security Fundamentals",
+        "weeks": 2,
+        "subtopics": [
+          "CIA Triad",
+          "Security Threats & Vulnerabilities",
+          "Risk Management",
+          "Security Frameworks",
+          "Cryptography Basics"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Cybersecurity Full Course",
+                "url": "https://www.youtube.com/watch?v=U_P23SqJaDc",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "Google Cybersecurity Certificate - Intro",
+                "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+                "type": "course",
+                "duration": "4 hours",
+                "platform": "Google Career Certificates"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Cryptography in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=NuyzuNBFWxQ",
+                "type": "video",
+                "duration": "2 min",
+                "platform": "Fireship"
+              },
+              {
+                "title": "TryHackMe - Pre-Security Path",
+                "url": "https://tryhackme.com/path/outline/presecurity",
+                "type": "interactive",
+                "duration": "4 hours",
+                "platform": "TryHackMe"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Complete TryHackMe pre-security rooms",
+          "Learn to use password managers",
+          "Set up 2FA on all accounts"
+        ],
+        "milestoneProject": {
+          "title": "Security Assessment Report",
+          "description": "Conduct a basic security assessment of your personal digital footprint and create an improvement plan"
+        }
+      },
+      {
+        "step": 2,
+        "title": "Network Security",
+        "weeks": 2,
+        "subtopics": [
+          "Network Architecture Security",
+          "Firewall Configuration",
+          "VPNs & Tunneling",
+          "IDS/IPS Systems",
+          "Network Segmentation"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Network Security Fundamentals",
+                "url": "https://www.youtube.com/watch?v=E03gh1huvW4",
+                "type": "video",
+                "duration": "22 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "TryHackMe - Network Security",
+                "url": "https://tryhackme.com/room/introtosecurity",
+                "type": "interactive",
+                "duration": "3 hours",
+                "platform": "TryHackMe"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "pfSense Firewall Tutorial",
+                "url": "https://www.youtube.com/watch?v=lUzSsX4T4WQ",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "VPN Explained",
+                "url": "https://www.youtube.com/watch?v=WVDQEoe6ZWY",
+                "type": "video",
+                "duration": "12 min",
+                "platform": "Fireship"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Configure a firewall with proper rules",
+          "Set up a VPN server",
+          "Analyze network traffic with Wireshark"
+        ],
+        "milestoneProject": {
+          "title": "Secure Network Design",
+          "description": "Design and implement a segmented network with proper firewall rules and VPN access"
+        }
+      },
+      {
+        "step": 3,
+        "title": "Web Application Security",
+        "weeks": 2,
+        "subtopics": [
+          "OWASP Top 10",
+          "SQL Injection",
+          "Cross-Site Scripting (XSS)",
+          "CSRF & Authentication",
+          "Security Headers"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "OWASP Top 10 Explained",
+                "url": "https://www.youtube.com/watch?v=wj0J9m2SI6s",
+                "type": "video",
+                "duration": "18 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "OWASP Official Top 10",
+                "url": "https://owasp.org/www-project-top-ten/",
+                "type": "documentation",
+                "duration": "2 hours",
+                "platform": "OWASP"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "SQL Injection Tutorial",
+                "url": "https://www.youtube.com/watch?v=2OPVViV-GQk",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "TryHackMe - Web Fundamentals",
+                "url": "https://tryhackme.com/path/outline/web",
+                "type": "interactive",
+                "duration": "4 hours",
+                "platform": "TryHackMe"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Practice SQL injection on DVWA",
+          "Exploit XSS vulnerabilities",
+          "Implement secure authentication"
+        ],
+        "milestoneProject": {
+          "title": "Web Application Security Audit",
+          "description": "Perform a security audit of a vulnerable web application and document all findings with remediation steps"
+        }
+      },
+      {
+        "step": 4,
+        "title": "Penetration Testing Basics",
+        "weeks": 2,
+        "subtopics": [
+          "Pentesting Methodology",
+          "Reconnaissance",
+          "Vulnerability Scanning",
+          "Exploitation Basics",
+          "Report Writing"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Ethical Hacking Course",
+                "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+                "type": "video",
+                "duration": "30 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "TryHackMe - Jr Penetration Tester",
+                "url": "https://tryhackme.com/path/outline/jrpenetrationtester",
+                "type": "interactive",
+                "duration": "5 hours",
+                "platform": "TryHackMe"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Hack The Box - Starting Point",
+                "url": "https://www.hackthebox.com/starting-point",
+                "type": "interactive",
+                "duration": "4 hours",
+                "platform": "Hack The Box"
+              },
+              {
+                "title": "Kali Linux Tutorial",
+                "url": "https://www.youtube.com/watch?v=lZAoFs75_cs",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Complete TryHackMe beginner rooms",
+          "Perform reconnaissance on target",
+          "Write a penetration test report"
+        ],
+        "milestoneProject": {
+          "title": "Capture The Flag Challenge",
+          "description": "Complete a series of CTF challenges and document your methodology and solutions"
+        }
+      },
+      {
+        "step": 5,
+        "title": "Security Tools Mastery",
+        "weeks": 2,
+        "subtopics": [
+          "Nmap Scanning",
+          "Wireshark Analysis",
+          "Burp Suite",
+          "Metasploit Basics",
+          "OSINT Tools"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Nmap Tutorial",
+                "url": "https://www.youtube.com/watch?v=4t4kBkMsDbQ",
+                "type": "video",
+                "duration": "20 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "Wireshark Tutorial",
+                "url": "https://www.youtube.com/watch?v=TkCSr30UojM",
+                "type": "video",
+                "duration": "22 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Burp Suite Tutorial",
+                "url": "https://www.youtube.com/watch?v=G3hpAeoZ4ek",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "TryHackMe - Nmap Room",
+                "url": "https://tryhackme.com/room/furthernmap",
+                "type": "interactive",
+                "duration": "2 hours",
+                "platform": "TryHackMe"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Perform network scans with Nmap",
+          "Analyze packet captures in Wireshark",
+          "Use Burp Suite for web testing"
+        ],
+        "milestoneProject": {
+          "title": "Security Toolkit Setup",
+          "description": "Build a complete security testing environment with documented use cases for each tool"
+        }
+      },
+      {
+        "step": 6,
+        "title": "Incident Response",
+        "weeks": 2,
+        "subtopics": [
+          "Incident Response Process",
+          "Digital Forensics Basics",
+          "Log Analysis",
+          "Malware Analysis Intro",
+          "Threat Intelligence"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "Incident Response Overview",
+                "url": "https://www.youtube.com/watch?v=n4_S_-3XkAQ",
+                "type": "video",
+                "duration": "18 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "TryHackMe - Incident Response",
+                "url": "https://tryhackme.com/room/introtoir",
+                "type": "interactive",
+                "duration": "3 hours",
+                "platform": "TryHackMe"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "Digital Forensics Basics",
+                "url": "https://www.youtube.com/watch?v=YzdhXJV4r8Y",
+                "type": "video",
+                "duration": "22 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "SANS Incident Handler's Handbook",
+                "url": "https://www.sans.org/white-papers/33901/",
+                "type": "documentation",
+                "duration": "2 hours",
+                "platform": "SANS"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Create an incident response playbook",
+          "Analyze security logs for threats",
+          "Practice memory forensics basics"
+        ],
+        "milestoneProject": {
+          "title": "Incident Response Plan",
+          "description": "Develop a complete incident response plan with playbooks for common scenarios"
+        }
+      },
+      {
+        "step": 7,
+        "title": "Compliance & Best Practices",
+        "weeks": 2,
+        "subtopics": [
+          "Security Frameworks (NIST, ISO 27001)",
+          "Compliance Standards (PCI-DSS, HIPAA)",
+          "Security Policies",
+          "Security Awareness",
+          "Career Development"
+        ],
+        "resources": [
+          {
+            "week": 1,
+            "items": [
+              {
+                "title": "NIST Cybersecurity Framework",
+                "url": "https://www.youtube.com/watch?v=dJUOqgMf_Oo",
+                "type": "video",
+                "duration": "15 min",
+                "platform": "freeCodeCamp"
+              },
+              {
+                "title": "Security Compliance Overview",
+                "url": "https://www.coursera.org/learn/security-governance-compliance",
+                "type": "course",
+                "duration": "3 hours",
+                "platform": "Google Career Certificates"
+              }
+            ]
+          },
+          {
+            "week": 2,
+            "items": [
+              {
+                "title": "CompTIA Security+ Overview",
+                "url": "https://www.youtube.com/watch?v=9Hd8QJmZQUc",
+                "type": "video",
+                "duration": "25 min",
+                "platform": "NetworkChuck"
+              },
+              {
+                "title": "Cybersecurity Career Path",
+                "url": "https://www.youtube.com/watch?v=9Hd8QJmZQUc",
+                "type": "video",
+                "duration": "18 min",
+                "platform": "NetworkChuck"
+              }
+            ]
+          }
+        ],
+        "practiceExercises": [
+          "Map security controls to NIST",
+          "Create security policies documentation",
+          "Build a cybersecurity study plan"
+        ],
+        "milestoneProject": {
+          "title": "Security Program Design",
+          "description": "Design a comprehensive security program for a small organization aligned with industry frameworks"
+        }
+      }
+    ]
+  }
+}

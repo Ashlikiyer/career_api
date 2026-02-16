@@ -1,0 +1,4940 @@
+{
+  "timestamp": "2026-02-03T02:15:29.341Z",
+  "totalFixed": 546,
+  "byCareer": {
+    "Software Engineer": 11,
+    "Graphic Designer": 13,
+    "Data Scientist": 24,
+    "Software Tester/Quality Assurance": 29,
+    "Web Developer": 30,
+    "Frontend Developer": 14,
+    "Backend Developer": 19,
+    "Mobile App Developer": 31,
+    "UX/UI Designer": 58,
+    "Machine Learning Engineer": 43,
+    "Database Administrator": 38,
+    "Systems Administrator": 35,
+    "Computer Systems Analyst": 32,
+    "Game Developer": 34,
+    "DevOps Engineer": 26,
+    "Business Intelligence Analyst": 34,
+    "QA Tester": 37,
+    "Cybersecurity Engineer": 38
+  },
+  "details": [
+    {
+      "career": "Software Engineer",
+      "step": 2,
+      "week": "Algorithms & Problem-Solving Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/introduction-to-algorithms-with-examples/",
+      "oldTitle": "Algorithms for Beginners",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 3,
+      "week": "Arrays & Array Algorithms",
+      "oldUrl": "https://realpython.com/python-arrays/",
+      "oldTitle": "Arrays in Python",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 3,
+      "week": "Trees - Binary Trees & BST",
+      "oldUrl": "https://realpython.com/python-binary-search-tree/",
+      "oldTitle": "Tree Traversals in Python",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 3,
+      "week": "Advanced Trees - Heaps, Tries & Graphs Intro",
+      "oldUrl": "https://realpython.com/python-graphs-data-structures-algorithms/",
+      "oldTitle": "Graphs in Python",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 5,
+      "week": "Command-Line Calculator & Unit Converter",
+      "oldUrl": "https://realpython.com/python-calculator/",
+      "oldTitle": "Build a Calculator in Python",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 5,
+      "week": "To-Do List Application",
+      "oldUrl": "https://realpython.com/python-todo-list-tkinter/",
+      "oldTitle": "Building a To-Do List Application",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 5,
+      "week": "Number Guessing Game & Hangman",
+      "oldUrl": "https://realpython.com/python-game-programming/",
+      "oldTitle": "Python Game Programming",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 5,
+      "week": "Personal Expense Tracker",
+      "oldUrl": "https://realpython.com/python-expense-tracker/",
+      "oldTitle": "Python Expense Tracker Tutorial",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 8,
+      "week": "Security Fundamentals & Common Vulnerabilities",
+      "oldUrl": "https://portswigger.net/web-security",
+      "oldTitle": "Web Security Academy",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 8,
+      "week": "Authentication, Authorization & Cryptography",
+      "oldUrl": "https://www.coursera.org/learn/software-security",
+      "oldTitle": "Software Security",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Software Engineer",
+      "step": 9,
+      "week": "Deployment, LinkedIn & Online Presence",
+      "oldUrl": "https://www.freecodecamp.org/news/personal-branding-for-developers/",
+      "oldTitle": "Personal Branding for Developers",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 2,
+      "week": "Adobe Photoshop Fundamentals",
+      "oldUrl": "https://helpx.adobe.com/photoshop/tutorials.html",
+      "oldTitle": "Adobe Photoshop Tutorials",
+      "newUrl": "https://www.adobe.com/learn.html",
+      "newTitle": "Adobe Tutorials"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 2,
+      "week": "Adobe Illustrator Mastery",
+      "oldUrl": "https://helpx.adobe.com/illustrator/tutorials.html",
+      "oldTitle": "Adobe Illustrator Tutorials",
+      "newUrl": "https://www.adobe.com/learn.html",
+      "newTitle": "Adobe Tutorials"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 2,
+      "week": "Adobe InDesign & Additional Tools",
+      "oldUrl": "https://helpx.adobe.com/indesign/tutorials.html",
+      "oldTitle": "Adobe InDesign Tutorials",
+      "newUrl": "https://www.adobe.com/learn.html",
+      "newTitle": "Adobe Tutorials"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 3,
+      "week": "User Research & Information Architecture",
+      "oldUrl": "https://www.coursera.org/learn/ux-research",
+      "oldTitle": "UX Research Course",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 4,
+      "week": "Brand Strategy & Logo Design",
+      "oldUrl": "https://www.coursera.org/learn/brand-identity",
+      "oldTitle": "Brand Identity and Strategy",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 4,
+      "week": "Visual Identity Systems",
+      "oldUrl": "https://www.coursera.org/learn/brand-identity",
+      "oldTitle": "Brand Systems",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 6,
+      "week": "Designing for Global & Diverse Audiences",
+      "oldUrl": "https://www.nngroup.com/articles/cross-cultural-design/",
+      "oldTitle": "Global UX Design",
+      "newUrl": "https://www.interaction-design.org/literature/topics/ux-design",
+      "newTitle": "UX Design Basics"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 7,
+      "week": "UI/UX Design Projects",
+      "oldUrl": "https://www.coursera.org/learn/mobile-design",
+      "oldTitle": "App Design Course",
+      "newUrl": "https://www.interaction-design.org/literature/topics/ux-design",
+      "newTitle": "UX Design Basics"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 8,
+      "week": "Building Component Libraries",
+      "oldUrl": "https://www.smashingmagazine.com/2019/06/building-component-library/",
+      "oldTitle": "Building Component Library",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 8,
+      "week": "Design System Implementation & Collaboration",
+      "oldUrl": "https://www.nngroup.com/articles/design-systems/",
+      "oldTitle": "Collaboration Best Practices",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 8,
+      "week": "Design System Implementation & Collaboration",
+      "oldUrl": "https://helpx.adobe.com/xd/tutorials.html",
+      "oldTitle": "Adobe XD Design Systems",
+      "newUrl": "https://www.adobe.com/learn.html",
+      "newTitle": "Adobe Tutorials"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 9,
+      "week": "Portfolio Strategy & Project Selection",
+      "oldUrl": "https://www.coursera.org/learn/build-your-creative-career",
+      "oldTitle": "Building Your Creative Career",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Graphic Designer",
+      "step": 10,
+      "week": "Open Source & Community Contribution",
+      "oldUrl": "https://www.figma.com/community",
+      "oldTitle": "Figma Community Projects",
+      "newUrl": "https://help.figma.com/hc/en-us/categories/360002051613-Getting-Started",
+      "newTitle": "Figma Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 1,
+      "week": "Python Fundamentals for Data Science",
+      "oldUrl": "https://www.coursera.org/specializations/python-data-science",
+      "oldTitle": "Python for Data Science",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 3,
+      "week": "Classification Algorithms",
+      "oldUrl": "https://scikit-learn.org/stable/tutorial/index.html",
+      "oldTitle": "Scikit-learn Tutorial",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 6,
+      "week": "TensorFlow & Keras",
+      "oldUrl": "https://www.freecodecamp.org/news/massive-tensorflow-2-0-course/",
+      "oldTitle": "TensorFlow Course",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 7,
+      "week": "Cloud Platforms - AWS for Big Data",
+      "oldUrl": "https://docs.aws.amazon.com/big-data/",
+      "oldTitle": "AWS Big Data Services Documentation",
+      "newUrl": "https://aws.amazon.com/getting-started/",
+      "newTitle": "AWS Getting Started"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 7,
+      "week": "Cloud Platforms - Azure & GCP for Big Data",
+      "oldUrl": "https://learn.microsoft.com/en-us/training/paths/azure-data-engineer/",
+      "oldTitle": "Azure Data Engineering",
+      "newUrl": "https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/",
+      "newTitle": "Azure Fundamentals"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 7,
+      "week": "Cloud Platforms - Azure & GCP for Big Data",
+      "oldUrl": "https://www.coursera.org/learn/gcp-big-data-ml-fundamentals",
+      "oldTitle": "Google Cloud Big Data and Machine Learning Fundamentals",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 7,
+      "week": "Data Streaming & Real-Time Processing",
+      "oldUrl": "https://www.coursera.org/learn/streaming-data-kafka",
+      "oldTitle": "Stream Processing with Apache Kafka",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 7,
+      "week": "Data Governance & Security",
+      "oldUrl": "https://www.coursera.org/learn/data-governance",
+      "oldTitle": "Data Governance Fundamentals",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 8,
+      "week": "Project Planning & Data Collection",
+      "oldUrl": "https://towardsdatascience.com/how-to-document-your-data-science-projects-d8e57c09af4e",
+      "oldTitle": "Documenting Data Science Projects",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 8,
+      "week": "Exploratory Data Analysis & Insights",
+      "oldUrl": "https://www.kaggle.com/learn/data-visualization",
+      "oldTitle": "Advanced EDA Techniques",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 8,
+      "week": "Model Selection & Training",
+      "oldUrl": "https://www.coursera.org/learn/hyperparameter-tuning",
+      "oldTitle": "Hyperparameter Tuning Strategies",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 8,
+      "week": "Model Evaluation & Interpretation",
+      "oldUrl": "https://www.kaggle.com/learn/machine-learning-explainability",
+      "oldTitle": "Model Explainability Course",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 8,
+      "week": "Project 1: Predictive Analytics",
+      "oldUrl": "https://www.kaggle.com/competitions",
+      "oldTitle": "Kaggle Competitions",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 8,
+      "week": "Project 6: Clustering & Segmentation",
+      "oldUrl": "https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e",
+      "oldTitle": "Dimensionality Reduction Techniques",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 8,
+      "week": "Project Documentation & Presentation",
+      "oldUrl": "https://www.coursera.org/learn/technical-writing",
+      "oldTitle": "Technical Writing for Data Scientists",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 9,
+      "week": "Cloud Deployment - Azure ML & GCP Vertex AI",
+      "oldUrl": "https://learn.microsoft.com/en-us/training/paths/build-ai-solutions-with-azure-ml/",
+      "oldTitle": "Azure Machine Learning Tutorial",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 10,
+      "week": "Project Documentation & Storytelling",
+      "oldUrl": "https://www.coursera.org/learn/technical-writing",
+      "oldTitle": "Technical Writing for Data Scientists",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 10,
+      "week": "Blogging & Content Creation",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-start-a-blog/",
+      "oldTitle": "Technical Blogging Guide",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 10,
+      "week": "Kaggle Competitions & Community",
+      "oldUrl": "https://www.kaggle.com/learn",
+      "oldTitle": "Kaggle Courses",
+      "newUrl": "https://learn.unity.com/tutorials",
+      "newTitle": "Unity Tutorials"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 10,
+      "week": "Kaggle Competitions & Community",
+      "oldUrl": "https://www.kaggle.com/docs/competitions",
+      "oldTitle": "Kaggle Competition Guide",
+      "newUrl": "https://learn.unity.com/tutorials",
+      "newTitle": "Unity Tutorials"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 10,
+      "week": "Networking & LinkedIn Optimization",
+      "oldUrl": "https://www.coursera.org/learn/career-development",
+      "oldTitle": "Networking Tips for Tech",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 10,
+      "week": "Resume & Interview Preparation",
+      "oldUrl": "https://www.linkedin.com/learning/topics/job-interviews",
+      "oldTitle": "Behavioral Interview Guide",
+      "newUrl": "https://www.techinterviewhandbook.org/",
+      "newTitle": "Tech Interview Handbook"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 10,
+      "week": "Freelancing & Consulting Basics",
+      "oldUrl": "https://www.coursera.org/learn/freelancing",
+      "oldTitle": "Freelance Consulting",
+      "newUrl": "https://www.upwork.com/resources/how-to-become-a-freelancer",
+      "newTitle": "Freelancing Guide"
+    },
+    {
+      "career": "Data Scientist",
+      "step": 10,
+      "week": "Internship & Job Applications",
+      "oldUrl": "https://www.kaggle.com/jobs",
+      "oldTitle": "Data Science Job Boards",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 1,
+      "week": "Test Levels & Test Types",
+      "oldUrl": "https://www.coursera.org/learn/software-testing",
+      "oldTitle": "Software Testing Levels",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 1,
+      "week": "Test Levels & Test Types",
+      "oldUrl": "https://www.softwaretestinghelp.com/levels-of-testing/",
+      "oldTitle": "Test Levels Guide",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 1,
+      "week": "Testing Principles & Best Practices",
+      "oldUrl": "https://www.softwaretestinghelp.com/software-testing-best-practices/",
+      "oldTitle": "Testing Best Practices",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 2,
+      "week": "Test Design Techniques",
+      "oldUrl": "https://www.coursera.org/learn/software-testing-techniques",
+      "oldTitle": "Black Box Techniques",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 2,
+      "week": "Test Execution & Documentation",
+      "oldUrl": "https://www.softwaretestinghelp.com/test-execution-guide/",
+      "oldTitle": "Test Execution Guide",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 3,
+      "week": "Automation Testing Fundamentals",
+      "oldUrl": "https://www.coursera.org/learn/test-automation",
+      "oldTitle": "Test Automation Patterns",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 5,
+      "week": "Performance Testing Fundamentals",
+      "oldUrl": "https://www.coursera.org/articles/performance-testing",
+      "oldTitle": "Performance Testing Guide",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 5,
+      "week": "Performance Monitoring & Analysis",
+      "oldUrl": "https://www.softwaretestinghelp.com/performance-monitoring-tools/",
+      "oldTitle": "APM Tools Overview",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 5,
+      "week": "Performance Testing Best Practices",
+      "oldUrl": "https://www.softwaretestinghelp.com/performance-testing-checklist/",
+      "oldTitle": "Performance Testing Checklist",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 5,
+      "week": "Performance Testing Best Practices",
+      "oldUrl": "https://www.blazemeter.com/blog/performance-testing-best-practices",
+      "oldTitle": "Best Practices",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 6,
+      "week": "Agile Methodology & Testing Principles",
+      "oldUrl": "https://www.softwaretestinghelp.com/agile-testing-quadrants/",
+      "oldTitle": "Agile Testing Quadrants",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 6,
+      "week": "Test-Driven Development (TDD)",
+      "oldUrl": "https://www.softwaretestinghelp.com/tdd-test-driven-development/",
+      "oldTitle": "TDD Best Practices",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 6,
+      "week": "Behavior-Driven Development (BDD)",
+      "oldUrl": "https://www.guru99.com/behavior-driven-development-bdd.html",
+      "oldTitle": "BDD Guide",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 6,
+      "week": "CI/CD Fundamentals & Jenkins",
+      "oldUrl": "https://www.jenkins.io/doc/",
+      "oldTitle": "Jenkins Documentation",
+      "newUrl": "https://www.jenkins.io/doc/tutorials/",
+      "newTitle": "Jenkins Getting Started"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 6,
+      "week": "DevOps Culture & Collaboration",
+      "oldUrl": "https://www.softwaretestinghelp.com/quality-gates/",
+      "oldTitle": "Quality Gates",
+      "newUrl": "https://roadmap.sh/devops",
+      "newTitle": "DevOps Roadmap"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 7,
+      "week": "Mobile Testing Fundamentals",
+      "oldUrl": "https://www.softwaretestinghelp.com/mobile-application-testing/",
+      "oldTitle": "Mobile App Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 7,
+      "week": "Android App Testing with Appium",
+      "oldUrl": "https://appium.io/docs/en/drivers/android-uiautomator2/",
+      "oldTitle": "Appium Android Tutorial",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 7,
+      "week": "iOS App Testing with Appium",
+      "oldUrl": "https://appium.io/docs/en/drivers/ios-xcuitest/",
+      "oldTitle": "Appium iOS Tutorial",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 7,
+      "week": "Responsive & Performance Testing for Mobile",
+      "oldUrl": "https://www.browserstack.com/docs/app-automate/appium/test-on-networks",
+      "oldTitle": "Network Throttling",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 8,
+      "week": "Test Estimation & Metrics",
+      "oldUrl": "https://www.softwaretestinghelp.com/test-estimation-techniques/",
+      "oldTitle": "Estimation Techniques",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 8,
+      "week": "Test Management Tools",
+      "oldUrl": "https://www.softwaretestinghelp.com/test-management-tools/",
+      "oldTitle": "Test Management Tools",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 8,
+      "week": "Defect Management & Reporting",
+      "oldUrl": "https://www.softwaretestinghelp.com/bug-triage/",
+      "oldTitle": "Bug Triage",
+      "newUrl": "https://www.atlassian.com/software/jira/guides/bugs-issues/overview",
+      "newTitle": "Bug Tracking Best Practices"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 8,
+      "week": "Team Leadership & Communication",
+      "oldUrl": "https://www.softwaretestinghelp.com/communication-skills-for-testers/",
+      "oldTitle": "Communication Skills",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 8,
+      "week": "Team Leadership & Communication",
+      "oldUrl": "https://www.guru99.com/test-manager-roles-responsibilities.html",
+      "oldTitle": "Test Manager Role",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 8,
+      "week": "Quality Assurance & Process Improvement",
+      "oldUrl": "https://www.softwaretestinghelp.com/test-process-improvement/",
+      "oldTitle": "Process Improvement",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 9,
+      "week": "Manual Testing Portfolio Project",
+      "oldUrl": "https://www.guru99.com/sample-test-cases-testing-web-desktop-applications.html",
+      "oldTitle": "Manual Testing Projects",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 9,
+      "week": "Performance & Security Testing Samples",
+      "oldUrl": "https://www.softwaretestinghelp.com/security-testing-tutorial/",
+      "oldTitle": "Security Testing Examples",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 10,
+      "week": "ISTQB Foundation Level Preparation",
+      "oldUrl": "https://www.guru99.com/istqb-certification-exam.html",
+      "oldTitle": "ISTQB Sample Exams",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Software Tester/Quality Assurance",
+      "step": 10,
+      "week": "Continuous Professional Development",
+      "oldUrl": "https://www.softwaretestinghelp.com/qa-lead-responsibilities/",
+      "oldTitle": "Career Advancement",
+      "newUrl": "https://roadmap.sh/",
+      "newTitle": "Tech Career Guide"
+    },
+    {
+      "career": "Web Developer",
+      "step": 2,
+      "week": "ES6+ Modern JavaScript",
+      "oldUrl": "https://www.freecodecamp.org/news/javascript-es6-es7-es8/",
+      "oldTitle": "Javascript Es6 Es7 Es8",
+      "newUrl": "https://www.w3schools.com/js/",
+      "newTitle": "JavaScript Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 2,
+      "week": "Asynchronous JavaScript",
+      "oldUrl": "https://www.freecodecamp.org/news/javascript-promises-async-await/",
+      "oldTitle": "Javascript Promises Async Await",
+      "newUrl": "https://www.w3schools.com/js/",
+      "newTitle": "JavaScript Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 3,
+      "week": "React Best Practices & Optimization",
+      "oldUrl": "https://www.patterns.dev/posts/react-patterns",
+      "oldTitle": "React Patterns",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 4,
+      "week": "Express.js Framework Basics",
+      "oldUrl": "https://www.freecodecamp.org/news/express-explained-with-examples/",
+      "oldTitle": "Express Explained With Examples",
+      "newUrl": "https://www.w3schools.com/nodejs/",
+      "newTitle": "Node.js Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 4,
+      "week": "RESTful API Design",
+      "oldUrl": "https://www.freecodecamp.org/news/rest-api-best-practices/",
+      "oldTitle": "Rest Api Best Practices",
+      "newUrl": "https://www.w3schools.com/js/js_api_intro.asp",
+      "newTitle": "API Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 4,
+      "week": "Middleware & Error Handling",
+      "oldUrl": "https://www.freecodecamp.org/news/express-middleware-demystified/",
+      "oldTitle": "Express Middleware Demystified",
+      "newUrl": "https://www.w3schools.com/nodejs/",
+      "newTitle": "Node.js Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 4,
+      "week": "Environment Variables & Configuration",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-use-environment-variables-in-node/",
+      "oldTitle": "How To Use Environment Variables In Node",
+      "newUrl": "https://www.w3schools.com/nodejs/",
+      "newTitle": "Node.js Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 4,
+      "week": "File Uploads & Data Processing",
+      "oldUrl": "https://www.freecodecamp.org/news/node-js-upload-files/",
+      "oldTitle": "Node Js Upload Files",
+      "newUrl": "https://www.w3schools.com/nodejs/",
+      "newTitle": "Node.js Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 4,
+      "week": "API Documentation & Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-test-a-node-js-app/",
+      "oldTitle": "How To Test A Node Js App",
+      "newUrl": "https://www.w3schools.com/nodejs/",
+      "newTitle": "Node.js Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 5,
+      "week": "PostgreSQL/MySQL with Node.js",
+      "oldUrl": "https://www.freecodecamp.org/news/postgresql-with-nodejs/",
+      "oldTitle": "Postgresql With Nodejs",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 5,
+      "week": "ORM/ODM & Database Best Practices",
+      "oldUrl": "https://www.freecodecamp.org/news/sequelize-the-ultimate-guide/",
+      "oldTitle": "Sequelize The Ultimate Guide",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 6,
+      "week": "Web Security Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/web-security-basics/",
+      "oldTitle": "Web Security Basics",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 6,
+      "week": "OAuth 2.0 & Social Authentication",
+      "oldUrl": "https://www.freecodecamp.org/news/oauth2-passport-social-authentication/",
+      "oldTitle": "Oauth2 Passport Social Authentication",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Web Development Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 6,
+      "week": "Password Security & Session Management",
+      "oldUrl": "https://www.freecodecamp.org/news/session-vs-token-authentication/",
+      "oldTitle": "Session Vs Token Authentication",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 7,
+      "week": "Cloud Deployment (AWS/Heroku)",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-deploy-to-heroku/",
+      "oldTitle": "How To Deploy To Heroku",
+      "newUrl": "https://aws.amazon.com/getting-started/",
+      "newTitle": "AWS Getting Started"
+    },
+    {
+      "career": "Web Developer",
+      "step": 7,
+      "week": "Monitoring, Logging & Performance",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-monitor-nodejs-applications/",
+      "oldTitle": "How To Monitor Nodejs Applications",
+      "newUrl": "https://www.w3schools.com/nodejs/",
+      "newTitle": "Node.js Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 8,
+      "week": "Testing Fundamentals & Unit Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/test-driven-development-what-it-is-and-how-to-use-it/",
+      "oldTitle": "Test Driven Development What It Is And How To Use ",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 8,
+      "week": "Testing React Components",
+      "oldUrl": "https://www.freecodecamp.org/news/react-testing-library-tutorial/",
+      "oldTitle": "React Testing Library Tutorial",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 8,
+      "week": "API & Backend Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-test-a-node-js-app/",
+      "oldTitle": "How To Test A Node Js App",
+      "newUrl": "https://www.w3schools.com/nodejs/",
+      "newTitle": "Node.js Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 8,
+      "week": "End-to-End Testing with Cypress",
+      "oldUrl": "https://www.freecodecamp.org/news/end-to-end-testing-with-cypress/",
+      "oldTitle": "End To End Testing With Cypress",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 8,
+      "week": "Testing Best Practices & CI Integration",
+      "oldUrl": "https://www.freecodecamp.org/news/testing-best-practices/",
+      "oldTitle": "Testing Best Practices",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 9,
+      "week": "Portfolio Planning & Setup",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio/",
+      "oldTitle": "How To Build A Developer Portfolio",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Web Developer",
+      "step": 9,
+      "week": "Project 1: E-commerce/Marketplace App",
+      "oldUrl": "https://www.freecodecamp.org/news/create-an-ecommerce-site-with-react/",
+      "oldTitle": "Create An Ecommerce Site With React",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 9,
+      "week": "Project 2: Social Media/Community Platform",
+      "oldUrl": "https://www.freecodecamp.org/news/build-a-social-media-app/",
+      "oldTitle": "Build A Social Media App",
+      "newUrl": "https://learn.unity.com/tutorials",
+      "newTitle": "Unity Tutorials"
+    },
+    {
+      "career": "Web Developer",
+      "step": 9,
+      "week": "Project 3: Dashboard/Analytics App",
+      "oldUrl": "https://www.freecodecamp.org/news/build-a-dashboard-with-react/",
+      "oldTitle": "Build A Dashboard With React",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 9,
+      "week": "Project 3: Dashboard/Analytics App",
+      "oldUrl": "https://recharts.org/en-US/",
+      "oldTitle": "En US",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Web Development Tutorial"
+    },
+    {
+      "career": "Web Developer",
+      "step": 9,
+      "week": "Portfolio Website & Documentation",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-build-a-portfolio-website/",
+      "oldTitle": "How To Build A Portfolio Website",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Web Developer",
+      "step": 10,
+      "week": "Job Search & Resume Preparation",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-write-a-resume-for-web-developers/",
+      "oldTitle": "How To Write A Resume For Web Developers",
+      "newUrl": "https://www.techinterviewhandbook.org/resume/",
+      "newTitle": "Resume Tips"
+    },
+    {
+      "career": "Web Developer",
+      "step": 10,
+      "week": "Job Search & Resume Preparation",
+      "oldUrl": "https://www.linkedin.com/learning/topics/resume-writing",
+      "oldTitle": "Resume Writing",
+      "newUrl": "https://www.techinterviewhandbook.org/resume/",
+      "newTitle": "Resume Tips"
+    },
+    {
+      "career": "Web Developer",
+      "step": 10,
+      "week": "Interview Preparation",
+      "oldUrl": "https://www.freecodecamp.org/news/coding-interview-prep/",
+      "oldTitle": "Coding Interview Prep",
+      "newUrl": "https://www.techinterviewhandbook.org/",
+      "newTitle": "Tech Interview Handbook"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 2,
+      "week": "SASS/SCSS Preprocessor",
+      "oldUrl": "https://www.freecodecamp.org/news/the-sass-handbook/",
+      "oldTitle": "The Sass Handbook",
+      "newUrl": "https://www.w3schools.com/css/",
+      "newTitle": "CSS Tutorial"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 3,
+      "week": "ES6+ Modern JavaScript",
+      "oldUrl": "https://www.freecodecamp.org/news/javascript-es6-es7-es8/",
+      "oldTitle": "Javascript Es6 Es7 Es8",
+      "newUrl": "https://www.w3schools.com/js/",
+      "newTitle": "JavaScript Tutorial"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 3,
+      "week": "Asynchronous JavaScript",
+      "oldUrl": "https://www.freecodecamp.org/news/javascript-promises-async-await/",
+      "oldTitle": "Javascript Promises Async Await",
+      "newUrl": "https://www.w3schools.com/js/",
+      "newTitle": "JavaScript Tutorial"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 4,
+      "week": "Advanced React Patterns",
+      "oldUrl": "https://www.patterns.dev/posts/react-patterns",
+      "oldTitle": "React Patterns",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 4,
+      "week": "React Testing & Best Practices",
+      "oldUrl": "https://www.freecodecamp.org/news/react-testing-library-tutorial/",
+      "oldTitle": "React Testing Library Tutorial",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 9,
+      "week": "Portfolio Planning & Design",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio/",
+      "oldTitle": "How To Build A Developer Portfolio",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 9,
+      "week": "Project 1: E-commerce UI/Dashboard",
+      "oldUrl": "https://www.freecodecamp.org/news/create-an-ecommerce-site-with-react/",
+      "oldTitle": "Create An Ecommerce Site With React",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 9,
+      "week": "Project 2: Social Media/Community Platform UI",
+      "oldUrl": "https://www.freecodecamp.org/news/build-a-social-media-app/",
+      "oldTitle": "Build A Social Media App",
+      "newUrl": "https://learn.unity.com/tutorials",
+      "newTitle": "Unity Tutorials"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 9,
+      "week": "Project 3: Data Visualization Dashboard",
+      "oldUrl": "https://www.freecodecamp.org/news/build-a-dashboard-with-react/",
+      "oldTitle": "Build A Dashboard With React",
+      "newUrl": "https://www.w3schools.com/python/matplotlib_intro.asp",
+      "newTitle": "Data Visualization with Python"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 9,
+      "week": "Project 3: Data Visualization Dashboard",
+      "oldUrl": "https://recharts.org/en-US/",
+      "oldTitle": "En US",
+      "newUrl": "https://www.w3schools.com/python/matplotlib_intro.asp",
+      "newTitle": "Data Visualization with Python"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 9,
+      "week": "Portfolio Website & Deployment",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-build-a-portfolio-website/",
+      "oldTitle": "How To Build A Portfolio Website",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 10,
+      "week": "Job Preparation & Applications",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-write-a-resume-for-web-developers/",
+      "oldTitle": "How To Write A Resume For Web Developers",
+      "newUrl": "https://www.techinterviewhandbook.org/resume/",
+      "newTitle": "Resume Tips"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 10,
+      "week": "Job Preparation & Applications",
+      "oldUrl": "https://www.linkedin.com/learning/topics/resume-writing",
+      "oldTitle": "Resume Writing",
+      "newUrl": "https://www.techinterviewhandbook.org/resume/",
+      "newTitle": "Resume Tips"
+    },
+    {
+      "career": "Frontend Developer",
+      "step": 10,
+      "week": "Technical Interview Preparation",
+      "oldUrl": "https://www.freecodecamp.org/news/coding-interview-prep/",
+      "oldTitle": "Coding Interview Prep",
+      "newUrl": "https://www.techinterviewhandbook.org/",
+      "newTitle": "Tech Interview Handbook"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 1,
+      "week": "Object-Oriented Programming",
+      "oldUrl": "https://www.freecodecamp.org/news/object-oriented-programming-concepts/",
+      "oldTitle": "Object Oriented Programming Concepts",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 1,
+      "week": "Algorithms & Problem Solving",
+      "oldUrl": "https://www.freecodecamp.org/news/introduction-to-algorithms/",
+      "oldTitle": "Introduction To Algorithms",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 4,
+      "week": "Database Design & Normalization",
+      "oldUrl": "https://www.freecodecamp.org/news/database-normalization/",
+      "oldTitle": "Database Normalization",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 4,
+      "week": "Database Performance & Optimization",
+      "oldUrl": "https://www.freecodecamp.org/news/database-indexing-at-a-glance/",
+      "oldTitle": "Database Indexing At A Glance",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 4,
+      "week": "Database Integration with Backend",
+      "oldUrl": "https://www.freecodecamp.org/news/sequelize-the-ultimate-guide/",
+      "oldTitle": "Sequelize The Ultimate Guide",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 5,
+      "week": "Redis Caching",
+      "oldUrl": "https://www.freecodecamp.org/news/redis-tutorial/",
+      "oldTitle": "Redis Tutorial",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 5,
+      "week": "NoSQL Best Practices",
+      "oldUrl": "https://www.freecodecamp.org/news/mongodb-best-practices/",
+      "oldTitle": "Mongodb Best Practices",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 6,
+      "week": "Advanced REST API Design",
+      "oldUrl": "https://www.freecodecamp.org/news/rest-api-design-best-practices/",
+      "oldTitle": "Rest Api Design Best Practices",
+      "newUrl": "https://www.w3schools.com/js/js_api_intro.asp",
+      "newTitle": "API Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 6,
+      "week": "GraphQL Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/graphql-full-course/",
+      "oldTitle": "Graphql Full Course",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 6,
+      "week": "API Documentation",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-write-api-documentation/",
+      "oldTitle": "How To Write Api Documentation",
+      "newUrl": "https://www.w3schools.com/js/js_api_intro.asp",
+      "newTitle": "API Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 6,
+      "week": "API Security & Rate Limiting",
+      "oldUrl": "https://www.freecodecamp.org/news/best-practices-for-building-api-keys/",
+      "oldTitle": "Best Practices For Building Api Keys",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 7,
+      "week": "Security Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/web-security-basics/",
+      "oldTitle": "Web Security Basics",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 7,
+      "week": "Authentication Systems",
+      "oldUrl": "https://www.freecodecamp.org/news/authentication-and-authorization/",
+      "oldTitle": "Authentication And Authorization",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 7,
+      "week": "Authorization & Access Control",
+      "oldUrl": "https://www.freecodecamp.org/news/a-quick-intro-to-authorization/",
+      "oldTitle": "A Quick Intro To Authorization",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 7,
+      "week": "Encryption & Security Best Practices",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-secure-your-node-js-application/",
+      "oldTitle": "How To Secure Your Node Js Application",
+      "newUrl": "https://www.w3schools.com/nodejs/",
+      "newTitle": "Node.js Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 9,
+      "week": "Backend Testing Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/test-driven-development/",
+      "oldTitle": "Test Driven Development",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 9,
+      "week": "API & Database Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-test-a-node-js-app/",
+      "oldTitle": "How To Test A Node Js App",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 9,
+      "week": "Deployment Automation",
+      "oldUrl": "https://www.freecodecamp.org/news/ci-cd-pipeline-explained/",
+      "oldTitle": "Ci Cd Pipeline Explained",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Backend Developer",
+      "step": 10,
+      "week": "Backend Portfolio Projects",
+      "oldUrl": "https://www.freecodecamp.org/news/backend-project-ideas/",
+      "oldTitle": "Backend Project Ideas",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 1,
+      "week": "Mobile Platform Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/learn-mobile-app-development/",
+      "oldTitle": "Learn Mobile App Development",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 2,
+      "week": "Language Syntax & Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/learn-swift-programming/",
+      "oldTitle": "Learn Swift Programming",
+      "newUrl": "https://www.w3schools.com/swift/",
+      "newTitle": "Swift Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 3,
+      "week": "Framework Setup & Basics",
+      "oldUrl": "https://www.freecodecamp.org/news/learn-react-native/",
+      "oldTitle": "Learn React Native",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 3,
+      "week": "UI Components & Layouts",
+      "oldUrl": "https://www.freecodecamp.org/news/react-native-styling-tutorial/",
+      "oldTitle": "React Native Styling Tutorial",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 3,
+      "week": "State Management & Navigation",
+      "oldUrl": "https://www.freecodecamp.org/news/react-native-navigation/",
+      "oldTitle": "React Native Navigation",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 3,
+      "week": "API Integration & Data",
+      "oldUrl": "https://www.freecodecamp.org/news/react-native-api-calls/",
+      "oldTitle": "React Native Api Calls",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 3,
+      "week": "Native Modules & Platform APIs",
+      "oldUrl": "https://www.freecodecamp.org/news/react-native-modules/",
+      "oldTitle": "React Native Modules",
+      "newUrl": "https://www.w3schools.com/react/",
+      "newTitle": "React Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 3,
+      "week": "Native Modules & Platform APIs",
+      "oldUrl": "https://reactnative.dev/docs/native-modules-intro",
+      "oldTitle": "Native Modules Intro",
+      "newUrl": "https://www.w3schools.com/js/js_api_intro.asp",
+      "newTitle": "API Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 4,
+      "week": "Platform Design Guidelines",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-design-best-practices/",
+      "oldTitle": "Mobile Design Best Practices",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 4,
+      "week": "Responsive Layouts & Adaptivity",
+      "oldUrl": "https://www.freecodecamp.org/news/responsive-mobile-design/",
+      "oldTitle": "Responsive Mobile Design",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 4,
+      "week": "Animations & Interactions",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-animations/",
+      "oldTitle": "Mobile Animations",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 5,
+      "week": "Local Databases (SQLite/Room/Core Data)",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-database-tutorial/",
+      "oldTitle": "Mobile Database Tutorial",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 5,
+      "week": "REST API Integration",
+      "oldUrl": "https://www.freecodecamp.org/news/rest-api-tutorial/",
+      "oldTitle": "Rest Api Tutorial",
+      "newUrl": "https://www.w3schools.com/js/js_api_intro.asp",
+      "newTitle": "API Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 5,
+      "week": "Offline-First Architecture",
+      "oldUrl": "https://www.freecodecamp.org/news/offline-first-apps/",
+      "oldTitle": "Offline First Apps",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 6,
+      "week": "Memory Management",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-memory-management/",
+      "oldTitle": "Mobile Memory Management",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 6,
+      "week": "Network Optimization",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-network-optimization/",
+      "oldTitle": "Mobile Network Optimization",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 6,
+      "week": "Battery & Power Optimization",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-battery-optimization/",
+      "oldTitle": "Mobile Battery Optimization",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 7,
+      "week": "Secure Data Storage",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-security-best-practices/",
+      "oldTitle": "Mobile Security Best Practices",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 7,
+      "week": "Authentication & Authorization",
+      "oldUrl": "https://www.freecodecamp.org/news/oauth2-mobile-authentication/",
+      "oldTitle": "Oauth2 Mobile Authentication",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 7,
+      "week": "Biometric Authentication",
+      "oldUrl": "https://www.freecodecamp.org/news/biometric-authentication-mobile/",
+      "oldTitle": "Biometric Authentication Mobile",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 7,
+      "week": "Network Security & Encryption",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-network-security/",
+      "oldTitle": "Mobile Network Security",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 8,
+      "week": "UI and Integration Testing",
+      "oldUrl": "https://developer.apple.com/documentation/xctest/user_interface_tests",
+      "oldTitle": "User Interface Tests",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 8,
+      "week": "Automated Testing & CI/CD",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-ci-cd/",
+      "oldTitle": "Mobile Ci Cd",
+      "newUrl": "https://docs.github.com/en/actions/quickstart",
+      "newTitle": "GitHub Actions Quickstart"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 9,
+      "week": "Portfolio Planning & App Ideas",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-app-ideas/",
+      "oldTitle": "Mobile App Ideas",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 9,
+      "week": "Project 1: E-commerce/Shopping App",
+      "oldUrl": "https://www.freecodecamp.org/news/build-ecommerce-mobile-app/",
+      "oldTitle": "Build Ecommerce Mobile App",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 9,
+      "week": "Project 2: Social Media/Chat App",
+      "oldUrl": "https://www.freecodecamp.org/news/build-chat-app/",
+      "oldTitle": "Build Chat App",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 9,
+      "week": "Project 3: Utility/Productivity App",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-monetization/",
+      "oldTitle": "Mobile Monetization",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 10,
+      "week": "Job Search & Resume Preparation",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-developer-resume/",
+      "oldTitle": "Mobile Developer Resume",
+      "newUrl": "https://www.techinterviewhandbook.org/resume/",
+      "newTitle": "Resume Tips"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 10,
+      "week": "Job Search & Resume Preparation",
+      "oldUrl": "https://www.linkedin.com/learning/topics/resume-writing",
+      "oldTitle": "Resume Writing",
+      "newUrl": "https://www.techinterviewhandbook.org/resume/",
+      "newTitle": "Resume Tips"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 10,
+      "week": "Interview Preparation",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-developer-interview-guide/",
+      "oldTitle": "Mobile Developer Interview Guide",
+      "newUrl": "https://www.techinterviewhandbook.org/",
+      "newTitle": "Tech Interview Handbook"
+    },
+    {
+      "career": "Mobile App Developer",
+      "step": 10,
+      "week": "Freelancing & Contract Work",
+      "oldUrl": "https://www.freecodecamp.org/news/freelance-mobile-developer/",
+      "oldTitle": "Freelance Mobile Developer",
+      "newUrl": "https://www.upwork.com/resources/how-to-become-a-freelancer",
+      "newTitle": "Freelancing Guide"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 1,
+      "week": "UX Principles & User-Centered Design",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-design-principles/",
+      "oldTitle": "Ux Design Principles",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 1,
+      "week": "User Research Methods",
+      "oldUrl": "https://www.freecodecamp.org/news/user-research-guide/",
+      "oldTitle": "User Research Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 1,
+      "week": "Personas & User Journey Mapping",
+      "oldUrl": "https://www.freecodecamp.org/news/user-personas-guide/",
+      "oldTitle": "User Personas Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 1,
+      "week": "Information Architecture",
+      "oldUrl": "https://www.freecodecamp.org/news/information-architecture-guide/",
+      "oldTitle": "Information Architecture Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 1,
+      "week": "Information Architecture",
+      "oldUrl": "https://www.nngroup.com/articles/information-architecture-101/",
+      "oldTitle": "Information Architecture 101",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 1,
+      "week": "UX Strategy & Business Value",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-strategy-guide/",
+      "oldTitle": "Ux Strategy Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 2,
+      "week": "Visual Design Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/visual-design-fundamentals/",
+      "oldTitle": "Visual Design Fundamentals",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 2,
+      "week": "Color Theory & Application",
+      "oldUrl": "https://www.freecodecamp.org/news/color-theory-for-designers/",
+      "oldTitle": "Color Theory For Designers",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 2,
+      "week": "Typography Principles",
+      "oldUrl": "https://www.freecodecamp.org/news/typography-guide/",
+      "oldTitle": "Typography Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 2,
+      "week": "Layout & Composition",
+      "oldUrl": "https://www.freecodecamp.org/news/layout-composition-guide/",
+      "oldTitle": "Layout Composition Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 2,
+      "week": "Design Systems & Component Libraries",
+      "oldUrl": "https://www.freecodecamp.org/news/design-systems-guide/",
+      "oldTitle": "Design Systems Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 3,
+      "week": "Figma Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/figma-tutorial/",
+      "oldTitle": "Figma Tutorial",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 3,
+      "week": "Advanced Figma Features",
+      "oldUrl": "https://www.freecodecamp.org/news/figma-components/",
+      "oldTitle": "Figma Components",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 3,
+      "week": "Prototyping in Figma",
+      "oldUrl": "https://www.freecodecamp.org/news/figma-prototyping/",
+      "oldTitle": "Figma Prototyping",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 3,
+      "week": "Collaboration & Handoff",
+      "oldUrl": "https://www.freecodecamp.org/news/design-handoff-guide/",
+      "oldTitle": "Design Handoff Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 3,
+      "week": "Adobe XD & Other Tools",
+      "oldUrl": "https://www.freecodecamp.org/news/design-tools-comparison/",
+      "oldTitle": "Design Tools Comparison",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 3,
+      "week": "Adobe XD & Other Tools",
+      "oldUrl": "https://helpx.adobe.com/xd/tutorials.html",
+      "oldTitle": "Tutorials.Html",
+      "newUrl": "https://www.w3schools.com/html/",
+      "newTitle": "HTML Tutorial"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 4,
+      "week": "Research Planning & Methods",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-research-methods/",
+      "oldTitle": "Ux Research Methods",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 4,
+      "week": "User Interviews & Surveys",
+      "oldUrl": "https://www.freecodecamp.org/news/user-interviews-guide/",
+      "oldTitle": "User Interviews Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 4,
+      "week": "Usability Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/usability-testing-guide/",
+      "oldTitle": "Usability Testing Guide",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 4,
+      "week": "A/B Testing & Analytics",
+      "oldUrl": "https://www.freecodecamp.org/news/ab-testing-guide/",
+      "oldTitle": "Ab Testing Guide",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 4,
+      "week": "A/B Testing & Analytics",
+      "oldUrl": "https://www.nngroup.com/articles/ab-testing-101/",
+      "oldTitle": "Ab Testing 101",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 4,
+      "week": "Research Analysis & Synthesis",
+      "oldUrl": "https://www.freecodecamp.org/news/research-analysis-guide/",
+      "oldTitle": "Research Analysis Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 5,
+      "week": "Low-Fidelity Wireframing",
+      "oldUrl": "https://www.freecodecamp.org/news/wireframing-guide/",
+      "oldTitle": "Wireframing Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 5,
+      "week": "High-Fidelity Wireframing",
+      "oldUrl": "https://www.freecodecamp.org/news/high-fidelity-wireframes/",
+      "oldTitle": "High Fidelity Wireframes",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 5,
+      "week": "High-Fidelity Wireframing",
+      "oldUrl": "https://www.nngroup.com/articles/wireframe-vs-mockup/",
+      "oldTitle": "Wireframe Vs Mockup",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 5,
+      "week": "Rapid Iteration & Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/iterative-design-guide/",
+      "oldTitle": "Iterative Design Guide",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 6,
+      "week": "Interaction Design Principles",
+      "oldUrl": "https://www.freecodecamp.org/news/interaction-design-principles/",
+      "oldTitle": "Interaction Design Principles",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 6,
+      "week": "UI Patterns & Components",
+      "oldUrl": "https://www.freecodecamp.org/news/ui-patterns-guide/",
+      "oldTitle": "Ui Patterns Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 6,
+      "week": "Micro-Interactions",
+      "oldUrl": "https://www.freecodecamp.org/news/microinteractions-guide/",
+      "oldTitle": "Microinteractions Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 6,
+      "week": "Animations & Transitions",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-animations-guide/",
+      "oldTitle": "Ux Animations Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 6,
+      "week": "Gestural Interfaces",
+      "oldUrl": "https://www.nngroup.com/articles/gestures-usability-mobile/",
+      "oldTitle": "Gestures Usability Mobile",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 7,
+      "week": "Accessibility Fundamentals & WCAG",
+      "oldUrl": "https://www.freecodecamp.org/news/web-accessibility-guide/",
+      "oldTitle": "Web Accessibility Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 7,
+      "week": "Designing for Visual Disabilities",
+      "oldUrl": "https://www.freecodecamp.org/news/designing-for-visual-disabilities/",
+      "oldTitle": "Designing For Visual Disabilities",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 7,
+      "week": "Keyboard Navigation & Motor Disabilities",
+      "oldUrl": "https://www.freecodecamp.org/news/keyboard-navigation-guide/",
+      "oldTitle": "Keyboard Navigation Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 7,
+      "week": "Keyboard Navigation & Motor Disabilities",
+      "oldUrl": "https://webaim.org/articles/keyboard/",
+      "oldTitle": "Keyboard",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 7,
+      "week": "Inclusive Design & Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/inclusive-design-guide/",
+      "oldTitle": "Inclusive Design Guide",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 8,
+      "week": "Design System Foundations",
+      "oldUrl": "https://www.freecodecamp.org/news/design-systems-guide/",
+      "oldTitle": "Design Systems Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 8,
+      "week": "Building Component Libraries",
+      "oldUrl": "https://www.freecodecamp.org/news/component-libraries/",
+      "oldTitle": "Component Libraries",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 8,
+      "week": "Building Component Libraries",
+      "oldUrl": "https://storybook.js.org/tutorials/design-systems-for-developers/",
+      "oldTitle": "Design Systems For Developers",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 8,
+      "week": "System Governance & Scaling",
+      "oldUrl": "https://www.freecodecamp.org/news/design-system-governance/",
+      "oldTitle": "Design System Governance",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 8,
+      "week": "System Governance & Scaling",
+      "oldUrl": "https://www.nngroup.com/articles/design-system-governance/",
+      "oldTitle": "Design System Governance",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 9,
+      "week": "Portfolio Strategy & Planning",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-portfolio-guide/",
+      "oldTitle": "Ux Portfolio Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 9,
+      "week": "Portfolio Strategy & Planning",
+      "oldUrl": "https://www.nngroup.com/articles/ux-portfolio/",
+      "oldTitle": "Ux Portfolio",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 9,
+      "week": "Case Study 1: UX Research Project",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-case-study-guide/",
+      "oldTitle": "Ux Case Study Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 9,
+      "week": "Case Study 1: UX Research Project",
+      "oldUrl": "https://www.nngroup.com/articles/ux-case-studies/",
+      "oldTitle": "Ux Case Studies",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 9,
+      "week": "Case Study 2: End-to-End Product Design",
+      "oldUrl": "https://www.freecodecamp.org/news/product-design-case-study/",
+      "oldTitle": "Product Design Case Study",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 9,
+      "week": "Case Study 2: End-to-End Product Design",
+      "oldUrl": "https://www.nngroup.com/articles/ux-portfolio-process/",
+      "oldTitle": "Ux Portfolio Process",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 9,
+      "week": "Portfolio Website & Presentation",
+      "oldUrl": "https://www.freecodecamp.org/news/portfolio-website-guide/",
+      "oldTitle": "Portfolio Website Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 9,
+      "week": "Portfolio Website & Presentation",
+      "oldUrl": "https://www.nngroup.com/articles/portfolios/",
+      "oldTitle": "Portfolios",
+      "newUrl": "https://developer.apple.com/tutorials/app-dev-training",
+      "newTitle": "iOS App Dev Tutorials"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 10,
+      "week": "Design Community Engagement",
+      "oldUrl": "https://www.freecodecamp.org/news/design-community-guide/",
+      "oldTitle": "Design Community Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 10,
+      "week": "Job Search & Application",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-job-search-guide/",
+      "oldTitle": "Ux Job Search Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 10,
+      "week": "Job Search & Application",
+      "oldUrl": "https://www.nngroup.com/articles/ux-jobs/",
+      "oldTitle": "Ux Jobs",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 10,
+      "week": "Interview Preparation",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-interview-guide/",
+      "oldTitle": "Ux Interview Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 10,
+      "week": "Interview Preparation",
+      "oldUrl": "https://www.nngroup.com/articles/ux-interview/",
+      "oldTitle": "Ux Interview",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 10,
+      "week": "Freelancing & Continuous Learning",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-freelancing-guide/",
+      "oldTitle": "Ux Freelancing Guide",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 10,
+      "week": "Career Growth & Specialization",
+      "oldUrl": "https://www.freecodecamp.org/news/ux-career-growth/",
+      "oldTitle": "Ux Career Growth",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "UX/UI Designer",
+      "step": 10,
+      "week": "Career Growth & Specialization",
+      "oldUrl": "https://www.nngroup.com/articles/ux-career-growth/",
+      "oldTitle": "Ux Career Growth",
+      "newUrl": "https://www.canva.com/learn/ui-design/",
+      "newTitle": "UI Design Basics"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 1,
+      "week": "Python Programming",
+      "oldUrl": "https://www.freecodecamp.org/news/learn-python-for-data-science/",
+      "oldTitle": "Learn Python For Data Science",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 1,
+      "week": "Linear Algebra",
+      "oldUrl": "https://www.freecodecamp.org/news/linear-algebra-for-machine-learning/",
+      "oldTitle": "Linear Algebra For Machine Learning",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 1,
+      "week": "Calculus & Optimization",
+      "oldUrl": "https://www.freecodecamp.org/news/calculus-for-machine-learning/",
+      "oldTitle": "Calculus For Machine Learning",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 2,
+      "week": "ML Basics & Supervised Learning",
+      "oldUrl": "https://www.freecodecamp.org/news/machine-learning-basics/",
+      "oldTitle": "Machine Learning Basics",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 2,
+      "week": "ML Basics & Supervised Learning",
+      "oldUrl": "https://scikit-learn.org/stable/tutorial/basic/tutorial.html",
+      "oldTitle": "Tutorial.Html",
+      "newUrl": "https://www.w3schools.com/html/",
+      "newTitle": "HTML Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 2,
+      "week": "Classification Algorithms",
+      "oldUrl": "https://www.freecodecamp.org/news/classification-algorithms/",
+      "oldTitle": "Classification Algorithms",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 2,
+      "week": "Unsupervised Learning",
+      "oldUrl": "https://www.freecodecamp.org/news/unsupervised-learning/",
+      "oldTitle": "Unsupervised Learning",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 2,
+      "week": "Model Evaluation & Selection",
+      "oldUrl": "https://www.freecodecamp.org/news/model-evaluation-metrics/",
+      "oldTitle": "Model Evaluation Metrics",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 3,
+      "week": "Neural Network Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/deep-learning-neural-networks/",
+      "oldTitle": "Deep Learning Neural Networks",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 3,
+      "week": "Convolutional Neural Networks",
+      "oldUrl": "https://www.freecodecamp.org/news/convolutional-neural-networks/",
+      "oldTitle": "Convolutional Neural Networks",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 3,
+      "week": "Recurrent Neural Networks",
+      "oldUrl": "https://www.freecodecamp.org/news/recurrent-neural-networks/",
+      "oldTitle": "Recurrent Neural Networks",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 3,
+      "week": "Transformers & Modern Architectures",
+      "oldUrl": "https://www.freecodecamp.org/news/transformer-neural-network-models/",
+      "oldTitle": "Transformer Neural Network Models",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 3,
+      "week": "Deep Learning Best Practices",
+      "oldUrl": "https://www.freecodecamp.org/news/deep-learning-best-practices/",
+      "oldTitle": "Deep Learning Best Practices",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 4,
+      "week": "Text Processing & Tokenization",
+      "oldUrl": "https://www.freecodecamp.org/news/natural-language-processing/",
+      "oldTitle": "Natural Language Processing",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 4,
+      "week": "Word Embeddings",
+      "oldUrl": "https://www.freecodecamp.org/news/word-embeddings/",
+      "oldTitle": "Word Embeddings",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 4,
+      "week": "Transformers for NLP",
+      "oldUrl": "https://www.freecodecamp.org/news/bert-and-transformers/",
+      "oldTitle": "Bert And Transformers",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 4,
+      "week": "NLP Applications",
+      "oldUrl": "https://www.freecodecamp.org/news/nlp-applications/",
+      "oldTitle": "Nlp Applications",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 5,
+      "week": "Image Processing Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/image-processing-opencv/",
+      "oldTitle": "Image Processing Opencv",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 5,
+      "week": "Object Detection",
+      "oldUrl": "https://www.freecodecamp.org/news/object-detection-yolo/",
+      "oldTitle": "Object Detection Yolo",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 5,
+      "week": "Image Segmentation",
+      "oldUrl": "https://www.freecodecamp.org/news/image-segmentation/",
+      "oldTitle": "Image Segmentation",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 5,
+      "week": "Advanced Vision Tasks",
+      "oldUrl": "https://www.freecodecamp.org/news/computer-vision-applications/",
+      "oldTitle": "Computer Vision Applications",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 6,
+      "week": "ML Production Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/mlops-fundamentals/",
+      "oldTitle": "Mlops Fundamentals",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 6,
+      "week": "Model Deployment",
+      "oldUrl": "https://www.freecodecamp.org/news/model-deployment/",
+      "oldTitle": "Model Deployment",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 6,
+      "week": "ML Monitoring & CI/CD",
+      "oldUrl": "https://www.freecodecamp.org/news/mlops-ci-cd/",
+      "oldTitle": "Mlops Ci Cd",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 6,
+      "week": "MLOps Tools & Platforms",
+      "oldUrl": "https://www.freecodecamp.org/news/mlops-tools/",
+      "oldTitle": "Mlops Tools",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 7,
+      "week": "Big Data Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/apache-spark-tutorial/",
+      "oldTitle": "Apache Spark Tutorial",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 7,
+      "week": "Spark MLlib",
+      "oldUrl": "https://www.freecodecamp.org/news/spark-mllib/",
+      "oldTitle": "Spark Mllib",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 7,
+      "week": "Distributed Deep Learning",
+      "oldUrl": "https://www.freecodecamp.org/news/distributed-deep-learning/",
+      "oldTitle": "Distributed Deep Learning",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 7,
+      "week": "Data Pipeline Engineering",
+      "oldUrl": "https://www.freecodecamp.org/news/data-pipelines/",
+      "oldTitle": "Data Pipelines",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 8,
+      "week": "AWS SageMaker",
+      "oldUrl": "https://www.freecodecamp.org/news/aws-sagemaker-tutorial/",
+      "oldTitle": "Aws Sagemaker Tutorial",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 8,
+      "week": "Azure Machine Learning",
+      "oldUrl": "https://www.freecodecamp.org/news/azure-ml-tutorial/",
+      "oldTitle": "Azure Ml Tutorial",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 8,
+      "week": "Google Cloud AI Platform",
+      "oldUrl": "https://www.freecodecamp.org/news/google-cloud-ai/",
+      "oldTitle": "Google Cloud Ai",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 9,
+      "week": "Portfolio Strategy",
+      "oldUrl": "https://www.freecodecamp.org/news/ml-portfolio-guide/",
+      "oldTitle": "Ml Portfolio Guide",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 9,
+      "week": "Portfolio Strategy",
+      "oldUrl": "https://www.kaggle.com/getting-started/",
+      "oldTitle": "Getting Started",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 9,
+      "week": "Project 1: Predictive Analytics",
+      "oldUrl": "https://www.freecodecamp.org/news/end-to-end-ml-project/",
+      "oldTitle": "End To End Ml Project",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 9,
+      "week": "Project 1: Predictive Analytics",
+      "oldUrl": "https://www.kaggle.com/competitions",
+      "oldTitle": "Competitions",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 9,
+      "week": "Project 2: Deep Learning Application",
+      "oldUrl": "https://www.freecodecamp.org/news/deep-learning-projects/",
+      "oldTitle": "Deep Learning Projects",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 9,
+      "week": "Project 3: Production ML System",
+      "oldUrl": "https://www.freecodecamp.org/news/production-ml-system/",
+      "oldTitle": "Production Ml System",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 10,
+      "week": "Open Source & Kaggle",
+      "oldUrl": "https://www.freecodecamp.org/news/open-source-contribution-guide/",
+      "oldTitle": "Open Source Contribution Guide",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 10,
+      "week": "Job Search Strategy",
+      "oldUrl": "https://www.freecodecamp.org/news/tech-job-search-guide/",
+      "oldTitle": "Tech Job Search Guide",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 10,
+      "week": "Interview Preparation",
+      "oldUrl": "https://www.freecodecamp.org/news/ml-interview-guide/",
+      "oldTitle": "Ml Interview Guide",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 10,
+      "week": "Career Growth",
+      "oldUrl": "https://www.youtube.com/c/arxiv",
+      "oldTitle": "Arxiv",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Machine Learning Engineer",
+      "step": 10,
+      "week": "Career Growth",
+      "oldUrl": "https://www.freecodecamp.org/news/ml-career-growth/",
+      "oldTitle": "Ml Career Growth",
+      "newUrl": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "newTitle": "Machine Learning Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 1,
+      "week": "Normalization & Design",
+      "oldUrl": "https://www.freecodecamp.org/news/database-normalization/",
+      "oldTitle": "Database Normalization",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 1,
+      "week": "Normalization & Design",
+      "oldUrl": "https://www.studytonight.com/dbms/database-normalization.php",
+      "oldTitle": "Database Normalization.Php",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 1,
+      "week": "Data Integrity & Constraints",
+      "oldUrl": "https://www.freecodecamp.org/news/data-integrity/",
+      "oldTitle": "Data Integrity",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 2,
+      "week": "Advanced SQL",
+      "oldUrl": "https://www.freecodecamp.org/news/advanced-sql/",
+      "oldTitle": "Advanced Sql",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 2,
+      "week": "Stored Procedures & Functions",
+      "oldUrl": "https://www.freecodecamp.org/news/stored-procedures/",
+      "oldTitle": "Stored Procedures",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 2,
+      "week": "Query Optimization",
+      "oldUrl": "https://www.freecodecamp.org/news/query-optimization/",
+      "oldTitle": "Query Optimization",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 2,
+      "week": "Transaction Management",
+      "oldUrl": "https://www.freecodecamp.org/news/database-transactions/",
+      "oldTitle": "Database Transactions",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 3,
+      "week": "PostgreSQL Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/postgresql-tutorial/",
+      "oldTitle": "Postgresql Tutorial",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 3,
+      "week": "MySQL Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/mysql-tutorial/",
+      "oldTitle": "Mysql Tutorial",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 3,
+      "week": "Database Comparison & Selection",
+      "oldUrl": "https://www.freecodecamp.org/news/database-comparison/",
+      "oldTitle": "Database Comparison",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 3,
+      "week": "Database Automation",
+      "oldUrl": "https://www.freecodecamp.org/news/database-automation/",
+      "oldTitle": "Database Automation",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 4,
+      "week": "Authentication & Authorization",
+      "oldUrl": "https://www.freecodecamp.org/news/database-security-authentication/",
+      "oldTitle": "Database Security Authentication",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 4,
+      "week": "Encryption & Data Protection",
+      "oldUrl": "https://www.freecodecamp.org/news/database-encryption/",
+      "oldTitle": "Database Encryption",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 4,
+      "week": "Auditing & Compliance",
+      "oldUrl": "https://www.freecodecamp.org/news/database-auditing/",
+      "oldTitle": "Database Auditing",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 4,
+      "week": "Auditing & Compliance",
+      "oldUrl": "https://www.postgresql.org/docs/current/pgaudit.html",
+      "oldTitle": "Pgaudit.Html",
+      "newUrl": "https://www.w3schools.com/html/",
+      "newTitle": "HTML Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 4,
+      "week": "Security Best Practices",
+      "oldUrl": "https://www.freecodecamp.org/news/database-security-best-practices/",
+      "oldTitle": "Database Security Best Practices",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 5,
+      "week": "Backup Strategies",
+      "oldUrl": "https://www.freecodecamp.org/news/database-backup-strategies/",
+      "oldTitle": "Database Backup Strategies",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 5,
+      "week": "Disaster Recovery",
+      "oldUrl": "https://www.freecodecamp.org/news/disaster-recovery-planning/",
+      "oldTitle": "Disaster Recovery Planning",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 5,
+      "week": "Replication & Clustering",
+      "oldUrl": "https://www.freecodecamp.org/news/database-replication/",
+      "oldTitle": "Database Replication",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 5,
+      "week": "High Availability Solutions",
+      "oldUrl": "https://www.freecodecamp.org/news/high-availability-databases/",
+      "oldTitle": "High Availability Databases",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 6,
+      "week": "Performance Monitoring",
+      "oldUrl": "https://www.freecodecamp.org/news/database-performance-monitoring/",
+      "oldTitle": "Database Performance Monitoring",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 6,
+      "week": "Indexing Strategies",
+      "oldUrl": "https://www.freecodecamp.org/news/database-indexing/",
+      "oldTitle": "Database Indexing",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 6,
+      "week": "Resource Optimization",
+      "oldUrl": "https://www.freecodecamp.org/news/database-optimization/",
+      "oldTitle": "Database Optimization",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 6,
+      "week": "Capacity Planning",
+      "oldUrl": "https://www.freecodecamp.org/news/capacity-planning/",
+      "oldTitle": "Capacity Planning",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 7,
+      "week": "NoSQL Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/nosql-databases/",
+      "oldTitle": "Nosql Databases",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 7,
+      "week": "MongoDB",
+      "oldUrl": "https://www.freecodecamp.org/news/mongodb-tutorial/",
+      "oldTitle": "Mongodb Tutorial",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 7,
+      "week": "Redis",
+      "oldUrl": "https://www.freecodecamp.org/news/redis-tutorial/",
+      "oldTitle": "Redis Tutorial",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 7,
+      "week": "NoSQL Design Patterns",
+      "oldUrl": "https://www.freecodecamp.org/news/nosql-data-modeling/",
+      "oldTitle": "Nosql Data Modeling",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 8,
+      "week": "AWS RDS & Aurora",
+      "oldUrl": "https://www.freecodecamp.org/news/aws-rds-tutorial/",
+      "oldTitle": "Aws Rds Tutorial",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 8,
+      "week": "Azure SQL & Managed Instances",
+      "oldUrl": "https://www.freecodecamp.org/news/azure-sql-database/",
+      "oldTitle": "Azure Sql Database",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 8,
+      "week": "Database Migration to Cloud",
+      "oldUrl": "https://www.freecodecamp.org/news/database-migration/",
+      "oldTitle": "Database Migration",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 9,
+      "week": "Python for DBAs",
+      "oldUrl": "https://www.freecodecamp.org/news/python-database-programming/",
+      "oldTitle": "Python Database Programming",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 9,
+      "week": "Infrastructure as Code",
+      "oldUrl": "https://www.freecodecamp.org/news/infrastructure-as-code/",
+      "oldTitle": "Infrastructure As Code",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 10,
+      "week": "DBA Certifications",
+      "oldUrl": "https://www.freecodecamp.org/news/database-certifications/",
+      "oldTitle": "Database Certifications",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 10,
+      "week": "Real-World Projects",
+      "oldUrl": "https://www.freecodecamp.org/news/database-projects/",
+      "oldTitle": "Database Projects",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 10,
+      "week": "Job Search & Interview Prep",
+      "oldUrl": "https://www.freecodecamp.org/news/tech-interview-preparation/",
+      "oldTitle": "Tech Interview Preparation",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 10,
+      "week": "Career Development",
+      "oldUrl": "https://www.youtube.com/c/DatabaseAdministrator",
+      "oldTitle": "DatabaseAdministrator",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Database Administrator",
+      "step": 10,
+      "week": "Career Development",
+      "oldUrl": "https://www.freecodecamp.org/news/career-growth/",
+      "oldTitle": "Career Growth",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 1,
+      "week": "Windows Server Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/windows-server-administration/",
+      "oldTitle": "Windows Server Administration",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 1,
+      "week": "Process & Permission Management",
+      "oldUrl": "https://www.freecodecamp.org/news/linux-permissions/",
+      "oldTitle": "Linux Permissions",
+      "newUrl": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "newTitle": "Linux Command Line Basics"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 1,
+      "week": "System Monitoring & Troubleshooting",
+      "oldUrl": "https://www.freecodecamp.org/news/system-troubleshooting/",
+      "oldTitle": "System Troubleshooting",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 2,
+      "week": "TCP/IP & Network Protocols",
+      "oldUrl": "https://www.freecodecamp.org/news/tcp-ip-networking/",
+      "oldTitle": "Tcp Ip Networking",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 2,
+      "week": "DNS & DHCP",
+      "oldUrl": "https://www.freecodecamp.org/news/dns-dhcp-tutorial/",
+      "oldTitle": "Dns Dhcp Tutorial",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 2,
+      "week": "Firewalls & Network Security",
+      "oldUrl": "https://www.freecodecamp.org/news/network-security/",
+      "oldTitle": "Network Security",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Tutorial"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 2,
+      "week": "Network Troubleshooting",
+      "oldUrl": "https://www.freecodecamp.org/news/network-troubleshooting/",
+      "oldTitle": "Network Troubleshooting",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 3,
+      "week": "Web Server Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/web-server-administration/",
+      "oldTitle": "Web Server Administration",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Web Development Tutorial"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 3,
+      "week": "File Server Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/file-server-setup/",
+      "oldTitle": "File Server Setup",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 3,
+      "week": "File Server Administration",
+      "oldUrl": "https://www.samba.org/samba/docs/",
+      "oldTitle": "Docs",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 3,
+      "week": "Active Directory & LDAP",
+      "oldUrl": "https://www.freecodecamp.org/news/active-directory-tutorial/",
+      "oldTitle": "Active Directory Tutorial",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 3,
+      "week": "Mail Server Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/mail-server-setup/",
+      "oldTitle": "Mail Server Setup",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 4,
+      "week": "Bash Scripting",
+      "oldUrl": "https://www.freecodecamp.org/news/bash-scripting-tutorial/",
+      "oldTitle": "Bash Scripting Tutorial",
+      "newUrl": "https://www.w3schools.com/whatis/whatis_bash.asp",
+      "newTitle": "Bash Scripting Tutorial"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 4,
+      "week": "PowerShell Automation",
+      "oldUrl": "https://www.freecodecamp.org/news/powershell-tutorial/",
+      "oldTitle": "Powershell Tutorial",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 4,
+      "week": "Python for System Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/python-for-system-administration/",
+      "oldTitle": "Python For System Administration",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 4,
+      "week": "Task Scheduling & Orchestration",
+      "oldUrl": "https://www.freecodecamp.org/news/task-scheduling/",
+      "oldTitle": "Task Scheduling",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 5,
+      "week": "VMware & Hyper-V",
+      "oldUrl": "https://www.freecodecamp.org/news/virtualization/",
+      "oldTitle": "Virtualization",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 5,
+      "week": "Docker & Containers",
+      "oldUrl": "https://www.freecodecamp.org/news/docker-tutorial/",
+      "oldTitle": "Docker Tutorial",
+      "newUrl": "https://docs.docker.com/get-started/",
+      "newTitle": "Docker Getting Started"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 5,
+      "week": "Kubernetes Basics",
+      "oldUrl": "https://www.freecodecamp.org/news/kubernetes-tutorial/",
+      "oldTitle": "Kubernetes Tutorial",
+      "newUrl": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+      "newTitle": "Kubernetes Basics"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 5,
+      "week": "Advanced Virtualization",
+      "oldUrl": "https://www.freecodecamp.org/news/high-availability/",
+      "oldTitle": "High Availability",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 6,
+      "week": "AWS Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/aws-tutorial/",
+      "oldTitle": "Aws Tutorial",
+      "newUrl": "https://aws.amazon.com/getting-started/",
+      "newTitle": "AWS Getting Started"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 6,
+      "week": "Azure Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/azure-tutorial/",
+      "oldTitle": "Azure Tutorial",
+      "newUrl": "https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/",
+      "newTitle": "Azure Fundamentals"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 6,
+      "week": "Cloud Migration & IaC",
+      "oldUrl": "https://www.freecodecamp.org/news/infrastructure-as-code/",
+      "oldTitle": "Infrastructure As Code",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 7,
+      "week": "System Hardening",
+      "oldUrl": "https://www.freecodecamp.org/news/system-hardening/",
+      "oldTitle": "System Hardening",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 7,
+      "week": "Patch Management",
+      "oldUrl": "https://www.freecodecamp.org/news/patch-management/",
+      "oldTitle": "Patch Management",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 7,
+      "week": "Compliance & Incident Response",
+      "oldUrl": "https://www.freecodecamp.org/news/incident-response/",
+      "oldTitle": "Incident Response",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 8,
+      "week": "Monitoring Tools",
+      "oldUrl": "https://www.freecodecamp.org/news/monitoring-tools/",
+      "oldTitle": "Monitoring Tools",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 8,
+      "week": "Log Management & Analysis",
+      "oldUrl": "https://www.freecodecamp.org/news/log-management/",
+      "oldTitle": "Log Management",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 8,
+      "week": "Performance Optimization",
+      "oldUrl": "https://www.freecodecamp.org/news/performance-optimization/",
+      "oldTitle": "Performance Optimization",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 9,
+      "week": "Terraform",
+      "oldUrl": "https://www.freecodecamp.org/news/terraform-tutorial/",
+      "oldTitle": "Terraform Tutorial",
+      "newUrl": "https://developer.hashicorp.com/terraform/tutorials",
+      "newTitle": "Terraform Getting Started"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 9,
+      "week": "Ansible",
+      "oldUrl": "https://www.freecodecamp.org/news/ansible-tutorial/",
+      "oldTitle": "Ansible Tutorial",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 9,
+      "week": "CI/CD for Infrastructure",
+      "oldUrl": "https://www.freecodecamp.org/news/gitops/",
+      "oldTitle": "Gitops",
+      "newUrl": "https://www.w3schools.com/git/",
+      "newTitle": "Git Tutorial"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 10,
+      "week": "Certifications",
+      "oldUrl": "https://www.freecodecamp.org/news/certifications/",
+      "oldTitle": "Certifications",
+      "newUrl": "https://www.freecodecamp.org/learn",
+      "newTitle": "Free Tech Certifications"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 10,
+      "week": "Portfolio & Lab",
+      "oldUrl": "https://www.freecodecamp.org/news/portfolio-guide/",
+      "oldTitle": "Portfolio Guide",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Systems Administrator",
+      "step": 10,
+      "week": "Job Search & Career",
+      "oldUrl": "https://www.freecodecamp.org/news/career-guide/",
+      "oldTitle": "Career Guide",
+      "newUrl": "https://roadmap.sh/",
+      "newTitle": "Tech Career Guide"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 1,
+      "week": "Computer Hardware & Software",
+      "oldUrl": "https://www.freecodecamp.org/news/computer-fundamentals/",
+      "oldTitle": "Computer Fundamentals",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 1,
+      "week": "Networking Basics",
+      "oldUrl": "https://www.freecodecamp.org/news/networking-basics/",
+      "oldTitle": "Networking Basics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 1,
+      "week": "Networking Basics",
+      "oldUrl": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/entry/ccna.html",
+      "oldTitle": "Ccna.Html",
+      "newUrl": "https://www.w3schools.com/html/",
+      "newTitle": "HTML Tutorial"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 1,
+      "week": "IT Infrastructure",
+      "oldUrl": "https://www.freecodecamp.org/news/it-infrastructure/",
+      "oldTitle": "It Infrastructure",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 2,
+      "week": "Requirements Gathering",
+      "oldUrl": "https://www.freecodecamp.org/news/requirements-gathering/",
+      "oldTitle": "Requirements Gathering",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 2,
+      "week": "Requirements Gathering",
+      "oldUrl": "https://www.coursera.org/learn/requirements-gathering",
+      "oldTitle": "Requirements Gathering",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 2,
+      "week": "UML & System Modeling",
+      "oldUrl": "https://www.freecodecamp.org/news/uml-diagrams/",
+      "oldTitle": "Uml Diagrams",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 2,
+      "week": "System Design Methodologies",
+      "oldUrl": "https://www.freecodecamp.org/news/system-design/",
+      "oldTitle": "System Design",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 2,
+      "week": "Business Process Modeling",
+      "oldUrl": "https://www.freecodecamp.org/news/business-process-modeling/",
+      "oldTitle": "Business Process Modeling",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 3,
+      "week": "SQL & Database Concepts",
+      "oldUrl": "https://www.freecodecamp.org/news/sql-tutorial/",
+      "oldTitle": "Sql Tutorial",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 3,
+      "week": "Data Modeling",
+      "oldUrl": "https://www.freecodecamp.org/news/data-modeling/",
+      "oldTitle": "Data Modeling",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 3,
+      "week": "SDLC Understanding",
+      "oldUrl": "https://www.freecodecamp.org/news/sdlc-guide/",
+      "oldTitle": "Sdlc Guide",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 4,
+      "week": "Business Process Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/business-process-analysis/",
+      "oldTitle": "Business Process Analysis",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 4,
+      "week": "Workflow Analysis",
+      "oldUrl": "https://www.freecodecamp.org/news/workflow-analysis/",
+      "oldTitle": "Workflow Analysis",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 4,
+      "week": "Process Improvement",
+      "oldUrl": "https://www.freecodecamp.org/news/process-improvement/",
+      "oldTitle": "Process Improvement",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 5,
+      "week": "Project Management Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/project-management-basics/",
+      "oldTitle": "Project Management Basics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 5,
+      "week": "Agile & Scrum",
+      "oldUrl": "https://www.freecodecamp.org/news/agile-scrum-guide/",
+      "oldTitle": "Agile Scrum Guide",
+      "newUrl": "https://www.atlassian.com/agile",
+      "newTitle": "Agile Tutorial"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 5,
+      "week": "Planning & Scheduling",
+      "oldUrl": "https://www.freecodecamp.org/news/project-planning/",
+      "oldTitle": "Project Planning",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 6,
+      "week": "Requirements Elicitation",
+      "oldUrl": "https://www.freecodecamp.org/news/requirements-elicitation/",
+      "oldTitle": "Requirements Elicitation",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 6,
+      "week": "Requirements Documentation",
+      "oldUrl": "https://www.freecodecamp.org/news/requirements-documentation/",
+      "oldTitle": "Requirements Documentation",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 6,
+      "week": "Validation & Traceability",
+      "oldUrl": "https://www.freecodecamp.org/news/requirements-traceability/",
+      "oldTitle": "Requirements Traceability",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 7,
+      "week": "Excel for Analysis",
+      "oldUrl": "https://www.freecodecamp.org/news/excel-for-data-analysis/",
+      "oldTitle": "Excel For Data Analysis",
+      "newUrl": "https://www.w3schools.com/excel/",
+      "newTitle": "Excel Tutorial"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 7,
+      "week": "Data Visualization",
+      "oldUrl": "https://www.freecodecamp.org/news/data-visualization-guide/",
+      "oldTitle": "Data Visualization Guide",
+      "newUrl": "https://www.w3schools.com/python/matplotlib_intro.asp",
+      "newTitle": "Data Visualization with Python"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 8,
+      "week": "Technology Assessment",
+      "oldUrl": "https://www.freecodecamp.org/news/technology-evaluation/",
+      "oldTitle": "Technology Evaluation",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 8,
+      "week": "Cost-Benefit Analysis",
+      "oldUrl": "https://www.freecodecamp.org/news/cost-benefit-analysis/",
+      "oldTitle": "Cost Benefit Analysis",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 8,
+      "week": "Solution Recommendations",
+      "oldUrl": "https://www.freecodecamp.org/news/technical-writing/",
+      "oldTitle": "Technical Writing",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 9,
+      "week": "Portfolio Development",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-build-a-portfolio/",
+      "oldTitle": "How To Build A Portfolio",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 9,
+      "week": "Analysis Projects",
+      "oldUrl": "https://www.freecodecamp.org/news/systems-analysis-projects/",
+      "oldTitle": "Systems Analysis Projects",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 9,
+      "week": "Documentation & Presentation",
+      "oldUrl": "https://www.freecodecamp.org/news/technical-documentation/",
+      "oldTitle": "Technical Documentation",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 9,
+      "week": "Documentation & Presentation",
+      "oldUrl": "https://www.coursera.org/learn/technical-communication",
+      "oldTitle": "Technical Communication",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 10,
+      "week": "Practical Experience",
+      "oldUrl": "https://www.freecodecamp.org/news/get-practical-experience/",
+      "oldTitle": "Get Practical Experience",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Computer Systems Analyst",
+      "step": 10,
+      "week": "Job Search & Career Launch",
+      "oldUrl": "https://www.freecodecamp.org/news/job-search-strategies/",
+      "oldTitle": "Job Search Strategies",
+      "newUrl": "https://roadmap.sh/",
+      "newTitle": "Tech Career Guide"
+    },
+    {
+      "career": "Game Developer",
+      "step": 1,
+      "week": "Object-Oriented Programming",
+      "oldUrl": "https://www.freecodecamp.org/news/object-oriented-programming-concepts/",
+      "oldTitle": "Object Oriented Programming Concepts",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 1,
+      "week": "Data Structures & Algorithms",
+      "oldUrl": "https://www.freecodecamp.org/news/data-structures-and-algorithms/",
+      "oldTitle": "Data Structures And Algorithms",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Game Developer",
+      "step": 2,
+      "week": "Engine Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/unity-game-development/",
+      "oldTitle": "Unity Game Development",
+      "newUrl": "https://www.w3schools.com/graphics/game_intro.asp",
+      "newTitle": "Game Development Basics"
+    },
+    {
+      "career": "Game Developer",
+      "step": 2,
+      "week": "Scripting & Gameplay",
+      "oldUrl": "https://www.freecodecamp.org/news/game-scripting/",
+      "oldTitle": "Game Scripting",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 2,
+      "week": "Engine Features",
+      "oldUrl": "https://www.freecodecamp.org/news/game-engine-features/",
+      "oldTitle": "Game Engine Features",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 2,
+      "week": "Engine Features",
+      "oldUrl": "https://learn.unity.com/tutorial/physics",
+      "oldTitle": "Physics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 3,
+      "week": "Game Design Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/game-design-principles/",
+      "oldTitle": "Game Design Principles",
+      "newUrl": "https://www.gamedeveloper.com/design/game-design-fundamentals",
+      "newTitle": "Game Design Fundamentals"
+    },
+    {
+      "career": "Game Developer",
+      "step": 3,
+      "week": "Level Design",
+      "oldUrl": "https://www.freecodecamp.org/news/level-design/",
+      "oldTitle": "Level Design",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Game Developer",
+      "step": 3,
+      "week": "Player Experience",
+      "oldUrl": "https://www.freecodecamp.org/news/game-ux/",
+      "oldTitle": "Game Ux",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Game Developer",
+      "step": 4,
+      "week": "2D Graphics",
+      "oldUrl": "https://www.freecodecamp.org/news/2d-game-graphics/",
+      "oldTitle": "2d Game Graphics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 4,
+      "week": "3D Graphics Basics",
+      "oldUrl": "https://www.freecodecamp.org/news/3d-graphics/",
+      "oldTitle": "3d Graphics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 4,
+      "week": "Shaders & Effects",
+      "oldUrl": "https://www.freecodecamp.org/news/shaders-guide/",
+      "oldTitle": "Shaders Guide",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Game Developer",
+      "step": 5,
+      "week": "Game Mathematics",
+      "oldUrl": "https://www.freecodecamp.org/news/game-mathematics/",
+      "oldTitle": "Game Mathematics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 5,
+      "week": "Physics Simulation",
+      "oldUrl": "https://www.freecodecamp.org/news/game-physics/",
+      "oldTitle": "Game Physics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 5,
+      "week": "Advanced Physics",
+      "oldUrl": "https://www.freecodecamp.org/news/advanced-physics/",
+      "oldTitle": "Advanced Physics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 6,
+      "week": "Pathfinding & Navigation",
+      "oldUrl": "https://www.freecodecamp.org/news/pathfinding-algorithms/",
+      "oldTitle": "Pathfinding Algorithms",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 6,
+      "week": "Behavior Systems",
+      "oldUrl": "https://www.freecodecamp.org/news/game-ai-systems/",
+      "oldTitle": "Game Ai Systems",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 6,
+      "week": "Advanced AI",
+      "oldUrl": "https://www.freecodecamp.org/news/advanced-game-ai/",
+      "oldTitle": "Advanced Game Ai",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 7,
+      "week": "Networking Basics",
+      "oldUrl": "https://www.freecodecamp.org/news/game-networking/",
+      "oldTitle": "Game Networking",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 7,
+      "week": "Networking Basics",
+      "oldUrl": "https://docs.unity3d.com/Manual/UNet.html",
+      "oldTitle": "UNet.Html",
+      "newUrl": "https://www.w3schools.com/html/",
+      "newTitle": "HTML Tutorial"
+    },
+    {
+      "career": "Game Developer",
+      "step": 7,
+      "week": "Multiplayer Systems",
+      "oldUrl": "https://www.freecodecamp.org/news/multiplayer-game-systems/",
+      "oldTitle": "Multiplayer Game Systems",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 7,
+      "week": "Online Features",
+      "oldUrl": "https://www.freecodecamp.org/news/online-game-features/",
+      "oldTitle": "Online Game Features",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 8,
+      "week": "Profiling & Analysis",
+      "oldUrl": "https://www.freecodecamp.org/news/game-profiling/",
+      "oldTitle": "Game Profiling",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 8,
+      "week": "Optimization Techniques",
+      "oldUrl": "https://www.freecodecamp.org/news/game-optimization/",
+      "oldTitle": "Game Optimization",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 8,
+      "week": "Optimization Techniques",
+      "oldUrl": "https://learn.unity.com/tutorial/optimizing-graphics-rendering",
+      "oldTitle": "Optimizing Graphics Rendering",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 8,
+      "week": "Platform Optimization",
+      "oldUrl": "https://www.freecodecamp.org/news/platform-optimization/",
+      "oldTitle": "Platform Optimization",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Game Developer",
+      "step": 8,
+      "week": "Platform Optimization",
+      "oldUrl": "https://docs.unity3d.com/Manual/MobileOptimisation.html",
+      "oldTitle": "MobileOptimisation.Html",
+      "newUrl": "https://www.w3schools.com/html/",
+      "newTitle": "HTML Tutorial"
+    },
+    {
+      "career": "Game Developer",
+      "step": 9,
+      "week": "First Portfolio Project",
+      "oldUrl": "https://www.freecodecamp.org/news/game-portfolio/",
+      "oldTitle": "Game Portfolio",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Game Developer",
+      "step": 9,
+      "week": "Second Portfolio Project",
+      "oldUrl": "https://www.freecodecamp.org/news/game-publishing/",
+      "oldTitle": "Game Publishing",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Game Developer",
+      "step": 9,
+      "week": "Portfolio Presentation",
+      "oldUrl": "https://www.freecodecamp.org/news/portfolio-building/",
+      "oldTitle": "Portfolio Building",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "Game Developer",
+      "step": 10,
+      "week": "Game Jams & Community",
+      "oldUrl": "https://www.freecodecamp.org/news/game-jams/",
+      "oldTitle": "Game Jams",
+      "newUrl": "https://learn.unity.com/tutorials",
+      "newTitle": "Unity Tutorials"
+    },
+    {
+      "career": "Game Developer",
+      "step": 10,
+      "week": "Publishing & Monetization",
+      "oldUrl": "https://www.freecodecamp.org/news/game-publishing-guide/",
+      "oldTitle": "Game Publishing Guide",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Game Developer",
+      "step": 10,
+      "week": "Career Launch",
+      "oldUrl": "https://www.freecodecamp.org/news/game-dev-career/",
+      "oldTitle": "Game Dev Career",
+      "newUrl": "https://roadmap.sh/",
+      "newTitle": "Tech Career Guide"
+    },
+    {
+      "career": "Game Developer",
+      "step": 10,
+      "week": "Career Launch",
+      "oldUrl": "https://www.gamesindustry.biz/jobs",
+      "oldTitle": "Jobs",
+      "newUrl": "https://roadmap.sh/",
+      "newTitle": "Tech Career Guide"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 1,
+      "week": "Bash Scripting",
+      "oldUrl": "https://www.freecodecamp.org/news/bash-scripting-tutorial/",
+      "oldTitle": "Bash Scripting Tutorial",
+      "newUrl": "https://www.w3schools.com/whatis/whatis_bash.asp",
+      "newTitle": "Bash Scripting Tutorial"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 1,
+      "week": "System Administration",
+      "oldUrl": "https://www.freecodecamp.org/news/linux-system-administration/",
+      "oldTitle": "Linux System Administration",
+      "newUrl": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "newTitle": "Linux Command Line Basics"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 2,
+      "week": "Collaboration Workflows",
+      "oldUrl": "https://www.freecodecamp.org/news/git-collaboration/",
+      "oldTitle": "Git Collaboration",
+      "newUrl": "https://www.w3schools.com/git/",
+      "newTitle": "Git Tutorial"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 2,
+      "week": "Advanced Git",
+      "oldUrl": "https://www.freecodecamp.org/news/advanced-git-interactive-rebase-cherry-picking/",
+      "oldTitle": "Advanced Git Interactive Rebase Cherry Picking",
+      "newUrl": "https://www.w3schools.com/git/",
+      "newTitle": "Git Tutorial"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 3,
+      "week": "GitHub Actions",
+      "oldUrl": "https://www.freecodecamp.org/news/what-is-github-actions/",
+      "oldTitle": "What Is Github Actions",
+      "newUrl": "https://www.w3schools.com/git/",
+      "newTitle": "Git Tutorial"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 3,
+      "week": "Jenkins & Advanced CI/CD",
+      "oldUrl": "https://www.freecodecamp.org/news/jenkins-tutorial/",
+      "oldTitle": "Jenkins Tutorial",
+      "newUrl": "https://www.jenkins.io/doc/tutorials/",
+      "newTitle": "Jenkins Getting Started"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 3,
+      "week": "Jenkins & Advanced CI/CD",
+      "oldUrl": "https://www.jenkins.io/doc/",
+      "oldTitle": "Doc",
+      "newUrl": "https://www.jenkins.io/doc/tutorials/",
+      "newTitle": "Jenkins Getting Started"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 4,
+      "week": "Docker Compose",
+      "oldUrl": "https://www.freecodecamp.org/news/docker-compose-tutorial/",
+      "oldTitle": "Docker Compose Tutorial",
+      "newUrl": "https://docs.docker.com/get-started/",
+      "newTitle": "Docker Getting Started"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 4,
+      "week": "Advanced Docker",
+      "oldUrl": "https://www.freecodecamp.org/news/docker-best-practices/",
+      "oldTitle": "Docker Best Practices",
+      "newUrl": "https://docs.docker.com/get-started/",
+      "newTitle": "Docker Getting Started"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 5,
+      "week": "Advanced Kubernetes",
+      "oldUrl": "https://www.freecodecamp.org/news/kubernetes-services-explained/",
+      "oldTitle": "Kubernetes Services Explained",
+      "newUrl": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+      "newTitle": "Kubernetes Basics"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 5,
+      "week": "K8s Operations",
+      "oldUrl": "https://www.freecodecamp.org/news/helm-charts-tutorial/",
+      "oldTitle": "Helm Charts Tutorial",
+      "newUrl": "https://roadmap.sh/devops",
+      "newTitle": "DevOps Roadmap"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 6,
+      "week": "Terraform Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/what-is-terraform/",
+      "oldTitle": "What Is Terraform",
+      "newUrl": "https://developer.hashicorp.com/terraform/tutorials",
+      "newTitle": "Terraform Getting Started"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 6,
+      "week": "Advanced IaC",
+      "oldUrl": "https://www.freecodecamp.org/news/infrastructure-as-code-best-practices/",
+      "oldTitle": "Infrastructure As Code Best Practices",
+      "newUrl": "https://roadmap.sh/devops",
+      "newTitle": "DevOps Roadmap"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 7,
+      "week": "AWS Fundamentals",
+      "oldUrl": "https://www.coursera.org/learn/aws-fundamentals",
+      "oldTitle": "Aws Fundamentals",
+      "newUrl": "https://aws.amazon.com/getting-started/",
+      "newTitle": "AWS Getting Started"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 7,
+      "week": "AWS Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/aws-certified-solutions-architect-associate-certification/",
+      "oldTitle": "Aws Certified Solutions Architect Associate Certif",
+      "newUrl": "https://aws.amazon.com/getting-started/",
+      "newTitle": "AWS Getting Started"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 7,
+      "week": "Azure/GCP",
+      "oldUrl": "https://www.freecodecamp.org/news/azure-fundamentals/",
+      "oldTitle": "Azure Fundamentals",
+      "newUrl": "https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/",
+      "newTitle": "Azure Fundamentals"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 7,
+      "week": "Cloud-Native Architecture",
+      "oldUrl": "https://www.freecodecamp.org/news/cloud-native-architecture/",
+      "oldTitle": "Cloud Native Architecture",
+      "newUrl": "https://roadmap.sh/devops",
+      "newTitle": "DevOps Roadmap"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 8,
+      "week": "Monitoring Tools",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-use-prometheus-and-grafana/",
+      "oldTitle": "How To Use Prometheus And Grafana",
+      "newUrl": "https://roadmap.sh/devops",
+      "newTitle": "DevOps Roadmap"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 8,
+      "week": "Logging & Observability",
+      "oldUrl": "https://www.freecodecamp.org/news/elk-stack-tutorial/",
+      "oldTitle": "Elk Stack Tutorial",
+      "newUrl": "https://roadmap.sh/devops",
+      "newTitle": "DevOps Roadmap"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 8,
+      "week": "Incident Management",
+      "oldUrl": "https://www.freecodecamp.org/news/site-reliability-engineering/",
+      "oldTitle": "Site Reliability Engineering",
+      "newUrl": "https://roadmap.sh/devops",
+      "newTitle": "DevOps Roadmap"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 9,
+      "week": "Infrastructure Projects",
+      "oldUrl": "https://www.freecodecamp.org/news/devops-projects/",
+      "oldTitle": "Devops Projects",
+      "newUrl": "https://roadmap.sh/devops",
+      "newTitle": "DevOps Roadmap"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 9,
+      "week": "CI/CD Showcase",
+      "oldUrl": "https://www.freecodecamp.org/news/ci-cd-best-practices/",
+      "oldTitle": "Ci Cd Best Practices",
+      "newUrl": "https://docs.github.com/en/actions/quickstart",
+      "newTitle": "GitHub Actions Quickstart"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 9,
+      "week": "Portfolio Presentation",
+      "oldUrl": "https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio/",
+      "oldTitle": "How To Build A Developer Portfolio",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 10,
+      "week": "DevOps Certifications",
+      "oldUrl": "https://www.freecodecamp.org/news/devops-certifications/",
+      "oldTitle": "Devops Certifications",
+      "newUrl": "https://www.freecodecamp.org/learn",
+      "newTitle": "Free Tech Certifications"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 10,
+      "week": "Open Source Contributions",
+      "oldUrl": "https://www.freecodecamp.org/news/open-source-contribution-guide/",
+      "oldTitle": "Open Source Contribution Guide",
+      "newUrl": "https://github.com/firstcontributions/first-contributions",
+      "newTitle": "First Contributions"
+    },
+    {
+      "career": "DevOps Engineer",
+      "step": 10,
+      "week": "Career Launch",
+      "oldUrl": "https://www.freecodecamp.org/news/devops-interview-preparation/",
+      "oldTitle": "Devops Interview Preparation",
+      "newUrl": "https://roadmap.sh/",
+      "newTitle": "Tech Career Guide"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 1,
+      "week": "Data Types & Cleaning",
+      "oldUrl": "https://www.freecodecamp.org/news/data-cleaning/",
+      "oldTitle": "Data Cleaning",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 1,
+      "week": "Analytical Thinking",
+      "oldUrl": "https://www.freecodecamp.org/news/analytical-thinking/",
+      "oldTitle": "Analytical Thinking",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 1,
+      "week": "Analytical Thinking",
+      "oldUrl": "https://www.coursera.org/learn/business-metrics",
+      "oldTitle": "Business Metrics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 2,
+      "week": "Advanced SQL",
+      "oldUrl": "https://www.freecodecamp.org/news/advanced-sql/",
+      "oldTitle": "Advanced Sql",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 2,
+      "week": "Query Optimization",
+      "oldUrl": "https://www.freecodecamp.org/news/sql-optimization/",
+      "oldTitle": "Sql Optimization",
+      "newUrl": "https://www.w3schools.com/sql/",
+      "newTitle": "SQL Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 3,
+      "week": "Tableau Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/tableau-tutorial/",
+      "oldTitle": "Tableau Tutorial",
+      "newUrl": "https://www.tableau.com/learn/training/20241",
+      "newTitle": "Tableau Getting Started"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 3,
+      "week": "Power BI Mastery",
+      "oldUrl": "https://www.freecodecamp.org/news/power-bi-tutorial/",
+      "oldTitle": "Power Bi Tutorial",
+      "newUrl": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+      "newTitle": "Power BI Learning Path"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 3,
+      "week": "Dashboard Design",
+      "oldUrl": "https://www.freecodecamp.org/news/dashboard-design/",
+      "oldTitle": "Dashboard Design",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 4,
+      "week": "Advanced Formulas",
+      "oldUrl": "https://www.freecodecamp.org/news/excel-for-data-analysis/",
+      "oldTitle": "Excel For Data Analysis",
+      "newUrl": "https://www.w3schools.com/excel/",
+      "newTitle": "Excel Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 4,
+      "week": "Pivot Tables & Analysis",
+      "oldUrl": "https://www.freecodecamp.org/news/pivot-tables/",
+      "oldTitle": "Pivot Tables",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 4,
+      "week": "Pivot Tables & Analysis",
+      "oldUrl": "https://support.microsoft.com/en-us/office/create-a-pivottable",
+      "oldTitle": "Create A Pivottable",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 5,
+      "week": "Business Metrics & KPIs",
+      "oldUrl": "https://www.freecodecamp.org/news/business-metrics/",
+      "oldTitle": "Business Metrics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 5,
+      "week": "Business Metrics & KPIs",
+      "oldUrl": "https://www.coursera.org/learn/business-metrics",
+      "oldTitle": "Business Metrics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 5,
+      "week": "Customer Analytics",
+      "oldUrl": "https://www.freecodecamp.org/news/customer-analytics/",
+      "oldTitle": "Customer Analytics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 5,
+      "week": "Customer Analytics",
+      "oldUrl": "https://www.coursera.org/learn/customer-analytics",
+      "oldTitle": "Customer Analytics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 5,
+      "week": "Business Strategy Alignment",
+      "oldUrl": "https://www.freecodecamp.org/news/business-analytics/",
+      "oldTitle": "Business Analytics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 5,
+      "week": "Business Strategy Alignment",
+      "oldUrl": "https://www.coursera.org/learn/business-analytics",
+      "oldTitle": "Business Analytics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 6,
+      "week": "Data Warehouse Concepts",
+      "oldUrl": "https://www.freecodecamp.org/news/data-warehousing/",
+      "oldTitle": "Data Warehousing",
+      "newUrl": "https://www.w3schools.com/datascience/ds_sql.asp",
+      "newTitle": "Data Warehousing Concepts"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 6,
+      "week": "ETL Processes",
+      "oldUrl": "https://www.freecodecamp.org/news/etl-process/",
+      "oldTitle": "Etl Process",
+      "newUrl": "https://www.w3schools.com/datascience/ds_sql.asp",
+      "newTitle": "ETL Concepts"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 6,
+      "week": "Dimensional Modeling",
+      "oldUrl": "https://www.freecodecamp.org/news/dimensional-modeling/",
+      "oldTitle": "Dimensional Modeling",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 7,
+      "week": "Pandas & NumPy",
+      "oldUrl": "https://www.freecodecamp.org/news/pandas-tutorial/",
+      "oldTitle": "Pandas Tutorial",
+      "newUrl": "https://www.w3schools.com/python/pandas/",
+      "newTitle": "Pandas Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 7,
+      "week": "Automation & Integration",
+      "oldUrl": "https://www.freecodecamp.org/news/python-automation/",
+      "oldTitle": "Python Automation",
+      "newUrl": "https://www.w3schools.com/python/",
+      "newTitle": "Python Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 8,
+      "week": "Report Design Principles",
+      "oldUrl": "https://www.freecodecamp.org/news/data-visualization/",
+      "oldTitle": "Data Visualization",
+      "newUrl": "https://www.w3schools.com/python/matplotlib_intro.asp",
+      "newTitle": "Data Visualization with Python"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 8,
+      "week": "Interactive Dashboards",
+      "oldUrl": "https://www.freecodecamp.org/news/dashboard-design/",
+      "oldTitle": "Dashboard Design",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 8,
+      "week": "Data Storytelling",
+      "oldUrl": "https://www.freecodecamp.org/news/data-storytelling/",
+      "oldTitle": "Data Storytelling",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 9,
+      "week": "Sales Analytics Project",
+      "oldUrl": "https://www.freecodecamp.org/news/data-analysis-projects/",
+      "oldTitle": "Data Analysis Projects",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 9,
+      "week": "Sales Analytics Project",
+      "oldUrl": "https://www.kaggle.com/datasets",
+      "oldTitle": "Datasets",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 9,
+      "week": "Marketing Analytics Project",
+      "oldUrl": "https://www.freecodecamp.org/news/marketing-analytics/",
+      "oldTitle": "Marketing Analytics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 9,
+      "week": "Marketing Analytics Project",
+      "oldUrl": "https://www.kaggle.com/datasets",
+      "oldTitle": "Datasets",
+      "newUrl": "https://www.w3schools.com/datascience/",
+      "newTitle": "Data Science Tutorial"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 9,
+      "week": "Financial Analytics Project",
+      "oldUrl": "https://www.freecodecamp.org/news/financial-analysis/",
+      "oldTitle": "Financial Analysis",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 9,
+      "week": "Financial Analytics Project",
+      "oldUrl": "https://www.coursera.org/learn/financial-analytics",
+      "oldTitle": "Financial Analytics",
+      "newUrl": "https://www.w3schools.com/",
+      "newTitle": "Learning Resources"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 10,
+      "week": "BI Certifications",
+      "oldUrl": "https://www.freecodecamp.org/news/certifications/",
+      "oldTitle": "Certifications",
+      "newUrl": "https://www.freecodecamp.org/learn",
+      "newTitle": "Free Tech Certifications"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 10,
+      "week": "Real-World BI Projects",
+      "oldUrl": "https://www.freecodecamp.org/news/freelance-data-analyst/",
+      "oldTitle": "Freelance Data Analyst",
+      "newUrl": "https://www.upwork.com/resources/how-to-become-a-freelancer",
+      "newTitle": "Freelancing Guide"
+    },
+    {
+      "career": "Business Intelligence Analyst",
+      "step": 10,
+      "week": "Career Launch",
+      "oldUrl": "https://www.freecodecamp.org/news/career-guide/",
+      "oldTitle": "Career Guide",
+      "newUrl": "https://roadmap.sh/",
+      "newTitle": "Tech Career Guide"
+    },
+    {
+      "career": "QA Tester",
+      "step": 1,
+      "week": "Testing Principles & SDLC",
+      "oldUrl": "https://www.freecodecamp.org/news/software-testing-fundamentals/",
+      "oldTitle": "Software Testing Fundamentals",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 1,
+      "week": "Testing Principles & SDLC",
+      "oldUrl": "https://www.coursera.org/learn/software-testing",
+      "oldTitle": "Software Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 1,
+      "week": "Test Levels & Types",
+      "oldUrl": "https://www.freecodecamp.org/news/testing-types/",
+      "oldTitle": "Testing Types",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 1,
+      "week": "Testing Techniques",
+      "oldUrl": "https://www.freecodecamp.org/news/testing-techniques/",
+      "oldTitle": "Testing Techniques",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 2,
+      "week": "Test Case Writing",
+      "oldUrl": "https://www.freecodecamp.org/news/test-case-writing/",
+      "oldTitle": "Test Case Writing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 2,
+      "week": "Test Design Techniques",
+      "oldUrl": "https://www.freecodecamp.org/news/test-design-techniques/",
+      "oldTitle": "Test Design Techniques",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "QA Tester",
+      "step": 2,
+      "week": "Test Design Techniques",
+      "oldUrl": "https://www.softwaretestinghelp.com/test-design-techniques/",
+      "oldTitle": "Test Design Techniques",
+      "newUrl": "https://www.canva.com/designschool/",
+      "newTitle": "Design Tutorials"
+    },
+    {
+      "career": "QA Tester",
+      "step": 2,
+      "week": "Advanced Test Design",
+      "oldUrl": "https://www.freecodecamp.org/news/advanced-testing/",
+      "oldTitle": "Advanced Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 3,
+      "week": "Exploratory Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/exploratory-testing/",
+      "oldTitle": "Exploratory Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 3,
+      "week": "Regression & Smoke Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/regression-testing/",
+      "oldTitle": "Regression Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 3,
+      "week": "Manual Test Execution",
+      "oldUrl": "https://www.freecodecamp.org/news/manual-testing/",
+      "oldTitle": "Manual Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 4,
+      "week": "Defect Lifecycle & Reporting",
+      "oldUrl": "https://www.freecodecamp.org/news/bug-reporting/",
+      "oldTitle": "Bug Reporting",
+      "newUrl": "https://www.atlassian.com/software/jira/guides/bugs-issues/overview",
+      "newTitle": "Bug Tracking Best Practices"
+    },
+    {
+      "career": "QA Tester",
+      "step": 4,
+      "week": "Bug Tracking Tools",
+      "oldUrl": "https://www.freecodecamp.org/news/jira-tutorial/",
+      "oldTitle": "Jira Tutorial",
+      "newUrl": "https://www.atlassian.com/software/jira/guides/getting-started/introduction",
+      "newTitle": "Jira Software Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 4,
+      "week": "Developer Communication",
+      "oldUrl": "https://www.freecodecamp.org/news/qa-communication/",
+      "oldTitle": "Qa Communication",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 4,
+      "week": "Developer Communication",
+      "oldUrl": "https://www.softwaretestinghelp.com/bug-triage/",
+      "oldTitle": "Bug Triage",
+      "newUrl": "https://www.atlassian.com/software/jira/guides/bugs-issues/overview",
+      "newTitle": "Bug Tracking Best Practices"
+    },
+    {
+      "career": "QA Tester",
+      "step": 5,
+      "week": "Automation Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/test-automation/",
+      "oldTitle": "Test Automation",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 5,
+      "week": "Automation Fundamentals",
+      "oldUrl": "https://www.coursera.org/learn/test-automation",
+      "oldTitle": "Test Automation",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 5,
+      "week": "Selenium WebDriver",
+      "oldUrl": "https://www.freecodecamp.org/news/selenium-webdriver/",
+      "oldTitle": "Selenium Webdriver",
+      "newUrl": "https://www.selenium.dev/documentation/",
+      "newTitle": "Selenium Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 5,
+      "week": "Test Frameworks & Best Practices",
+      "oldUrl": "https://www.freecodecamp.org/news/test-frameworks/",
+      "oldTitle": "Test Frameworks",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 5,
+      "week": "Test Frameworks & Best Practices",
+      "oldUrl": "https://testng.org/doc/",
+      "oldTitle": "Doc",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 6,
+      "week": "API Testing Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/api-testing/",
+      "oldTitle": "Api Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 6,
+      "week": "Postman & API Tools",
+      "oldUrl": "https://www.freecodecamp.org/news/postman-tutorial/",
+      "oldTitle": "Postman Tutorial",
+      "newUrl": "https://learning.postman.com/docs/getting-started/overview/",
+      "newTitle": "Postman Learning Center"
+    },
+    {
+      "career": "QA Tester",
+      "step": 6,
+      "week": "Advanced API Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/advanced-api-testing/",
+      "oldTitle": "Advanced Api Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 7,
+      "week": "Agile Methodologies",
+      "oldUrl": "https://www.freecodecamp.org/news/agile-testing/",
+      "oldTitle": "Agile Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 7,
+      "week": "Agile Testing Strategies",
+      "oldUrl": "https://www.freecodecamp.org/news/agile-methodologies/",
+      "oldTitle": "Agile Methodologies",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 7,
+      "week": "Team Collaboration",
+      "oldUrl": "https://www.freecodecamp.org/news/agile-collaboration/",
+      "oldTitle": "Agile Collaboration",
+      "newUrl": "https://www.atlassian.com/agile",
+      "newTitle": "Agile Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 8,
+      "week": "Mobile Testing Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/mobile-testing/",
+      "oldTitle": "Mobile Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 8,
+      "week": "Cross-Browser Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/cross-browser-testing/",
+      "oldTitle": "Cross Browser Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 8,
+      "week": "Device Testing Strategies",
+      "oldUrl": "https://www.freecodecamp.org/news/device-testing/",
+      "oldTitle": "Device Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 8,
+      "week": "Device Testing Strategies",
+      "oldUrl": "https://appium.io/docs/en/about-appium/intro/",
+      "oldTitle": "Intro",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 9,
+      "week": "Manual Testing Projects",
+      "oldUrl": "https://www.freecodecamp.org/news/testing-projects/",
+      "oldTitle": "Testing Projects",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 9,
+      "week": "Manual Testing Projects",
+      "oldUrl": "https://www.guru99.com/software-testing-projects.html",
+      "oldTitle": "Software Testing Projects.Html",
+      "newUrl": "https://www.w3schools.com/html/",
+      "newTitle": "HTML Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 9,
+      "week": "Automation Projects",
+      "oldUrl": "https://www.freecodecamp.org/news/automation-projects/",
+      "oldTitle": "Automation Projects",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 9,
+      "week": "Portfolio Presentation",
+      "oldUrl": "https://www.freecodecamp.org/news/build-portfolio/",
+      "oldTitle": "Build Portfolio",
+      "newUrl": "https://github.com/collections/github-pages-examples",
+      "newTitle": "Build Your Portfolio"
+    },
+    {
+      "career": "QA Tester",
+      "step": 10,
+      "week": "QA Certifications",
+      "oldUrl": "https://www.freecodecamp.org/news/qa-certifications/",
+      "oldTitle": "Qa Certifications",
+      "newUrl": "https://www.freecodecamp.org/learn",
+      "newTitle": "Free Tech Certifications"
+    },
+    {
+      "career": "QA Tester",
+      "step": 10,
+      "week": "Real-World Testing Experience",
+      "oldUrl": "https://www.freecodecamp.org/news/freelance-testing/",
+      "oldTitle": "Freelance Testing",
+      "newUrl": "https://www.guru99.com/software-testing.html",
+      "newTitle": "Software Testing Tutorial"
+    },
+    {
+      "career": "QA Tester",
+      "step": 10,
+      "week": "Career Launch",
+      "oldUrl": "https://www.freecodecamp.org/news/career-guide/",
+      "oldTitle": "Career Guide",
+      "newUrl": "https://roadmap.sh/",
+      "newTitle": "Tech Career Guide"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 1,
+      "week": "Networking Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/computer-networking/",
+      "oldTitle": "Computer Networking",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 1,
+      "week": "Network Protocols",
+      "oldUrl": "https://www.freecodecamp.org/news/network-protocols/",
+      "oldTitle": "Network Protocols",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 2,
+      "week": "Security Principles & CIA Triad",
+      "oldUrl": "https://www.freecodecamp.org/news/cybersecurity-fundamentals/",
+      "oldTitle": "Cybersecurity Fundamentals",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 2,
+      "week": "Threat Landscape & Attack Vectors",
+      "oldUrl": "https://www.freecodecamp.org/news/cyber-threats/",
+      "oldTitle": "Cyber Threats",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 2,
+      "week": "Threat Landscape & Attack Vectors",
+      "oldUrl": "https://www.coursera.org/learn/cyber-threats",
+      "oldTitle": "Cyber Threats",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 2,
+      "week": "Security Frameworks & Compliance",
+      "oldUrl": "https://www.freecodecamp.org/news/security-frameworks/",
+      "oldTitle": "Security Frameworks",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 3,
+      "week": "Linux Security",
+      "oldUrl": "https://www.freecodecamp.org/news/linux-security/",
+      "oldTitle": "Linux Security",
+      "newUrl": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "newTitle": "Linux Command Line Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 3,
+      "week": "Linux Security",
+      "oldUrl": "https://www.coursera.org/learn/linux-security",
+      "oldTitle": "Linux Security",
+      "newUrl": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "newTitle": "Linux Command Line Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 3,
+      "week": "Windows Security",
+      "oldUrl": "https://www.freecodecamp.org/news/windows-security/",
+      "oldTitle": "Windows Security",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 3,
+      "week": "System Hardening & Auditing",
+      "oldUrl": "https://www.freecodecamp.org/news/system-hardening/",
+      "oldTitle": "System Hardening",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 4,
+      "week": "Firewalls & Network Defense",
+      "oldUrl": "https://www.freecodecamp.org/news/firewall-basics/",
+      "oldTitle": "Firewall Basics",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 4,
+      "week": "IDS/IPS & Network Monitoring",
+      "oldUrl": "https://www.freecodecamp.org/news/intrusion-detection/",
+      "oldTitle": "Intrusion Detection",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 4,
+      "week": "VPNs & Secure Communications",
+      "oldUrl": "https://www.freecodecamp.org/news/vpn-security/",
+      "oldTitle": "Vpn Security",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 4,
+      "week": "VPNs & Secure Communications",
+      "oldUrl": "https://www.coursera.org/learn/vpn-security",
+      "oldTitle": "Vpn Security",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 5,
+      "week": "Cryptography Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/cryptography/",
+      "oldTitle": "Cryptography",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 5,
+      "week": "PKI & Digital Signatures",
+      "oldUrl": "https://www.freecodecamp.org/news/pki/",
+      "oldTitle": "Pki",
+      "newUrl": "https://www.w3schools.com/git/",
+      "newTitle": "Git Tutorial"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 5,
+      "week": "PKI & Digital Signatures",
+      "oldUrl": "https://www.coursera.org/learn/pki",
+      "oldTitle": "Pki",
+      "newUrl": "https://www.w3schools.com/git/",
+      "newTitle": "Git Tutorial"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 5,
+      "week": "SSL/TLS & Applied Cryptography",
+      "oldUrl": "https://www.freecodecamp.org/news/ssl-tls/",
+      "oldTitle": "Ssl Tls",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 5,
+      "week": "SSL/TLS & Applied Cryptography",
+      "oldUrl": "https://www.coursera.org/learn/applied-crypto",
+      "oldTitle": "Applied Crypto",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 6,
+      "week": "Penetration Testing Methodologies",
+      "oldUrl": "https://www.freecodecamp.org/news/penetration-testing/",
+      "oldTitle": "Penetration Testing",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 6,
+      "week": "Penetration Testing Methodologies",
+      "oldUrl": "https://www.coursera.org/learn/penetration-testing",
+      "oldTitle": "Penetration Testing",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 6,
+      "week": "Security Tools & Frameworks",
+      "oldUrl": "https://www.freecodecamp.org/news/ethical-hacking-tools/",
+      "oldTitle": "Ethical Hacking Tools",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 6,
+      "week": "Web Application & Network Testing",
+      "oldUrl": "https://www.freecodecamp.org/news/web-security/",
+      "oldTitle": "Web Security",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 7,
+      "week": "SIEM Tools & Log Analysis",
+      "oldUrl": "https://www.freecodecamp.org/news/siem-tools/",
+      "oldTitle": "Siem Tools",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 7,
+      "week": "Incident Detection & Analysis",
+      "oldUrl": "https://www.freecodecamp.org/news/threat-hunting/",
+      "oldTitle": "Threat Hunting",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 7,
+      "week": "Incident Detection & Analysis",
+      "oldUrl": "https://www.coursera.org/learn/incident-detection",
+      "oldTitle": "Incident Detection",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 7,
+      "week": "Incident Response & Recovery",
+      "oldUrl": "https://www.freecodecamp.org/news/incident-response/",
+      "oldTitle": "Incident Response",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 8,
+      "week": "Cloud Security Fundamentals",
+      "oldUrl": "https://www.freecodecamp.org/news/cloud-security/",
+      "oldTitle": "Cloud Security",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 8,
+      "week": "Cloud Security Fundamentals",
+      "oldUrl": "https://www.coursera.org/learn/cloud-security",
+      "oldTitle": "Cloud Security",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 8,
+      "week": "IAM & Access Control",
+      "oldUrl": "https://www.freecodecamp.org/news/cloud-iam/",
+      "oldTitle": "Cloud Iam",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 8,
+      "week": "Cloud Workload Security",
+      "oldUrl": "https://www.freecodecamp.org/news/securing-cloud-apps/",
+      "oldTitle": "Securing Cloud Apps",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 8,
+      "week": "Cloud Workload Security",
+      "oldUrl": "https://www.coursera.org/learn/securing-cloud-workloads",
+      "oldTitle": "Securing Cloud Workloads",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 9,
+      "week": "Penetration Testing Projects",
+      "oldUrl": "https://www.freecodecamp.org/news/penetration-testing-projects/",
+      "oldTitle": "Penetration Testing Projects",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 9,
+      "week": "Security Implementation Projects",
+      "oldUrl": "https://www.freecodecamp.org/news/security-projects/",
+      "oldTitle": "Security Projects",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 9,
+      "week": "Portfolio Presentation",
+      "oldUrl": "https://www.freecodecamp.org/news/build-cybersecurity-portfolio/",
+      "oldTitle": "Build Cybersecurity Portfolio",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 10,
+      "week": "Security Certifications",
+      "oldUrl": "https://www.freecodecamp.org/news/security-certifications/",
+      "oldTitle": "Security Certifications",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 10,
+      "week": "Real-World Security Experience",
+      "oldUrl": "https://www.freecodecamp.org/news/bug-bounty/",
+      "oldTitle": "Bug Bounty",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    },
+    {
+      "career": "Cybersecurity Engineer",
+      "step": 10,
+      "week": "Career Launch",
+      "oldUrl": "https://www.freecodecamp.org/news/cybersecurity-career/",
+      "oldTitle": "Cybersecurity Career",
+      "newUrl": "https://www.w3schools.com/cybersecurity/",
+      "newTitle": "Cybersecurity Basics"
+    }
+  ]
+}

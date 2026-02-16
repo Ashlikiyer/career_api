@@ -1,0 +1,781 @@
+{
+  "Frontend Developer": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "HTML & CSS Fundamentals",
+        "weeks": "1-2",
+        "resources": [
+          {
+            "name": "HTML Full Course - Build a Website Tutorial",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+            "platform": "freeCodeCamp",
+            "duration": "2 hours",
+            "focus": "Complete HTML fundamentals"
+          },
+          {
+            "name": "CSS Tutorial - Full Course for Beginners",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "platform": "freeCodeCamp",
+            "duration": "6 hours",
+            "focus": "CSS styling and layouts"
+          },
+          {
+            "name": "Learn HTML & CSS - Interactive Course",
+            "type": "interactive",
+            "url": "https://www.codecademy.com/learn/learn-html",
+            "platform": "Codecademy",
+            "duration": "10 hours",
+            "focus": "Hands-on HTML/CSS practice"
+          }
+        ],
+        "subtopics": [
+          "HTML5 semantic elements",
+          "CSS selectors and specificity",
+          "Flexbox layout",
+          "CSS Grid basics",
+          "Responsive design with media queries"
+        ],
+        "practiceExercises": [
+          "Build a personal bio page with semantic HTML",
+          "Create a responsive navigation bar",
+          "Design a card component with Flexbox",
+          "Build a photo gallery using CSS Grid"
+        ],
+        "milestoneProject": {
+          "title": "Personal Portfolio Landing Page",
+          "description": "Create a responsive landing page with hero section, about me, and contact form using only HTML and CSS",
+          "skills": ["HTML5", "CSS3", "Flexbox", "Responsive Design"]
+        }
+      },
+      {
+        "step": 2,
+        "title": "JavaScript Fundamentals",
+        "weeks": "3-4",
+        "resources": [
+          {
+            "name": "JavaScript in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=DHjqpvDnNGE",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Quick JS overview"
+          },
+          {
+            "name": "Learn JavaScript - Full Course for Beginners",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "platform": "freeCodeCamp",
+            "duration": "3 hours",
+            "focus": "Complete JavaScript fundamentals"
+          },
+          {
+            "name": "JavaScript Basics - MDN Web Docs",
+            "type": "documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
+            "platform": "MDN",
+            "duration": "Self-paced",
+            "focus": "Official reference and tutorials"
+          }
+        ],
+        "subtopics": [
+          "Variables, data types, and operators",
+          "Functions and scope",
+          "Arrays and objects",
+          "DOM manipulation",
+          "Event handling",
+          "ES6+ features (arrow functions, destructuring, spread operator)"
+        ],
+        "practiceExercises": [
+          "Build a simple calculator",
+          "Create a to-do list with add/delete functionality",
+          "Build a color picker that changes background",
+          "Create an interactive quiz app"
+        ],
+        "milestoneProject": {
+          "title": "Interactive To-Do Application",
+          "description": "Build a fully functional to-do app with add, edit, delete, and local storage persistence",
+          "skills": ["JavaScript", "DOM Manipulation", "Local Storage", "Event Handling"]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Modern JavaScript & ES6+",
+        "weeks": "5-6",
+        "resources": [
+          {
+            "name": "JavaScript ES6 Modules in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=cRHQNNcYf6s",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "ES6 modules overview"
+          },
+          {
+            "name": "Async JavaScript Crash Course",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=PoRJizFvM7s",
+            "platform": "Traversy Media",
+            "duration": "25 minutes",
+            "focus": "Promises, async/await"
+          },
+          {
+            "name": "The Odin Project - JavaScript Path",
+            "type": "interactive",
+            "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+            "platform": "The Odin Project",
+            "duration": "Self-paced",
+            "focus": "Comprehensive JS learning path"
+          }
+        ],
+        "subtopics": [
+          "Promises and async/await",
+          "Fetch API and HTTP requests",
+          "Array methods (map, filter, reduce)",
+          "Modules and imports/exports",
+          "Error handling with try/catch"
+        ],
+        "practiceExercises": [
+          "Fetch and display data from a public API",
+          "Build a weather app using async/await",
+          "Create a movie search app",
+          "Refactor code using array methods"
+        ],
+        "milestoneProject": {
+          "title": "Weather Dashboard",
+          "description": "Build a weather application that fetches real-time data from an API and displays current conditions and forecasts",
+          "skills": ["Fetch API", "Async/Await", "JSON Parsing", "Dynamic UI Updates"]
+        }
+      },
+      {
+        "step": 4,
+        "title": "React Framework",
+        "weeks": "7-9",
+        "resources": [
+          {
+            "name": "React in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=Tn6-PIqc4UM",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Quick React overview"
+          },
+          {
+            "name": "React Tutorial for Beginners",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+            "platform": "Programming with Mosh",
+            "duration": "1 hour",
+            "focus": "React fundamentals crash course"
+          },
+          {
+            "name": "React.dev - Quick Start",
+            "type": "documentation",
+            "url": "https://react.dev/learn",
+            "platform": "React Official",
+            "duration": "Self-paced",
+            "focus": "Official React documentation"
+          }
+        ],
+        "subtopics": [
+          "Components and JSX",
+          "Props and state",
+          "useState and useEffect hooks",
+          "Conditional rendering",
+          "Lists and keys",
+          "Forms and controlled components",
+          "React Router basics"
+        ],
+        "practiceExercises": [
+          "Build a counter component with useState",
+          "Create a multi-page app with React Router",
+          "Build a shopping cart with state management",
+          "Fetch and display API data in React"
+        ],
+        "milestoneProject": {
+          "title": "Task Management App",
+          "description": "Build a Kanban-style task board with drag-and-drop, categories, and persistent state",
+          "skills": ["React", "React Hooks", "React Router", "Component Architecture"]
+        }
+      },
+      {
+        "step": 5,
+        "title": "CSS Frameworks & Styling",
+        "weeks": "10-11",
+        "resources": [
+          {
+            "name": "Tailwind in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=mr15Xzb1Ook",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Tailwind CSS overview"
+          },
+          {
+            "name": "Tailwind CSS Full Course 2024",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=tS7upsfuxmo",
+            "platform": "Dave Gray",
+            "duration": "3 hours",
+            "focus": "Complete Tailwind tutorial"
+          },
+          {
+            "name": "Tailwind CSS Documentation",
+            "type": "documentation",
+            "url": "https://tailwindcss.com/docs",
+            "platform": "Tailwind Official",
+            "duration": "Self-paced",
+            "focus": "Official docs and examples"
+          }
+        ],
+        "subtopics": [
+          "Tailwind CSS utility classes",
+          "Responsive design with Tailwind",
+          "Custom configuration",
+          "Dark mode implementation",
+          "Component libraries (shadcn/ui, DaisyUI)"
+        ],
+        "practiceExercises": [
+          "Rebuild a component using Tailwind",
+          "Create a responsive dashboard layout",
+          "Build a dark mode toggle",
+          "Design a pricing page with Tailwind"
+        ],
+        "milestoneProject": {
+          "title": "E-commerce Product Page",
+          "description": "Design and build a fully responsive e-commerce product page with image gallery, reviews section, and cart functionality using Tailwind CSS",
+          "skills": ["Tailwind CSS", "Responsive Design", "Dark Mode", "Component Design"]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Build Tools & Version Control",
+        "weeks": "12-13",
+        "resources": [
+          {
+            "name": "Vite in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=KCrXgy8qtjM",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Vite build tool overview"
+          },
+          {
+            "name": "Git and GitHub for Beginners - Crash Course",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "platform": "freeCodeCamp",
+            "duration": "1 hour",
+            "focus": "Git fundamentals"
+          },
+          {
+            "name": "npm Crash Course",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=jHDhaSSKmB0",
+            "platform": "Traversy Media",
+            "duration": "25 minutes",
+            "focus": "npm package management"
+          }
+        ],
+        "subtopics": [
+          "Git basics (commit, push, pull, branch)",
+          "GitHub workflow and collaboration",
+          "npm/yarn package management",
+          "Vite configuration",
+          "Environment variables"
+        ],
+        "practiceExercises": [
+          "Initialize a Git repository and push to GitHub",
+          "Create and merge branches",
+          "Set up a Vite React project",
+          "Configure environment variables"
+        ],
+        "milestoneProject": {
+          "title": "Collaborative GitHub Project",
+          "description": "Set up a complete project with proper Git workflow, branch protection, and pull request process",
+          "skills": ["Git", "GitHub", "Vite", "npm"]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Testing & Deployment",
+        "weeks": "14-15",
+        "resources": [
+          {
+            "name": "Vercel in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=783Nh3sVSg4",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Vercel deployment overview"
+          },
+          {
+            "name": "Deploy React App to Vercel",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=FvsvHzcwOmQ",
+            "platform": "Traversy Media",
+            "duration": "15 minutes",
+            "focus": "Step-by-step deployment"
+          },
+          {
+            "name": "Vercel Documentation",
+            "type": "documentation",
+            "url": "https://vercel.com/docs",
+            "platform": "Vercel Official",
+            "duration": "Self-paced",
+            "focus": "Official deployment guides"
+          }
+        ],
+        "subtopics": [
+          "Deployment platforms (Vercel, Netlify)",
+          "Continuous deployment with GitHub",
+          "Custom domains and SSL",
+          "Basic testing with Jest/Vitest",
+          "Performance optimization"
+        ],
+        "practiceExercises": [
+          "Deploy a React app to Vercel",
+          "Set up continuous deployment",
+          "Configure a custom domain",
+          "Write basic unit tests"
+        ],
+        "milestoneProject": {
+          "title": "Portfolio Website Deployment",
+          "description": "Deploy your complete portfolio website with custom domain, SSL, and continuous deployment from GitHub",
+          "skills": ["Vercel", "CI/CD", "Domain Configuration", "Performance Optimization"]
+        }
+      },
+      {
+        "step": 8,
+        "title": "Portfolio & Job Preparation",
+        "weeks": "16-18",
+        "resources": [
+          {
+            "name": "How to Build a Dev Portfolio",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=Vp6GC3jKG20",
+            "platform": "Traversy Media",
+            "duration": "20 minutes",
+            "focus": "Portfolio best practices"
+          },
+          {
+            "name": "Frontend Developer Roadmap",
+            "type": "documentation",
+            "url": "https://roadmap.sh/frontend",
+            "platform": "Roadmap.sh",
+            "duration": "Self-paced",
+            "focus": "Career path overview"
+          }
+        ],
+        "subtopics": [
+          "Building a standout portfolio",
+          "Resume for frontend developers",
+          "GitHub profile optimization",
+          "Technical interview preparation",
+          "Soft skills for developers"
+        ],
+        "practiceExercises": [
+          "Finalize 3-5 portfolio projects",
+          "Write detailed project README files",
+          "Create a compelling GitHub profile",
+          "Practice common interview questions"
+        ],
+        "milestoneProject": {
+          "title": "Complete Developer Portfolio",
+          "description": "Launch a professional portfolio showcasing all your projects with live demos, source code, and detailed case studies",
+          "skills": ["Portfolio Design", "Personal Branding", "Documentation", "Presentation"]
+        }
+      }
+    ]
+  },
+  "Backend Developer": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Node.js Fundamentals",
+        "weeks": "1-2",
+        "resources": [
+          {
+            "name": "Node.js in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=ENrzD9HAZK4",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Quick Node.js overview"
+          },
+          {
+            "name": "Node.js Tutorial for Beginners",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=TlB_eWDSMt4",
+            "platform": "Programming with Mosh",
+            "duration": "1 hour",
+            "focus": "Node.js fundamentals"
+          },
+          {
+            "name": "Node.js Official Documentation",
+            "type": "documentation",
+            "url": "https://nodejs.org/en/docs/guides",
+            "platform": "Node.js Official",
+            "duration": "Self-paced",
+            "focus": "Official guides and API reference"
+          }
+        ],
+        "subtopics": [
+          "Node.js runtime and npm",
+          "Modules and require/import",
+          "File system operations",
+          "Asynchronous programming",
+          "Event loop basics"
+        ],
+        "practiceExercises": [
+          "Set up a Node.js project with npm",
+          "Read and write files using fs module",
+          "Create a simple command-line tool",
+          "Build a basic HTTP server"
+        ],
+        "milestoneProject": {
+          "title": "CLI Task Manager",
+          "description": "Build a command-line application that manages tasks with file-based storage using Node.js fs module",
+          "skills": ["Node.js", "File System", "CLI Development", "npm"]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Express.js Framework",
+        "weeks": "3-4",
+        "resources": [
+          {
+            "name": "Express.js in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=SccSCuHhOw0",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Quick Express overview"
+          },
+          {
+            "name": "Express JS Crash Course",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=L72fhGm1tfE",
+            "platform": "Traversy Media",
+            "duration": "30 minutes",
+            "focus": "Express fundamentals"
+          },
+          {
+            "name": "Express.js Official Guide",
+            "type": "documentation",
+            "url": "https://expressjs.com/en/starter/installing.html",
+            "platform": "Express Official",
+            "duration": "Self-paced",
+            "focus": "Official documentation"
+          }
+        ],
+        "subtopics": [
+          "Express application structure",
+          "Routes and route parameters",
+          "Middleware concepts",
+          "Request and response handling",
+          "Error handling middleware"
+        ],
+        "practiceExercises": [
+          "Create a basic Express server",
+          "Set up routes for CRUD operations",
+          "Implement custom middleware",
+          "Add error handling"
+        ],
+        "milestoneProject": {
+          "title": "Bookstore API",
+          "description": "Build a RESTful API for a bookstore with routes for listing, adding, updating, and deleting books (in-memory storage)",
+          "skills": ["Express.js", "Routing", "Middleware", "HTTP Methods"]
+        }
+      },
+      {
+        "step": 3,
+        "title": "REST API Design",
+        "weeks": "5-6",
+        "resources": [
+          {
+            "name": "RESTful APIs in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=-MTSQjw5DrM",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "REST concepts overview"
+          },
+          {
+            "name": "Build A REST API With Node.js, Express, & MongoDB",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=fgTGADljAeg",
+            "platform": "Web Dev Simplified",
+            "duration": "28 minutes",
+            "focus": "Complete REST API tutorial"
+          },
+          {
+            "name": "REST API Tutorial - MDN",
+            "type": "documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST",
+            "platform": "MDN",
+            "duration": "Self-paced",
+            "focus": "REST principles reference"
+          }
+        ],
+        "subtopics": [
+          "REST principles and constraints",
+          "HTTP methods and status codes",
+          "Request/response formatting (JSON)",
+          "API versioning",
+          "Input validation with Joi/Zod"
+        ],
+        "practiceExercises": [
+          "Design endpoints following REST conventions",
+          "Implement proper HTTP status codes",
+          "Add request body validation",
+          "Create API documentation"
+        ],
+        "milestoneProject": {
+          "title": "Blog API",
+          "description": "Build a complete blog API with posts, comments, and users following REST best practices with proper validation",
+          "skills": ["REST Design", "HTTP Standards", "Validation", "API Documentation"]
+        }
+      },
+      {
+        "step": 4,
+        "title": "Database Fundamentals (SQL & NoSQL)",
+        "weeks": "7-9",
+        "resources": [
+          {
+            "name": "SQL vs NoSQL in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=Q_9cFgzZr8Q",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Database comparison"
+          },
+          {
+            "name": "MongoDB Crash Course",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=-56x56UppqQ",
+            "platform": "Traversy Media",
+            "duration": "30 minutes",
+            "focus": "MongoDB fundamentals"
+          },
+          {
+            "name": "PostgreSQL Tutorial for Beginners",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk",
+            "platform": "Amigoscode",
+            "duration": "1 hour",
+            "focus": "PostgreSQL basics"
+          }
+        ],
+        "subtopics": [
+          "SQL basics and PostgreSQL",
+          "MongoDB and Mongoose ODM",
+          "Schema design patterns",
+          "CRUD operations with databases",
+          "Database relationships"
+        ],
+        "practiceExercises": [
+          "Set up MongoDB and PostgreSQL locally",
+          "Create schemas and models with Mongoose",
+          "Write SQL queries for CRUD operations",
+          "Implement database relationships"
+        ],
+        "milestoneProject": {
+          "title": "E-commerce Product Database",
+          "description": "Build a product catalog system with categories, inventory, and search functionality using MongoDB or PostgreSQL",
+          "skills": ["MongoDB", "PostgreSQL", "Schema Design", "Data Modeling"]
+        }
+      },
+      {
+        "step": 5,
+        "title": "Authentication & Security",
+        "weeks": "10-11",
+        "resources": [
+          {
+            "name": "JWT Authentication in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=7Q17ubqLfaM",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "JWT overview"
+          },
+          {
+            "name": "Node.js JWT Authentication Tutorial",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=mbsmsi7l3r4",
+            "platform": "Web Dev Simplified",
+            "duration": "25 minutes",
+            "focus": "JWT implementation"
+          },
+          {
+            "name": "OWASP Security Guidelines",
+            "type": "documentation",
+            "url": "https://owasp.org/www-project-web-security-testing-guide/",
+            "platform": "OWASP",
+            "duration": "Self-paced",
+            "focus": "Security best practices"
+          }
+        ],
+        "subtopics": [
+          "Password hashing with bcrypt",
+          "JWT tokens and refresh tokens",
+          "Session management",
+          "CORS and security headers",
+          "Input sanitization and SQL injection prevention"
+        ],
+        "practiceExercises": [
+          "Implement user registration with password hashing",
+          "Create JWT-based login system",
+          "Add protected routes middleware",
+          "Implement password reset flow"
+        ],
+        "milestoneProject": {
+          "title": "Secure User Authentication System",
+          "description": "Build a complete authentication system with registration, login, password reset, and role-based access control",
+          "skills": ["JWT", "bcrypt", "Security", "Authorization"]
+        }
+      },
+      {
+        "step": 6,
+        "title": "API Testing & Documentation",
+        "weeks": "12-13",
+        "resources": [
+          {
+            "name": "Postman Beginner's Course",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4",
+            "platform": "freeCodeCamp",
+            "duration": "2 hours",
+            "focus": "API testing with Postman"
+          },
+          {
+            "name": "Jest Testing in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=7r4xVDI2vho",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Jest overview"
+          },
+          {
+            "name": "Swagger/OpenAPI Documentation",
+            "type": "documentation",
+            "url": "https://swagger.io/docs/specification/basic-structure/",
+            "platform": "Swagger",
+            "duration": "Self-paced",
+            "focus": "API documentation standards"
+          }
+        ],
+        "subtopics": [
+          "Unit testing with Jest",
+          "Integration testing for APIs",
+          "Postman collections and environments",
+          "Swagger/OpenAPI documentation",
+          "API versioning strategies"
+        ],
+        "practiceExercises": [
+          "Write unit tests for API endpoints",
+          "Create Postman collection for API",
+          "Set up Swagger documentation",
+          "Implement integration tests"
+        ],
+        "milestoneProject": {
+          "title": "Fully Tested API",
+          "description": "Add comprehensive testing suite and interactive Swagger documentation to your existing API project",
+          "skills": ["Jest", "Postman", "Swagger", "API Testing"]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Deployment & DevOps Basics",
+        "weeks": "14-15",
+        "resources": [
+          {
+            "name": "Docker in 100 Seconds",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=Gjnup-PuquQ",
+            "platform": "Fireship",
+            "duration": "2 minutes",
+            "focus": "Docker overview"
+          },
+          {
+            "name": "Deploy Node.js App to Railway",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=HcHLWvT5B0Q",
+            "platform": "Traversy Media",
+            "duration": "20 minutes",
+            "focus": "Cloud deployment"
+          },
+          {
+            "name": "Railway Documentation",
+            "type": "documentation",
+            "url": "https://docs.railway.app/",
+            "platform": "Railway",
+            "duration": "Self-paced",
+            "focus": "Deployment platform docs"
+          }
+        ],
+        "subtopics": [
+          "Environment variables and configuration",
+          "Docker basics for containerization",
+          "Cloud platforms (Railway, Render, Fly.io)",
+          "CI/CD with GitHub Actions",
+          "Logging and monitoring basics"
+        ],
+        "practiceExercises": [
+          "Dockerize a Node.js application",
+          "Deploy API to Railway or Render",
+          "Set up environment variables",
+          "Configure GitHub Actions for deployment"
+        ],
+        "milestoneProject": {
+          "title": "Production-Ready API Deployment",
+          "description": "Deploy your API with proper environment configuration, database connection, and CI/CD pipeline",
+          "skills": ["Docker", "Railway/Render", "CI/CD", "Environment Management"]
+        }
+      },
+      {
+        "step": 8,
+        "title": "Advanced Topics & Portfolio",
+        "weeks": "16-18",
+        "resources": [
+          {
+            "name": "Backend Developer Roadmap",
+            "type": "documentation",
+            "url": "https://roadmap.sh/backend",
+            "platform": "Roadmap.sh",
+            "duration": "Self-paced",
+            "focus": "Career path overview"
+          },
+          {
+            "name": "System Design for Beginners",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=MbjObHmDbZo",
+            "platform": "NeetCode",
+            "duration": "30 minutes",
+            "focus": "System design fundamentals"
+          }
+        ],
+        "subtopics": [
+          "Caching with Redis basics",
+          "Message queues introduction",
+          "WebSockets for real-time features",
+          "API rate limiting",
+          "Performance optimization"
+        ],
+        "practiceExercises": [
+          "Add caching to an existing API",
+          "Implement WebSocket chat feature",
+          "Add rate limiting middleware",
+          "Optimize database queries"
+        ],
+        "milestoneProject": {
+          "title": "Full-Stack Backend Portfolio",
+          "description": "Complete and document 3-5 backend projects demonstrating various technologies and deploy them with live demos",
+          "skills": ["System Design", "Portfolio Development", "Documentation", "Interview Preparation"]
+        }
+      }
+    ]
+  }
+}

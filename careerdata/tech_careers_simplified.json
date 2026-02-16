@@ -1,0 +1,949 @@
+{
+  "Mobile App Developer": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Programming Fundamentals",
+        "description": "Build a strong foundation in programming with JavaScript or Dart, understanding core concepts like variables, functions, and control flow.",
+        "weeks": "1-3",
+        "subtopics": [
+          "Variables, data types, and operators",
+          "Functions and scope",
+          "Control flow (if/else, loops)",
+          "Arrays and objects",
+          "ES6+ features (arrow functions, destructuring)"
+        ],
+        "resources": [
+          {
+            "title": "JavaScript Full Course for Beginners",
+            "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "3.5 hours"
+          },
+          {
+            "title": "Learn JavaScript - Interactive Course",
+            "url": "https://www.codecademy.com/learn/introduction-to-javascript",
+            "type": "course",
+            "platform": "Codecademy",
+            "duration": "15 hours"
+          },
+          {
+            "title": "Dart in 100 Seconds",
+            "url": "https://www.youtube.com/watch?v=NrO0CJCbYLA",
+            "type": "video",
+            "platform": "Fireship",
+            "duration": "12 min"
+          }
+        ],
+        "practiceExercises": [
+          "Build a simple calculator using JavaScript",
+          "Create a to-do list with array manipulation",
+          "Write functions to validate user input"
+        ],
+        "milestoneProject": {
+          "title": "Interactive Quiz App (Console)",
+          "description": "Build a command-line quiz application that asks multiple-choice questions, tracks scores, and displays results.",
+          "skills": ["Variables", "Functions", "Arrays", "Control flow"]
+        }
+      },
+      {
+        "step": 2,
+        "title": "React Native Basics",
+        "description": "Learn the fundamentals of React Native to build cross-platform mobile applications using JavaScript and React principles.",
+        "weeks": "4-6",
+        "subtopics": [
+          "React Native setup and Expo",
+          "Components and JSX",
+          "Props and State",
+          "Core components (View, Text, Image, ScrollView)",
+          "Styling with StyleSheet"
+        ],
+        "resources": [
+          {
+            "title": "React Native Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+            "type": "video",
+            "platform": "Traversy Media",
+            "duration": "2 hours"
+          },
+          {
+            "title": "React Native Official Docs - The Basics",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "type": "documentation",
+            "platform": "React Native",
+            "duration": "Self-paced"
+          }
+        ],
+        "practiceExercises": [
+          "Create a profile card component",
+          "Build a scrollable list of items",
+          "Style components using Flexbox"
+        ],
+        "milestoneProject": {
+          "title": "Personal Portfolio App",
+          "description": "Create a mobile app showcasing your profile, skills, and projects with multiple screens and styled components.",
+          "skills": ["Components", "Props", "Styling", "Navigation basics"]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Mobile UI/UX Design",
+        "description": "Master mobile-specific design patterns, navigation systems, and user experience principles for creating intuitive apps.",
+        "weeks": "7-8",
+        "subtopics": [
+          "Mobile design principles",
+          "Navigation patterns (Stack, Tab, Drawer)",
+          "Touch gestures and animations",
+          "Responsive layouts",
+          "Accessibility basics"
+        ],
+        "resources": [
+          {
+            "title": "React Navigation 6 Tutorial",
+            "url": "https://www.youtube.com/watch?v=nQVCkqvU1uE",
+            "type": "video",
+            "platform": "YouTube",
+            "duration": "45 min"
+          },
+          {
+            "title": "Material Design Guidelines",
+            "url": "https://m3.material.io/",
+            "type": "documentation",
+            "platform": "Google",
+            "duration": "Self-paced"
+          }
+        ],
+        "practiceExercises": [
+          "Implement tab and stack navigation",
+          "Create animated transitions between screens",
+          "Build a responsive form with proper spacing"
+        ],
+        "milestoneProject": {
+          "title": "E-commerce App UI",
+          "description": "Design and build a multi-screen e-commerce app with product listings, details, cart, and checkout screens with smooth navigation.",
+          "skills": ["Navigation", "UI components", "Animations", "Responsive design"]
+        }
+      },
+      {
+        "step": 4,
+        "title": "State Management",
+        "description": "Learn to manage complex application state using modern state management solutions for scalable React Native apps.",
+        "weeks": "9-10",
+        "subtopics": [
+          "useState and useReducer hooks",
+          "Context API for global state",
+          "Redux Toolkit basics",
+          "Zustand as lightweight alternative",
+          "Async state handling"
+        ],
+        "resources": [
+          {
+            "title": "React State Management – Full Course",
+            "url": "https://www.youtube.com/watch?v=-bEzt5ISACA",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "2 hours"
+          },
+          {
+            "title": "Redux Toolkit Quick Start",
+            "url": "https://redux-toolkit.js.org/tutorials/quick-start",
+            "type": "documentation",
+            "platform": "Redux",
+            "duration": "1 hour"
+          }
+        ],
+        "practiceExercises": [
+          "Build a shopping cart with Context API",
+          "Implement user authentication state with Redux",
+          "Create a theme switcher with Zustand"
+        ],
+        "milestoneProject": {
+          "title": "Task Management App",
+          "description": "Build a full-featured task manager with categories, priorities, due dates, and persistent state using Redux Toolkit.",
+          "skills": ["Redux Toolkit", "State persistence", "Complex state logic"]
+        }
+      },
+      {
+        "step": 5,
+        "title": "API Integration",
+        "description": "Master connecting your mobile app to backend services using REST APIs and handling data fetching, caching, and error states.",
+        "weeks": "11-13",
+        "subtopics": [
+          "Fetch API and Axios",
+          "REST API concepts",
+          "Authentication (JWT, OAuth)",
+          "React Query for data fetching",
+          "Error handling and loading states"
+        ],
+        "resources": [
+          {
+            "title": "REST API Crash Course",
+            "url": "https://www.youtube.com/watch?v=qbLc5a9jdXo",
+            "type": "video",
+            "platform": "Traversy Media",
+            "duration": "30 min"
+          },
+          {
+            "title": "TanStack Query (React Query) Docs",
+            "url": "https://tanstack.com/query/latest/docs/react/overview",
+            "type": "documentation",
+            "platform": "TanStack",
+            "duration": "Self-paced"
+          },
+          {
+            "title": "Async/Await in JavaScript",
+            "url": "https://www.youtube.com/watch?v=vn3tm0quoqE",
+            "type": "video",
+            "platform": "Fireship",
+            "duration": "12 min"
+          }
+        ],
+        "practiceExercises": [
+          "Fetch and display data from a public API",
+          "Implement user login with JWT tokens",
+          "Add pull-to-refresh and infinite scroll"
+        ],
+        "milestoneProject": {
+          "title": "Weather & News App",
+          "description": "Create an app that fetches real-time weather data and news articles from public APIs with caching, error handling, and offline support.",
+          "skills": ["API integration", "Data caching", "Error handling", "Async patterns"]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Local Storage & Offline",
+        "description": "Implement data persistence and offline functionality to create robust mobile applications that work without internet.",
+        "weeks": "14-15",
+        "subtopics": [
+          "AsyncStorage for simple data",
+          "SQLite for complex data",
+          "Secure storage for credentials",
+          "Offline-first architecture",
+          "Data synchronization"
+        ],
+        "resources": [
+          {
+            "title": "React Native AsyncStorage Tutorial",
+            "url": "https://react-native-async-storage.github.io/async-storage/docs/usage",
+            "type": "documentation",
+            "platform": "React Native",
+            "duration": "30 min"
+          },
+          {
+            "title": "Offline-First Mobile Apps",
+            "url": "https://www.youtube.com/watch?v=Obt7bYRZdoA",
+            "type": "video",
+            "platform": "YouTube",
+            "duration": "25 min"
+          }
+        ],
+        "practiceExercises": [
+          "Save user preferences locally",
+          "Cache API responses for offline access",
+          "Implement secure token storage"
+        ],
+        "milestoneProject": {
+          "title": "Offline Notes App",
+          "description": "Build a notes application that works offline, syncs when online, and securely stores user data with search and organization features.",
+          "skills": ["Local storage", "Offline sync", "Data persistence"]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Testing & Debugging",
+        "description": "Learn to write tests and debug mobile applications effectively to ensure quality and reliability.",
+        "weeks": "16-17",
+        "subtopics": [
+          "Jest for unit testing",
+          "React Native Testing Library",
+          "Debugging with Flipper",
+          "Performance profiling",
+          "Common error patterns"
+        ],
+        "resources": [
+          {
+            "title": "Testing React Native Apps",
+            "url": "https://reactnative.dev/docs/testing-overview",
+            "type": "documentation",
+            "platform": "React Native",
+            "duration": "1 hour"
+          },
+          {
+            "title": "React Testing Crash Course",
+            "url": "https://www.youtube.com/watch?v=OVNjsIto9xM",
+            "type": "video",
+            "platform": "Traversy Media",
+            "duration": "45 min"
+          }
+        ],
+        "practiceExercises": [
+          "Write unit tests for utility functions",
+          "Test component rendering and interactions",
+          "Debug and fix memory leaks"
+        ],
+        "milestoneProject": {
+          "title": "Test Suite for Previous App",
+          "description": "Add comprehensive test coverage to your Task Management App including unit tests, component tests, and integration tests.",
+          "skills": ["Jest", "Testing Library", "Debugging", "Test coverage"]
+        }
+      },
+      {
+        "step": 8,
+        "title": "App Store Deployment",
+        "description": "Prepare and publish your mobile application to the Apple App Store and Google Play Store.",
+        "weeks": "18-20",
+        "subtopics": [
+          "App signing and certificates",
+          "Build optimization",
+          "App Store guidelines",
+          "Play Store requirements",
+          "CI/CD with EAS Build"
+        ],
+        "resources": [
+          {
+            "title": "Expo EAS Build & Submit",
+            "url": "https://docs.expo.dev/build/introduction/",
+            "type": "documentation",
+            "platform": "Expo",
+            "duration": "2 hours"
+          },
+          {
+            "title": "Publishing to App Stores",
+            "url": "https://www.youtube.com/watch?v=oBWBDaqNuws",
+            "type": "video",
+            "platform": "YouTube",
+            "duration": "40 min"
+          }
+        ],
+        "practiceExercises": [
+          "Configure app icons and splash screens",
+          "Set up app signing credentials",
+          "Create compelling store listings"
+        ],
+        "milestoneProject": {
+          "title": "Publish Your Portfolio App",
+          "description": "Polish and publish your best project to both app stores, including proper screenshots, descriptions, and handling the review process.",
+          "skills": ["App signing", "Store optimization", "Deployment", "CI/CD"]
+        }
+      }
+    ]
+  },
+  "Data Scientist": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Python Fundamentals",
+        "description": "Master Python programming basics essential for data science, including data structures, functions, and file handling.",
+        "weeks": "1-3",
+        "subtopics": [
+          "Variables, data types, and operators",
+          "Lists, dictionaries, and tuples",
+          "Functions and modules",
+          "File I/O operations",
+          "Virtual environments and pip"
+        ],
+        "resources": [
+          {
+            "title": "Python for Beginners – Full Course",
+            "url": "https://www.youtube.com/watch?v=eWRfhZUzrAc",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "4.5 hours"
+          },
+          {
+            "title": "Learn Python 3",
+            "url": "https://www.codecademy.com/learn/learn-python-3",
+            "type": "course",
+            "platform": "Codecademy",
+            "duration": "25 hours"
+          },
+          {
+            "title": "Python Official Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "platform": "Python.org",
+            "duration": "Self-paced"
+          }
+        ],
+        "practiceExercises": [
+          "Write a program to analyze text files",
+          "Create a data structure for student records",
+          "Build a simple command-line calculator"
+        ],
+        "milestoneProject": {
+          "title": "Personal Expense Tracker",
+          "description": "Build a command-line expense tracking application that reads/writes CSV files, calculates statistics, and generates summary reports.",
+          "skills": ["Python basics", "File handling", "Data structures", "Functions"]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Data Analysis with Pandas",
+        "description": "Learn to manipulate, clean, and analyze data using Pandas, the essential library for data science in Python.",
+        "weeks": "4-6",
+        "subtopics": [
+          "DataFrames and Series",
+          "Data loading (CSV, Excel, JSON)",
+          "Data cleaning and handling missing values",
+          "Filtering, sorting, and grouping",
+          "Merging and joining datasets"
+        ],
+        "resources": [
+          {
+            "title": "Pandas Tutorial - Kaggle Learn",
+            "url": "https://www.kaggle.com/learn/pandas",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "4 hours"
+          },
+          {
+            "title": "Data Analysis with Python - Full Course",
+            "url": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "4 hours"
+          }
+        ],
+        "practiceExercises": [
+          "Clean a messy dataset with missing values",
+          "Analyze sales data and find trends",
+          "Merge multiple data sources into one"
+        ],
+        "milestoneProject": {
+          "title": "COVID-19 Data Analysis",
+          "description": "Analyze real COVID-19 data to find trends, compare countries, and create summary statistics using Pandas on Google Colab.",
+          "skills": ["Pandas", "Data cleaning", "Aggregation", "Analysis"]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Data Visualization",
+        "description": "Create compelling visualizations to communicate insights using Matplotlib, Seaborn, and Plotly.",
+        "weeks": "7-9",
+        "subtopics": [
+          "Matplotlib fundamentals",
+          "Statistical visualizations with Seaborn",
+          "Interactive plots with Plotly",
+          "Choosing the right chart type",
+          "Dashboard basics"
+        ],
+        "resources": [
+          {
+            "title": "Data Visualization - Kaggle Learn",
+            "url": "https://www.kaggle.com/learn/data-visualization",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "4 hours"
+          },
+          {
+            "title": "Matplotlib Tutorial",
+            "url": "https://www.youtube.com/watch?v=3Xc3CA655Y4",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "1.5 hours"
+          },
+          {
+            "title": "Seaborn Documentation",
+            "url": "https://seaborn.pydata.org/tutorial.html",
+            "type": "documentation",
+            "platform": "Seaborn",
+            "duration": "Self-paced"
+          }
+        ],
+        "practiceExercises": [
+          "Create a multi-plot figure showing different views",
+          "Build an interactive dashboard with Plotly",
+          "Visualize correlations in a dataset"
+        ],
+        "milestoneProject": {
+          "title": "Global Economic Indicators Dashboard",
+          "description": "Create an interactive visualization dashboard analyzing global economic data with multiple chart types and filtering options.",
+          "skills": ["Matplotlib", "Seaborn", "Plotly", "Storytelling with data"]
+        }
+      },
+      {
+        "step": 4,
+        "title": "Statistics for Data Science",
+        "description": "Build a solid foundation in statistics essential for understanding data, making predictions, and validating results.",
+        "weeks": "10-12",
+        "subtopics": [
+          "Descriptive statistics",
+          "Probability distributions",
+          "Hypothesis testing",
+          "Correlation and regression basics",
+          "A/B testing concepts"
+        ],
+        "resources": [
+          {
+            "title": "Statistics Fundamentals - StatQuest",
+            "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9",
+            "type": "video",
+            "platform": "StatQuest YouTube",
+            "duration": "5 hours"
+          },
+          {
+            "title": "Intro to Statistics - Kaggle",
+            "url": "https://www.kaggle.com/learn/intro-to-statistics",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "3 hours"
+          }
+        ],
+        "practiceExercises": [
+          "Calculate and interpret descriptive statistics",
+          "Perform hypothesis tests on sample data",
+          "Design and analyze an A/B test"
+        ],
+        "milestoneProject": {
+          "title": "Marketing Campaign Analysis",
+          "description": "Analyze A/B test results from a marketing campaign, perform statistical tests, and make data-driven recommendations.",
+          "skills": ["Hypothesis testing", "Statistical analysis", "Business insights"]
+        }
+      },
+      {
+        "step": 5,
+        "title": "SQL for Data Analysis",
+        "description": "Master SQL to query databases, join tables, and perform data analysis directly in relational databases.",
+        "weeks": "13-15",
+        "subtopics": [
+          "SELECT, WHERE, ORDER BY",
+          "Aggregations (GROUP BY, HAVING)",
+          "JOINs (INNER, LEFT, RIGHT)",
+          "Subqueries and CTEs",
+          "Window functions"
+        ],
+        "resources": [
+          {
+            "title": "SQL Tutorial - Full Course",
+            "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "4 hours"
+          },
+          {
+            "title": "Intro to SQL - Kaggle Learn",
+            "url": "https://www.kaggle.com/learn/intro-to-sql",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "3 hours"
+          },
+          {
+            "title": "Advanced SQL - Kaggle Learn",
+            "url": "https://www.kaggle.com/learn/advanced-sql",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "4 hours"
+          }
+        ],
+        "practiceExercises": [
+          "Write queries to analyze e-commerce data",
+          "Join multiple tables to create reports",
+          "Use window functions for ranking and running totals"
+        ],
+        "milestoneProject": {
+          "title": "E-commerce Database Analysis",
+          "description": "Analyze a complete e-commerce database to find customer insights, product performance, and revenue trends using advanced SQL.",
+          "skills": ["SQL queries", "JOINs", "Aggregations", "Window functions"]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Machine Learning Fundamentals",
+        "description": "Learn the basics of machine learning including supervised learning algorithms, model evaluation, and the ML workflow.",
+        "weeks": "16-19",
+        "subtopics": [
+          "ML workflow and terminology",
+          "Linear and logistic regression",
+          "Decision trees and random forests",
+          "Model evaluation metrics",
+          "Cross-validation and hyperparameter tuning"
+        ],
+        "resources": [
+          {
+            "title": "Intro to Machine Learning - Kaggle Learn",
+            "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "3 hours"
+          },
+          {
+            "title": "Machine Learning with Scikit-Learn",
+            "url": "https://www.youtube.com/watch?v=pqNCD_5r0IU",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "3 hours"
+          },
+          {
+            "title": "Intermediate Machine Learning - Kaggle",
+            "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "4 hours"
+          }
+        ],
+        "practiceExercises": [
+          "Build a regression model to predict prices",
+          "Train a classifier for binary classification",
+          "Compare model performance with different algorithms"
+        ],
+        "milestoneProject": {
+          "title": "House Price Prediction",
+          "description": "Participate in the Kaggle House Prices competition, building and tuning multiple models to predict house prices.",
+          "skills": ["Feature engineering", "Model training", "Evaluation", "Competition"]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Portfolio Projects",
+        "description": "Build impressive portfolio projects that demonstrate your data science skills to potential employers.",
+        "weeks": "20-24",
+        "subtopics": [
+          "End-to-end project workflow",
+          "Data storytelling",
+          "GitHub for data science",
+          "Jupyter notebook best practices",
+          "Presenting findings"
+        ],
+        "resources": [
+          {
+            "title": "Google Data Analytics Certificate",
+            "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+            "type": "course",
+            "platform": "Google Career Certificates",
+            "duration": "6 months"
+          },
+          {
+            "title": "Data Science Portfolio Tips",
+            "url": "https://www.youtube.com/watch?v=Yw6u6YkTgQ4",
+            "type": "video",
+            "platform": "YouTube",
+            "duration": "20 min"
+          }
+        ],
+        "practiceExercises": [
+          "Clean and document a complete project on GitHub",
+          "Create a blog post explaining your analysis",
+          "Build a Streamlit app for your project"
+        ],
+        "milestoneProject": {
+          "title": "Complete Data Science Portfolio",
+          "description": "Create 3 polished portfolio projects showcasing different skills: exploratory analysis, predictive modeling, and data visualization dashboard.",
+          "skills": ["End-to-end projects", "Documentation", "Presentation", "GitHub"]
+        }
+      }
+    ]
+  },
+  "Machine Learning Engineer": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Python & NumPy Foundations",
+        "description": "Master Python programming and NumPy for numerical computing, the essential foundation for machine learning engineering.",
+        "weeks": "1-3",
+        "subtopics": [
+          "Python advanced features (decorators, generators)",
+          "NumPy arrays and operations",
+          "Vectorization and broadcasting",
+          "Linear algebra with NumPy",
+          "Performance optimization"
+        ],
+        "resources": [
+          {
+            "title": "NumPy for Machine Learning",
+            "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "1 hour"
+          },
+          {
+            "title": "Python for Machine Learning & Data Science",
+            "url": "https://www.codecademy.com/learn/machine-learning",
+            "type": "course",
+            "platform": "Codecademy",
+            "duration": "20 hours"
+          },
+          {
+            "title": "NumPy Documentation",
+            "url": "https://numpy.org/doc/stable/user/quickstart.html",
+            "type": "documentation",
+            "platform": "NumPy.org",
+            "duration": "Self-paced"
+          }
+        ],
+        "practiceExercises": [
+          "Implement matrix operations from scratch",
+          "Vectorize loops for performance",
+          "Build a simple neural network layer with NumPy"
+        ],
+        "milestoneProject": {
+          "title": "Linear Algebra Library",
+          "description": "Build a mini linear algebra library implementing matrix operations, eigenvalue decomposition, and SVD using NumPy.",
+          "skills": ["NumPy", "Linear algebra", "Vectorization", "Python"]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Data Processing & Feature Engineering",
+        "description": "Learn to prepare and transform data for machine learning models using Pandas and scikit-learn preprocessing tools.",
+        "weeks": "4-6",
+        "subtopics": [
+          "Data cleaning and handling missing values",
+          "Feature scaling and normalization",
+          "Encoding categorical variables",
+          "Feature selection techniques",
+          "Pipeline construction"
+        ],
+        "resources": [
+          {
+            "title": "Feature Engineering - Kaggle Learn",
+            "url": "https://www.kaggle.com/learn/feature-engineering",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "5 hours"
+          },
+          {
+            "title": "Data Preprocessing for ML",
+            "url": "https://www.youtube.com/watch?v=LdnSQ-GrA2c",
+            "type": "video",
+            "platform": "YouTube",
+            "duration": "45 min"
+          },
+          {
+            "title": "Scikit-learn Preprocessing",
+            "url": "https://scikit-learn.org/stable/modules/preprocessing.html",
+            "type": "documentation",
+            "platform": "Scikit-learn",
+            "duration": "Self-paced"
+          }
+        ],
+        "practiceExercises": [
+          "Build a complete preprocessing pipeline",
+          "Create new features from datetime columns",
+          "Handle imbalanced datasets"
+        ],
+        "milestoneProject": {
+          "title": "Automated Feature Engineering Pipeline",
+          "description": "Create a reusable data preprocessing pipeline that automatically handles missing values, encodes categories, and scales features.",
+          "skills": ["Pandas", "Scikit-learn", "Pipelines", "Feature engineering"]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Machine Learning with Scikit-learn",
+        "description": "Master classical machine learning algorithms, model selection, and hyperparameter tuning using scikit-learn.",
+        "weeks": "7-10",
+        "subtopics": [
+          "Supervised learning algorithms",
+          "Ensemble methods (Random Forest, XGBoost)",
+          "Cross-validation strategies",
+          "Hyperparameter tuning (Grid, Random, Bayesian)",
+          "Model interpretation and feature importance"
+        ],
+        "resources": [
+          {
+            "title": "Machine Learning Crash Course",
+            "url": "https://developers.google.com/machine-learning/crash-course",
+            "type": "course",
+            "platform": "Google",
+            "duration": "15 hours"
+          },
+          {
+            "title": "Scikit-learn Tutorial",
+            "url": "https://www.youtube.com/watch?v=M9Itm95JzL0",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "2.5 hours"
+          }
+        ],
+        "practiceExercises": [
+          "Compare multiple algorithms on a dataset",
+          "Tune hyperparameters with cross-validation",
+          "Analyze feature importance in tree models"
+        ],
+        "milestoneProject": {
+          "title": "ML Competition Top 10%",
+          "description": "Participate in a Kaggle competition and achieve a top 10% ranking using advanced feature engineering and model ensembling.",
+          "skills": ["Model selection", "Hyperparameter tuning", "Ensembling", "Competition"]
+        }
+      },
+      {
+        "step": 4,
+        "title": "Deep Learning Fundamentals",
+        "description": "Learn neural network architecture, training, and implementation using TensorFlow/Keras or PyTorch.",
+        "weeks": "11-14",
+        "subtopics": [
+          "Neural network architecture",
+          "Backpropagation and optimization",
+          "CNNs for computer vision",
+          "RNNs and transformers basics",
+          "Transfer learning"
+        ],
+        "resources": [
+          {
+            "title": "Intro to Deep Learning - Kaggle Learn",
+            "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "4 hours"
+          },
+          {
+            "title": "Deep Learning with PyTorch",
+            "url": "https://www.youtube.com/watch?v=c36lUUr864M",
+            "type": "video",
+            "platform": "freeCodeCamp YouTube",
+            "duration": "6 hours"
+          },
+          {
+            "title": "TensorFlow Tutorials",
+            "url": "https://www.tensorflow.org/tutorials",
+            "type": "documentation",
+            "platform": "TensorFlow",
+            "duration": "Self-paced"
+          }
+        ],
+        "practiceExercises": [
+          "Build a CNN for image classification",
+          "Fine-tune a pre-trained model",
+          "Implement a text classifier with transformers"
+        ],
+        "milestoneProject": {
+          "title": "Image Classification System",
+          "description": "Build a production-ready image classification model using transfer learning with data augmentation and thorough evaluation.",
+          "skills": ["CNNs", "Transfer learning", "Model training", "Evaluation"]
+        }
+      },
+      {
+        "step": 5,
+        "title": "Model Deployment",
+        "description": "Learn to deploy machine learning models as APIs and services that can be used in production applications.",
+        "weeks": "15-17",
+        "subtopics": [
+          "Model serialization (pickle, joblib, ONNX)",
+          "FastAPI for ML APIs",
+          "Docker containerization",
+          "Cloud deployment (AWS, GCP)",
+          "Model serving best practices"
+        ],
+        "resources": [
+          {
+            "title": "ML Model Deployment with FastAPI",
+            "url": "https://www.youtube.com/watch?v=h5wLuVDr0oc",
+            "type": "video",
+            "platform": "YouTube",
+            "duration": "40 min"
+          },
+          {
+            "title": "AWS Skill Builder - ML Foundations",
+            "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/91/aws-technical-essentials",
+            "type": "course",
+            "platform": "AWS Skill Builder",
+            "duration": "4 hours"
+          },
+          {
+            "title": "Docker for Data Science",
+            "url": "https://www.youtube.com/watch?v=0UG2x2iWerk",
+            "type": "video",
+            "platform": "YouTube",
+            "duration": "25 min"
+          }
+        ],
+        "practiceExercises": [
+          "Create a REST API for model predictions",
+          "Containerize your ML application",
+          "Deploy to a cloud platform"
+        ],
+        "milestoneProject": {
+          "title": "Deployed ML API",
+          "description": "Deploy your image classification model as a containerized REST API on a cloud platform with proper error handling and logging.",
+          "skills": ["FastAPI", "Docker", "Cloud deployment", "API design"]
+        }
+      },
+      {
+        "step": 6,
+        "title": "MLOps Fundamentals",
+        "description": "Learn the practices and tools for managing the ML lifecycle including versioning, monitoring, and automation.",
+        "weeks": "18-21",
+        "subtopics": [
+          "Experiment tracking (MLflow, Weights & Biases)",
+          "Data and model versioning (DVC)",
+          "CI/CD for ML",
+          "Model monitoring and drift detection",
+          "A/B testing for models"
+        ],
+        "resources": [
+          {
+            "title": "MLOps Course - DataTalks.Club",
+            "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+            "type": "course",
+            "platform": "DataTalks.Club",
+            "duration": "Self-paced"
+          },
+          {
+            "title": "MLflow Tutorial",
+            "url": "https://www.youtube.com/watch?v=ksYIVDue8ak",
+            "type": "video",
+            "platform": "YouTube",
+            "duration": "30 min"
+          },
+          {
+            "title": "Weights & Biases Docs",
+            "url": "https://docs.wandb.ai/quickstart",
+            "type": "documentation",
+            "platform": "Weights & Biases",
+            "duration": "1 hour"
+          }
+        ],
+        "practiceExercises": [
+          "Set up experiment tracking for a project",
+          "Version datasets with DVC",
+          "Create a CI/CD pipeline for model training"
+        ],
+        "milestoneProject": {
+          "title": "End-to-End MLOps Pipeline",
+          "description": "Build a complete MLOps pipeline with automated training, versioning, deployment, and monitoring using industry tools.",
+          "skills": ["MLflow", "DVC", "CI/CD", "Monitoring", "Automation"]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Advanced Topics & Specialization",
+        "description": "Explore advanced ML topics and choose a specialization area to deepen your expertise.",
+        "weeks": "22-24",
+        "subtopics": [
+          "Large Language Models and RAG",
+          "Computer Vision advanced techniques",
+          "Recommendation systems",
+          "Time series forecasting",
+          "Distributed training"
+        ],
+        "resources": [
+          {
+            "title": "Hugging Face NLP Course",
+            "url": "https://huggingface.co/learn/nlp-course",
+            "type": "course",
+            "platform": "Hugging Face",
+            "duration": "Self-paced"
+          },
+          {
+            "title": "Computer Vision - Kaggle Learn",
+            "url": "https://www.kaggle.com/learn/computer-vision",
+            "type": "course",
+            "platform": "Kaggle Learn",
+            "duration": "4 hours"
+          }
+        ],
+        "practiceExercises": [
+          "Build a RAG application with LangChain",
+          "Fine-tune a transformer model",
+          "Create a recommendation engine"
+        ],
+        "milestoneProject": {
+          "title": "Capstone ML Project",
+          "description": "Design and implement an end-to-end ML solution in your chosen specialization area, from data to deployed product.",
+          "skills": ["Specialization", "End-to-end", "Production ML", "Portfolio"]
+        }
+      }
+    ]
+  }
+}

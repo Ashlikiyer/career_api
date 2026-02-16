@@ -1,0 +1,1917 @@
+{
+  "Software Tester/Quality Assurance": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Testing Fundamentals",
+        "description": "Master the core concepts of software testing including testing types, methodologies, and quality assurance principles.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 1,
+            "title": "Introduction to Software Testing",
+            "description": "Learn what software testing is, why it matters, and the different types of testing.",
+            "resources": [
+              {
+                "name": "Software Testing Tutorial - Guru99",
+                "url": "https://www.guru99.com/software-testing.html",
+                "type": "article",
+                "platform": "Guru99",
+                "duration": "3 hours"
+              },
+              {
+                "name": "Software Testing Explained in 10 Minutes",
+                "url": "https://www.youtube.com/watch?v=oLc9gVM8FBM",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "10 min"
+              }
+            ],
+            "subtopics": [
+              "What is Software Testing",
+              "Types of Testing (Functional, Non-Functional)",
+              "Testing vs Debugging",
+              "Quality Assurance vs Quality Control"
+            ],
+            "practiceExercises": [
+              "Identify 5 bugs in a sample web application",
+              "Categorize testing types for different scenarios",
+              "Create a glossary of testing terms"
+            ]
+          },
+          {
+            "week": 2,
+            "title": "Software Development Life Cycle & Testing",
+            "description": "Understand SDLC models and where testing fits in each phase.",
+            "resources": [
+              {
+                "name": "SDLC Tutorial - Guru99",
+                "url": "https://www.guru99.com/software-development-life-cycle-tutorial.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "STLC - Software Testing Life Cycle",
+                "url": "https://www.guru99.com/software-testing-life-cycle.html",
+                "type": "article",
+                "platform": "Guru99"
+              }
+            ],
+            "subtopics": [
+              "SDLC Models (Waterfall, Agile, V-Model)",
+              "Software Testing Life Cycle (STLC)",
+              "Test Planning Basics",
+              "Entry and Exit Criteria"
+            ],
+            "practiceExercises": [
+              "Map testing activities to SDLC phases",
+              "Compare Waterfall vs Agile testing approaches",
+              "Create a simple test plan outline"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Testing Fundamentals Assessment",
+          "description": "Create a comprehensive document explaining testing types, SDLC models, and when to apply different testing strategies. Include real-world examples.",
+          "skills": ["Testing concepts", "SDLC understanding", "Documentation"]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Manual Testing Techniques",
+        "description": "Learn hands-on manual testing techniques including black-box and white-box testing methods.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 3,
+            "title": "Black-Box Testing Techniques",
+            "description": "Master testing techniques that focus on input/output without knowing internal code.",
+            "resources": [
+              {
+                "name": "Black Box Testing - Software Testing Help",
+                "url": "https://www.softwaretestinghelp.com/black-box-testing/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              },
+              {
+                "name": "Equivalence Partitioning & Boundary Value Analysis",
+                "url": "https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html",
+                "type": "article",
+                "platform": "Guru99"
+              }
+            ],
+            "subtopics": [
+              "Equivalence Partitioning",
+              "Boundary Value Analysis",
+              "Decision Table Testing",
+              "State Transition Testing"
+            ],
+            "practiceExercises": [
+              "Apply equivalence partitioning to a login form",
+              "Create boundary value test cases for age validation",
+              "Design decision table for a discount calculator"
+            ]
+          },
+          {
+            "week": 4,
+            "title": "Exploratory & Usability Testing",
+            "description": "Learn unscripted testing approaches and user experience evaluation.",
+            "resources": [
+              {
+                "name": "Exploratory Testing Tutorial",
+                "url": "https://www.guru99.com/exploratory-testing.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Usability Testing Guide",
+                "url": "https://www.softwaretestinghelp.com/usability-testing-guide/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              }
+            ],
+            "subtopics": [
+              "Exploratory Testing Techniques",
+              "Session-Based Testing",
+              "Usability Testing Principles",
+              "Accessibility Testing Basics"
+            ],
+            "practiceExercises": [
+              "Conduct 30-minute exploratory testing session on a website",
+              "Document findings using session-based format",
+              "Evaluate a mobile app for usability issues"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Manual Testing Portfolio",
+          "description": "Test a real web application (e.g., demo e-commerce site) using multiple techniques. Document all test cases, findings, and recommendations.",
+          "skills": ["Black-box testing", "Exploratory testing", "Test documentation"]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Test Case Design & Documentation",
+        "description": "Master the art of writing effective test cases and maintaining test documentation.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 5,
+            "title": "Writing Effective Test Cases",
+            "description": "Learn to write clear, reusable, and maintainable test cases.",
+            "resources": [
+              {
+                "name": "How to Write Test Cases - Guru99",
+                "url": "https://www.guru99.com/test-case.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Test Case Writing Best Practices",
+                "url": "https://www.softwaretestinghelp.com/how-to-write-effective-test-cases-test-cases-procedures-and-definitions/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              }
+            ],
+            "subtopics": [
+              "Test Case Components",
+              "Positive and Negative Test Cases",
+              "Test Case Prioritization",
+              "Test Data Management"
+            ],
+            "practiceExercises": [
+              "Write 20 test cases for a user registration feature",
+              "Create test cases with various data scenarios",
+              "Prioritize test cases based on risk"
+            ]
+          },
+          {
+            "week": 6,
+            "title": "Test Plans & Test Reports",
+            "description": "Create professional test plans and communicate results effectively.",
+            "resources": [
+              {
+                "name": "Test Plan Template - Guru99",
+                "url": "https://www.guru99.com/what-everybody-ought-to-know-about-test-planing.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Test Summary Report Guide",
+                "url": "https://www.softwaretestinghelp.com/test-summary-report-template-download-sample/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              }
+            ],
+            "subtopics": [
+              "Test Plan Structure",
+              "Test Strategy vs Test Plan",
+              "Test Summary Reports",
+              "Metrics and KPIs"
+            ],
+            "practiceExercises": [
+              "Create a test plan for a mobile banking app",
+              "Write a test summary report",
+              "Calculate and present test metrics"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Complete Test Documentation Suite",
+          "description": "Create a full test documentation package including test plan, 50+ test cases, and test summary report for a chosen application.",
+          "skills": ["Test case design", "Test planning", "Technical writing"]
+        }
+      },
+      {
+        "step": 4,
+        "title": "Bug Tracking & Defect Management",
+        "description": "Learn to identify, report, track, and manage software defects professionally.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 7,
+            "title": "Bug Reporting Essentials",
+            "description": "Master the skill of writing clear, actionable bug reports.",
+            "resources": [
+              {
+                "name": "Bug Report Writing - Guru99",
+                "url": "https://www.guru99.com/how-to-write-a-bug-report.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "How to Write a Good Bug Report",
+                "url": "https://www.youtube.com/watch?v=7WNxlIqehlU",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "15 min"
+              }
+            ],
+            "subtopics": [
+              "Bug Report Components",
+              "Severity vs Priority",
+              "Reproducing Bugs",
+              "Screenshots and Evidence"
+            ],
+            "practiceExercises": [
+              "Write 10 professional bug reports",
+              "Assign severity and priority to sample bugs",
+              "Create bug reproduction steps"
+            ]
+          },
+          {
+            "week": 8,
+            "title": "Bug Tracking Tools",
+            "description": "Get hands-on experience with popular bug tracking and project management tools.",
+            "resources": [
+              {
+                "name": "Jira Tutorial for Beginners",
+                "url": "https://www.guru99.com/jira-tutorial-a-complete-guide-for-beginners.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Jira Basics in 20 Minutes",
+                "url": "https://www.youtube.com/watch?v=GWxMTvRGIpc",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "20 min"
+              }
+            ],
+            "subtopics": [
+              "Jira for Bug Tracking",
+              "Bug Life Cycle",
+              "Workflow Customization",
+              "Reporting and Dashboards"
+            ],
+            "practiceExercises": [
+              "Set up a Jira project for testing",
+              "Log and track bugs through their lifecycle",
+              "Create a bug tracking dashboard"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Defect Management System",
+          "description": "Set up a complete bug tracking workflow in Jira. Log 20+ bugs from testing a web application, track them through resolution, and create metrics dashboard.",
+          "skills": ["Bug reporting", "Jira", "Defect lifecycle management"]
+        }
+      },
+      {
+        "step": 5,
+        "title": "API Testing with Postman",
+        "description": "Learn to test REST APIs using Postman, including automated testing and CI/CD integration.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 9,
+            "title": "Postman Fundamentals",
+            "description": "Get started with API testing using Postman.",
+            "resources": [
+              {
+                "name": "Postman Learning Center",
+                "url": "https://learning.postman.com/docs/getting-started/introduction/",
+                "type": "documentation",
+                "platform": "Postman Official"
+              },
+              {
+                "name": "Postman Beginner Tutorial",
+                "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4",
+                "type": "video",
+                "platform": "YouTube - Traversy Media",
+                "duration": "25 min"
+              }
+            ],
+            "subtopics": [
+              "HTTP Methods (GET, POST, PUT, DELETE)",
+              "Request and Response",
+              "Headers and Authentication",
+              "Environment Variables"
+            ],
+            "practiceExercises": [
+              "Test a public REST API (JSONPlaceholder)",
+              "Create requests with different HTTP methods",
+              "Set up environment variables for API testing"
+            ]
+          },
+          {
+            "week": 10,
+            "title": "Advanced API Testing",
+            "description": "Write automated tests and create test collections in Postman.",
+            "resources": [
+              {
+                "name": "Postman Test Scripts",
+                "url": "https://learning.postman.com/docs/writing-scripts/test-scripts/",
+                "type": "documentation",
+                "platform": "Postman Official"
+              },
+              {
+                "name": "API Testing Tutorial - Guru99",
+                "url": "https://www.guru99.com/api-testing.html",
+                "type": "article",
+                "platform": "Guru99"
+              }
+            ],
+            "subtopics": [
+              "Writing Test Scripts",
+              "Collection Runner",
+              "Data-Driven Testing",
+              "Newman CLI"
+            ],
+            "practiceExercises": [
+              "Write assertions for API responses",
+              "Create a test collection with 20+ tests",
+              "Run collection with Newman CLI"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "API Test Automation Suite",
+          "description": "Create a comprehensive Postman collection for testing a REST API. Include 30+ automated tests, environment setup, and Newman integration.",
+          "skills": ["API testing", "Postman", "Test automation basics"]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Automation Testing Basics",
+        "description": "Introduction to test automation using modern frameworks like Cypress and Selenium.",
+        "duration": "3 weeks",
+        "weeks": [
+          {
+            "week": 11,
+            "title": "Introduction to Test Automation",
+            "description": "Understand when and why to automate tests.",
+            "resources": [
+              {
+                "name": "Automation Testing Tutorial - Guru99",
+                "url": "https://www.guru99.com/automation-testing.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Test Automation Explained",
+                "url": "https://www.softwaretestinghelp.com/automation-testing-tutorial-1/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              }
+            ],
+            "subtopics": [
+              "When to Automate",
+              "Automation Frameworks Overview",
+              "ROI of Test Automation",
+              "Test Automation Pyramid"
+            ],
+            "practiceExercises": [
+              "Evaluate which tests to automate for a project",
+              "Compare different automation tools",
+              "Calculate automation ROI for sample scenarios"
+            ]
+          },
+          {
+            "week": 12,
+            "title": "Cypress Fundamentals",
+            "description": "Learn end-to-end testing with Cypress framework.",
+            "resources": [
+              {
+                "name": "Cypress Official Documentation",
+                "url": "https://docs.cypress.io/guides/overview/why-cypress",
+                "type": "documentation",
+                "platform": "Cypress Official"
+              },
+              {
+                "name": "Cypress Testing Tutorial",
+                "url": "https://www.youtube.com/watch?v=7N63cMKosIE",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "28 min"
+              }
+            ],
+            "subtopics": [
+              "Cypress Installation and Setup",
+              "Writing First Test",
+              "Selectors and Assertions",
+              "Cypress Commands"
+            ],
+            "practiceExercises": [
+              "Set up Cypress in a project",
+              "Write 10 end-to-end tests",
+              "Test form submissions and navigation"
+            ]
+          },
+          {
+            "week": 13,
+            "title": "Selenium Basics",
+            "description": "Get introduced to Selenium WebDriver for cross-browser testing.",
+            "resources": [
+              {
+                "name": "Selenium Tutorial - Guru99",
+                "url": "https://www.guru99.com/selenium-tutorial.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Selenium Official Documentation",
+                "url": "https://www.selenium.dev/documentation/",
+                "type": "documentation",
+                "platform": "Selenium Official"
+              }
+            ],
+            "subtopics": [
+              "Selenium WebDriver Setup",
+              "Locators (ID, CSS, XPath)",
+              "Browser Interactions",
+              "Waits and Synchronization"
+            ],
+            "practiceExercises": [
+              "Set up Selenium with your preferred language",
+              "Automate login and form scenarios",
+              "Handle dynamic elements with waits"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Automation Framework Project",
+          "description": "Build a test automation framework using Cypress or Selenium. Automate 20+ test cases for a web application with proper structure and reporting.",
+          "skills": ["Test automation", "Cypress/Selenium", "Framework design"]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Agile Testing & Best Practices",
+        "description": "Master testing in Agile environments and industry best practices.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 14,
+            "title": "Agile Testing Methodology",
+            "description": "Learn how testing fits into Agile and Scrum frameworks.",
+            "resources": [
+              {
+                "name": "Agile Testing Tutorial - Guru99",
+                "url": "https://www.guru99.com/agile-testing-a-beginner-s-guide.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Testing in Scrum",
+                "url": "https://www.softwaretestinghelp.com/agile-scrum-testing/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              }
+            ],
+            "subtopics": [
+              "Agile Testing Principles",
+              "Tester Role in Scrum",
+              "Sprint Testing Activities",
+              "Continuous Testing"
+            ],
+            "practiceExercises": [
+              "Create test plan for a sprint",
+              "Participate in story grooming (simulation)",
+              "Define acceptance criteria for user stories"
+            ]
+          },
+          {
+            "week": 15,
+            "title": "CI/CD and DevOps for Testers",
+            "description": "Understand continuous integration and testing in DevOps pipelines.",
+            "resources": [
+              {
+                "name": "CI/CD for Testers - Guru99",
+                "url": "https://www.guru99.com/continuous-integration.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "GitHub Actions for Testing",
+                "url": "https://docs.github.com/en/actions/automating-builds-and-tests",
+                "type": "documentation",
+                "platform": "GitHub"
+              }
+            ],
+            "subtopics": [
+              "CI/CD Concepts",
+              "Test Automation in Pipelines",
+              "GitHub Actions Basics",
+              "Shift-Left Testing"
+            ],
+            "practiceExercises": [
+              "Set up a simple CI pipeline with tests",
+              "Configure automated test execution",
+              "Integrate test reports into pipeline"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Agile QA Capstone",
+          "description": "Simulate a complete sprint as a QA. Create user stories with acceptance criteria, test cases, automate critical paths, and set up CI/CD with automated tests.",
+          "skills": ["Agile testing", "CI/CD", "Complete QA workflow"]
+        }
+      }
+    ]
+  },
+  "QA Tester": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Testing Basics",
+        "description": "Learn fundamental concepts of software testing and quality assurance.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 1,
+            "title": "What is Software Testing",
+            "description": "Understand the basics of software testing and why it matters.",
+            "resources": [
+              {
+                "name": "Software Testing Basics - Guru99",
+                "url": "https://www.guru99.com/software-testing.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Software Testing in 10 Minutes",
+                "url": "https://www.youtube.com/watch?v=oLc9gVM8FBM",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "10 min"
+              }
+            ],
+            "subtopics": [
+              "What is Testing",
+              "Why Testing is Important",
+              "Testing vs Debugging",
+              "Types of Testing Overview"
+            ],
+            "practiceExercises": [
+              "Find 5 bugs in any website you use",
+              "List different types of testing",
+              "Explain testing to a non-technical person"
+            ]
+          },
+          {
+            "week": 2,
+            "title": "Testing Types & Levels",
+            "description": "Learn about different testing types and when to use them.",
+            "resources": [
+              {
+                "name": "Types of Software Testing - Guru99",
+                "url": "https://www.guru99.com/types-of-software-testing.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Testing Levels Explained",
+                "url": "https://www.softwaretestinghelp.com/types-of-software-testing/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              }
+            ],
+            "subtopics": [
+              "Unit, Integration, System Testing",
+              "Functional vs Non-Functional",
+              "Smoke and Sanity Testing",
+              "Regression Testing"
+            ],
+            "practiceExercises": [
+              "Identify which testing type applies to scenarios",
+              "Create a testing levels diagram",
+              "Explain when to use regression testing"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Testing Concepts Summary",
+          "description": "Create a one-page reference guide explaining testing types, levels, and when to use each. Include examples from real applications.",
+          "skills": ["Testing fundamentals", "Documentation"]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Manual Testing Skills",
+        "description": "Develop hands-on manual testing skills with practical techniques.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 3,
+            "title": "Test Case Writing",
+            "description": "Learn to write clear and effective test cases.",
+            "resources": [
+              {
+                "name": "How to Write Test Cases - Guru99",
+                "url": "https://www.guru99.com/test-case.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Test Case Template",
+                "url": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              }
+            ],
+            "subtopics": [
+              "Test Case Components",
+              "Positive and Negative Cases",
+              "Test Case Examples",
+              "Test Case Template"
+            ],
+            "practiceExercises": [
+              "Write 15 test cases for a login page",
+              "Create negative test cases for form validation",
+              "Use a test case template for documentation"
+            ]
+          },
+          {
+            "week": 4,
+            "title": "Testing Techniques",
+            "description": "Apply black-box testing techniques in practice.",
+            "resources": [
+              {
+                "name": "Black Box Testing Techniques",
+                "url": "https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Exploratory Testing Guide",
+                "url": "https://www.guru99.com/exploratory-testing.html",
+                "type": "article",
+                "platform": "Guru99"
+              }
+            ],
+            "subtopics": [
+              "Equivalence Partitioning",
+              "Boundary Value Analysis",
+              "Exploratory Testing",
+              "Ad-hoc Testing"
+            ],
+            "practiceExercises": [
+              "Apply boundary value analysis to an age field",
+              "Perform 20-minute exploratory testing session",
+              "Document findings from testing"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Manual Testing Project",
+          "description": "Test a simple web application. Write 30+ test cases, execute them, and document results with screenshots.",
+          "skills": ["Test case writing", "Manual testing execution", "Documentation"]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Bug Reporting",
+        "description": "Master the art of finding and reporting bugs effectively.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 5,
+            "title": "Writing Bug Reports",
+            "description": "Learn to write professional bug reports that developers can act on.",
+            "resources": [
+              {
+                "name": "How to Write Bug Reports - Guru99",
+                "url": "https://www.guru99.com/how-to-write-a-bug-report.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Bug Reporting Best Practices",
+                "url": "https://www.youtube.com/watch?v=7WNxlIqehlU",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "15 min"
+              }
+            ],
+            "subtopics": [
+              "Bug Report Template",
+              "Severity and Priority",
+              "Steps to Reproduce",
+              "Attaching Evidence"
+            ],
+            "practiceExercises": [
+              "Write 10 bug reports for found issues",
+              "Assign severity and priority levels",
+              "Take effective screenshots for bugs"
+            ]
+          },
+          {
+            "week": 6,
+            "title": "Bug Tracking Tools",
+            "description": "Get hands-on with industry-standard bug tracking tools.",
+            "resources": [
+              {
+                "name": "Jira Tutorial for Beginners",
+                "url": "https://www.guru99.com/jira-tutorial-a-complete-guide-for-beginners.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Jira Quick Start",
+                "url": "https://www.youtube.com/watch?v=GWxMTvRGIpc",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "20 min"
+              }
+            ],
+            "subtopics": [
+              "Jira Basics",
+              "Bug Life Cycle",
+              "Tracking Bug Status",
+              "Basic Reporting"
+            ],
+            "practiceExercises": [
+              "Create a Jira account and project",
+              "Log 10 bugs in Jira",
+              "Track bugs through their lifecycle"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Bug Tracking Portfolio",
+          "description": "Find and report 20 bugs from testing various websites. Use Jira to track them and create a summary report.",
+          "skills": ["Bug reporting", "Jira", "Defect tracking"]
+        }
+      },
+      {
+        "step": 4,
+        "title": "Basic API Testing",
+        "description": "Introduction to testing APIs using Postman.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 7,
+            "title": "API Testing Introduction",
+            "description": "Understand what APIs are and how to test them.",
+            "resources": [
+              {
+                "name": "API Testing Tutorial - Guru99",
+                "url": "https://www.guru99.com/api-testing.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Postman Beginner Tutorial",
+                "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4",
+                "type": "video",
+                "platform": "YouTube - Traversy Media",
+                "duration": "25 min"
+              }
+            ],
+            "subtopics": [
+              "What is an API",
+              "REST API Basics",
+              "HTTP Methods",
+              "Status Codes"
+            ],
+            "practiceExercises": [
+              "Install Postman",
+              "Make GET requests to a public API",
+              "Understand response status codes"
+            ]
+          },
+          {
+            "week": 8,
+            "title": "Postman Basics",
+            "description": "Learn to use Postman for API testing.",
+            "resources": [
+              {
+                "name": "Postman Learning Center",
+                "url": "https://learning.postman.com/docs/getting-started/introduction/",
+                "type": "documentation",
+                "platform": "Postman Official"
+              },
+              {
+                "name": "Postman Collections",
+                "url": "https://learning.postman.com/docs/collections/using-collections/",
+                "type": "documentation",
+                "platform": "Postman Official"
+              }
+            ],
+            "subtopics": [
+              "Creating Requests",
+              "POST, PUT, DELETE Methods",
+              "Collections",
+              "Basic Assertions"
+            ],
+            "practiceExercises": [
+              "Create a collection with 10 requests",
+              "Test CRUD operations on a sample API",
+              "Write basic test assertions"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "API Testing Collection",
+          "description": "Create a Postman collection to test a public REST API. Include tests for all CRUD operations with basic assertions.",
+          "skills": ["API testing", "Postman basics", "REST APIs"]
+        }
+      },
+      {
+        "step": 5,
+        "title": "Mobile Testing Basics",
+        "description": "Learn fundamentals of testing mobile applications.",
+        "duration": "1 week",
+        "weeks": [
+          {
+            "week": 9,
+            "title": "Mobile Testing Fundamentals",
+            "description": "Understand unique aspects of mobile app testing.",
+            "resources": [
+              {
+                "name": "Mobile App Testing Tutorial - Guru99",
+                "url": "https://www.guru99.com/mobile-testing.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Mobile Testing Checklist",
+                "url": "https://www.softwaretestinghelp.com/beginners-guide-to-mobile-application-testing/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              }
+            ],
+            "subtopics": [
+              "Mobile vs Web Testing",
+              "iOS vs Android Testing",
+              "Device and OS Considerations",
+              "Mobile Testing Checklist"
+            ],
+            "practiceExercises": [
+              "Test a mobile app on different devices",
+              "Create mobile-specific test cases",
+              "Test app behavior with interruptions"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Mobile App Test Plan",
+          "description": "Create a test plan for a mobile application. Include device matrix, test cases for mobile-specific scenarios, and testing checklist.",
+          "skills": ["Mobile testing", "Test planning", "Device testing"]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Test Documentation",
+        "description": "Create professional test documentation for QA processes.",
+        "duration": "1 week",
+        "weeks": [
+          {
+            "week": 10,
+            "title": "QA Documentation",
+            "description": "Learn to create and maintain professional test documentation.",
+            "resources": [
+              {
+                "name": "Test Plan Template - Guru99",
+                "url": "https://www.guru99.com/what-everybody-ought-to-know-about-test-planing.html",
+                "type": "article",
+                "platform": "Guru99"
+              },
+              {
+                "name": "Test Summary Report Template",
+                "url": "https://www.softwaretestinghelp.com/test-summary-report-template-download-sample/",
+                "type": "article",
+                "platform": "Software Testing Help"
+              }
+            ],
+            "subtopics": [
+              "Test Plans",
+              "Test Summary Reports",
+              "Test Case Management",
+              "Daily Status Reports"
+            ],
+            "practiceExercises": [
+              "Create a simple test plan",
+              "Write a test summary report",
+              "Organize test cases in spreadsheet"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "QA Documentation Package",
+          "description": "Create a complete documentation package including test plan, organized test cases, and test summary report for a web application.",
+          "skills": ["Test documentation", "Technical writing", "Test management"]
+        }
+      }
+    ]
+  },
+  "Business Intelligence Analyst": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "SQL for Data Analysis",
+        "description": "Master SQL skills essential for extracting and analyzing business data.",
+        "duration": "3 weeks",
+        "weeks": [
+          {
+            "week": 1,
+            "title": "SQL Fundamentals",
+            "description": "Learn core SQL syntax for querying databases.",
+            "resources": [
+              {
+                "name": "SQL Tutorial - W3Schools",
+                "url": "https://www.w3schools.com/sql/",
+                "type": "tutorial",
+                "platform": "W3Schools"
+              },
+              {
+                "name": "Learn SQL - Codecademy",
+                "url": "https://www.codecademy.com/learn/learn-sql",
+                "type": "course",
+                "platform": "Codecademy"
+              }
+            ],
+            "subtopics": [
+              "SELECT, FROM, WHERE",
+              "ORDER BY and LIMIT",
+              "Filtering with AND, OR, NOT",
+              "Basic Data Types"
+            ],
+            "practiceExercises": [
+              "Query a sample database",
+              "Write 10 SELECT queries with filters",
+              "Sort and limit query results"
+            ]
+          },
+          {
+            "week": 2,
+            "title": "Intermediate SQL",
+            "description": "Learn aggregations, grouping, and joining tables.",
+            "resources": [
+              {
+                "name": "SQL GROUP BY - W3Schools",
+                "url": "https://www.w3schools.com/sql/sql_groupby.asp",
+                "type": "tutorial",
+                "platform": "W3Schools"
+              },
+              {
+                "name": "SQL JOINs Explained",
+                "url": "https://www.youtube.com/watch?v=9yeOJ0ZMUYw",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "20 min"
+              }
+            ],
+            "subtopics": [
+              "GROUP BY and Aggregations",
+              "HAVING Clause",
+              "INNER, LEFT, RIGHT JOINs",
+              "Subqueries"
+            ],
+            "practiceExercises": [
+              "Calculate totals and averages with GROUP BY",
+              "Join multiple tables for reports",
+              "Write subqueries for complex analysis"
+            ]
+          },
+          {
+            "week": 3,
+            "title": "Advanced SQL for Analytics",
+            "description": "Learn window functions and advanced analysis techniques.",
+            "resources": [
+              {
+                "name": "SQL Window Functions - Mode Analytics",
+                "url": "https://mode.com/sql-tutorial/sql-window-functions/",
+                "type": "tutorial",
+                "platform": "Mode Analytics"
+              },
+              {
+                "name": "Advanced SQL for Data Analysis",
+                "url": "https://www.codecademy.com/learn/learn-advanced-sql",
+                "type": "course",
+                "platform": "Codecademy"
+              }
+            ],
+            "subtopics": [
+              "Window Functions (ROW_NUMBER, RANK)",
+              "Running Totals and Moving Averages",
+              "CTEs (Common Table Expressions)",
+              "Performance Optimization"
+            ],
+            "practiceExercises": [
+              "Calculate running totals",
+              "Rank data using window functions",
+              "Create CTEs for readable queries"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Business Data Analysis with SQL",
+          "description": "Analyze a business dataset (sales, customers, orders). Write 20+ queries including joins, aggregations, and window functions to answer business questions.",
+          "skills": ["SQL", "Data analysis", "Business insights"]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Excel & Spreadsheet Mastery",
+        "description": "Develop advanced spreadsheet skills for data analysis and reporting.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 4,
+            "title": "Advanced Excel Functions",
+            "description": "Master essential Excel functions for data analysis.",
+            "resources": [
+              {
+                "name": "Excel Functions - W3Schools",
+                "url": "https://www.w3schools.com/excel/index.php",
+                "type": "tutorial",
+                "platform": "W3Schools"
+              },
+              {
+                "name": "Advanced Excel Formulas",
+                "url": "https://www.youtube.com/watch?v=8vWvKfEkOmA",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "25 min"
+              }
+            ],
+            "subtopics": [
+              "VLOOKUP and XLOOKUP",
+              "INDEX-MATCH",
+              "IF, IFS, SWITCH",
+              "Text Functions"
+            ],
+            "practiceExercises": [
+              "Use VLOOKUP to combine data from sheets",
+              "Create nested IF formulas",
+              "Clean data using text functions"
+            ]
+          },
+          {
+            "week": 5,
+            "title": "Pivot Tables & Data Analysis",
+            "description": "Master pivot tables and Excel's data analysis features.",
+            "resources": [
+              {
+                "name": "Excel Pivot Tables - W3Schools",
+                "url": "https://www.w3schools.com/excel/excel_pivot_tables.php",
+                "type": "tutorial",
+                "platform": "W3Schools"
+              },
+              {
+                "name": "Pivot Tables Full Tutorial",
+                "url": "https://www.youtube.com/watch?v=UsdedFoTA68",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "28 min"
+              }
+            ],
+            "subtopics": [
+              "Creating Pivot Tables",
+              "Calculated Fields",
+              "Slicers and Timelines",
+              "Data Validation"
+            ],
+            "practiceExercises": [
+              "Create pivot tables from sales data",
+              "Add calculated fields for metrics",
+              "Build interactive reports with slicers"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Excel Business Dashboard",
+          "description": "Build an interactive Excel dashboard with pivot tables, charts, slicers, and KPI calculations for a business dataset.",
+          "skills": ["Excel", "Pivot tables", "Business reporting"]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Data Visualization Fundamentals",
+        "description": "Learn principles of effective data visualization and storytelling.",
+        "duration": "1 week",
+        "weeks": [
+          {
+            "week": 6,
+            "title": "Visualization Best Practices",
+            "description": "Learn how to create clear, impactful visualizations.",
+            "resources": [
+              {
+                "name": "Data Visualization Fundamentals - Google",
+                "url": "https://www.coursera.org/learn/data-visualization",
+                "type": "course",
+                "platform": "Google Career Certificates"
+              },
+              {
+                "name": "Choosing the Right Chart",
+                "url": "https://www.youtube.com/watch?v=qGaIB-bRn-A",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "15 min"
+              }
+            ],
+            "subtopics": [
+              "Chart Types and When to Use",
+              "Color Theory for Data",
+              "Avoiding Misleading Charts",
+              "Data Storytelling"
+            ],
+            "practiceExercises": [
+              "Choose appropriate charts for different data types",
+              "Redesign a misleading chart",
+              "Create a data story from a dataset"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Visualization Style Guide",
+          "description": "Create a data visualization style guide including chart selection guidelines, color palettes, and best practices with examples.",
+          "skills": ["Data visualization", "Design principles", "Communication"]
+        }
+      },
+      {
+        "step": 4,
+        "title": "Power BI Essentials",
+        "description": "Master Microsoft Power BI for business intelligence and reporting.",
+        "duration": "3 weeks",
+        "weeks": [
+          {
+            "week": 7,
+            "title": "Power BI Fundamentals",
+            "description": "Get started with Power BI Desktop and data connections.",
+            "resources": [
+              {
+                "name": "Power BI Getting Started - Microsoft Learn",
+                "url": "https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/",
+                "type": "course",
+                "platform": "Microsoft Learn"
+              },
+              {
+                "name": "Power BI Full Course for Beginners",
+                "url": "https://www.youtube.com/watch?v=AGrl-H87pRU",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "30 min"
+              }
+            ],
+            "subtopics": [
+              "Power BI Interface",
+              "Connecting to Data Sources",
+              "Power Query Basics",
+              "Data Transformation"
+            ],
+            "practiceExercises": [
+              "Install Power BI Desktop",
+              "Connect to Excel and CSV data",
+              "Transform data with Power Query"
+            ]
+          },
+          {
+            "week": 8,
+            "title": "Building Power BI Reports",
+            "description": "Create interactive visualizations and reports.",
+            "resources": [
+              {
+                "name": "Create Reports in Power BI - Microsoft Learn",
+                "url": "https://learn.microsoft.com/en-us/training/modules/build-your-first-power-bi-report/",
+                "type": "course",
+                "platform": "Microsoft Learn"
+              },
+              {
+                "name": "Power BI Visualizations",
+                "url": "https://learn.microsoft.com/en-us/training/modules/visuals-in-power-bi/",
+                "type": "course",
+                "platform": "Microsoft Learn"
+              }
+            ],
+            "subtopics": [
+              "Creating Visualizations",
+              "Formatting and Design",
+              "Filters and Slicers",
+              "Drill-down Features"
+            ],
+            "practiceExercises": [
+              "Create 10 different visualizations",
+              "Build a multi-page report",
+              "Add interactivity with filters"
+            ]
+          },
+          {
+            "week": 9,
+            "title": "DAX and Measures",
+            "description": "Learn DAX for creating calculations and measures.",
+            "resources": [
+              {
+                "name": "DAX Basics - Microsoft Learn",
+                "url": "https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-measures/",
+                "type": "course",
+                "platform": "Microsoft Learn"
+              },
+              {
+                "name": "DAX Tutorial for Beginners",
+                "url": "https://www.youtube.com/watch?v=QJw4HkagVWc",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "25 min"
+              }
+            ],
+            "subtopics": [
+              "DAX Syntax Basics",
+              "Calculated Columns vs Measures",
+              "Common DAX Functions",
+              "Time Intelligence"
+            ],
+            "practiceExercises": [
+              "Create calculated measures for KPIs",
+              "Use CALCULATE and FILTER",
+              "Build YTD and MoM calculations"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Power BI Business Dashboard",
+          "description": "Build a comprehensive Power BI dashboard for business analysis. Include multiple pages, DAX measures, and interactive features.",
+          "skills": ["Power BI", "DAX", "Dashboard design"]
+        }
+      },
+      {
+        "step": 5,
+        "title": "Tableau Fundamentals",
+        "description": "Learn Tableau for data visualization and business analytics.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 10,
+            "title": "Tableau Getting Started",
+            "description": "Learn Tableau basics and create first visualizations.",
+            "resources": [
+              {
+                "name": "Tableau Free Training Videos",
+                "url": "https://www.tableau.com/learn/training/20224",
+                "type": "course",
+                "platform": "Tableau Official"
+              },
+              {
+                "name": "Tableau Public Tutorial",
+                "url": "https://public.tableau.com/app/learn/how-to-videos",
+                "type": "tutorial",
+                "platform": "Tableau Public"
+              }
+            ],
+            "subtopics": [
+              "Tableau Interface",
+              "Connecting to Data",
+              "Dimensions and Measures",
+              "Basic Chart Types"
+            ],
+            "practiceExercises": [
+              "Install Tableau Public",
+              "Create bar, line, and pie charts",
+              "Use filters and colors"
+            ]
+          },
+          {
+            "week": 11,
+            "title": "Tableau Dashboards",
+            "description": "Build interactive dashboards and stories in Tableau.",
+            "resources": [
+              {
+                "name": "Building Dashboards - Tableau",
+                "url": "https://www.tableau.com/learn/tutorials/on-demand/building-dashboard",
+                "type": "tutorial",
+                "platform": "Tableau Official"
+              },
+              {
+                "name": "Tableau Dashboard Best Practices",
+                "url": "https://www.youtube.com/watch?v=boJcT-lerFQ",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "20 min"
+              }
+            ],
+            "subtopics": [
+              "Dashboard Layout",
+              "Dashboard Actions",
+              "Stories in Tableau",
+              "Publishing to Tableau Public"
+            ],
+            "practiceExercises": [
+              "Create a multi-chart dashboard",
+              "Add filter actions between sheets",
+              "Publish work to Tableau Public"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Tableau Public Portfolio",
+          "description": "Create and publish a professional Tableau dashboard to Tableau Public. Include multiple visualizations and interactive features.",
+          "skills": ["Tableau", "Dashboard design", "Data storytelling"]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Business Requirements & Reporting",
+        "description": "Learn to gather requirements and create business reports.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 12,
+            "title": "Understanding Business Requirements",
+            "description": "Learn to translate business needs into analytics solutions.",
+            "resources": [
+              {
+                "name": "Business Analysis Fundamentals - LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/business-analysis-foundations",
+                "type": "course",
+                "platform": "LinkedIn Learning"
+              },
+              {
+                "name": "Requirements Gathering Tips",
+                "url": "https://www.youtube.com/watch?v=5v2DmPPWJmc",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "18 min"
+              }
+            ],
+            "subtopics": [
+              "Stakeholder Interviews",
+              "Defining KPIs",
+              "Requirements Documentation",
+              "Success Metrics"
+            ],
+            "practiceExercises": [
+              "Conduct a mock requirements interview",
+              "Define KPIs for a business scenario",
+              "Create a requirements document"
+            ]
+          },
+          {
+            "week": 13,
+            "title": "Report Design & Delivery",
+            "description": "Create professional reports and present findings effectively.",
+            "resources": [
+              {
+                "name": "Data Storytelling - Google",
+                "url": "https://www.coursera.org/learn/data-visualization-communicate",
+                "type": "course",
+                "platform": "Google Career Certificates"
+              },
+              {
+                "name": "Presenting Data Effectively",
+                "url": "https://www.youtube.com/watch?v=Mqrhn8khGLM",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "15 min"
+              }
+            ],
+            "subtopics": [
+              "Report Structure",
+              "Executive Summaries",
+              "Automated Reporting",
+              "Presenting to Stakeholders"
+            ],
+            "practiceExercises": [
+              "Create a professional business report",
+              "Write an executive summary",
+              "Present findings to an audience"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "BI Analyst Capstone",
+          "description": "Complete an end-to-end BI project: gather requirements, analyze data with SQL, create visualizations in Power BI/Tableau, and present findings.",
+          "skills": ["Business analysis", "BI tools", "Presentation", "End-to-end analytics"]
+        }
+      }
+    ]
+  },
+  "Computer Systems Analyst": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Business Process Analysis",
+        "description": "Learn to analyze and document business processes for system improvements.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 1,
+            "title": "Understanding Business Processes",
+            "description": "Learn fundamentals of business process analysis.",
+            "resources": [
+              {
+                "name": "Business Process Modeling - LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/business-process-modeling",
+                "type": "course",
+                "platform": "LinkedIn Learning"
+              },
+              {
+                "name": "Process Mapping Explained",
+                "url": "https://www.youtube.com/watch?v=rJNOh4z9O9c",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "20 min"
+              }
+            ],
+            "subtopics": [
+              "What is Business Process Analysis",
+              "Process vs System",
+              "Identifying Stakeholders",
+              "Current State Analysis"
+            ],
+            "practiceExercises": [
+              "Document a process you use daily",
+              "Identify stakeholders for a system",
+              "Create a current state summary"
+            ]
+          },
+          {
+            "week": 2,
+            "title": "Process Mapping & Modeling",
+            "description": "Learn to create process diagrams and flowcharts.",
+            "resources": [
+              {
+                "name": "BPMN Tutorial",
+                "url": "https://www.lucidchart.com/pages/bpmn",
+                "type": "tutorial",
+                "platform": "Lucidchart"
+              },
+              {
+                "name": "Flowchart Tutorial",
+                "url": "https://www.youtube.com/watch?v=SWRDqTx8d4k",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "15 min"
+              }
+            ],
+            "subtopics": [
+              "Flowchart Symbols",
+              "BPMN Basics",
+              "Swimlane Diagrams",
+              "Process Documentation"
+            ],
+            "practiceExercises": [
+              "Create a flowchart for a business process",
+              "Draw a swimlane diagram",
+              "Document process improvements"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Process Analysis Report",
+          "description": "Analyze a business process, create diagrams (flowchart, swimlane), identify inefficiencies, and propose improvements.",
+          "skills": ["Process analysis", "BPMN", "Documentation"]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Requirements Gathering",
+        "description": "Master techniques for eliciting and documenting system requirements.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 3,
+            "title": "Requirements Elicitation",
+            "description": "Learn techniques to gather requirements from stakeholders.",
+            "resources": [
+              {
+                "name": "Requirements Gathering Techniques",
+                "url": "https://www.youtube.com/watch?v=5v2DmPPWJmc",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "18 min"
+              },
+              {
+                "name": "Business Analysis Fundamentals",
+                "url": "https://www.linkedin.com/learning/business-analysis-foundations-requirements-elicitation",
+                "type": "course",
+                "platform": "LinkedIn Learning"
+              }
+            ],
+            "subtopics": [
+              "Stakeholder Interviews",
+              "Surveys and Questionnaires",
+              "Workshops and JAD Sessions",
+              "Observation Techniques"
+            ],
+            "practiceExercises": [
+              "Create interview questions for a project",
+              "Design a requirements survey",
+              "Conduct a mock elicitation session"
+            ]
+          },
+          {
+            "week": 4,
+            "title": "Requirements Documentation",
+            "description": "Learn to write clear, complete requirements documents.",
+            "resources": [
+              {
+                "name": "Writing Good Requirements",
+                "url": "https://www.youtube.com/watch?v=_rH8yYfR_QE",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "22 min"
+              },
+              {
+                "name": "Use Case Diagrams - Lucidchart",
+                "url": "https://www.lucidchart.com/pages/uml-use-case-diagram",
+                "type": "tutorial",
+                "platform": "Lucidchart"
+              }
+            ],
+            "subtopics": [
+              "Functional vs Non-Functional Requirements",
+              "User Stories",
+              "Use Cases",
+              "Requirements Traceability"
+            ],
+            "practiceExercises": [
+              "Write 10 functional requirements",
+              "Create user stories for a feature",
+              "Draw a use case diagram"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Requirements Specification Document",
+          "description": "Create a complete requirements document for a system including functional requirements, use cases, and user stories.",
+          "skills": ["Requirements gathering", "Documentation", "Use cases"]
+        }
+      },
+      {
+        "step": 3,
+        "title": "System Design Basics",
+        "description": "Learn fundamental concepts of system design and architecture.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 5,
+            "title": "System Architecture Overview",
+            "description": "Understand basic system architecture concepts.",
+            "resources": [
+              {
+                "name": "System Design Primer",
+                "url": "https://github.com/donnemartin/system-design-primer",
+                "type": "guide",
+                "platform": "GitHub"
+              },
+              {
+                "name": "System Design Basics",
+                "url": "https://www.youtube.com/watch?v=0163cssUxLA",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "25 min"
+              }
+            ],
+            "subtopics": [
+              "Client-Server Architecture",
+              "Web Application Architecture",
+              "APIs and Integration",
+              "Cloud Basics"
+            ],
+            "practiceExercises": [
+              "Draw a simple system architecture diagram",
+              "Identify components in existing systems",
+              "Explain API interactions"
+            ]
+          },
+          {
+            "week": 6,
+            "title": "Data Flow & System Diagrams",
+            "description": "Learn to create data flow and system diagrams.",
+            "resources": [
+              {
+                "name": "Data Flow Diagrams - Lucidchart",
+                "url": "https://www.lucidchart.com/pages/data-flow-diagram",
+                "type": "tutorial",
+                "platform": "Lucidchart"
+              },
+              {
+                "name": "UML Diagrams Overview",
+                "url": "https://www.youtube.com/watch?v=WnMQ8HlmeXc",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "18 min"
+              }
+            ],
+            "subtopics": [
+              "Data Flow Diagrams (DFD)",
+              "Entity Relationship Diagrams",
+              "Sequence Diagrams",
+              "Component Diagrams"
+            ],
+            "practiceExercises": [
+              "Create a level 0 and level 1 DFD",
+              "Draw an ER diagram for a database",
+              "Create a sequence diagram for a feature"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "System Design Document",
+          "description": "Create a system design document including architecture diagram, DFD, ER diagram, and component descriptions for a proposed system.",
+          "skills": ["System design", "UML", "Technical documentation"]
+        }
+      },
+      {
+        "step": 4,
+        "title": "Database Concepts",
+        "description": "Understand database fundamentals for systems analysis.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 7,
+            "title": "Database Fundamentals",
+            "description": "Learn core database concepts and SQL basics.",
+            "resources": [
+              {
+                "name": "SQL Tutorial - W3Schools",
+                "url": "https://www.w3schools.com/sql/",
+                "type": "tutorial",
+                "platform": "W3Schools"
+              },
+              {
+                "name": "Database Basics",
+                "url": "https://www.youtube.com/watch?v=FR4QIeZaPeM",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "20 min"
+              }
+            ],
+            "subtopics": [
+              "Relational Database Concepts",
+              "Tables, Rows, Columns",
+              "Primary and Foreign Keys",
+              "Basic SQL Queries"
+            ],
+            "practiceExercises": [
+              "Design a simple database schema",
+              "Write basic SQL SELECT queries",
+              "Identify relationships between tables"
+            ]
+          },
+          {
+            "week": 8,
+            "title": "Database Design",
+            "description": "Learn database design principles for systems analysis.",
+            "resources": [
+              {
+                "name": "Database Normalization - W3Schools",
+                "url": "https://www.w3schools.com/sql/sql_normalization.asp",
+                "type": "tutorial",
+                "platform": "W3Schools"
+              },
+              {
+                "name": "ER Diagram Tutorial",
+                "url": "https://www.lucidchart.com/pages/er-diagrams",
+                "type": "tutorial",
+                "platform": "Lucidchart"
+              }
+            ],
+            "subtopics": [
+              "Normalization (1NF, 2NF, 3NF)",
+              "ER Diagram Design",
+              "Database Documentation",
+              "Data Dictionary"
+            ],
+            "practiceExercises": [
+              "Normalize a denormalized table",
+              "Create a complete ER diagram",
+              "Write a data dictionary"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Database Design Project",
+          "description": "Design a complete database for a business application including ER diagram, normalized schema, and data dictionary.",
+          "skills": ["Database design", "SQL", "Data modeling"]
+        }
+      },
+      {
+        "step": 5,
+        "title": "Project Management Basics",
+        "description": "Learn project management fundamentals relevant to systems analysis.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 9,
+            "title": "Project Management Fundamentals",
+            "description": "Understand project lifecycle and management basics.",
+            "resources": [
+              {
+                "name": "Project Management Foundations - LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/project-management-foundations",
+                "type": "course",
+                "platform": "LinkedIn Learning"
+              },
+              {
+                "name": "Project Management Basics",
+                "url": "https://www.youtube.com/watch?v=uWPIsaYpY7U",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "22 min"
+              }
+            ],
+            "subtopics": [
+              "Project Life Cycle",
+              "Scope, Time, Cost Triangle",
+              "Work Breakdown Structure",
+              "Project Planning"
+            ],
+            "practiceExercises": [
+              "Create a project scope statement",
+              "Build a work breakdown structure",
+              "Estimate project timeline"
+            ]
+          },
+          {
+            "week": 10,
+            "title": "Agile & Scrum Basics",
+            "description": "Learn Agile methodologies commonly used in IT projects.",
+            "resources": [
+              {
+                "name": "Agile Project Management - LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/agile-foundations",
+                "type": "course",
+                "platform": "LinkedIn Learning"
+              },
+              {
+                "name": "Scrum in 10 Minutes",
+                "url": "https://www.youtube.com/watch?v=XU0llRltyFM",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "10 min"
+              }
+            ],
+            "subtopics": [
+              "Agile Principles",
+              "Scrum Framework",
+              "Sprints and Backlogs",
+              "User Stories"
+            ],
+            "practiceExercises": [
+              "Create a product backlog",
+              "Write acceptance criteria for stories",
+              "Plan a sprint"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Project Plan Document",
+          "description": "Create a project plan for a system implementation including scope, WBS, timeline, and Agile user stories.",
+          "skills": ["Project management", "Agile", "Planning"]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Technical Documentation",
+        "description": "Master technical writing and documentation for systems analysis.",
+        "duration": "2 weeks",
+        "weeks": [
+          {
+            "week": 11,
+            "title": "Technical Writing Fundamentals",
+            "description": "Learn to write clear, professional technical documents.",
+            "resources": [
+              {
+                "name": "Technical Writing - Google",
+                "url": "https://developers.google.com/tech-writing",
+                "type": "course",
+                "platform": "Google Developers"
+              },
+              {
+                "name": "Technical Writing Tips",
+                "url": "https://www.youtube.com/watch?v=brKKrmLpOF4",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "15 min"
+              }
+            ],
+            "subtopics": [
+              "Clarity and Conciseness",
+              "Document Structure",
+              "Visual Aids",
+              "Review and Editing"
+            ],
+            "practiceExercises": [
+              "Rewrite a complex paragraph clearly",
+              "Add visual aids to documentation",
+              "Peer review a document"
+            ]
+          },
+          {
+            "week": 12,
+            "title": "Systems Documentation",
+            "description": "Create professional systems analysis documents.",
+            "resources": [
+              {
+                "name": "System Documentation Best Practices",
+                "url": "https://www.youtube.com/watch?v=ZT05J0bVLJs",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "18 min"
+              },
+              {
+                "name": "API Documentation - Postman",
+                "url": "https://learning.postman.com/docs/publishing-your-api/documenting-your-api/",
+                "type": "documentation",
+                "platform": "Postman Official"
+              }
+            ],
+            "subtopics": [
+              "System Specifications",
+              "User Manuals",
+              "API Documentation",
+              "Training Materials"
+            ],
+            "practiceExercises": [
+              "Write a system specification",
+              "Create a user guide section",
+              "Document an API endpoint"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Complete System Documentation",
+          "description": "Create a comprehensive documentation package for a system including specifications, user guide, and technical reference.",
+          "skills": ["Technical writing", "Documentation", "Communication"]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Technical Communication & Stakeholder Management",
+        "description": "Develop skills to communicate effectively with technical and non-technical stakeholders.",
+        "duration": "1 week",
+        "weeks": [
+          {
+            "week": 13,
+            "title": "Stakeholder Communication",
+            "description": "Learn to present technical information to various audiences.",
+            "resources": [
+              {
+                "name": "Communicating with Executives - LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/communicating-with-executives",
+                "type": "course",
+                "platform": "LinkedIn Learning"
+              },
+              {
+                "name": "Technical Presentations",
+                "url": "https://www.youtube.com/watch?v=yoD8RMq2OkU",
+                "type": "video",
+                "platform": "YouTube",
+                "duration": "20 min"
+              }
+            ],
+            "subtopics": [
+              "Audience Analysis",
+              "Translating Technical to Business",
+              "Presentation Skills",
+              "Managing Expectations"
+            ],
+            "practiceExercises": [
+              "Present a technical concept to non-technical audience",
+              "Create an executive summary",
+              "Handle stakeholder objections"
+            ]
+          }
+        ],
+        "milestoneProject": {
+          "title": "Systems Analyst Capstone",
+          "description": "Complete an end-to-end systems analysis project: analyze business processes, gather requirements, design system, create documentation, and present to stakeholders.",
+          "skills": ["Systems analysis", "Documentation", "Communication", "Full lifecycle"]
+        }
+      }
+    ]
+  }
+}

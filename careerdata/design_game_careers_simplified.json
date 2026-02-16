@@ -1,0 +1,1079 @@
+{
+  "UX/UI Designer": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Design Fundamentals",
+        "description": "Learn the core principles of visual design including layout, hierarchy, contrast, and balance that form the foundation of all design work.",
+        "weeks": 3,
+        "subtopics": [
+          "Visual hierarchy and layout principles",
+          "Gestalt principles in design",
+          "White space and balance",
+          "Grid systems basics",
+          "Design thinking introduction"
+        ],
+        "resources": [
+          {
+            "title": "Google UX Design Certificate - Foundations",
+            "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+            "type": "course",
+            "duration": "4 hours",
+            "platform": "Coursera"
+          },
+          {
+            "title": "Design Principles: Visual Hierarchy",
+            "url": "https://www.youtube.com/watch?v=qZWDJqY27bw",
+            "type": "video",
+            "duration": "18 min",
+            "platform": "The Futur"
+          },
+          {
+            "title": "Introduction to Design Thinking",
+            "url": "https://www.figma.com/resource-library/design-thinking/",
+            "type": "article",
+            "duration": "20 min",
+            "platform": "Figma"
+          }
+        ],
+        "practiceExercises": [
+          "Analyze 5 popular apps and identify their visual hierarchy",
+          "Recreate a simple landing page layout using basic shapes",
+          "Create a mood board for a fictional brand"
+        ],
+        "milestoneProject": {
+          "title": "Design Principles Analysis Report",
+          "description": "Create a comprehensive visual analysis of 3 popular apps, documenting how they apply design principles like hierarchy, contrast, and balance.",
+          "deliverables": [
+            "Annotated screenshots highlighting design principles",
+            "Written analysis (500-800 words)",
+            "Suggestions for improvement"
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Figma Fundamentals",
+        "description": "Master Figma, the industry-standard design tool for creating interfaces, prototypes, and collaborative design work.",
+        "weeks": 3,
+        "subtopics": [
+          "Figma interface and navigation",
+          "Frames, shapes, and layers",
+          "Typography and text styles",
+          "Components and variants",
+          "Auto layout basics"
+        ],
+        "resources": [
+          {
+            "title": "Figma for Beginners",
+            "url": "https://www.youtube.com/playlist?list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4",
+            "type": "playlist",
+            "duration": "2 hours",
+            "platform": "Figma Official"
+          },
+          {
+            "title": "Figma Crash Course 2024",
+            "url": "https://www.youtube.com/watch?v=IOVFRMuPeVQ",
+            "type": "video",
+            "duration": "25 min",
+            "platform": "DesignCourse"
+          }
+        ],
+        "practiceExercises": [
+          "Recreate a simple mobile app screen in Figma",
+          "Build a button component with 3 variants (default, hover, disabled)",
+          "Design a card component using auto layout"
+        ],
+        "milestoneProject": {
+          "title": "Mobile App UI Kit",
+          "description": "Create a basic UI kit with reusable components including buttons, cards, inputs, and navigation elements.",
+          "deliverables": [
+            "Component library with 10+ components",
+            "Consistent color and typography styles",
+            "Sample screen using the components"
+          ]
+        }
+      },
+      {
+        "step": 3,
+        "title": "User Research & UX Principles",
+        "description": "Understand user-centered design methodology, conduct user research, and learn to create personas and user journeys.",
+        "weeks": 3,
+        "subtopics": [
+          "User-centered design process",
+          "Conducting user interviews",
+          "Creating user personas",
+          "User journey mapping",
+          "Usability heuristics"
+        ],
+        "resources": [
+          {
+            "title": "Google UX Design - User Research",
+            "url": "https://www.coursera.org/learn/start-ux-design-process",
+            "type": "course",
+            "duration": "3 hours",
+            "platform": "Coursera"
+          },
+          {
+            "title": "How to Conduct User Interviews",
+            "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
+            "type": "video",
+            "duration": "22 min",
+            "platform": "NNGroup"
+          },
+          {
+            "title": "User Persona Template",
+            "url": "https://www.figma.com/community/file/1123654123456789012",
+            "type": "template",
+            "duration": "15 min",
+            "platform": "Figma Community"
+          }
+        ],
+        "practiceExercises": [
+          "Conduct 3 user interviews about a common problem",
+          "Create 2 user personas based on interview data",
+          "Map a user journey for an e-commerce checkout"
+        ],
+        "milestoneProject": {
+          "title": "UX Research Case Study",
+          "description": "Conduct user research for a real problem, document findings, and create personas and journey maps.",
+          "deliverables": [
+            "Interview scripts and notes",
+            "2 detailed user personas",
+            "User journey map with pain points identified"
+          ]
+        }
+      },
+      {
+        "step": 4,
+        "title": "Wireframing & Prototyping",
+        "description": "Learn to create low and high-fidelity wireframes, and build interactive prototypes to test design concepts.",
+        "weeks": 3,
+        "subtopics": [
+          "Sketching and low-fidelity wireframes",
+          "High-fidelity wireframes",
+          "Interactive prototyping in Figma",
+          "Prototype animations and transitions",
+          "User testing with prototypes"
+        ],
+        "resources": [
+          {
+            "title": "Wireframing for UX Design",
+            "url": "https://www.youtube.com/watch?v=D4NyQ5iOMF0",
+            "type": "video",
+            "duration": "20 min",
+            "platform": "Flux Academy"
+          },
+          {
+            "title": "Figma Prototyping Tutorial",
+            "url": "https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma",
+            "type": "tutorial",
+            "duration": "30 min",
+            "platform": "Figma Learn"
+          }
+        ],
+        "practiceExercises": [
+          "Sketch 10 variations of a signup form",
+          "Create wireframes for a 5-screen mobile app flow",
+          "Build an interactive prototype with screen transitions"
+        ],
+        "milestoneProject": {
+          "title": "Interactive App Prototype",
+          "description": "Design a complete mobile app prototype with at least 8 screens and interactive navigation.",
+          "deliverables": [
+            "Low-fidelity wireframes (sketches or digital)",
+            "High-fidelity screens in Figma",
+            "Clickable prototype with realistic interactions"
+          ]
+        }
+      },
+      {
+        "step": 5,
+        "title": "UI Design Principles",
+        "description": "Master visual UI design including color theory, typography, iconography, and creating polished user interfaces.",
+        "weeks": 3,
+        "subtopics": [
+          "Color theory for UI design",
+          "Typography hierarchy and pairing",
+          "Iconography and visual elements",
+          "Spacing and sizing systems",
+          "Responsive design principles"
+        ],
+        "resources": [
+          {
+            "title": "UI Design Fundamentals",
+            "url": "https://www.youtube.com/watch?v=tRpoI6vkqLs",
+            "type": "video",
+            "duration": "28 min",
+            "platform": "DesignCourse"
+          },
+          {
+            "title": "Color in UI Design",
+            "url": "https://www.youtube.com/watch?v=eXcKOqviLE0",
+            "type": "video",
+            "duration": "15 min",
+            "platform": "The Futur"
+          },
+          {
+            "title": "Typography in UI Design Guide",
+            "url": "https://www.figma.com/resource-library/typography/",
+            "type": "article",
+            "duration": "20 min",
+            "platform": "Figma"
+          }
+        ],
+        "practiceExercises": [
+          "Create 3 color palettes for different app themes",
+          "Design a typography scale for a mobile app",
+          "Redesign an existing app screen with improved UI"
+        ],
+        "milestoneProject": {
+          "title": "Complete App Redesign",
+          "description": "Take an existing app with poor UI and redesign 5 key screens with improved visual design.",
+          "deliverables": [
+            "Before/after comparison",
+            "Style guide with colors, typography, spacing",
+            "5 polished UI screens"
+          ]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Design Systems",
+        "description": "Learn to create and maintain scalable design systems with component libraries, documentation, and design tokens.",
+        "weeks": 3,
+        "subtopics": [
+          "Design system fundamentals",
+          "Creating component libraries",
+          "Design tokens and variables",
+          "Documentation best practices",
+          "Handoff to developers"
+        ],
+        "resources": [
+          {
+            "title": "Design Systems 101",
+            "url": "https://www.youtube.com/watch?v=EK-pHkc5EL4",
+            "type": "video",
+            "duration": "25 min",
+            "platform": "Figma Official"
+          },
+          {
+            "title": "Figma Variables and Tokens",
+            "url": "https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma",
+            "type": "tutorial",
+            "duration": "30 min",
+            "platform": "Figma Learn"
+          }
+        ],
+        "practiceExercises": [
+          "Audit an existing design for inconsistencies",
+          "Create a color token system with light/dark modes",
+          "Document a component with usage guidelines"
+        ],
+        "milestoneProject": {
+          "title": "Mini Design System",
+          "description": "Build a complete mini design system with tokens, components, and documentation.",
+          "deliverables": [
+            "Design tokens (colors, spacing, typography)",
+            "10+ documented components",
+            "Usage guidelines document"
+          ]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Portfolio & Career Preparation",
+        "description": "Build a professional UX/UI portfolio, prepare case studies, and learn job application strategies.",
+        "weeks": 4,
+        "subtopics": [
+          "Portfolio structure and content",
+          "Writing compelling case studies",
+          "Personal branding for designers",
+          "Preparing for design interviews",
+          "Building online presence"
+        ],
+        "resources": [
+          {
+            "title": "UX Portfolio That Gets You Hired",
+            "url": "https://www.youtube.com/watch?v=cg1iWHPI3mY",
+            "type": "video",
+            "duration": "22 min",
+            "platform": "Flux Academy"
+          },
+          {
+            "title": "How to Write a UX Case Study",
+            "url": "https://www.youtube.com/watch?v=rrLlT7ddnQo",
+            "type": "video",
+            "duration": "18 min",
+            "platform": "The Futur"
+          },
+          {
+            "title": "Portfolio Website Templates",
+            "url": "https://www.figma.com/community/tag/portfolio/files",
+            "type": "template",
+            "duration": "30 min",
+            "platform": "Figma Community"
+          }
+        ],
+        "practiceExercises": [
+          "Write a case study for one of your projects",
+          "Create your portfolio site layout in Figma",
+          "Practice presenting your work in 5 minutes"
+        ],
+        "milestoneProject": {
+          "title": "Professional Portfolio",
+          "description": "Launch a complete portfolio website with 3 detailed case studies showcasing your UX/UI skills.",
+          "deliverables": [
+            "Portfolio website (Figma or live site)",
+            "3 detailed case studies",
+            "Updated resume and LinkedIn"
+          ]
+        }
+      }
+    ]
+  },
+  "Graphic Designer": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Design Principles & Foundations",
+        "description": "Master the fundamental principles of graphic design including composition, balance, contrast, and visual hierarchy.",
+        "weeks": 3,
+        "subtopics": [
+          "Elements of design (line, shape, form, texture)",
+          "Principles of design (balance, contrast, emphasis)",
+          "Visual hierarchy fundamentals",
+          "Composition and layout basics",
+          "Design history overview"
+        ],
+        "resources": [
+          {
+            "title": "Graphic Design Basics",
+            "url": "https://www.skillshare.com/en/classes/Graphic-Design-Basics-Core-Principles-for-Visual-Design/1858063813",
+            "type": "course",
+            "duration": "2 hours",
+            "platform": "Skillshare"
+          },
+          {
+            "title": "Design Theory for Beginners",
+            "url": "https://www.youtube.com/watch?v=YqQx75OPRa0",
+            "type": "video",
+            "duration": "20 min",
+            "platform": "The Futur"
+          }
+        ],
+        "practiceExercises": [
+          "Create compositions using only basic shapes",
+          "Analyze 5 famous designs and identify principles used",
+          "Design 3 variations of a simple poster layout"
+        ],
+        "milestoneProject": {
+          "title": "Design Principles Poster Series",
+          "description": "Create a series of 5 posters, each demonstrating a different design principle.",
+          "deliverables": [
+            "5 posters in digital format",
+            "Written explanation of each principle",
+            "Process sketches"
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Adobe Photoshop Essentials",
+        "description": "Learn Adobe Photoshop for image editing, photo manipulation, and creating raster-based graphics.",
+        "weeks": 3,
+        "subtopics": [
+          "Photoshop interface and tools",
+          "Layers, masks, and blending modes",
+          "Selection tools and techniques",
+          "Photo retouching basics",
+          "Exporting for web and print"
+        ],
+        "resources": [
+          {
+            "title": "Photoshop CC 2024 Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=IyR_uYsRdPs",
+            "type": "video",
+            "duration": "28 min",
+            "platform": "Envato Tuts+"
+          },
+          {
+            "title": "Adobe Photoshop Fundamentals",
+            "url": "https://creativecloud.adobe.com/learn/photoshop/web/photoshop-get-started",
+            "type": "course",
+            "duration": "2 hours",
+            "platform": "Adobe Creative Cloud"
+          }
+        ],
+        "practiceExercises": [
+          "Remove background from 5 different images",
+          "Create a photo composite with 3 images",
+          "Retouch a portrait photo professionally"
+        ],
+        "milestoneProject": {
+          "title": "Social Media Graphics Pack",
+          "description": "Create a cohesive set of social media graphics for a fictional brand.",
+          "deliverables": [
+            "5 Instagram post templates",
+            "3 story templates",
+            "Brand style applied consistently"
+          ]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Adobe Illustrator Fundamentals",
+        "description": "Master Adobe Illustrator for creating vector graphics, illustrations, and scalable design assets.",
+        "weeks": 3,
+        "subtopics": [
+          "Vector vs raster graphics",
+          "Pen tool and bezier curves",
+          "Shape builder and pathfinder",
+          "Working with typography",
+          "Creating patterns and brushes"
+        ],
+        "resources": [
+          {
+            "title": "Illustrator 2024 Complete Beginner Course",
+            "url": "https://www.youtube.com/watch?v=Ib8UBwu3yGA",
+            "type": "video",
+            "duration": "30 min",
+            "platform": "Envato Tuts+"
+          },
+          {
+            "title": "Adobe Illustrator Essentials",
+            "url": "https://creativecloud.adobe.com/learn/illustrator/web/illustrator-get-started",
+            "type": "course",
+            "duration": "2 hours",
+            "platform": "Adobe Creative Cloud"
+          },
+          {
+            "title": "Pen Tool Mastery",
+            "url": "https://www.youtube.com/watch?v=s4fEJlQ4btQ",
+            "type": "video",
+            "duration": "15 min",
+            "platform": "DesignCourse"
+          }
+        ],
+        "practiceExercises": [
+          "Trace 5 simple logos using the pen tool",
+          "Create an icon set (10 icons) in a consistent style",
+          "Design a seamless pattern"
+        ],
+        "milestoneProject": {
+          "title": "Icon Set & Illustrations",
+          "description": "Create a themed icon set and 3 vector illustrations for a mobile app.",
+          "deliverables": [
+            "20 custom icons in SVG format",
+            "3 spot illustrations",
+            "Style guide for the icon set"
+          ]
+        }
+      },
+      {
+        "step": 4,
+        "title": "Color Theory & Typography",
+        "description": "Deep dive into color psychology, color harmonies, and typography principles for effective visual communication.",
+        "weeks": 3,
+        "subtopics": [
+          "Color wheel and color harmonies",
+          "Color psychology in design",
+          "Typography anatomy and terminology",
+          "Font pairing strategies",
+          "Hierarchy through type"
+        ],
+        "resources": [
+          {
+            "title": "Color Theory for Designers",
+            "url": "https://www.youtube.com/watch?v=GyVMoejbGFg",
+            "type": "video",
+            "duration": "22 min",
+            "platform": "The Futur"
+          },
+          {
+            "title": "Typography That Works",
+            "url": "https://www.skillshare.com/en/classes/Typography-That-Works-Typographic-Composition-and-Fonts/1694217981",
+            "type": "course",
+            "duration": "1.5 hours",
+            "platform": "Skillshare"
+          }
+        ],
+        "practiceExercises": [
+          "Create 5 color palettes for different moods",
+          "Design the same poster with 3 different font pairings",
+          "Analyze typography in 5 famous brand identities"
+        ],
+        "milestoneProject": {
+          "title": "Brand Color & Typography System",
+          "description": "Develop a complete color and typography system for a fictional brand.",
+          "deliverables": [
+            "Primary and secondary color palettes",
+            "Typography scale with 2 font families",
+            "Usage guidelines document",
+            "Sample applications"
+          ]
+        }
+      },
+      {
+        "step": 5,
+        "title": "Logo Design & Brand Identity",
+        "description": "Learn the process of creating memorable logos and cohesive brand identities.",
+        "weeks": 3,
+        "subtopics": [
+          "Logo design principles",
+          "Logo types and styles",
+          "Brand identity components",
+          "Creating brand guidelines",
+          "Presenting brand work to clients"
+        ],
+        "resources": [
+          {
+            "title": "Logo Design Masterclass",
+            "url": "https://www.youtube.com/watch?v=j50V2RG_a3E",
+            "type": "video",
+            "duration": "25 min",
+            "platform": "The Futur"
+          },
+          {
+            "title": "Brand Identity Design Process",
+            "url": "https://www.skillshare.com/en/classes/Brand-Identity-Design-Create-a-Cohesive-Visual-Identity/1395499802",
+            "type": "course",
+            "duration": "2 hours",
+            "platform": "Skillshare"
+          }
+        ],
+        "practiceExercises": [
+          "Sketch 50 logo concepts for a fictional company",
+          "Redesign a logo for a local business",
+          "Create a mini brand board with logo variations"
+        ],
+        "milestoneProject": {
+          "title": "Complete Brand Identity",
+          "description": "Design a full brand identity for a startup including logo, colors, typography, and applications.",
+          "deliverables": [
+            "Logo with variations (full, icon, monochrome)",
+            "Brand color palette and typography",
+            "Business card and letterhead",
+            "Brand guidelines PDF"
+          ]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Layout Design & Publication",
+        "description": "Master layout design for print and digital publications including magazines, brochures, and multi-page documents.",
+        "weeks": 3,
+        "subtopics": [
+          "Grid systems for layout",
+          "Magazine and editorial design",
+          "Brochure and flyer design",
+          "Adobe InDesign basics",
+          "Print preparation and prepress"
+        ],
+        "resources": [
+          {
+            "title": "Editorial Design Fundamentals",
+            "url": "https://www.skillshare.com/en/classes/Editorial-Design-Fundamentals-Magazine-and-Publication-Design/1952389879",
+            "type": "course",
+            "duration": "1.5 hours",
+            "platform": "Skillshare"
+          },
+          {
+            "title": "InDesign Crash Course",
+            "url": "https://creativecloud.adobe.com/learn/indesign/web/indesign-get-started",
+            "type": "tutorial",
+            "duration": "45 min",
+            "platform": "Adobe Creative Cloud"
+          }
+        ],
+        "practiceExercises": [
+          "Design a 2-page magazine spread",
+          "Create a tri-fold brochure",
+          "Layout a 4-page newsletter"
+        ],
+        "milestoneProject": {
+          "title": "Magazine Layout Project",
+          "description": "Design a complete 8-page magazine or lookbook with cover and interior spreads.",
+          "deliverables": [
+            "Cover design",
+            "8 interior pages with grid system",
+            "Print-ready PDF",
+            "Digital preview version"
+          ]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Print vs Digital Design",
+        "description": "Understand the differences between designing for print and digital mediums, including technical specifications.",
+        "weeks": 2,
+        "subtopics": [
+          "RGB vs CMYK color modes",
+          "Resolution and file formats",
+          "Print specifications (bleeds, margins)",
+          "Digital design considerations",
+          "Preparing files for vendors"
+        ],
+        "resources": [
+          {
+            "title": "Print Design Essentials",
+            "url": "https://www.youtube.com/watch?v=T4pHiPuFOhQ",
+            "type": "video",
+            "duration": "18 min",
+            "platform": "Envato Tuts+"
+          },
+          {
+            "title": "Preparing Files for Print",
+            "url": "https://creativecloud.adobe.com/learn/illustrator/web/export-artwork-for-print",
+            "type": "tutorial",
+            "duration": "20 min",
+            "platform": "Adobe Creative Cloud"
+          }
+        ],
+        "practiceExercises": [
+          "Convert a digital design to print-ready format",
+          "Create the same design for web and print versions",
+          "Prepare a business card for professional printing"
+        ],
+        "milestoneProject": {
+          "title": "Multi-Format Campaign",
+          "description": "Create a marketing campaign with both print and digital deliverables.",
+          "deliverables": [
+            "Print poster (CMYK, 300dpi)",
+            "Web banner set (RGB, 72dpi)",
+            "Social media graphics",
+            "File preparation checklist"
+          ]
+        }
+      },
+      {
+        "step": 8,
+        "title": "Portfolio & Freelance Preparation",
+        "description": "Build a professional portfolio, learn freelance business basics, and prepare for graphic design careers.",
+        "weeks": 3,
+        "subtopics": [
+          "Curating portfolio pieces",
+          "Portfolio website creation",
+          "Freelance pricing and contracts",
+          "Client communication",
+          "Building your design network"
+        ],
+        "resources": [
+          {
+            "title": "Building a Killer Design Portfolio",
+            "url": "https://www.youtube.com/watch?v=O3M2zoKlDLo",
+            "type": "video",
+            "duration": "20 min",
+            "platform": "The Futur"
+          },
+          {
+            "title": "Freelance Design Business",
+            "url": "https://www.skillshare.com/en/classes/Freelance-Design-From-Zero-to-Your-First-Client/1463019812",
+            "type": "course",
+            "duration": "1.5 hours",
+            "platform": "Skillshare"
+          }
+        ],
+        "practiceExercises": [
+          "Select and refine your 5 best projects",
+          "Write case study descriptions for 3 projects",
+          "Create a pricing guide for your services"
+        ],
+        "milestoneProject": {
+          "title": "Professional Design Portfolio",
+          "description": "Launch a complete portfolio showcasing your best graphic design work.",
+          "deliverables": [
+            "Portfolio website with 5-8 projects",
+            "Case studies with process documentation",
+            "Resume and services overview",
+            "Social media presence (Behance/Dribbble)"
+          ]
+        }
+      }
+    ]
+  },
+  "Game Developer": {
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Programming Fundamentals",
+        "description": "Build a solid foundation in programming with C# or C++, the primary languages used in game development.",
+        "weeks": 4,
+        "subtopics": [
+          "Variables, data types, and operators",
+          "Control flow (conditionals, loops)",
+          "Functions and methods",
+          "Object-oriented programming basics",
+          "Arrays and collections"
+        ],
+        "resources": [
+          {
+            "title": "C# Fundamentals for Absolute Beginners",
+            "url": "https://learn.microsoft.com/en-us/shows/csharp-fundamentals-for-absolute-beginners/",
+            "type": "course",
+            "duration": "4 hours",
+            "platform": "Microsoft Learn"
+          },
+          {
+            "title": "C# Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+            "type": "video",
+            "duration": "30 min",
+            "platform": "freeCodeCamp"
+          },
+          {
+            "title": "Learn C# - Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-c-sharp",
+            "type": "course",
+            "duration": "3 hours",
+            "platform": "Codecademy"
+          }
+        ],
+        "practiceExercises": [
+          "Create a console-based calculator",
+          "Build a number guessing game in console",
+          "Implement a simple inventory system with classes"
+        ],
+        "milestoneProject": {
+          "title": "Text-Based Adventure Game",
+          "description": "Create a console-based text adventure game with multiple rooms, items, and simple combat.",
+          "deliverables": [
+            "Working console application",
+            "At least 5 rooms/locations",
+            "Player stats and inventory system",
+            "Simple win/lose conditions"
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Unity Engine Basics",
+        "description": "Learn the fundamentals of Unity, one of the most popular game engines, including the editor interface and core concepts.",
+        "weeks": 3,
+        "subtopics": [
+          "Unity editor interface and navigation",
+          "GameObjects and components",
+          "Transforms and coordinate systems",
+          "Prefabs and instantiation",
+          "Basic scripting in Unity"
+        ],
+        "resources": [
+          {
+            "title": "Unity Essentials Pathway",
+            "url": "https://learn.unity.com/pathway/unity-essentials",
+            "type": "course",
+            "duration": "3 hours",
+            "platform": "Unity Learn"
+          },
+          {
+            "title": "Unity Beginner Tutorial 2024",
+            "url": "https://www.youtube.com/watch?v=XtQMytORBmM",
+            "type": "video",
+            "duration": "28 min",
+            "platform": "Brackeys"
+          }
+        ],
+        "practiceExercises": [
+          "Create a scene with basic 3D objects and materials",
+          "Build a simple player controller with keyboard input",
+          "Create a spawner that generates objects at intervals"
+        ],
+        "milestoneProject": {
+          "title": "Roll-a-Ball Game",
+          "description": "Create a simple 3D game where a player-controlled ball collects items on a platform.",
+          "deliverables": [
+            "Player movement with physics",
+            "Collectible items with score tracking",
+            "Win condition and UI display",
+            "Simple level design"
+          ]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Game Design Principles",
+        "description": "Learn the fundamentals of game design including mechanics, dynamics, aesthetics, and player psychology.",
+        "weeks": 3,
+        "subtopics": [
+          "MDA framework (Mechanics, Dynamics, Aesthetics)",
+          "Core gameplay loops",
+          "Player motivation and engagement",
+          "Balancing and difficulty curves",
+          "Game design documentation"
+        ],
+        "resources": [
+          {
+            "title": "Game Design Fundamentals",
+            "url": "https://www.coursera.org/learn/game-design",
+            "type": "course",
+            "duration": "2 hours",
+            "platform": "Coursera"
+          },
+          {
+            "title": "What Makes a Good Game?",
+            "url": "https://www.youtube.com/watch?v=e31OSVZF77w",
+            "type": "video",
+            "duration": "22 min",
+            "platform": "Game Maker's Toolkit"
+          }
+        ],
+        "practiceExercises": [
+          "Analyze the core loop of your favorite game",
+          "Write a 1-page game design document",
+          "Prototype a game mechanic on paper"
+        ],
+        "milestoneProject": {
+          "title": "Game Design Document",
+          "description": "Create a comprehensive game design document for an original game concept.",
+          "deliverables": [
+            "Game concept and overview",
+            "Core mechanics description",
+            "Progression and reward systems",
+            "Level design sketches"
+          ]
+        }
+      },
+      {
+        "step": 4,
+        "title": "2D Game Development",
+        "description": "Master 2D game development in Unity including sprites, animations, and 2D physics.",
+        "weeks": 4,
+        "subtopics": [
+          "Sprites and sprite sheets",
+          "2D animation with Animator",
+          "2D physics and collisions",
+          "Tilemaps for level design",
+          "Camera systems for 2D"
+        ],
+        "resources": [
+          {
+            "title": "Unity 2D Game Development",
+            "url": "https://learn.unity.com/pathway/2d-game-development",
+            "type": "course",
+            "duration": "3 hours",
+            "platform": "Unity Learn"
+          },
+          {
+            "title": "Complete 2D Platformer Tutorial",
+            "url": "https://www.youtube.com/watch?v=TcranVQUQ5U",
+            "type": "video",
+            "duration": "30 min",
+            "platform": "Brackeys"
+          },
+          {
+            "title": "Tilemap Tutorial",
+            "url": "https://learn.unity.com/tutorial/introduction-to-tilemaps",
+            "type": "tutorial",
+            "duration": "25 min",
+            "platform": "Unity Learn"
+          }
+        ],
+        "practiceExercises": [
+          "Create a character with walking and jumping animations",
+          "Build a level using tilemaps",
+          "Implement enemy AI with patrol behavior"
+        ],
+        "milestoneProject": {
+          "title": "2D Platformer Game",
+          "description": "Create a complete 2D platformer with multiple levels, enemies, and collectibles.",
+          "deliverables": [
+            "Player character with full animation",
+            "At least 3 playable levels",
+            "2 enemy types with different behaviors",
+            "Score, lives, and game over system"
+          ]
+        }
+      },
+      {
+        "step": 5,
+        "title": "3D Game Development & Physics",
+        "description": "Dive into 3D game development with Unity including 3D physics, character controllers, and environment design.",
+        "weeks": 4,
+        "subtopics": [
+          "3D models and materials",
+          "Character controllers and movement",
+          "3D physics (Rigidbody, colliders)",
+          "Raycasting for interactions",
+          "Basic lighting and environment"
+        ],
+        "resources": [
+          {
+            "title": "Unity 3D Game Development",
+            "url": "https://learn.unity.com/pathway/junior-programmer",
+            "type": "course",
+            "duration": "4 hours",
+            "platform": "Unity Learn"
+          },
+          {
+            "title": "First Person Controller Tutorial",
+            "url": "https://www.youtube.com/watch?v=_QajrabyTJc",
+            "type": "video",
+            "duration": "25 min",
+            "platform": "Brackeys"
+          }
+        ],
+        "practiceExercises": [
+          "Create a first-person character controller",
+          "Build an interactive door with physics",
+          "Implement object pickup with raycasting"
+        ],
+        "milestoneProject": {
+          "title": "3D Exploration Game",
+          "description": "Create a 3D game with player movement, interactive objects, and environmental storytelling.",
+          "deliverables": [
+            "First or third-person controller",
+            "Interactive environment with puzzles",
+            "Basic lighting and atmosphere",
+            "Clear objective and ending"
+          ]
+        }
+      },
+      {
+        "step": 6,
+        "title": "Game Audio & UI",
+        "description": "Learn to implement audio systems and create user interfaces for games.",
+        "weeks": 3,
+        "subtopics": [
+          "Audio sources and listeners",
+          "Sound effects and music implementation",
+          "Unity UI system (Canvas, buttons, text)",
+          "Menus and HUD design",
+          "Scene management"
+        ],
+        "resources": [
+          {
+            "title": "Audio in Unity",
+            "url": "https://learn.unity.com/tutorial/working-with-audio",
+            "type": "tutorial",
+            "duration": "30 min",
+            "platform": "Unity Learn"
+          },
+          {
+            "title": "Game UI Design Tutorial",
+            "url": "https://www.youtube.com/watch?v=HwdweCX5aMI",
+            "type": "video",
+            "duration": "22 min",
+            "platform": "Brackeys"
+          }
+        ],
+        "practiceExercises": [
+          "Add sound effects to player actions",
+          "Create a main menu with start and quit buttons",
+          "Build a pause menu system"
+        ],
+        "milestoneProject": {
+          "title": "Polished Game Experience",
+          "description": "Take a previous project and add complete audio, UI, and polish.",
+          "deliverables": [
+            "Full audio implementation (SFX + music)",
+            "Main menu, pause menu, game over screen",
+            "HUD with score/health display",
+            "Smooth scene transitions"
+          ]
+        }
+      },
+      {
+        "step": 7,
+        "title": "Advanced Topics & Optimization",
+        "description": "Learn advanced game development concepts including AI, saving systems, and performance optimization.",
+        "weeks": 3,
+        "subtopics": [
+          "Basic game AI (state machines, pathfinding)",
+          "Save and load systems",
+          "Performance optimization basics",
+          "Particle systems and effects",
+          "Shader basics"
+        ],
+        "resources": [
+          {
+            "title": "AI Navigation in Unity",
+            "url": "https://learn.unity.com/tutorial/ai-navigation",
+            "type": "tutorial",
+            "duration": "35 min",
+            "platform": "Unity Learn"
+          },
+          {
+            "title": "Save System Tutorial",
+            "url": "https://www.youtube.com/watch?v=XOjd_qU2Ido",
+            "type": "video",
+            "duration": "20 min",
+            "platform": "Brackeys"
+          },
+          {
+            "title": "Optimization Tips",
+            "url": "https://learn.unity.com/tutorial/performance-optimization",
+            "type": "tutorial",
+            "duration": "25 min",
+            "platform": "Unity Learn"
+          }
+        ],
+        "practiceExercises": [
+          "Implement enemy pathfinding with NavMesh",
+          "Create a save/load system with PlayerPrefs",
+          "Add particle effects to game events"
+        ],
+        "milestoneProject": {
+          "title": "Feature-Complete Game",
+          "description": "Create a more complex game with AI enemies, save system, and visual polish.",
+          "deliverables": [
+            "Enemies with AI behavior",
+            "Working save/load system",
+            "Particle effects and polish",
+            "Optimized for smooth performance"
+          ]
+        }
+      },
+      {
+        "step": 8,
+        "title": "Publishing & Portfolio",
+        "description": "Learn to build, publish, and market your games across different platforms.",
+        "weeks": 3,
+        "subtopics": [
+          "Building for different platforms",
+          "Publishing to itch.io",
+          "Steam/mobile store basics",
+          "Creating game trailers",
+          "Building a game development portfolio"
+        ],
+        "resources": [
+          {
+            "title": "Publishing to itch.io",
+            "url": "https://www.youtube.com/watch?v=0y5u7U5pNrQ",
+            "type": "video",
+            "duration": "15 min",
+            "platform": "Thomas Brush"
+          },
+          {
+            "title": "Building Your Game",
+            "url": "https://learn.unity.com/tutorial/building-your-game",
+            "type": "tutorial",
+            "duration": "20 min",
+            "platform": "Unity Learn"
+          },
+          {
+            "title": "How to Make a Game Trailer",
+            "url": "https://www.youtube.com/watch?v=4CSYA9R70_A",
+            "type": "video",
+            "duration": "18 min",
+            "platform": "Game Maker's Toolkit"
+          }
+        ],
+        "practiceExercises": [
+          "Build your game for Windows and WebGL",
+          "Create a compelling store page",
+          "Make a 30-second trailer for your game"
+        ],
+        "milestoneProject": {
+          "title": "Published Game & Portfolio",
+          "description": "Publish a complete game and create a professional game developer portfolio.",
+          "deliverables": [
+            "Game published on itch.io",
+            "Game trailer and screenshots",
+            "Portfolio website with 3+ projects",
+            "Playable demos or download links"
+          ]
+        }
+      }
+    ]
+  }
+}
