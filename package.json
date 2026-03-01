@@ -25,6 +25,7 @@
     "groq-sdk": "^0.21.0",
     "jsonwebtoken": "^9.0.2",
     "node-fetch": "^2.7.0",
+    "nodemailer": "^8.0.1",
     "pg": "^8.15.6",
     "sequelize": "^6.37.7"
   },

@@ -19,6 +19,19 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: false,
         defaultValue: 'user',
       },
+      is_verified: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+        defaultValue: false,
+      },
+      verification_code: {
+        type: DataTypes.STRING(6),
+        allowNull: true,
+      },
+      verification_code_expires: {
+        type: DataTypes.DATE,
+        allowNull: true,
+      },
     }, {
       tableName: 'users',
       timestamps: false,
