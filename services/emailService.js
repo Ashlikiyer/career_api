@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 
 // Create transporter with Gmail SMTP
 const createTransporter = () => {
-  return nodemailer.createTransport({
+  const config = {
     host: process.env.SMTP_HOST || 'smtp.gmail.com',
     port: parseInt(process.env.SMTP_PORT) || 587,
     secure: false, // true for 465, false for other ports
@@ -10,7 +10,42 @@ const createTransporter = () => {
       user: process.env.SMTP_USER,
       pass: process.env.SMTP_PASS,
     },
+    // Add connection timeout for debugging
+    connectionTimeout: 10000, // 10 seconds
+    greetingTimeout: 10000,
+    socketTimeout: 10000,
+  };
+  
+  // Debug: Log SMTP configuration (hide password)
+  console.log('📧 SMTP Config:', {
+    host: config.host,
+    port: config.port,
+    secure: config.secure,
+    user: config.auth.user,
+    passSet: !!config.auth.pass,
+    passLength: config.auth.pass ? config.auth.pass.length : 0,
   });
+  
+  return nodemailer.createTransport(config);
+};
+
+// Verify SMTP connection
+const verifyTransporter = async (transporter) => {
+  try {
+    console.log('🔍 Verifying SMTP connection...');
+    await transporter.verify();
+    console.log('✅ SMTP connection verified successfully!');
+    return true;
+  } catch (error) {
+    console.error('❌ SMTP verification failed:', {
+      message: error.message,
+      code: error.code,
+      command: error.command,
+      responseCode: error.responseCode,
+      response: error.response,
+    });
+    return false;
+  }
 };
 
 /**
@@ -179,11 +214,31 @@ const sendVerificationEmail = async (email, code) => {
       text: `Your PathFinder verification code is: ${code}\n\nThis code will expire in 10 minutes.\n\nIf you didn't request this, please ignore this email.`,
     };
 
+    // Verify connection first
+    const isConnected = await verifyTransporter(transporter);
+    if (!isConnected) {
+      console.error('❌ Cannot send email - SMTP connection failed');
+      return false;
+    }
+
+    console.log('📤 Attempting to send verification email to:', email);
     const info = await transporter.sendMail(mailOptions);
-    console.log('✉️ Verification email sent:', info.messageId);
+    console.log('✉️ Verification email sent successfully:', {
+      messageId: info.messageId,
+      accepted: info.accepted,
+      rejected: info.rejected,
+      response: info.response,
+    });
     return true;
   } catch (error) {
-    console.error('❌ Error sending verification email:', error);
+    console.error('❌ Error sending verification email:', {
+      message: error.message,
+      code: error.code,
+      command: error.command,
+      responseCode: error.responseCode,
+      response: error.response,
+      stack: error.stack,
+    });
     return false;
   }
 };
@@ -264,11 +319,29 @@ const sendWelcomeEmail = async (email, name = '') => {
       `,
     };
 
-    await transporter.sendMail(mailOptions);
-    console.log('✉️ Welcome email sent to:', email);
+    // Verify connection first
+    const isConnected = await verifyTransporter(transporter);
+    if (!isConnected) {
+      console.error('❌ Cannot send welcome email - SMTP connection failed');
+      return false;
+    }
+
+    console.log('📤 Attempting to send welcome email to:', email);
+    const info = await transporter.sendMail(mailOptions);
+    console.log('✉️ Welcome email sent successfully:', {
+      messageId: info.messageId,
+      accepted: info.accepted,
+      rejected: info.rejected,
+    });
     return true;
   } catch (error) {
-    console.error('❌ Error sending welcome email:', error);
+    console.error('❌ Error sending welcome email:', {
+      message: error.message,
+      code: error.code,
+      command: error.command,
+      responseCode: error.responseCode,
+      response: error.response,
+    });
     return false;
   }
 };
