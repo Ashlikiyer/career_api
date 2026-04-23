@@ -170,8 +170,8 @@ const login = async (req, res) => {
       return res.status(401).json({ error: 'Invalid credentials' });
     }
     
-    // Check if email is verified
-    if (!user.is_verified) {
+    // Check if email is verified (skip for admin accounts)
+    if (!user.is_verified && user.role !== 'admin') {
       // Generate new verification code and send it
       const verificationCode = generateVerificationCode();
       const expiresAt = new Date(Date.now() + 10 * 60 * 1000);
