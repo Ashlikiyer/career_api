@@ -59,7 +59,7 @@ app.use((req, res, next) => {
 const allowedOrigins = [
   "http://localhost:5173", // Local development
   "http://localhost:3000", // Alternative local port
-  "https://careerai-eight.vercel.app", // Vercel production frontend
+  process.env.FRONTEND_URL || "https://careerai-eight.vercel.app", // Vercel production frontend
 ];
 
 app.use(
@@ -68,7 +68,7 @@ app.use(
       // Allow requests with no origin (mobile apps, Postman, etc.)
       if (!origin) return callback(null, true);
       
-      // For testing, allow localhost origins
+      // For development, allow localhost origins
       if (origin && (origin.includes('localhost') || origin.includes('127.0.0.1'))) {
         return callback(null, true);
       }
@@ -76,9 +76,15 @@ app.use(
       if (allowedOrigins.indexOf(origin) !== -1) {
         callback(null, true);
       } else {
-        console.log('CORS origin check:', { origin, allowedOrigins });
-        // For now, allow all origins for testing - CHANGE THIS IN PRODUCTION
-        callback(null, true);
+        console.log('CORS blocked origin:', origin);
+        console.log('Allowed origins:', allowedOrigins);
+        // In production, reject unauthorized origins
+        if (process.env.NODE_ENV === 'production') {
+          callback(new Error('Not allowed by CORS'));
+        } else {
+          // In development, allow all origins for testing
+          callback(null, true);
+        }
       }
     },
     credentials: true,
