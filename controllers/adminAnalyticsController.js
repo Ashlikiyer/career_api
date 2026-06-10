@@ -184,7 +184,7 @@ const getTimeAnalytics = async (req, res) => {
         avg_estimated_minutes: Math.round(avgEstimated),
         avg_actual_minutes: Math.round(avgActual),
         difference_percent: avgEstimated > 0 
-          ? Math.round(((avgActual - avgEstimated) / avgEstimated) * 100) 
+          ? Math.round(((avgActual - avgEstaimated) / avgEstimated) * 100) 
           : 0
       });
     });
@@ -494,15 +494,42 @@ const getDifficultyAnalytics = async (req, res) => {
 const getCareerAnalytics = async (req, res) => {
   try {
     // Most popular careers (most saved)
-    const popularCareers = await SavedCareer.findAll({
+    // Get career stats including total steps for proper sorting
+    const careerStats = await RoadmapStep.findAll({
+      include: [{
+        model: Roadmap,
+        as: 'roadmap',
+        attributes: ['career_name'],
+        required: true
+      }],
       attributes: [
-        'career_name',
-        [fn('COUNT', col('saved_career_id')), 'total_users']
+        [fn('COUNT', literal('DISTINCT user_id')), 'user_count'],
+        [fn('COUNT', col('step_id')), 'total_steps']
       ],
-      group: ['career_name'],
-      order: [[fn('COUNT', col('saved_career_id')), 'DESC']],
-      limit: 10
+      group: ['roadmap.roadmap_id', 'roadmap.career_name'],
+      raw: true
     });
+
+    // Format and sort by user count first, then by total steps
+    const popularCareers = careerStats
+      .map(c => ({
+        career_name: c['roadmap.career_name'] || 'Unknown',
+        total_users: parseInt(c.user_count) || 0,
+        total_steps: parseInt(c.total_steps) || 0
+      }))
+      .sort((a, b) => {
+        // First sort by number of users (descending)
+        if (b.total_users !== a.total_users) {
+          return b.total_users - a.total_users;
+        }
+        // If tied, sort by total steps (descending)
+        return b.total_steps - a.total_steps;
+      })
+      .slice(0, 10)
+      .map(c => ({
+        career_name: c.career_name,
+        total_users: c.total_users
+      }));
 
     // Get completion rates by career from roadmap_steps 
     // Using Roadmap table which is linked via career_name
@@ -538,10 +565,7 @@ const getCareerAnalytics = async (req, res) => {
     res.json({
       success: true,
       data: {
-        popularCareers: popularCareers.map(c => ({
-          career_name: c.career_name,
-          total_users: parseInt(c.dataValues.total_users) || 0
-        })),
+        popularCareers,
         careerCompletionRates
       }
     });
