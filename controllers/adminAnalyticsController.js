@@ -184,7 +184,7 @@ const getTimeAnalytics = async (req, res) => {
         avg_estimated_minutes: Math.round(avgEstimated),
         avg_actual_minutes: Math.round(avgActual),
         difference_percent: avgEstimated > 0 
-          ? Math.round(((avgActual - avgEstaimated) / avgEstimated) * 100) 
+          ? Math.round(((avgActual - avgEstimated) / avgEstimated) * 100) 
           : 0
       });
     });
